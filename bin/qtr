@@ -1,0 +1,17 @@
+#!/usr/bin/env python3
+"""
+Launcher ejecutable para qtr (Quechua Translator CLI).
+"""
+
+import sys
+import os
+
+# Asegurar que el directorio raíz del proyecto esté en sys.path
+PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+if PROJECT_ROOT not in sys.path:
+    sys.path.insert(0, PROJECT_ROOT)
+
+from src.cli import main
+
+if __name__ == "__main__":
+    sys.exit(main())
