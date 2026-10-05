@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "quechua-engine": {
+      "command": "python3",
+      "args": ["src/mcp_server.py"],
+      "env": {
+        "QUECHUA_DB_PATH": "data/quechua_knowledge.db"
+      }
+    }
+  }
+}
