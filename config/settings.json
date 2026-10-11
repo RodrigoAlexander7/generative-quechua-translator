@@ -1,5 +1,16 @@
 {
+  "provider": "auto",
   "use_agy": true,
   "agy_bin": "agy",
-  "default_model": ""
+  "gemini": {
+    "model": "gemini-2.5-flash"
+  },
+  "openai": {
+    "model": "gpt-4o-mini",
+    "base_url": "https://api.openai.com/v1"
+  },
+  "ollama": {
+    "host": "http://localhost:11434",
+    "model": "llama3.2:3b-instruct-q4_K_M"
+  }
 }

@@ -87,6 +87,15 @@ TOOLS_DEFINITIONS = [
                 "text": {
                     "type": "string",
                     "description": "Oración en quechua a traducir."
+                },
+                "provider": {
+                    "type": "string",
+                    "description": "Proveedor/adaptador generativo opcional ('auto', 'agy', 'gemini', 'openai', 'ollama', 'fallback').",
+                    "enum": ["auto", "agy", "gemini", "gemini_api", "openai", "ollama", "fallback"]
+                },
+                "model": {
+                    "type": "string",
+                    "description": "Nombre específico del modelo LLM (ej: 'llama3.2:3b-instruct-q4_K_M', 'gemini-2.5-flash', 'gpt-4o-mini')."
                 }
             },
             "required": ["text"]
@@ -216,7 +225,13 @@ def execute_translate(args: Dict[str, Any]) -> str:
     if not text:
         return json.dumps({"error": "Parámetro 'text' es obligatorio."}, ensure_ascii=False)
 
-    translator = get_translator()
+    provider = args.get("provider")
+    model = args.get("model")
+    if provider or model:
+        translator = QuechuaTranslator(provider=provider, model_name=model)
+    else:
+        translator = get_translator()
+
     res = translator.translate(text)
     return json.dumps(res, indent=2, ensure_ascii=False)
 

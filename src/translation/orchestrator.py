@@ -1,79 +1,89 @@
 """
 Orquestador de traducción generativa Quechua -> Español.
+Refactorizado bajo el patrón de Puertos y Adaptadores (Arquitectura Hexagonal).
+
 Clase QuechuaTranslator:
 - Invoca la segmentación morfo-semántica (Scaffold) de la Etapa 1.
 - Genera el prompt estructurado con directivas lingüísticas estrictas.
-- Ejecuta la llamada al modelo LLM (Gemini) si GEMINI_API_KEY está configurada.
-- Fallback inteligente determinista basado en glosas y reglas gramaticales si no hay API key.
+- Delega la inferencia generativa a un adaptador que implementa TranslationModelPort:
+  * AgyAdapter (Antigravity CLI con Gemini)
+  * OllamaAdapter (Modelos locales como Llama 3, Qwen, Mistral)
+  * GeminiApiAdapter (Google Gemini API directa vía GEMINI_API_KEY)
+  * OpenAIAdapter (OpenAI GPT-4o / compatibles vía OPENAI_API_KEY)
+  * FallbackAdapter (Reglas morfológicas y glosas deterministas)
 """
 
 import os
 import json
 import re
-import urllib.request
-import urllib.error
 from typing import Any, Dict, Optional, List, Union
 
-import subprocess
-import shutil
-
 from .prompt_templates import build_translation_prompt, SYSTEM_INSTRUCTION
-
-
-def load_config() -> Dict[str, Any]:
-    """Carga configuración desde config/settings.json si existe."""
-    repo_root = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-    cfg_path = os.path.join(repo_root, "config", "settings.json")
-    if os.path.exists(cfg_path):
-        try:
-            with open(cfg_path, "r", encoding="utf-8") as f:
-                return json.load(f)
-        except Exception:
-            pass
-    return {}
+from .ports.model_port import TranslationModelPort
+from .adapters.factory import ModelAdapterFactory, load_settings
+from .adapters.fallback_adapter import FallbackAdapter
 
 
 class QuechuaTranslator:
     """
     Traductor Generativo y Analizador Morfo-Semántico para Quechua.
-    Soporta backends de inferencia generativa:
-    1. agy (Antigravity CLI vía -p con autenticación nativa)
-    2. API directa de Gemini (vía GEMINI_API_KEY)
-    3. Fallback inteligente determinista basado en glosas del scaffold.
+    Utiliza Puertos y Adaptadores para desacoplar el motor generativo.
     """
 
     def __init__(
         self,
+        adapter: Optional[TranslationModelPort] = None,
+        provider: Optional[str] = None,
         api_key: Optional[str] = None,
         model_name: Optional[str] = None,
         db_path: Optional[str] = None,
-        use_agy: Optional[bool] = None
+        use_agy: Optional[bool] = None,
+        ollama_host: Optional[str] = None,
+        openai_base_url: Optional[str] = None,
+        agy_bin: Optional[str] = None
     ):
-        cfg = load_config()
-        self.api_key = api_key or os.environ.get("GEMINI_API_KEY", "").strip()
-        self.model_name = model_name or os.environ.get("GEMINI_MODEL", "gemini-2.5-flash")
+        cfg = load_settings()
         self.db_path = db_path
+        self.fallback_adapter = FallbackAdapter()
 
-        # Determinar si usar AGY CLI:
-        # Prioridad: argumento explícito > env vars (QTR_USE_AGY, QUECHUA_USE_AGY, USE_AGY) > config/settings.json > autodetección
-        env_val = os.environ.get("QTR_USE_AGY") or os.environ.get("QUECHUA_USE_AGY") or os.environ.get("USE_AGY")
-        if use_agy is not None:
-            self.use_agy = bool(use_agy)
-        elif env_val is not None:
-            self.use_agy = env_val.strip().lower() in ("1", "true", "yes", "on")
-        elif "use_agy" in cfg:
-            self.use_agy = bool(cfg["use_agy"])
+        # Determinar si se fuerza un proveedor por compatibilidad con use_agy
+        effective_provider = provider
+        if effective_provider is None:
+            if use_agy is True:
+                effective_provider = "agy"
+            elif use_agy is False:
+                # Si se desactiva agy explícitamente, intentar gemini -> openai -> ollama -> fallback
+                if api_key or os.environ.get("GEMINI_API_KEY"):
+                    effective_provider = "gemini"
+                elif os.environ.get("OPENAI_API_KEY"):
+                    effective_provider = "openai"
+                else:
+                    effective_provider = "ollama"
+
+        # Si se inyectó un adaptador directamente, usarlo
+        if adapter is not None:
+            self.adapter = adapter
         else:
-            self.use_agy = bool(shutil.which("agy"))
+            self.adapter = ModelAdapterFactory.create_adapter(
+                provider=effective_provider,
+                model_name=model_name,
+                api_key=api_key,
+                ollama_host=ollama_host,
+                openai_base_url=openai_base_url,
+                agy_bin=agy_bin
+            )
 
-        self.agy_bin = cfg.get("agy_bin", "agy")
+        # Propiedades de compatibilidad hacia atrás
+        self.api_key = api_key or os.environ.get("GEMINI_API_KEY", "")
+        self.model_name = self.adapter.model_name
+        self.use_agy = (self.adapter.name == "agy")
+        self.agy_bin = agy_bin or cfg.get("agy_bin", "agy")
 
     def _get_scaffold(self, text: str) -> Dict[str, Any]:
         """
         Obtiene el Morfo-Semantic Scaffold invocando el módulo de segmentación.
         Soporta varias rutas de importación para garantizar interoperabilidad.
         """
-        # 1. Intentar importar build_sentence_scaffold desde scaffold_builder o scaffold
         scaffold_fn = None
         for mod_name in ["src.segmentation.scaffold_builder", "src.segmentation.scaffold"]:
             try:
@@ -99,7 +109,6 @@ class QuechuaTranslator:
             elif isinstance(res, dict):
                 return res
 
-        # 2. Si no está disponible el módulo de segmentación completo aún, construir un scaffold básico
         return self._build_basic_scaffold(text)
 
     def _build_basic_scaffold(self, text: str) -> Dict[str, Any]:
@@ -150,285 +159,27 @@ class QuechuaTranslator:
         }
 
     def _call_gemini_api(self, prompt: str) -> Dict[str, Any]:
-        """
-        Llama a la API REST de Google Gemini usando urllib estándar.
-        """
-        endpoint = (
-            f"https://generativelanguage.googleapis.com/v1beta/models/{self.model_name}:generateContent"
-            f"?key={self.api_key}"
-        )
-
-        payload = {
-            "contents": [
-                {
-                    "parts": [
-                        {"text": prompt}
-                    ]
-                }
-            ],
-            "generationConfig": {
-                "temperature": 0.1,
-                "responseMimeType": "application/json"
-            }
-        }
-
-        req_data = json.dumps(payload).encode("utf-8")
-        req = urllib.request.Request(
-            endpoint,
-            data=req_data,
-            headers={"Content-Type": "application/json"},
-            method="POST"
-        )
-
-        with urllib.request.urlopen(req, timeout=30) as response:
-            resp_bytes = response.read()
-            resp_json = json.loads(resp_bytes.decode("utf-8"))
-
-        # Extraer texto generado
-        candidates = resp_json.get("candidates", [])
-        if not candidates:
-            raise ValueError("No candidates returned by Gemini API")
-
-        raw_text = candidates[0].get("content", {}).get("parts", [{}])[0].get("text", "")
-        # Limpiar bloques de código markdown si los hay
-        cleaned = raw_text.strip()
-        if cleaned.startswith("```json"):
-            cleaned = cleaned[len("```json"):].strip()
-        elif cleaned.startswith("```"):
-            cleaned = cleaned[len("```"):].strip()
-        if cleaned.endswith("```"):
-            cleaned = cleaned[:-3].strip()
-
-        return json.loads(cleaned)
-
-    def _intelligent_fallback_translate(self, scaffold: Dict[str, Any]) -> Dict[str, Any]:
-        """
-        Fallback inteligente que ensambla una traducción precisa a partir de las glosas
-        directas, raíces y sufijos del scaffold.
-        """
-        tokens = scaffold.get("tokens", [])
-        if not tokens:
-            return {
-                "traduccion_es": scaffold.get("source_sentence", ""),
-                "traduccion_literal_glosada": scaffold.get("source_sentence", ""),
-                "evidencialidad": "No especificado",
-                "clusividad": None,
-                "justificacion_semantica": "Sin tokens analizados"
-            }
-
-        # 1. Análisis de Evidencialidad y Clusividad global
-        evidencial = "Neutro / No marcado"
-        clusividad = None
-        modal_prefix = ""
-
-        # Mapeos de sufijos y glosas
-        literal_tokens = []
-        token_translations = []
-        justificaciones = []
-
-        # Roles y funciones comunes de sufijos
-        suffix_case_map = {
-            "ta": "a / (objeto directo)",
-            "man": "hacia / a",
-            "manta": "desde / de",
-            "pi": "en",
-            "wan": "con",
-            "paq": "para",
-            "kama": "hasta",
-            "rayku": "por / a causa de",
-            "pura": "entre",
-            "hina": "como"
-        }
-
-        for tok in tokens:
-            surface = tok.get("surface", "")
-            stem = tok.get("stem", {})
-            headword = stem.get("headword", surface)
-            pos = stem.get("pos", "")
-            senses = stem.get("senses", [])
-            affixes = tok.get("affixes", [])
-
-            # Obtener definición principal
-            primary_def = headword
-            if senses:
-                first_sense = senses[0]
-                def_text = first_sense.get("definition", "") or first_sense.get("definition_es", "")
-                if def_text:
-                    # Limpiar notas de diccionario (ej: "Zool. (Lama pacos) Alpaca, paco...")
-                    clean_def = re.sub(r"^[A-Z][a-z]+\.\s*(?:\([^)]+\)\s*)?", "", def_text)
-                    clean_def = clean_def.split(".")[0].split(";")[0].split("||")[0].strip()
-                    if clean_def:
-                        # Extraer primera palabra o término compuesto
-                        primary_def = clean_def.split(",")[0].strip()
-
-            # Glosa interlineal morfema por morfema
-            affix_labels = []
-            has_plural = False
-            has_case = None
-            has_prog = False
-            subject_person = None
-
-            for aff in affixes:
-                m = aff.get("morpheme", "").lstrip("-").lower()
-                cat = aff.get("category", "").upper()
-                subcat = aff.get("subcategory", "").upper()
-                role = aff.get("role", "")
-
-                # Detectar evidenciales
-                if m in ("mi", "m"):
-                    evidencial = "Certeza absoluta / testimonial directo (el hablante lo atestigua de primera mano)"
-                    affix_labels.append("EVID_DIR")
-                elif m in ("si", "s"):
-                    evidencial = "Reportativo indirecto (información transmitida por terceros: 'dicen que / según cuentan')"
-                    modal_prefix = "Dicen que "
-                    affix_labels.append("REPORT")
-                elif m == "chá" or m == "cha":
-                    if "EVIDENCIAL" in cat or "EVIDENCIAL" in subcat or "CONJETURAL" in role.upper():
-                        evidencial = "Conjetural epistémico (incertidumbre o probabilidad: 'tal vez / quizás')"
-                        modal_prefix = "Tal vez "
-                        affix_labels.append("CONJ")
-
-                # Detectar clusividad
-                if m == "nchis":
-                    clusividad = "1ra persona plural incluyente (nosotros, incluyéndote a ti)"
-                    affix_labels.append("1PL_INCL")
-                    subject_person = "nosotros (incluyente)"
-                elif m == "yku":
-                    clusividad = "1ra persona plural excluyente (nosotros, pero no tú)"
-                    affix_labels.append("1PL_EXCL")
-                    subject_person = "nosotros (excluyente)"
-                elif m == "kuna":
-                    has_plural = True
-                    affix_labels.append("PL")
-                elif m in suffix_case_map:
-                    has_case = m
-                    affix_labels.append(m.upper())
-                elif m in ("sha", "chka"):
-                    has_prog = True
-                    affix_labels.append("PROG")
-                elif m == "nku":
-                    affix_labels.append("3PL")
-                    subject_person = "ellos/ellas"
-                elif m == "nki":
-                    affix_labels.append("2SG")
-                    subject_person = "tú"
-                elif m == "ni":
-                    affix_labels.append("1SG")
-                    subject_person = "yo"
-                elif m == "n":
-                    affix_labels.append("3SG")
-                    subject_person = "él/ella"
-                else:
-                    affix_labels.append(m.upper())
-
-            # Construir glosa para este token
-            if affix_labels:
-                tok_gloss = f"{primary_def}-{'-'.join(affix_labels)}"
-            else:
-                tok_gloss = primary_def
-            literal_tokens.append(tok_gloss)
-
-            # Construir frase en español para este token
-            phrase = primary_def
-            if has_plural:
-                if not phrase.endswith("s"):
-                    phrase = f"{phrase}s"
-            if has_case:
-                case_prep = suffix_case_map.get(has_case, "")
-                if has_case == "ta":
-                    # Acusativo con objeto
-                    phrase = f"a {phrase}" if pos.startswith("s") else phrase
-                elif has_case == "pi":
-                    phrase = f"en {phrase}"
-                elif has_case == "man":
-                    phrase = f"hacia {phrase}"
-                elif has_case == "manta":
-                    phrase = f"desde {phrase}"
-                elif has_case == "wan":
-                    phrase = f"con {phrase}"
-                elif has_case == "paq":
-                    phrase = f"para {phrase}"
-
-            if has_prog:
-                if subject_person:
-                    phrase = f"están {phrase}" if "ellos" in subject_person else f"está {phrase}"
-
-            token_translations.append(phrase)
-            justificaciones.append(
-                f"Raíz '{headword}' ({pos}): '{primary_def}'"
-                + (f" con sufijos [{', '.join(affix_labels)}]" if affix_labels else "")
-            )
-
-        # Ensamblar traducción final en español
-        assembled_es = " ".join(token_translations).capitalize() + "."
-        if modal_prefix:
-            assembled_es = f"{modal_prefix}{assembled_es[0].lower() + assembled_es[1:]}"
-
-        return {
-            "traduccion_es": assembled_es,
-            "traduccion_literal_glosada": " ".join(literal_tokens),
-            "evidencialidad": evidencial,
-            "clusividad": clusividad,
-            "justificacion_semantica": "; ".join(justificaciones)
-        }
+        """Método de retrocompatibilidad que invoca GeminiApiAdapter."""
+        from .adapters.gemini_api_adapter import GeminiApiAdapter
+        adapter = GeminiApiAdapter(api_key=self.api_key, model_name=self.model_name)
+        return adapter.generate(prompt)
 
     def _call_agy_cli(self, prompt: str, effort: str = "low", timeout: int = 180) -> Dict[str, Any]:
+        """Método de retrocompatibilidad que invoca AgyAdapter."""
+        from .adapters.agy_adapter import AgyAdapter
+        adapter = AgyAdapter(agy_bin=self.agy_bin, effort=effort, timeout=timeout)
+        return adapter.generate(prompt)
+
+    def _intelligent_fallback_translate(self, scaffold: Dict[str, Any]) -> Dict[str, Any]:
+        """Método de retrocompatibilidad que invoca FallbackAdapter."""
+        return self.fallback_adapter.generate(prompt="", scaffold=scaffold)
+
+    def translate(self, text: str, long_mode: bool = False, **kwargs: Any) -> Dict[str, Any]:
         """
-        Invoca el CLI 'agy' (Antigravity) de forma no interactiva con -p.
-        Aprovecha la autenticación nativa y aplica flags de alta velocidad:
-        --effort low y --disable-slash-commands.
-        """
-        agy_cmd = shutil.which(self.agy_bin) or self.agy_bin
-
-        # Ejecutar agy en modo print no interactivo con esfuerzo bajo y sin comandos/skills
-        cmd = [
-            agy_cmd,
-            "--dangerously-skip-permissions",
-            "--disable-slash-commands",
-            "--effort", effort,
-            "-p", prompt
-        ]
-        proc = subprocess.run(
-            cmd,
-            capture_output=True,
-            text=True,
-            timeout=timeout
-        )
-
-        if proc.returncode != 0:
-            err_msg = proc.stderr.strip() or f"Código de salida: {proc.returncode}"
-            raise RuntimeError(f"Fallo al invocar agy: {err_msg}")
-
-        raw_output = proc.stdout.strip()
-
-        # Extraer JSON de la respuesta (manejar bloques markdown ```json ... ```)
-        cleaned = raw_output
-        if "```json" in cleaned:
-            cleaned = cleaned.split("```json", 1)[1].split("```", 1)[0].strip()
-        elif "```" in cleaned:
-            cleaned = cleaned.split("```", 1)[1].split("```", 1)[0].strip()
-
-        try:
-            parsed = json.loads(cleaned)
-            parsed["backend"] = "agy"
-            return parsed
-        except json.JSONDecodeError:
-            # Fallback si agy devolvió texto libre
-            return {
-                "traduccion_es": raw_output,
-                "traduccion_literal_glosada": "",
-                "evidencialidad": "Procesado vía agy",
-                "clusividad": None,
-                "justificacion_semantica": "Traducción directa de Gemini vía agy",
-                "backend": "agy"
-            }
-
-    def translate(self, text: str, long_mode: bool = False) -> Dict[str, Any]:
-        """
-        Ejecuta el flujo completo de traducción:
+        Ejecuta el pipeline completo de traducción:
         1. Construcción del scaffold morfo-semántico (compacto si long_mode o len > 120).
-        2. Preparación del prompt estructurado.
-        3. Inferencia generativa (vía agy o Gemini API) o Fallback inteligente.
+        2. Preparación del prompt estructurado con directivas lingüísticas.
+        3. Inferencia generativa mediante el adaptador seleccionado (con degradación a Fallback).
         """
         text_clean = text.strip()
         is_long = long_mode or len(text_clean) > 120
@@ -445,42 +196,26 @@ class QuechuaTranslator:
             prompt = build_translation_prompt(text_clean, scaffold, compact=False)
 
         result = None
-        # 1. Intentar con agy CLI si está habilitado
-        if self.use_agy:
-            try:
-                result = self._call_agy_cli(prompt, effort="low", timeout=180)
-            except Exception as e:
-                # Si agy falla, degradar a API de Gemini o fallback
-                if self.api_key:
-                    try:
-                        result = self._call_gemini_api(prompt)
-                        result["backend"] = "gemini_api"
-                    except Exception as api_err:
-                        result = self._intelligent_fallback_translate(scaffold)
-                        result["backend"] = "fallback"
-                        result["api_error"] = f"agy error: {e}; api error: {api_err}"
-                else:
-                    result = self._intelligent_fallback_translate(scaffold)
-                    result["backend"] = "fallback"
-                    result["api_error"] = f"agy error: {e}"
-        # 2. Intentar con Gemini API directa si hay key
-        elif self.api_key:
-            try:
-                result = self._call_gemini_api(prompt)
-                result["backend"] = "gemini_api"
-            except Exception as e:
-                result = self._intelligent_fallback_translate(scaffold)
-                result["backend"] = "fallback"
-                result["api_error"] = str(e)
-        # 3. Fallback determinista
-        else:
-            result = self._intelligent_fallback_translate(scaffold)
-            result["backend"] = "fallback"
+        # Intentar traducción con el adaptador configurado
+        try:
+            result = self.adapter.generate(
+                prompt=prompt,
+                system_instruction=SYSTEM_INSTRUCTION,
+                scaffold=scaffold,
+                effort=kwargs.get("effort", "low"),
+                **kwargs
+            )
+        except Exception as e:
+            # Si el adaptador generativo falla, degradar limpiamente al Fallback determinista
+            result = self.fallback_adapter.generate(prompt=prompt, scaffold=scaffold)
+            result["api_error"] = str(e)
+            result["failed_backend"] = self.adapter.name
 
-        # Añadir metadatos enriquecidos
+        # Enriquecer resultado con metadatos del pipeline
         result["source_sentence"] = text_clean
         result["scaffold"] = scaffold
         result["prompt"] = prompt
+        result.setdefault("backend", self.adapter.name)
+        result.setdefault("model_name", self.adapter.model_name)
 
         return result
-

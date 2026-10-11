@@ -48,10 +48,28 @@ bin/qtr segment "Taytayqa uywa hampiqmi"
 bin/qtr segment "pukllashanchis"
 ```
 
-### Traducción Generativa Asistida (Etapa 2)
-Ensambla el andamiaje morfo-semántico (*Morfo-Semantic Scaffold*) con las definiciones de los lemas y las funciones de los sufijos, obligando al modelo a respetar evidenciales y clusividad:
+### Traducción Generativa Asistida (Etapa 2 - Puertos y Adaptadores)
+Ensambla el andamiaje morfo-semántico (*Morfo-Semantic Scaffold*) con las definiciones de los lemas y las funciones de los sufijos, obligando al modelo a respetar evidenciales y clusividad.
+
+Soporta múltiples motores generativos mediante el patrón **Puertos y Adaptadores**:
 ```bash
-bin/qtr translate "Taytayqa uywa hampiqmi"
+# 1. Antigravity CLI (Gemini con autenticación nativa)
+bin/qtr translate "Wasikunamanmi purishanchis" -p agy
+
+# 2. Modelos locales con Ollama (100% offline y privado, ej: Llama 3.2, Qwen, Mistral)
+bin/qtr translate "Wasikunamanmi purishanchis" -p ollama -m llama3.2:3b-instruct-q4_K_M
+
+# 3. Google Gemini vía REST API con API Key
+bin/qtr translate "Wasikunamanmi purishanchis" -p gemini --api-key "$GEMINI_API_KEY"
+
+# 4. OpenAI / Proveedores compatibles (Groq, DeepSeek, LocalAI) con API Key
+bin/qtr translate "Wasikunamanmi purishanchis" -p openai --api-key "$OPENAI_API_KEY" -m gpt-4o-mini
+
+# 5. Fallback determinista (basado en reglas gramaticales y glosas, sin red ni IA)
+bin/qtr translate "Wasikunamanmi purishanchis" -p fallback
+
+# Modo texto largo (hasta 1000 caracteres, scaffold compacto de alta velocidad)
+bin/qtr translate "Allin yuyaymanaywan rimanakuspallanchisraqmi..." -L
 ```
 
 ---
@@ -111,9 +129,19 @@ generative-quechua-translator/
 │   │   └── scaffold.py                          # Constructor del Scaffold Morfo-Semántico
 │   └── translation/
 │       ├── prompt_templates.py                  # Plantillas de prompt con directivas lingüísticas
-│       └── orchestrator.py                      # Orquestador generativo (Gemini + Fallback)
+│       ├── orchestrator.py                      # Orquestador generativo desacoplado
+│       ├── ports/
+│       │   └── model_port.py                    # Interfaz TranslationModelPort (Arquitectura Hexagonal)
+│       └── adapters/
+│           ├── agy_adapter.py                   # Adaptador Antigravity CLI
+│           ├── ollama_adapter.py                # Adaptador local Ollama (Llama, Qwen, etc.)
+│           ├── gemini_api_adapter.py            # Adaptador REST Google Gemini API
+│           ├── openai_adapter.py                # Adaptador OpenAI / compatibles (Groq, DeepSeek)
+│           ├── fallback_adapter.py              # Adaptador determinista basado en reglas y glosas
+│           └── factory.py                       # Factoría para resolución y selección dinámica
 ├── tests/
-│   └── test_segmentation.py                     # Batería de pruebas unitarias
+│   ├── test_segmentation.py                     # Pruebas del motor morfosintáctico
+│   └── test_adapters.py                         # Pruebas de puertos, adaptadores y degradación limpia
 └── .agents/
     └── plugins/
         └── quechua-translator/                  # Bundle del Plugin de AGY

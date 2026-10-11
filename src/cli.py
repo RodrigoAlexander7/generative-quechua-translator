@@ -382,7 +382,18 @@ def handle_translate(args):
     from src.translation.orchestrator import QuechuaTranslator
     use_agy_flag = getattr(args, "use_agy", None)
     long_mode = getattr(args, "long_mode", False)
-    translator = QuechuaTranslator(use_agy=use_agy_flag)
+    provider_arg = getattr(args, "provider", None)
+    model_arg = getattr(args, "model", None)
+    api_key_arg = getattr(args, "api_key", None)
+    ollama_host_arg = getattr(args, "ollama_host", None)
+
+    translator = QuechuaTranslator(
+        provider=provider_arg,
+        model_name=model_arg,
+        api_key=api_key_arg,
+        ollama_host=ollama_host_arg,
+        use_agy=use_agy_flag
+    )
     res = translator.translate(text, long_mode=long_mode)
 
     traduccion_es = res.get("traduccion_es", "")
@@ -391,9 +402,11 @@ def handle_translate(args):
     clusividad = res.get("clusividad")
     justificacion = res.get("justificacion_semantica", "")
     backend = res.get("backend", "fallback")
+    model_name = res.get("model_name", "")
+    motor_desc = f"{backend.upper()}" + (f" ({model_name})" if model_name else "")
 
     # Presentación estructurada
-    print(f"{BOLD}{BRIGHT_GREEN}┌─ TRADUCCIÓN AL ESPAÑOL {DIM}[Motor: {backend.upper()}]{RESET}")
+    print(f"{BOLD}{BRIGHT_GREEN}┌─ TRADUCCIÓN AL ESPAÑOL {DIM}[Motor: {motor_desc}]{RESET}")
     print(f"{BOLD}{BRIGHT_GREEN}│{RESET}  {BOLD}{WHITE}{traduccion_es}{RESET}")
     print(f"{BOLD}{BRIGHT_GREEN}└──────────────────────────────────────────────────────────{RESET}\n")
 
@@ -450,6 +463,10 @@ def main():
     parser_translate.add_argument("text", type=str, help="Oración en quechua")
     parser_translate.add_argument("--json", action="store_true", help="Imprime el resultado completo en JSON")
     parser_translate.add_argument("-L", "--long", dest="long_mode", action="store_true", help="Modo texto largo (hasta 1000 caracteres): scaffold compacto, esfuerzo bajo de pensamiento (--effort low) y máxima velocidad sin internet")
+    parser_translate.add_argument("-p", "--provider", dest="provider", type=str, choices=["auto", "agy", "gemini", "gemini_api", "openai", "ollama", "fallback"], default=None, help="Motor/adaptador generativo (auto, agy, gemini, openai, ollama, fallback)")
+    parser_translate.add_argument("-m", "--model", dest="model", type=str, default=None, help="Nombre del modelo (ej: llama3.2:3b-instruct-q4_K_M, gemini-2.5-flash, gpt-4o-mini)")
+    parser_translate.add_argument("--ollama-host", dest="ollama_host", type=str, default=None, help="URL del servidor local Ollama (por defecto: http://localhost:11434)")
+    parser_translate.add_argument("--api-key", dest="api_key", type=str, default=None, help="API Key para el proveedor seleccionado (Gemini u OpenAI)")
     parser_translate.add_argument("--agy", dest="use_agy", action="store_true", default=None, help="Usa Antigravity CLI (agy) para traducción generativa con Gemini")
     parser_translate.add_argument("--no-agy", dest="use_agy", action="store_false", help="Desactiva agy y usa API o fallback")
     parser_translate.set_defaults(func=handle_translate)
