@@ -15,9 +15,9 @@ COMMON_SUFFIXES = [
     "manta", "rayku", "nchis", "nchik",
     "kuna", "kama", "pura", "naku",
     "paq", "man", "wan", "taq", "pas", "pis", "raq", "lla", "puni", "chu",
-    "rqa", "sqa", "saq", "sha", "chka", "pti", "spa", "yku", "nku", "yki",
+    "rqa", "rqan", "ran", "sqa", "saq", "sha", "chka", "pti", "spa", "yku", "nku", "yki", "nqa",
     "chi", "kuy", "naya", "raya", "paya", "ysi",
-    "ta", "pi", "qa", "mi", "si", "cha", "chá", "ni", "ku", "ri", "mu", "pu",
+    "ta", "pi", "qa", "mi", "si", "cha", "chá", "ni", "ku", "ri", "mu", "pu", "wa",
     "na", "pa", "y", "n", "s", "m", "q"
 ]
 

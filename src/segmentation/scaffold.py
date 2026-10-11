@@ -25,9 +25,11 @@ class ScaffoldBuilder:
 
     def tokenize_sentence(self, sentence: str) -> List[str]:
         """Separa la oración en tokens de palabras y signos ortográficos."""
-        # Respeta apóstrofes internos para consonantes glotalizadas (t'anta, k'aspi)
+        # Normalizar apóstrofes tipográficos curvos (U+2019, U+2018, grave) a apóstrofe recto U+0027
+        norm_sentence = sentence.replace("’", "'").replace("‘", "'").replace("`", "'")
+        # Respeta apóstrofes internos para consonantes glotalizadas (t'anta, k'aspi, wak'uy)
         pattern = r"([A-Za-zÁÉÍÓÚáéíóúÑñ']+|[.,;:!?¿¡\"()«»—-])"
-        tokens = re.findall(pattern, sentence)
+        tokens = re.findall(pattern, norm_sentence)
         return [t.strip() for t in tokens if t.strip()]
 
     def build_word_scaffold(self, word: str) -> Dict[str, Any]:

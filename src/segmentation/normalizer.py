@@ -13,7 +13,7 @@ class QuechuaNormalizer:
     @staticmethod
     def clean_token(token: str) -> str:
         """Limpia puntuación marginal pero preserva apóstrofes glotales internos."""
-        t = token.strip()
+        t = token.replace("’", "'").replace("‘", "'").replace("`", "'").strip()
         t = re.sub(r"^[^\w']+", "", t)
         t = re.sub(r"[^\w']+$", "", t)
         return t
