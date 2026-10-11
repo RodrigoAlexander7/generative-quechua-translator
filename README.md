@@ -98,6 +98,17 @@ El proyecto incluye un **Plugin de Workspace** completo en `.agents/plugins/quec
 
 ---
 
+## 📊 Benchmark y Evaluación Empírica (Ollama vs. AGY)
+
+Se evaluó el comportamiento comparativo del andamiaje morfo-semántico en modelos locales (`qwen3.5:9b`, `llama3.2:3b`) frente a `agy` (Gemini):
+* **`AGY` (Gemini)**: Precisión lingüística sobresaliente (10/10), captura de compuestos semánticos (*uywa hampiq* = *veterinario*) y cumplimiento estricto de evidencialidad y clusividad en ~11s.
+* **`Ollama` (Qwen 3.5 9.7B)**: Razonamiento lingüístico de alto nivel en su traza de *thinking* (detecta y descarta arcaísmos de diccionario), pero con alta demanda computacional en CPU (>90s).
+* **`Ollama` (Llama 3.2 3B)**: Rápido (~15s) pero propenso al sesgo de copiar textualmente la primera entrada del diccionario o alucinar frases en oraciones compuestas.
+
+> Para el análisis lingüístico completo, trazas de razonamiento y tiempos, consulta el reporte en [docs/benchmark_local_vs_agy.md](file:///home/totora/Documents/PROFESIONAL/generative-quechua-translator/docs/benchmark_local_vs_agy.md).
+
+---
+
 ## 📂 Estructura del Proyecto
 
 ```text
@@ -108,7 +119,8 @@ generative-quechua-translator/
 ├── data/
 │   └── quechua_knowledge.db                     # Base de datos SQLite FTS5 (Etapa 0)
 ├── docs/
-│   └── architecture_and_agy_plugin_design.md   # Especificación de arquitectura técnica
+│   ├── architecture_and_agy_plugin_design.md   # Especificación de arquitectura técnica
+│   └── benchmark_local_vs_agy.md                # Benchmark empírico: Ollama (Llama/Qwen) vs agy (Gemini)
 ├── input/
 │   ├── dictionaries/                            # PDFs originales (AMLQ y Calvo Pérez)
 │   ├── paqocha-fst/                             # Recursos previos y entries.json (13,750 entradas)

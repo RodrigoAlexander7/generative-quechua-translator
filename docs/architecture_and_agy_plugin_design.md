@@ -584,3 +584,20 @@ generative-quechua-translator/
 | **Fase 2 (ETAPA 1)** | Módulos `fst_engine.py`, `peeling_engine.py`, `normalizer.py` y `disambiguator.py`. | Cobertura de segmentación $> 95\%$ en oraciones complejas de prueba; extracción de múltiples acepciones y ejemplos para palabras polisémicas. |
 | **Fase 3 (ETAPA 2)** | Módulos `scaffold_builder.py`, `prompt_templates.py` y `llm_orchestrator.py`. | Generación determinista del andamiaje morfo-semántico en JSON; traducción precisa preservando evidencialidad y clusividad. |
 | **Fase 4 (Packaging)** | Manifiesto `.agents/plugins/quechua-translator/`, servidor `mcp_server.py`, `rules/AGENTS.md`, Skills y CLI `bin/qtr`. | Comando `qtr` operativo en terminal; herramientas MCP detectadas y ejecutables de forma nativa en `agy`. |
+
+---
+
+## 8. Extensión de Arquitectura: Puertos y Adaptadores (Hexagonal) y Benchmarking
+
+Para desacoplar el sistema del motor de inferencia y permitir el uso de modelos locales (Ollama), APIs externas (Gemini REST, OpenAI/Groq) y fallbacks deterministas, se implementó el patrón de **Puertos y Adaptadores**:
+
+* **Puerto (`TranslationModelPort`)**: Contrato unificado para generación y reporte de capacidades.
+* **Adaptadores Soportados**:
+  1. `AgyAdapter`: Integración nativa con Antigravity CLI (`agy -p`).
+  2. `OllamaAdapter`: Conexión HTTP al demonio local Ollama (`/api/chat` con `format: json`).
+  3. `GeminiApiAdapter`: Conexión directa a Google Gemini REST API vía `GEMINI_API_KEY`.
+  4. `OpenAIAdapter`: Conexión a endpoints compatibles con la API de OpenAI.
+  5. `FallbackAdapter`: Ensamblador determinista basado en reglas morfosintácticas y glosas sin IA.
+* **Resultados Empíricos y Comparativa de Calidad**:
+  - Para consultar el análisis comparativo completo entre modelos locales (`qwen3.5:9b`, `llama3.2:3b`) y `agy` (Gemini), ver [docs/benchmark_local_vs_agy.md](file:///home/totora/Documents/PROFESIONAL/generative-quechua-translator/docs/benchmark_local_vs_agy.md).
+
