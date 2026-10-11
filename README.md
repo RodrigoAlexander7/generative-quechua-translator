@@ -98,14 +98,17 @@ El proyecto incluye un **Plugin de Workspace** completo en `.agents/plugins/quec
 
 ---
 
-## 📊 Benchmark y Evaluación Empírica (Ollama vs. AGY)
+## 📊 Benchmarks y Evaluación Empírica
 
-Se evaluó el comportamiento comparativo del andamiaje morfo-semántico en modelos locales (`qwen3.5:9b`, `llama3.2:3b`) frente a `agy` (Gemini):
-* **`AGY` (Gemini)**: Precisión lingüística sobresaliente (10/10), captura de compuestos semánticos (*uywa hampiq* = *veterinario*) y cumplimiento estricto de evidencialidad y clusividad en ~11s.
-* **`Ollama` (Qwen 3.5 9.7B)**: Razonamiento lingüístico de alto nivel en su traza de *thinking* (detecta y descarta arcaísmos de diccionario), pero con alta demanda computacional en CPU (>90s).
-* **`Ollama` (Llama 3.2 3B)**: Rápido (~15s) pero propenso al sesgo de copiar textualmente la primera entrada del diccionario o alucinar frases en oraciones compuestas.
+1. **Benchmark de 100 Oraciones en Quechua Collao (`agy -L` vs `agy full` vs `agy puro`)**:
+   - Evaluación masiva mediante granja de subagentes comparando latencia (segundos), fidelidad y metadatos gramaticales.
+   - **Latencia promedio**: `agy puro` = **10.53 s** | `agy -L` (compacto) = **11.57 s** (+1.04 s overhead) | `agy full` = **15.13 s**.
+   - **Hallazgo**: `agy -L` ofrece el balance óptimo: añade únicamente 1 segundo de overhead respecto al modo zero-shot puro, resolviendo 53 casos de divergencias léxicas y proveyendo análisis explícito de clusividad y evidencialidad.
+   - Consulta el reporte completo: [docs/benchmark_collao_100_sentences.md](file:///home/totora/Documents/PROFESIONAL/generative-quechua-translator/docs/benchmark_collao_100_sentences.md).
 
-> Para el análisis lingüístico completo, trazas de razonamiento y tiempos, consulta el reporte en [docs/benchmark_local_vs_agy.md](file:///home/totora/Documents/PROFESIONAL/generative-quechua-translator/docs/benchmark_local_vs_agy.md).
+2. **Benchmark Modelos Locales (Ollama) vs. Nube (`agy` / Gemini)**:
+   - Comparación empírica de `qwen3.5:9b`, `llama3.2:3b` frente a Gemini.
+   - Consulta el reporte: [docs/benchmark_local_vs_agy.md](file:///home/totora/Documents/PROFESIONAL/generative-quechua-translator/docs/benchmark_local_vs_agy.md).
 
 ---
 
@@ -117,10 +120,12 @@ generative-quechua-translator/
 ├── bin/
 │   └── qtr                                      # CLI ejecutable de terminal
 ├── data/
-│   └── quechua_knowledge.db                     # Base de datos SQLite FTS5 (Etapa 0)
+│   ├── quechua_knowledge.db                     # Base de datos SQLite FTS5 (Etapa 0)
+│   └── benchmark_results/                       # Resultados consolidados y shards JSON
 ├── docs/
 │   ├── architecture_and_agy_plugin_design.md   # Especificación de arquitectura técnica
-│   └── benchmark_local_vs_agy.md                # Benchmark empírico: Ollama (Llama/Qwen) vs agy (Gemini)
+│   ├── benchmark_local_vs_agy.md                # Benchmark: Ollama (Llama/Qwen) vs agy (Gemini)
+│   └── benchmark_collao_100_sentences.md        # Benchmark: 100 oraciones Collao (agy -L vs full vs puro)
 ├── input/
 │   ├── dictionaries/                            # PDFs originales (AMLQ y Calvo Pérez)
 │   ├── paqocha-fst/                             # Recursos previos y entries.json (13,750 entradas)
