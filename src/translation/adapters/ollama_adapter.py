@@ -82,16 +82,24 @@ class OllamaAdapter(TranslationModelPort):
             messages.append({"role": "system", "content": system_instruction})
         messages.append({"role": "user", "content": prompt})
 
+        options = {
+            "temperature": kwargs.get("temperature", 0.1),
+            "num_predict": kwargs.get("num_predict", 1024)
+        }
+        if "num_thread" in kwargs:
+            options["num_thread"] = kwargs["num_thread"]
+        if "options" in kwargs and isinstance(kwargs["options"], dict):
+            options.update(kwargs["options"])
+
+        format_val = kwargs.get("format", "json")
         payload = {
             "model": target_model,
             "messages": messages,
-            "format": "json",
             "stream": False,
-            "options": {
-                "temperature": 0.1,
-                "num_predict": 512
-            }
+            "options": options
         }
+        if format_val:
+            payload["format"] = format_val
 
         req_data = json.dumps(payload).encode("utf-8")
         req = urllib.request.Request(
@@ -116,4 +124,31 @@ class OllamaAdapter(TranslationModelPort):
         if not raw_text:
             raise ValueError(f"Ollama devolvió una respuesta vacía: {resp_json}")
 
-        return parse_llm_json_response(raw_text, default_backend="ollama", model_name=target_model)
+        raw_mode = kwargs.get("raw_mode", False)
+        if raw_mode or format_val is None:
+            result = {
+                "traduccion_es": raw_text.strip(),
+                "traduccion_literal_glosada": "",
+                "evidencialidad": "Modo directo",
+                "clusividad": None,
+                "justificacion_semantica": "",
+                "backend": "ollama",
+                "model_name": target_model
+            }
+        else:
+            result = parse_llm_json_response(raw_text, default_backend="ollama", model_name=target_model)
+
+        # Enriquecer con métricas empíricas de hardware de Ollama
+        eval_count = resp_json.get("eval_count", 0)
+        eval_dur_sec = round(resp_json.get("eval_duration", 0) / 1e9, 4)
+        result["eval_count"] = eval_count
+        result["eval_duration_sec"] = eval_dur_sec
+        result["prompt_eval_count"] = resp_json.get("prompt_eval_count", 0)
+        result["prompt_eval_duration_sec"] = round(resp_json.get("prompt_eval_duration", 0) / 1e9, 4)
+        result["total_duration_sec"] = round(resp_json.get("total_duration", 0) / 1e9, 4)
+        if eval_dur_sec > 0:
+            result["tokens_per_second"] = round(eval_count / eval_dur_sec, 2)
+        else:
+            result["tokens_per_second"] = 0.0
+
+        return result

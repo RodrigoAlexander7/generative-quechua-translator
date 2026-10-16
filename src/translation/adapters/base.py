@@ -9,11 +9,20 @@ from typing import Any, Dict
 
 def clean_json_text(text: str) -> str:
     """Extrae y limpia bloques de código JSON o markdown devueltos por LLMs."""
-    cleaned = text.strip()
+    # Eliminar bloques de pensamiento (<think>...</think>) de modelos como DeepSeek-R1 o Qwen 3.5
+    cleaned = re.sub(r"<think>.*?</think>", "", text, flags=re.DOTALL).strip()
     if "```json" in cleaned:
         cleaned = cleaned.split("```json", 1)[1].split("```", 1)[0].strip()
     elif "```" in cleaned:
         cleaned = cleaned.split("```", 1)[1].split("```", 1)[0].strip()
+
+    # Si hay texto antes o después del objeto JSON, extraer el bloque entre la primera { y última }
+    if not (cleaned.startswith("{") and cleaned.endswith("}")):
+        first_brace = cleaned.find("{")
+        last_brace = cleaned.rfind("}")
+        if first_brace != -1 and last_brace != -1 and last_brace > first_brace:
+            cleaned = cleaned[first_brace:last_brace + 1].strip()
+
     return cleaned
 
 

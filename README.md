@@ -110,6 +110,15 @@ El proyecto incluye un **Plugin de Workspace** completo en `.agents/plugins/quec
    - Comparación empírica de `qwen3.5:9b`, `llama3.2:3b` frente a Gemini.
    - Consulta el reporte: [docs/benchmark_local_vs_agy.md](file:///home/totora/Documents/PROFESIONAL/generative-quechua-translator/docs/benchmark_local_vs_agy.md).
 
+3. **Pipeline Académico Multi-Modelo (Paper Benchmark & Google Colab GPU)**:
+   - Evaluación experimental cruzada para modelos abiertos (`llama3.2:3b`, `llama3.1:8b`, `qwen2.5:7b`, `qwen2.5:14b`, `aya-expanse:8b`, `deepseek-r1:8b`).
+   - Compara cada modelo bajo dos condiciones: **con andamiaje morfo-semántico** (`with_tool`) vs **sin herramienta** (`without_tool` zero-shot).
+   - Mide métricas científicas: **chrF++**, **BLEU**, **EPR** (Evidentiality Preservation Rate), **CAR** (Clusivity Accuracy Rate) y Throughput (tokens/segundo).
+   - Genera automáticamente:
+     * Tabla comparativa de traducciones lado a lado en Markdown y CSV.
+     * Tablas exportadas en formato LaTeX (`\begin{table*}`) listas para Overleaf / Paper.
+     * Notebook de Google Colab Pro listo para correr con GPU: [`notebooks/colab_multi_model_benchmark.ipynb`](file:///home/totora/Documents/PROFESIONAL/generative-quechua-translator/notebooks/colab_multi_model_benchmark.ipynb).
+
 ---
 
 ## 📂 Estructura del Proyecto
