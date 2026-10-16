@@ -148,98 +148,144 @@ def compute_sentence_bleu(hypothesis: str, reference: str, max_n: int = 4) -> fl
     return round(bleu * 100.0, 2)
 
 
+# ---------------------------------------------------------------------------
+# Detección de evidencialidad y clusividad (a nivel de palabra, con exclusiones)
+# ---------------------------------------------------------------------------
+# NOTA METODOLÓGICA: estas reglas solo PROPONEN etiquetas gold. Para el paper,
+# las etiquetas deben verificarse manualmente en benchmark/dataset.json
+# (campos "gold_evidential" y "gold_clusivity"); si existen, se usan siempre.
+
+_VOWELS = "aeiouáéíóú"
+# Terminaciones en -s que NO son reportativo (-pas/-pis aditivo, -chis persona plural)
+_NON_REPORTATIVE_S = ("pas", "pis", "chis", "chik")
+_HEDGES = ["tal vez", "quizás", "quizas", "quiza", "acaso", "probablemente", "posiblemente", "seguramente"]
+_REPORT_MARKERS = ["dicen", "dice que", "cuentan", "según", "segun", "se dice", "dijeron", "contaron"]
+
+
+def _words(text: str) -> List[str]:
+    norm = text.lower().replace("’", "'").replace("‘", "'")
+    return re.findall(r"[a-zñáéíóú']+", norm)
+
+
+def detect_evidential(quechua_source: str) -> str:
+    """Propone la categoría evidencial de la oración: reportativo > conjetural > directo > no_marcado."""
+    found = set()
+    for w in _words(quechua_source):
+        if len(w) < 3:
+            continue
+        if w.endswith("chá"):
+            found.add("conjetural")
+        elif w.endswith("si") or (w.endswith("s") and w[-2] in _VOWELS and not w.endswith(_NON_REPORTATIVE_S)):
+            found.add("reportativo")
+        elif w.endswith("mi") or (w.endswith("m") and w[-2] in _VOWELS):
+            found.add("directo")
+    for cat in ("reportativo", "conjetural", "directo"):
+        if cat in found:
+            return cat
+    return "no_marcado"
+
+
+def detect_clusivity(quechua_source: str) -> str:
+    """Propone la clusividad de 1PL: incluyente, excluyente, mixto o no_aplica."""
+    incl = excl = False
+    for w in _words(quechua_source):
+        if "nchis" in w or "nchik" in w:
+            incl = True
+        # -yku persona/posesivo excluyente: al final de palabra o seguido solo de caso/clítico.
+        # Se excluyen -y-kuna (mi + plural), -rayku (causal) y -yku- derivacional (samaykusunchis).
+        if (re.search(r"yku(paq|pi|ta|man|manta|wan|pas|qa|raq|lla|mi|m)?$", w) and not w.endswith("rayku")) \
+                or w.endswith(("saqku", "kiku")):
+            excl = True
+    if incl and excl:
+        return "mixto"
+    if incl:
+        return "incluyente"
+    if excl:
+        return "excluyente"
+    return "no_aplica"
+
+
 def evaluate_evidentiality_compliance(
     quechua_source: str,
     translation_es: str,
-    metadata_evid: Optional[str] = None
+    gold_label: Optional[str] = None
 ) -> Dict[str, Any]:
     """
-    Evalúa si la oración quechua codifica evidencialidad (-mi, -si, -chá) y si
-    la traducción o metadatos la reflejan fielmente.
+    Evalúa la evidencialidad SOLO sobre el texto traducido (misma vara para
+    ambas condiciones; los metadatos del andamiaje no cuentan).
+    - reportativo: la traducción debe marcar reporte ("dicen que", "según"...).
+    - conjetural: la traducción debe marcar duda ("tal vez", "quizás"...).
+    - directo: la traducción NO debe introducir reporte ni duda espurios.
+    is_compliant = None cuando la oración no está marcada (se excluye del EPR).
     """
-    src_lower = quechua_source.lower()
-    trans_lower = translation_es.lower()
-    meta_lower = (metadata_evid or "").lower()
+    expected = gold_label or detect_evidential(quechua_source)
+    t = translation_es.lower()
+    has_hedge = any(h in t for h in _HEDGES)
+    has_report = any(r in t for r in _REPORT_MARKERS)
 
-    # Detectar marcadores en quechua
-    has_direct = bool(re.search(r"\b\w+(mi|n)\b", src_lower)) or "-mi" in src_lower
-    has_reportative = bool(re.search(r"\b\w+(si|s)\b", src_lower)) or "-si" in src_lower
-    has_conjectural = bool(re.search(r"\b\w+(chá|cha)\b", src_lower)) or "-chá" in src_lower or "-cha" in src_lower
-
-    category = "no_marcado"
-    correct = True
-    notes = "Sin validador marcado"
-
-    if has_reportative:
-        category = "reportativo"
-        # Debe reflejar testimonio indirecto: "dicen", "cuenta", "según", o en metadatos
-        reflected = any(w in trans_lower for w in ["dicen", "cuenta", "según", "se dice", "dijeron"]) or "reportat" in meta_lower
-        correct = reflected
-        notes = "Reportativo capturado" if reflected else "Faltó marcar reporte indirecto (-si)"
-    elif has_conjectural:
-        category = "conjetural"
-        # Debe reflejar duda o conjetura: "tal vez", "quizás", "acaso", "probablemente", o en metadatos
-        reflected = any(w in trans_lower for w in ["tal vez", "quizás", "quiza", "acaso", "probable", "posiblemente"]) or "conjetur" in meta_lower or "duda" in meta_lower
-        correct = reflected
-        notes = "Conjetura capturada" if reflected else "Faltó reflejar conjetura/duda (-chá)"
-    elif has_direct:
-        category = "directo_asertivo"
-        # En modo directo, no debe contener marcadores de rumor ni duda espuria
-        incorrect = any(w in trans_lower for w in ["dicen que", "quizás", "tal vez"])
-        correct = not incorrect
-        notes = "Asertivo directo respetado" if correct else "Contaminación modal en hecho directo"
+    if expected == "reportativo":
+        ok = has_report
+    elif expected == "conjetural":
+        ok = has_hedge
+    elif expected == "directo":
+        ok = not (has_hedge or has_report)
+    else:
+        return {"expected_evidential": expected, "is_compliant": None, "notes": "Sin validador marcado"}
 
     return {
-        "expected_evidential": category,
-        "is_compliant": correct,
-        "notes": notes
+        "expected_evidential": expected,
+        "is_compliant": ok,
+        "notes": "Respetado" if ok else f"Evidencial {expected} no reflejado en la traducción"
     }
 
 
 def evaluate_clusivity_compliance(
     quechua_source: str,
-    translation_es: str,
-    metadata_clus: Optional[str] = None
+    metadata_clus: Optional[str] = None,
+    gold_label: Optional[str] = None
 ) -> Dict[str, Any]:
     """
-    Evalúa la preservación de clusividad pronominal en 1ra persona plural:
-    - -nchis / ñoqanchis: Incluyente (tú y yo)
-    - -yku / ñoqayku: Excluyente (nosotros sin ti)
+    Evalúa la clusividad declarada en los metadatos estructurados.
+    El español no distingue nosotros incluyente/excluyente en la superficie,
+    por eso en la condición sin herramienta (sin metadatos) devuelve
+    is_compliant = None (no evaluable) en lugar de asumir acierto.
     """
-    src_lower = quechua_source.lower()
-    meta_lower = (metadata_clus or "").lower()
+    expected = gold_label or detect_clusivity(quechua_source)
+    if expected in ("no_aplica", "mixto"):
+        return {"expected_clusivity": expected, "is_compliant": None, "notes": "Excluido del CAR"}
+    if not metadata_clus:
+        return {"expected_clusivity": expected, "is_compliant": None, "notes": "Sin metadatos (no evaluable)"}
 
-    has_incl = "nchis" in src_lower or "sunchis" in src_lower or "noqanchis" in src_lower or "ñoqanchis" in src_lower
-    has_excl = "yku" in src_lower or "noqayku" in src_lower or "ñoqayku" in src_lower
-
-    if not has_incl and not has_excl:
-        return {
-            "expected_clusivity": "no_aplica",
-            "is_compliant": True,
-            "notes": "No interviene 1ra plural"
-        }
-
-    expected = "incluyente" if has_incl else "excluyente"
-    is_compliant = True
-    notes = f"Clusividad {expected}"
-
-    if metadata_clus:
-        if expected == "incluyente" and ("inclu" in meta_lower):
-            is_compliant = True
-            notes = "Inclusividad validada en metadatos"
-        elif expected == "excluyente" and ("exclu" in meta_lower):
-            is_compliant = True
-            notes = "Exclusividad validada en metadatos"
-        else:
-            is_compliant = False
-            notes = f"Confusión de clusividad (esperaba {expected}, obtuvo {metadata_clus})"
-    else:
-        # En modo sin herramientas, el español estándar suele ser ambiguo ("nosotros"),
-        # se califica como cumplimiento parcial o neutral a menos que haya contradicción explícita.
-        notes = f"Marcador {expected} en fuente quechua (sin metadatos en español)"
-
+    m = str(metadata_clus).lower()
+    says_incl = "inclu" in m
+    says_excl = "exclu" in m
+    ok = (expected == "incluyente" and says_incl and not says_excl) or \
+         (expected == "excluyente" and says_excl and not says_incl)
     return {
         "expected_clusivity": expected,
-        "is_compliant": is_compliant,
-        "notes": notes
+        "is_compliant": ok,
+        "notes": "Correcto" if ok else f"Esperaba {expected}, obtuvo: {metadata_clus}"
     }
+
+
+def paired_bootstrap(scores_a: List[float], scores_b: List[float], n_resamples: int = 2000, seed: int = 42) -> Dict[str, Any]:
+    """
+    Remuestreo bootstrap pareado (Koehn, 2004) de la diferencia media A - B.
+    Devuelve la diferencia, el IC 95% y un p-valor unilateral aproximado (P[delta <= 0]).
+    """
+    import random
+    n = min(len(scores_a), len(scores_b))
+    if n == 0:
+        return {"delta": None, "ci95": None, "p_value": None, "n": 0}
+    rng = random.Random(seed)
+    diffs = [scores_a[i] - scores_b[i] for i in range(n)]
+    observed = sum(diffs) / n
+    boots = []
+    for _ in range(n_resamples):
+        sample = [diffs[rng.randrange(n)] for _ in range(n)]
+        boots.append(sum(sample) / n)
+    boots.sort()
+    lo = boots[int(0.025 * n_resamples)]
+    hi = boots[int(0.975 * n_resamples) - 1]
+    p = sum(1 for b in boots if b <= 0) / n_resamples
+    return {"delta": round(observed, 2), "ci95": [round(lo, 2), round(hi, 2)], "p_value": round(p, 4), "n": n}

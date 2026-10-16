@@ -29,9 +29,13 @@ from benchmark.academic_metrics import (
     compute_sentence_chrf,
     compute_sentence_bleu,
     evaluate_evidentiality_compliance,
-    evaluate_clusivity_compliance
+    evaluate_clusivity_compliance,
+    paired_bootstrap
 )
 
+
+# Decodificación determinista para reproducibilidad (idéntica en ambas condiciones)
+DECODING_OPTIONS = {"temperature": 0.0, "seed": 42, "num_predict": 1024}
 
 DEFAULT_MODELS = [
     "llama3.2:3b",
@@ -67,7 +71,7 @@ def run_pure_ollama(
             model=model,
             format=None,
             raw_mode=True,
-            options={"temperature": 0.1, "num_predict": 512}
+            options=DECODING_OPTIONS
         )
         elapsed = round(time.time() - t0, 2)
         trans_text = res.get("traduccion_es", "").strip().strip('"').strip("'")
@@ -106,7 +110,7 @@ def run_scaffold_ollama(
     """
     t0 = time.time()
     try:
-        res = translator.translate(quechua_text, long_mode=True, model=model)
+        res = translator.translate(quechua_text, long_mode=True, model=model, options=DECODING_OPTIONS)
         elapsed = round(time.time() - t0, 2)
         return {
             "traduccion_es": res.get("traduccion_es", "").strip(),
@@ -219,14 +223,15 @@ def generate_latex_table(aggregated: Dict[str, Any], models: List[str]) -> str:
         without_s = stats.get("without_tool", {})
 
         m_name = m.replace("_", "\\_").replace(":", " ")
-        lines.append(f"\\multirow{{2}}{{*}}{{{m_name}}} & \\textit{{w/o Tool}} & {without_s.get('mean_chrf', 0.0):.2f} & {without_s.get('mean_bleu', 0.0):.2f} & {without_s.get('epr_percent', 0.0):.1f}\\% & {without_s.get('car_percent', 0.0):.1f}\\% & {without_s.get('mean_latency', 0.0):.2f}s \\\\")
-        lines.append(f" & \\textbf{{w/ Scaffold (Ours)}} & \\textbf{{{with_s.get('mean_chrf', 0.0):.2f}}} & \\textbf{{{with_s.get('mean_bleu', 0.0):.2f}}} & \\textbf{{{with_s.get('epr_percent', 0.0):.1f}\\%}} & \\textbf{{{with_s.get('car_percent', 0.0):.1f}\\%}} & {with_s.get('mean_latency', 0.0):.2f}s \\\\")
+        pct = lambda v: "--" if v is None else f"{v:.1f}\\%"
+        lines.append(f"\\multirow{{2}}{{*}}{{{m_name}}} & \\textit{{w/o Tool}} & {without_s.get('mean_chrf', 0.0):.2f} & {without_s.get('mean_bleu', 0.0):.2f} & {pct(without_s.get('epr_percent'))} & {pct(without_s.get('car_percent'))} & {without_s.get('mean_latency', 0.0):.2f}s \\\\")
+        lines.append(f" & w/ Scaffold (Ours) & {with_s.get('mean_chrf', 0.0):.2f} & {with_s.get('mean_bleu', 0.0):.2f} & {pct(with_s.get('epr_percent'))} & {pct(with_s.get('car_percent'))} & {with_s.get('mean_latency', 0.0):.2f}s \\\\")
         lines.append("\\midrule")
 
     # Quitar última midrule y poner bottomrule
     lines[-1] = "\\bottomrule"
     lines.append("\\end{tabular}")
-    lines.append("\\caption{Comparative evaluation of open-weight LLMs on Quechua Collao translation with and without morpho-semantic scaffolding. chrF++ and BLEU are evaluated against human reference translations. EPR denotes Evidentiality Preservation Rate; CAR denotes Clusivity Accuracy Rate.}")
+    lines.append("\\caption{Comparative evaluation of open-weight LLMs on Quechua Collao translation with and without morpho-semantic scaffolding. chrF++ and BLEU are evaluated against human reference translations. EPR: Evidentiality Preservation Rate over evidential-marked sentences, judged on the translation text. CAR: Clusivity Accuracy Rate over 1PL sentences, judged on structured metadata (not evaluable without the tool, since Spanish does not mark clusivity).}")
     lines.append("\\label{tab:local_models_benchmark}")
     lines.append("\\end{table*}")
 
@@ -279,6 +284,8 @@ def main():
         idx = item["id"]
         q_src = item["quechua"]
         sp_ref = item["spanish"]
+        gold_evid = item.get("gold_evidential")
+        gold_clus = item.get("gold_clusivity")
 
         print(f"[{i+1}/{len(subset)}] Evaluando #{idx:03d}: '{q_src[:45]}...'")
 
@@ -296,8 +303,8 @@ def main():
             with_res = run_scaffold_ollama(translator, model, q_src)
             chrf_with = compute_sentence_chrf(with_res["traduccion_es"], sp_ref)
             bleu_with = compute_sentence_bleu(with_res["traduccion_es"], sp_ref)
-            evid_with = evaluate_evidentiality_compliance(q_src, with_res["traduccion_es"], with_res.get("evidencialidad"))
-            clus_with = evaluate_clusivity_compliance(q_src, with_res["traduccion_es"], with_res.get("clusividad"))
+            evid_with = evaluate_evidentiality_compliance(q_src, with_res["traduccion_es"], gold_evid)
+            clus_with = evaluate_clusivity_compliance(q_src, with_res.get("clusividad"), gold_clus)
 
             with_res["metrics"] = {
                 "chrf": chrf_with,
@@ -310,8 +317,8 @@ def main():
             without_res = run_pure_ollama(adapter, model, q_src)
             chrf_wo = compute_sentence_chrf(without_res["traduccion_es"], sp_ref)
             bleu_wo = compute_sentence_bleu(without_res["traduccion_es"], sp_ref)
-            evid_wo = evaluate_evidentiality_compliance(q_src, without_res["traduccion_es"], None)
-            clus_wo = evaluate_clusivity_compliance(q_src, without_res["traduccion_es"], None)
+            evid_wo = evaluate_evidentiality_compliance(q_src, without_res["traduccion_es"], gold_evid)
+            clus_wo = evaluate_clusivity_compliance(q_src, None, gold_clus)
 
             without_res["metrics"] = {
                 "chrf": chrf_wo,
@@ -333,54 +340,33 @@ def main():
     # ---------------------------------------------------------
     # Calcular Métricas Agregadas para el Paper
     # ---------------------------------------------------------
-    aggregated_stats = {}
-    for m in models:
-        aggregated_stats[m] = {
-            "with_tool": {"chrf": [], "bleu": [], "latency": [], "tps": [], "evid_ok": 0, "clus_ok": 0, "total": 0},
-            "without_tool": {"chrf": [], "bleu": [], "latency": [], "tps": [], "evid_ok": 0, "clus_ok": 0, "total": 0}
-        }
-
-    for item in results_data:
-        for m in models:
-            m_data = item["models"].get(m, {})
-            # with_tool
-            w = m_data.get("with_tool", {})
-            aggregated_stats[m]["with_tool"]["chrf"].append(w.get("metrics", {}).get("chrf", 0.0))
-            aggregated_stats[m]["with_tool"]["bleu"].append(w.get("metrics", {}).get("bleu", 0.0))
-            aggregated_stats[m]["with_tool"]["latency"].append(w.get("tiempo_segundos", 0.0))
-            aggregated_stats[m]["with_tool"]["tps"].append(w.get("tokens_per_second", 0.0))
-            if w.get("metrics", {}).get("evidentiality", {}).get("is_compliant"):
-                aggregated_stats[m]["with_tool"]["evid_ok"] += 1
-            if w.get("metrics", {}).get("clusivity", {}).get("is_compliant"):
-                aggregated_stats[m]["with_tool"]["clus_ok"] += 1
-            aggregated_stats[m]["with_tool"]["total"] += 1
-
-            # without_tool
-            wo = m_data.get("without_tool", {})
-            aggregated_stats[m]["without_tool"]["chrf"].append(wo.get("metrics", {}).get("chrf", 0.0))
-            aggregated_stats[m]["without_tool"]["bleu"].append(wo.get("metrics", {}).get("bleu", 0.0))
-            aggregated_stats[m]["without_tool"]["latency"].append(wo.get("tiempo_segundos", 0.0))
-            aggregated_stats[m]["without_tool"]["tps"].append(wo.get("tokens_per_second", 0.0))
-            if wo.get("metrics", {}).get("evidentiality", {}).get("is_compliant"):
-                aggregated_stats[m]["without_tool"]["evid_ok"] += 1
-            if wo.get("metrics", {}).get("clusivity", {}).get("is_compliant"):
-                aggregated_stats[m]["without_tool"]["clus_ok"] += 1
-            aggregated_stats[m]["without_tool"]["total"] += 1
+    def _rate(flags):
+        vals = [f for f in flags if f is not None]
+        return (round(100.0 * sum(vals) / len(vals), 1), len(vals)) if vals else (None, 0)
 
     summary_final = {}
-    for m, conds in aggregated_stats.items():
+    for m in models:
         summary_final[m] = {}
-        for c_name, c_vals in conds.items():
-            tot = c_vals["total"] or 1
-            summary_final[m][c_name] = {
-                "mean_chrf": round(sum(c_vals["chrf"]) / tot, 2),
-                "mean_bleu": round(sum(c_vals["bleu"]) / tot, 2),
-                "mean_latency": round(sum(c_vals["latency"]) / tot, 2),
-                "mean_tps": round(sum(c_vals["tps"]) / tot, 2),
-                "epr_percent": round((c_vals["evid_ok"] / tot) * 100.0, 1),
-                "car_percent": round((c_vals["clus_ok"] / tot) * 100.0, 1),
-                "total_samples": tot
+        for cond in ("with_tool", "without_tool"):
+            rows = [it["models"][m][cond] for it in results_data if m in it["models"]]
+            n = len(rows) or 1
+            met = [r.get("metrics", {}) for r in rows]
+            epr, epr_n = _rate([x.get("evidentiality", {}).get("is_compliant") for x in met])
+            car, car_n = _rate([x.get("clusivity", {}).get("is_compliant") for x in met])
+            errors = sum(1 for r in rows if str(r.get("traduccion_es", "")).startswith("[ERROR"))
+            summary_final[m][cond] = {
+                "mean_chrf": round(sum(x.get("chrf", 0.0) for x in met) / n, 2),
+                "mean_bleu": round(sum(x.get("bleu", 0.0) for x in met) / n, 2),
+                "mean_latency": round(sum(r.get("tiempo_segundos", 0.0) for r in rows) / n, 2),
+                "mean_tps": round(sum(r.get("tokens_per_second", 0.0) for r in rows) / n, 2),
+                "epr_percent": epr, "epr_n": epr_n,
+                "car_percent": car, "car_n": car_n,
+                "errors": errors,
+                "total_samples": len(rows)
             }
+        chrf_w = [it["models"][m]["with_tool"]["metrics"]["chrf"] for it in results_data if m in it["models"]]
+        chrf_wo = [it["models"][m]["without_tool"]["metrics"]["chrf"] for it in results_data if m in it["models"]]
+        summary_final[m]["chrf_delta_bootstrap"] = paired_bootstrap(chrf_w, chrf_wo)
 
     # ---------------------------------------------------------
     # Guardar Artefactos
@@ -406,6 +392,13 @@ def main():
         f.write(latex_table)
 
     print(f"\n{'='*70}")
+    print("RESUMEN POR MODELO (chrF++ | EPR | CAR | latencia | Δ chrF con-sin [IC95], p)")
+    for m in models:
+        w, wo, bs = summary_final[m]["with_tool"], summary_final[m]["without_tool"], summary_final[m]["chrf_delta_bootstrap"]
+        print(f"  {m:18} CON: {w['mean_chrf']:6.2f} | EPR {w['epr_percent']} | CAR {w['car_percent']} | {w['mean_latency']}s | err {w['errors']}")
+        print(f"  {'':18} SIN: {wo['mean_chrf']:6.2f} | EPR {wo['epr_percent']} | CAR {wo['car_percent']} | {wo['mean_latency']}s | err {wo['errors']}")
+        print(f"  {'':18} Δ chrF++ = {bs['delta']} {bs['ci95']}, p = {bs['p_value']}")
+    print(f"{'='*70}")
     print("[+] BENCHMARK FINALIZADO CON ÉXITO")
     print(f"[+] Archivo JSON completo: {json_path}")
     print(f"[+] Tabla comparativa Markdown: {table_md_path}")

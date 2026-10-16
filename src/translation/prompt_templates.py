@@ -72,6 +72,7 @@ Tu tarea es traducir el siguiente texto en Quechua al Español de forma fluida, 
 2. CLUSIVIDAD: -nchis = nosotros (tú y yo / incluyente); -yku = nosotros (sin ti / excluyente).
 3. CASOS Y AFINIDADES: -ta (acusativo/meta), -man (ilativo/hacia), -manta (ablativo/de/desde), -pi (locativo/en), -wan (instrumental/con), -paq (benefactivo/para).
 4. REGLA ESTRICTA DE ENTORNO: NO busques en internet ni intentes invocar herramientas externas; traduce directamente a partir del texto y las glosas dadas.
+5. TRADUCCIÓN COMPLETA: "traduccion_es" debe estar 100% en español. NUNCA copies palabras quechua sin traducir; si una raíz es dudosa, usa su glosa del andamiaje o la acepción más plausible por contexto.
 
 ---
 Texto Original Quechua:
