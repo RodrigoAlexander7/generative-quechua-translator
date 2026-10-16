@@ -15,11 +15,20 @@ COMMON_SUFFIXES = [
     "manta", "rayku", "nchis", "nchik",
     "kuna", "kama", "pura", "naku",
     "paq", "man", "wan", "taq", "pas", "pis", "raq", "lla", "puni", "chu",
-    "rqa", "rqan", "ran", "sqa", "saq", "sha", "chka", "pti", "spa", "yku", "nku", "yki", "nqa",
+    "rqa", "rqan", "ran", "sqa", "saq", "sha", "chka", "pti", "spa", "yku", "nku", "yki", "nki", "nqa",
     "chi", "kuy", "naya", "raya", "paya", "ysi",
-    "ta", "pi", "qa", "mi", "si", "cha", "chá", "ni", "ku", "ri", "mu", "pu", "wa",
+    "ta", "pi", "qa", "mi", "si", "cha", "chá", "ni", "ku", "ri", "mu", "pu", "wa", "ña",
     "na", "pa", "y", "n", "s", "m", "q"
 ]
+
+# Raíces de clase cerrada (pronombres, demostrativos, partículas) y variantes Quechua Collao
+CORE_CLOSED_STEMS = {
+    "noqa", "ñoqa", "qan", "pay", "noqanchis", "ñoqanchis", "noqayku", "ñoqayku",
+    "qankuna", "paykuna", "kay", "chay", "haqay", "ima", "pi", "may", "mana", "ama",
+    "ancha", "ña", "lliw", "llapa", "wakin", "kiki", "sapa", "aswan", "qayna",
+    "kunan", "minchha", "hina", "chawpi", "tuta", "pun", "lima", "arequipa", "luis", "rosa",
+    "wak'u", "t'aysa", "wesq'a", "sispas", "qowe", "qhaku", "programay"
+}
 
 
 class MorphemePeeler:
@@ -27,7 +36,7 @@ class MorphemePeeler:
 
     def __init__(self, db: QuechuaDB):
         self.db = db
-        self.known_stems: Set[str] = self.db.get_all_lemma_keys()
+        self.known_stems: Set[str] = self.db.get_all_lemma_keys() | CORE_CLOSED_STEMS
 
     def is_known_stem(self, stem: str) -> bool:
         """Verifica si una raíz existe en el lexicón (exacta o trivocálica)."""

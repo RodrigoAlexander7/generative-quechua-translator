@@ -278,26 +278,51 @@ def main():
     available_models = adapter.get_available_models()
     print(f"[*] Modelos presentes en el servidor Ollama: {available_models}\n")
 
-    results_data = []
+    json_path = os.path.join(args.output_dir, "multi_model_benchmark.json")
+    existing_results_by_id = {}
+    existing_models_order = []
+    if os.path.exists(json_path):
+        try:
+            with open(json_path, "r", encoding="utf-8") as f:
+                prev_data = json.load(f)
+            for prev_item in prev_data.get("results", []):
+                existing_results_by_id[prev_item["id"]] = prev_item.get("models", {})
+                for m_prev in prev_item.get("models", {}).keys():
+                    if m_prev not in existing_models_order:
+                        existing_models_order.append(m_prev)
+            print(f"[*] Archivo previo detectado ({len(existing_results_by_id)} oraciones, modelos: {existing_models_order}). Se fusionarán los nuevos resultados.")
+        except Exception as e:
+            print(f"[!] No se pudo leer archivo previo para fusión: {e}")
 
-    for i, item in enumerate(subset):
-        idx = item["id"]
-        q_src = item["quechua"]
-        sp_ref = item["spanish"]
-        gold_evid = item.get("gold_evidential")
-        gold_clus = item.get("gold_clusivity")
-
-        print(f"[{i+1}/{len(subset)}] Evaluando #{idx:03d}: '{q_src[:45]}...'")
-
-        item_result = {
-            "id": idx,
-            "quechua_source": q_src,
-            "spanish_reference": sp_ref,
-            "models": {}
+    # Inicializar estructura de resultados por oración preservando modelos ya corridos
+    results_data = [
+        {
+            "id": item["id"],
+            "quechua_source": item["quechua"],
+            "spanish_reference": item["spanish"],
+            "models": dict(existing_results_by_id.get(item["id"], {}))
         }
+        for item in subset
+    ]
 
-        for model in models:
-            print(f"    -> Modelo: {model}")
+    # Iterar MODELO POR MODELO para cargar cada modelo en la GPU una sola vez (evita model-swapping de 10s por oración)
+    for m_idx, model in enumerate(models):
+        print(f"\n{'-'*70}")
+        print(f"[*] [{m_idx+1}/{len(models)}] CARGANDO Y EVALUANDO MODELO: {model} ({len(subset)} oraciones)")
+        print(f"{'-'*70}")
+
+        # Warm-up para cargar el modelo en VRAM antes de cronometrar
+        try:
+            adapter.generate(prompt="Allinllachu", model=model, format=None, raw_mode=True, options={"num_predict": 4})
+        except Exception as e:
+            print(f"[!] Error en warm-up de {model}: {e}")
+
+        for i, item in enumerate(subset):
+            idx = item["id"]
+            q_src = item["quechua"]
+            sp_ref = item["spanish"]
+            gold_evid = item.get("gold_evidential")
+            gold_clus = item.get("gold_clusivity")
 
             # 1. Condición 'with_tool' (Andamiaje morfo-semántico compacto)
             with_res = run_scaffold_ollama(translator, model, q_src)
@@ -327,15 +352,22 @@ def main():
                 "clusivity": clus_wo
             }
 
-            item_result["models"][model] = {
+            results_data[i]["models"][model] = {
                 "with_tool": with_res,
                 "without_tool": without_res
             }
 
-            print(f"       [With Tool] chrF++: {chrf_with:.1f} | Latencia: {with_res['tiempo_segundos']}s")
-            print(f"       [No Tool]   chrF++: {chrf_wo:.1f} | Latencia: {without_res['tiempo_segundos']}s")
+            print(
+                f"  [{i+1:03d}/{len(subset):03d}] #{idx:03d} | "
+                f"WithTool: {chrf_with:5.1f} ({with_res['tiempo_segundos']:.2f}s) \"{with_res['traduccion_es'][:45]}\" | "
+                f"NoTool: {chrf_wo:5.1f} ({without_res['tiempo_segundos']:.2f}s) \"{without_res['traduccion_es'][:45]}\""
+            )
 
-        results_data.append(item_result)
+    # Lista consolidada de todos los modelos presentes (previos + nuevos)
+    all_models = list(existing_models_order)
+    for m in models:
+        if m not in all_models:
+            all_models.append(m)
 
     # ---------------------------------------------------------
     # Calcular Métricas Agregadas para el Paper
@@ -345,10 +377,10 @@ def main():
         return (round(100.0 * sum(vals) / len(vals), 1), len(vals)) if vals else (None, 0)
 
     summary_final = {}
-    for m in models:
+    for m in all_models:
         summary_final[m] = {}
         for cond in ("with_tool", "without_tool"):
-            rows = [it["models"][m][cond] for it in results_data if m in it["models"]]
+            rows = [it["models"][m][cond] for it in results_data if m in it["models"] and cond in it["models"][m]]
             n = len(rows) or 1
             met = [r.get("metrics", {}) for r in rows]
             epr, epr_n = _rate([x.get("evidentiality", {}).get("is_compliant") for x in met])
@@ -371,29 +403,28 @@ def main():
     # ---------------------------------------------------------
     # Guardar Artefactos
     # ---------------------------------------------------------
-    json_path = os.path.join(args.output_dir, "multi_model_benchmark.json")
     with open(json_path, "w", encoding="utf-8") as f:
         json.dump({"summary": summary_final, "results": results_data}, f, ensure_ascii=False, indent=2)
 
     # 1. Tabla de traducciones en Markdown
-    table_md = generate_comparison_table_md(results_data, models)
+    table_md = generate_comparison_table_md(results_data, all_models)
     table_md_path = os.path.join(args.output_dir, "translations_comparison_table.md")
     with open(table_md_path, "w", encoding="utf-8") as f:
         f.write(table_md)
 
     # 2. Tabla de traducciones en CSV
     csv_path = os.path.join(args.output_dir, "translations_comparison_table.csv")
-    generate_comparison_csv(results_data, models, csv_path)
+    generate_comparison_csv(results_data, all_models, csv_path)
 
     # 3. Tablas en LaTeX para el Paper
-    latex_table = generate_latex_table(summary_final, models)
+    latex_table = generate_latex_table(summary_final, all_models)
     latex_path = os.path.join(docs_dir, "paper_tables.tex")
     with open(latex_path, "w", encoding="utf-8") as f:
         f.write(latex_table)
 
     print(f"\n{'='*70}")
     print("RESUMEN POR MODELO (chrF++ | EPR | CAR | latencia | Δ chrF con-sin [IC95], p)")
-    for m in models:
+    for m in all_models:
         w, wo, bs = summary_final[m]["with_tool"], summary_final[m]["without_tool"], summary_final[m]["chrf_delta_bootstrap"]
         print(f"  {m:18} CON: {w['mean_chrf']:6.2f} | EPR {w['epr_percent']} | CAR {w['car_percent']} | {w['mean_latency']}s | err {w['errors']}")
         print(f"  {'':18} SIN: {wo['mean_chrf']:6.2f} | EPR {wo['epr_percent']} | CAR {wo['car_percent']} | {wo['mean_latency']}s | err {wo['errors']}")
