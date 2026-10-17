@@ -22,6 +22,9 @@ class ScaffoldBuilder:
         else:
             self.db = QuechuaDB()
         self.peeler = MorphemePeeler(self.db)
+        # Cache en memoria de andamiajes por palabra superficial (acelera corpus
+        # grandes con alta repetición de tokens). Clave: forma superficial tal cual.
+        self._word_cache: Dict[str, Dict[str, Any]] = {}
 
     def tokenize_sentence(self, sentence: str) -> List[str]:
         """Separa la oración en tokens de palabras y signos ortográficos."""
@@ -33,6 +36,15 @@ class ScaffoldBuilder:
         return [t.strip() for t in tokens if t.strip()]
 
     def build_word_scaffold(self, word: str) -> Dict[str, Any]:
+        """Construye (o recupera de cache) el andamiaje morfo-semántico de una palabra."""
+        cached = self._word_cache.get(word)
+        if cached is not None:
+            return cached
+        result = self._build_word_scaffold_uncached(word)
+        self._word_cache[word] = result
+        return result
+
+    def _build_word_scaffold_uncached(self, word: str) -> Dict[str, Any]:
         """Construye el andamiaje morfo-semántico detallado para una palabra."""
         # Si es signo de puntuación
         if re.match(r"^[.,;:!?¿¡\"()«»—-]+$", word):

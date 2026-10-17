@@ -1,0 +1,963 @@
+{
+  "client_id": "65149769e817b44e2c0337d3c3fe6f69",
+  "audio_id": "68217",
+  "audio_file": "spontaneous-speech-qxp-68217.mp3",
+  "duration_ms": "21456",
+  "prompt_id": "7248",
+  "prompt": "Intimanta rimay.",
+  "transcription": "Intiqa huq hatun tayta hinan; hallp'anchista yurakunatapis qhawan. Inti mana kaqtinqa, imatan ruwasunman? Nuqanchispis manan q'uñikusunmanchu, yurakunapis wañunman, chiriwanpis nuqanchis wañusunmanmi.",
+  "variant": "",
+  "language": "Puno Quechua",
+  "split": "dev",
+  "analisis_morfosintactico": {
+    "texto_original": "Intiqa huq hatun tayta hinan; hallp'anchista yurakunatapis qhawan. Inti mana kaqtinqa, imatan ruwasunman? Nuqanchispis manan q'uñikusunmanchu, yurakunapis wañunman, chiriwanpis nuqanchis wañusunmanmi.",
+    "num_oraciones": 3,
+    "num_tokens": 21,
+    "marcadores_globales": {
+      "evidenciales": [
+        "DIRECTO / ATESTIGUADO (-mi)"
+      ],
+      "clusividad": "INCLUSIVO (hablante + oyente)"
+    },
+    "oraciones": [
+      {
+        "indice": 0,
+        "texto": "Intiqa huq hatun tayta hinan; hallp'anchista yurakunatapis qhawan.",
+        "marcadores": {
+          "evidenciales": [],
+          "clusividad": "INCLUSIVO (hablante + oyente)"
+        },
+        "tokens": [
+          {
+            "token": "Intiqa",
+            "posicion": 0,
+            "es_puntuacion": false,
+            "raiz": "inti",
+            "lema": "inti",
+            "categoria_gramatical": "desconocido",
+            "glosa": "inti-TOP",
+            "acepciones": [],
+            "sufijos": [
+              {
+                "morfema": "-qa",
+                "slot": 8,
+                "categoria": "",
+                "subcategoria": "SUFIJO INDEPENDIENTE",
+                "funcion": "Denota información novedosa.",
+                "glosa_corta": "TOP",
+                "ejemplos": "Allqoqa aychatam suwakun = el perro roba carne"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 0.5
+          },
+          {
+            "token": "huq",
+            "posicion": 1,
+            "es_puntuacion": false,
+            "raiz": "hu",
+            "lema": "hu",
+            "categoria_gramatical": "desconocido",
+            "glosa": "hu-AG/HAB",
+            "acepciones": [],
+            "sufijos": [
+              {
+                "morfema": "-q",
+                "slot": 5,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE CASO",
+                "funcion": "Su marca es “-q” cuando termina en vocal y \"-paq\" cuando termina en consonante, que es igual a la preposición “de”.",
+                "glosa_corta": "AG/HAB",
+                "ejemplos": "Runaq = de la gente\nYachachiqpaq = del profesor"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 0.5
+          },
+          {
+            "token": "hatun",
+            "posicion": 2,
+            "es_puntuacion": false,
+            "raiz": "hatun",
+            "lema": "hatun",
+            "categoria_gramatical": "adj.",
+            "glosa": "hatun",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Grande, extenso, in menso",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "Superior",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 3,
+                "definicion": "Principal",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 4,
+                "definicion": ". . . . . . . hatun",
+                "dominio": "Alto.",
+                "sinonimos": "hathun"
+              }
+            ],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "tayta",
+            "posicion": 3,
+            "es_puntuacion": false,
+            "raiz": "tayta",
+            "lema": "tayta",
+            "categoria_gramatical": "adj.",
+            "glosa": "tayta",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "V. LLAQTAYOQ",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "hinan",
+            "posicion": 4,
+            "es_puntuacion": false,
+            "raiz": "hina",
+            "lema": "hinay",
+            "categoria_gramatical": "v.",
+            "glosa": "hinay-3SG",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Hacer u obrar de esta manera, de este modo; hacer así (ilustrando con mímica). ",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-n",
+                "slot": 3,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE PERSONA",
+                "funcion": "Sufijo posesivo  de tercera persona singular.",
+                "glosa_corta": "3SG",
+                "ejemplos": "wasin = su casa"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": ";",
+            "posicion": null,
+            "es_puntuacion": true,
+            "raiz": ";",
+            "lema": ";",
+            "categoria_gramatical": "punct",
+            "sufijos": [],
+            "glosa": ";",
+            "acepciones": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 1.0
+          },
+          {
+            "token": "hallp'anchista",
+            "posicion": 5,
+            "es_puntuacion": false,
+            "raiz": "hallp'a",
+            "lema": "hallp'a",
+            "categoria_gramatical": "s.",
+            "glosa": "hallp'a-1PL.INCL-AC",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Limo. Terreno de cultivo. . . . . ",
+                "dominio": "Tierra.",
+                "sinonimos": "allpa"
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-nchis",
+                "slot": 4,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE NUMERO",
+                "funcion": "Sufijo de primera persona plural incluyente.",
+                "glosa_corta": "1PL.INCL",
+                "ejemplos": "Noqanchis pukllanchis = nosotros jugamos (incluyente es decir incluyéndote o incluyéndolos)."
+              },
+              {
+                "morfema": "-ta",
+                "slot": 5,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE CASO",
+                "funcion": "Designa el objeto directo con los verbos que no son de movimiento.",
+                "glosa_corta": "AC",
+                "ejemplos": "T'antata mikhuni: = yo como pan"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": "INCLUSIVO (hablante + oyente)"
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "yurakunatapis",
+            "posicion": 6,
+            "es_puntuacion": false,
+            "raiz": "yura",
+            "lema": "yura",
+            "categoria_gramatical": "s.",
+            "glosa": "yura-PL-AC-ADIT",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "(Ecol.Veg.) Matorral de arbustos espinosos, en su mayoría en Fitogeografía. (F.M.M.)",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "Ecol.Veg. Arbusto. Tercer biotipo en Fitogeografía. VARIE ",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 3,
+                "definicion": "Follaje. Mata de plantas herbáceas o qoras. ",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-kuna",
+                "slot": 4,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE NUMERO",
+                "funcion": "Pluraliza los sustantivos.",
+                "glosa_corta": "PL",
+                "ejemplos": "Wasikuna = las casas\nrunakuna = las personas"
+              },
+              {
+                "morfema": "-ta",
+                "slot": 5,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE CASO",
+                "funcion": "Designa el objeto directo con los verbos que no son de movimiento.",
+                "glosa_corta": "AC",
+                "ejemplos": "T'antata mikhuni: = yo como pan"
+              },
+              {
+                "morfema": "-pis",
+                "slot": 8,
+                "categoria": "",
+                "subcategoria": "SUFIJO INDEPENDIENTE",
+                "funcion": "Aditivo. Se traduce como ‘también’ o ‘incluso’. Coordina oraciones.",
+                "glosa_corta": "ADIT",
+                "ejemplos": "Noqapas tususaqmi = Yo también bailaré\nNoqapis risaq = yo también iré"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "qhawan",
+            "posicion": 7,
+            "es_puntuacion": false,
+            "raiz": "qhawa",
+            "lema": "qhawa",
+            "categoria_gramatical": "s.",
+            "glosa": "qhawa-3SG",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "V. PITA",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "V. PANTI LLAQOTA",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 3,
+                "definicion": "tej. Camiseta listada de colores. (Término aymara utilizado en quechua). (M. J. de la E.). ",
+                "dominio": null,
+                "sinonimos": "apita qhawa"
+              },
+              {
+                "indice": 4,
+                "definicion": "tej. Camiseta colorada y azul a medias. (Término usado en aymara y quechua.) (M.J. de la E.) Qora",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 5,
+                "definicion": "Mirada",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 6,
+                "definicion": "NEOL. Lectura. . . ",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-n",
+                "slot": 3,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE PERSONA",
+                "funcion": "Sufijo posesivo  de tercera persona singular.",
+                "glosa_corta": "3SG",
+                "ejemplos": "wasin = su casa"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": ".",
+            "posicion": null,
+            "es_puntuacion": true,
+            "raiz": ".",
+            "lema": ".",
+            "categoria_gramatical": "punct",
+            "sufijos": [],
+            "glosa": ".",
+            "acepciones": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 1.0
+          }
+        ]
+      },
+      {
+        "indice": 1,
+        "texto": "Inti mana kaqtinqa, imatan ruwasunman?",
+        "marcadores": {
+          "evidenciales": [],
+          "clusividad": null
+        },
+        "tokens": [
+          {
+            "token": "Inti",
+            "posicion": 0,
+            "es_puntuacion": false,
+            "raiz": "inti",
+            "lema": "inti",
+            "categoria_gramatical": "desconocido",
+            "glosa": "inti",
+            "acepciones": [],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 0.5
+          },
+          {
+            "token": "mana",
+            "posicion": 1,
+            "es_puntuacion": false,
+            "raiz": "ma",
+            "lema": "ma",
+            "categoria_gramatical": "desconocido",
+            "glosa": "ma-NMLZ",
+            "acepciones": [],
+            "sufijos": [
+              {
+                "morfema": "-na",
+                "slot": 2,
+                "categoria": "NOMINAL DERIVACIONAL",
+                "subcategoria": "DERIVACIONAL DEVERBATIVO",
+                "funcion": "Convierte una raíz verbal en sustantivo. concretiza o sustantiviza a un verbo.",
+                "glosa_corta": "NMLZ",
+                "ejemplos": "Pichana = escoba\ntiyana = asiento"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 0.5
+          },
+          {
+            "token": "kaqtinqa",
+            "posicion": 2,
+            "es_puntuacion": false,
+            "raiz": "kaqti",
+            "lema": "kaqti",
+            "categoria_gramatical": "desconocido",
+            "glosa": "kaqti-3SG.FUT",
+            "acepciones": [],
+            "sufijos": [
+              {
+                "morfema": "-nqa",
+                "slot": 5,
+                "categoria": "VERBAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE NUMERO",
+                "funcion": "Sufijo de tercera persona singular.",
+                "glosa_corta": "3SG.FUT",
+                "ejemplos": "Pay pukllanqa = él jugará"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 0.5
+          },
+          {
+            "token": ",",
+            "posicion": null,
+            "es_puntuacion": true,
+            "raiz": ",",
+            "lema": ",",
+            "categoria_gramatical": "punct",
+            "sufijos": [],
+            "glosa": ",",
+            "acepciones": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 1.0
+          },
+          {
+            "token": "imatan",
+            "posicion": 3,
+            "es_puntuacion": false,
+            "raiz": "ima",
+            "lema": "ima",
+            "categoria_gramatical": "desconocido",
+            "glosa": "ima-AC-3SG",
+            "acepciones": [],
+            "sufijos": [
+              {
+                "morfema": "-ta",
+                "slot": 5,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE CASO",
+                "funcion": "Designa el objeto directo con los verbos que no son de movimiento.",
+                "glosa_corta": "AC",
+                "ejemplos": "T'antata mikhuni: = yo como pan"
+              },
+              {
+                "morfema": "-n",
+                "slot": 3,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE PERSONA",
+                "funcion": "Sufijo posesivo  de tercera persona singular.",
+                "glosa_corta": "3SG",
+                "ejemplos": "wasin = su casa"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 0.5
+          },
+          {
+            "token": "ruwasunman",
+            "posicion": 4,
+            "es_puntuacion": false,
+            "raiz": "ruwasu",
+            "lema": "ruwasu",
+            "categoria_gramatical": "desconocido",
+            "glosa": "ruwasu-3SG-ILA",
+            "acepciones": [],
+            "sufijos": [
+              {
+                "morfema": "-n",
+                "slot": 3,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE PERSONA",
+                "funcion": "Sufijo posesivo  de tercera persona singular.",
+                "glosa_corta": "3SG",
+                "ejemplos": "wasin = su casa"
+              },
+              {
+                "morfema": "-man",
+                "slot": 5,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE CASO",
+                "funcion": "Es el sufijo que marca movimiento, direccionalidad, objeto indirecto, locación temporal y locación espacial. Indica movimiento con la preposición ‘a’, ‘hacia’.",
+                "glosa_corta": "ILA",
+                "ejemplos": "Orqoman = hacia el cerro \nAtuq sallqaman rishan = El zorro está yendo a la puna\nKillaman llaqtayta kutimusaq = al mes regresaré a mi pueblo\nqanman = a"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 0.5
+          },
+          {
+            "token": "?",
+            "posicion": null,
+            "es_puntuacion": true,
+            "raiz": "?",
+            "lema": "?",
+            "categoria_gramatical": "punct",
+            "sufijos": [],
+            "glosa": "?",
+            "acepciones": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 1.0
+          }
+        ]
+      },
+      {
+        "indice": 2,
+        "texto": "Nuqanchispis manan q'uñikusunmanchu, yurakunapis wañunman, chiriwanpis nuqanchis wañusunmanmi.",
+        "marcadores": {
+          "evidenciales": [
+            "DIRECTO / ATESTIGUADO (-mi)"
+          ],
+          "clusividad": null
+        },
+        "tokens": [
+          {
+            "token": "Nuqanchispis",
+            "posicion": 0,
+            "es_puntuacion": false,
+            "raiz": "nuqanchispis",
+            "lema": "nuqanchispis",
+            "categoria_gramatical": "desconocido",
+            "glosa": "nuqanchispis",
+            "acepciones": [],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 0.5
+          },
+          {
+            "token": "manan",
+            "posicion": 1,
+            "es_puntuacion": false,
+            "raiz": "ma",
+            "lema": "ma",
+            "categoria_gramatical": "desconocido",
+            "glosa": "ma-NMLZ-3SG",
+            "acepciones": [],
+            "sufijos": [
+              {
+                "morfema": "-na",
+                "slot": 2,
+                "categoria": "NOMINAL DERIVACIONAL",
+                "subcategoria": "DERIVACIONAL DEVERBATIVO",
+                "funcion": "Convierte una raíz verbal en sustantivo. concretiza o sustantiviza a un verbo.",
+                "glosa_corta": "NMLZ",
+                "ejemplos": "Pichana = escoba\ntiyana = asiento"
+              },
+              {
+                "morfema": "-n",
+                "slot": 3,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE PERSONA",
+                "funcion": "Sufijo posesivo  de tercera persona singular.",
+                "glosa_corta": "3SG",
+                "ejemplos": "wasin = su casa"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 0.5
+          },
+          {
+            "token": "q'uñikusunmanchu",
+            "posicion": 2,
+            "es_puntuacion": false,
+            "raiz": "q'uñikusu",
+            "lema": "q'uñikusu",
+            "categoria_gramatical": "desconocido",
+            "glosa": "q'uñikusu-3SG-ILA-INTERR/NEG",
+            "acepciones": [],
+            "sufijos": [
+              {
+                "morfema": "-n",
+                "slot": 3,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE PERSONA",
+                "funcion": "Sufijo posesivo  de tercera persona singular.",
+                "glosa_corta": "3SG",
+                "ejemplos": "wasin = su casa"
+              },
+              {
+                "morfema": "-man",
+                "slot": 5,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE CASO",
+                "funcion": "Es el sufijo que marca movimiento, direccionalidad, objeto indirecto, locación temporal y locación espacial. Indica movimiento con la preposición ‘a’, ‘hacia’.",
+                "glosa_corta": "ILA",
+                "ejemplos": "Orqoman = hacia el cerro \nAtuq sallqaman rishan = El zorro está yendo a la puna\nKillaman llaqtayta kutimusaq = al mes regresaré a mi pueblo\nqanman = a"
+              },
+              {
+                "morfema": "-chu",
+                "slot": 9,
+                "categoria": "",
+                "subcategoria": "SUFIJO INDEPENDIENTE",
+                "funcion": "Interrogativo que exige respuesta afirmativa o negativa. Solo para preguntas cerradas.",
+                "glosa_corta": "INTERR/NEG",
+                "ejemplos": "¿Papata mikhunkichu? = ¿Comes papa?"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 0.5
+          },
+          {
+            "token": ",",
+            "posicion": null,
+            "es_puntuacion": true,
+            "raiz": ",",
+            "lema": ",",
+            "categoria_gramatical": "punct",
+            "sufijos": [],
+            "glosa": ",",
+            "acepciones": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 1.0
+          },
+          {
+            "token": "yurakunapis",
+            "posicion": 3,
+            "es_puntuacion": false,
+            "raiz": "yura",
+            "lema": "yura",
+            "categoria_gramatical": "s.",
+            "glosa": "yura-PL-ADIT",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "(Ecol.Veg.) Matorral de arbustos espinosos, en su mayoría en Fitogeografía. (F.M.M.)",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "Ecol.Veg. Arbusto. Tercer biotipo en Fitogeografía. VARIE ",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 3,
+                "definicion": "Follaje. Mata de plantas herbáceas o qoras. ",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-kuna",
+                "slot": 4,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE NUMERO",
+                "funcion": "Pluraliza los sustantivos.",
+                "glosa_corta": "PL",
+                "ejemplos": "Wasikuna = las casas\nrunakuna = las personas"
+              },
+              {
+                "morfema": "-pis",
+                "slot": 8,
+                "categoria": "",
+                "subcategoria": "SUFIJO INDEPENDIENTE",
+                "funcion": "Aditivo. Se traduce como ‘también’ o ‘incluso’. Coordina oraciones.",
+                "glosa_corta": "ADIT",
+                "ejemplos": "Noqapas tususaqmi = Yo también bailaré\nNoqapis risaq = yo también iré"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "wañunman",
+            "posicion": 4,
+            "es_puntuacion": false,
+            "raiz": "wañu",
+            "lema": "wañu",
+            "categoria_gramatical": "s.",
+            "glosa": "wañu-3SG-ILA",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Muerte, fin, extinción, expiración",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "Eclipse lunar. . . wañu",
+                "dominio": "Astron.",
+                "sinonimos": "wanuy"
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-n",
+                "slot": 3,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE PERSONA",
+                "funcion": "Sufijo posesivo  de tercera persona singular.",
+                "glosa_corta": "3SG",
+                "ejemplos": "wasin = su casa"
+              },
+              {
+                "morfema": "-man",
+                "slot": 5,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE CASO",
+                "funcion": "Es el sufijo que marca movimiento, direccionalidad, objeto indirecto, locación temporal y locación espacial. Indica movimiento con la preposición ‘a’, ‘hacia’.",
+                "glosa_corta": "ILA",
+                "ejemplos": "Orqoman = hacia el cerro \nAtuq sallqaman rishan = El zorro está yendo a la puna\nKillaman llaqtayta kutimusaq = al mes regresaré a mi pueblo\nqanman = a"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": ",",
+            "posicion": null,
+            "es_puntuacion": true,
+            "raiz": ",",
+            "lema": ",",
+            "categoria_gramatical": "punct",
+            "sufijos": [],
+            "glosa": ",",
+            "acepciones": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 1.0
+          },
+          {
+            "token": "chiriwanpis",
+            "posicion": 5,
+            "es_puntuacion": false,
+            "raiz": "chiri",
+            "lema": "chiri",
+            "categoria_gramatical": "s.",
+            "glosa": "chiri-INSTR/COM-ADIT",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Frío. Estado de baja tem peratura",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "adj. Frígido, frío. . ANTÓ",
+                "dominio": null,
+                "sinonimos": "qasa, khutu"
+              },
+              {
+                "indice": 3,
+                "definicion": "figdo. Indiferente, apático. . chiri",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-wan",
+                "slot": 5,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE CASO",
+                "funcion": "Conjunción que enlaza palabras o frases ('y', 'con'). Es un caso cogitativo, porque indica compromiso, compañía o instrumento.",
+                "glosa_corta": "INSTR/COM",
+                "ejemplos": "Michiwan alqowan = el gato y el perro\nChakitaqllawan = con la chakitaqlla\nTaytaywan = Con mi padre\nPaywan noqawan = él y yo\nTaki harawiwan = El canto "
+              },
+              {
+                "morfema": "-pis",
+                "slot": 8,
+                "categoria": "",
+                "subcategoria": "SUFIJO INDEPENDIENTE",
+                "funcion": "Aditivo. Se traduce como ‘también’ o ‘incluso’. Coordina oraciones.",
+                "glosa_corta": "ADIT",
+                "ejemplos": "Noqapas tususaqmi = Yo también bailaré\nNoqapis risaq = yo también iré"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "nuqanchis",
+            "posicion": 6,
+            "es_puntuacion": false,
+            "raiz": "nuqanchis",
+            "lema": "nuqanchis",
+            "categoria_gramatical": "desconocido",
+            "glosa": "nuqanchis",
+            "acepciones": [],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 0.5
+          },
+          {
+            "token": "wañusunmanmi",
+            "posicion": 7,
+            "es_puntuacion": false,
+            "raiz": "wañusu",
+            "lema": "wañusu",
+            "categoria_gramatical": "desconocido",
+            "glosa": "wañusu-3SG-ILA-EVID.DIR",
+            "acepciones": [],
+            "sufijos": [
+              {
+                "morfema": "-n",
+                "slot": 3,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE PERSONA",
+                "funcion": "Sufijo posesivo  de tercera persona singular.",
+                "glosa_corta": "3SG",
+                "ejemplos": "wasin = su casa"
+              },
+              {
+                "morfema": "-man",
+                "slot": 5,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE CASO",
+                "funcion": "Es el sufijo que marca movimiento, direccionalidad, objeto indirecto, locación temporal y locación espacial. Indica movimiento con la preposición ‘a’, ‘hacia’.",
+                "glosa_corta": "ILA",
+                "ejemplos": "Orqoman = hacia el cerro \nAtuq sallqaman rishan = El zorro está yendo a la puna\nKillaman llaqtayta kutimusaq = al mes regresaré a mi pueblo\nqanman = a"
+              },
+              {
+                "morfema": "-mi",
+                "slot": 9,
+                "categoria": "",
+                "subcategoria": "SUFIJO INDEPENDIENTE",
+                "funcion": "Validador. Indica que el hablante ha sido testigo de la acción o está muy seguro de lo que dice. No se debe de usar cuando hay duda.  Cuando la palabra termina en vocal se usa la \"m\" y cuando termina en consonante se usa la \"mi\". Hace referencia a una información directa en relación con lo enunciado por el hablante. Es para afirmar, declarar, sostener.",
+                "glosa_corta": "EVID.DIR",
+                "ejemplos": "Pukllaqmi rirani = fui a jugar\nWarmim kani = soy mujer"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": "DIRECTO / ATESTIGUADO (-mi)",
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 0.5
+          },
+          {
+            "token": ".",
+            "posicion": null,
+            "es_puntuacion": true,
+            "raiz": ".",
+            "lema": ".",
+            "categoria_gramatical": "punct",
+            "sufijos": [],
+            "glosa": ".",
+            "acepciones": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 1.0
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,154 @@
+{
+  "client_id": "9e7f4e2af38e8542fa890c51e433c141",
+  "audio_id": "88675",
+  "audio_file": "spontaneous-speech-qxp-88675.mp3",
+  "duration_ms": "5040",
+  "prompt_id": "4381",
+  "prompt": "Ima mikhunakunataq sumaqllaña?",
+  "transcription": "nuqapaq mikhunakuna q'alan sumaq",
+  "variant": "",
+  "language": "Puno Quechua",
+  "split": "",
+  "analisis_morfosintactico": {
+    "texto_original": "nuqapaq mikhunakuna q'alan sumaq",
+    "num_oraciones": 1,
+    "num_tokens": 4,
+    "marcadores_globales": {
+      "evidenciales": [],
+      "clusividad": null
+    },
+    "oraciones": [
+      {
+        "indice": 0,
+        "texto": "nuqapaq mikhunakuna q'alan sumaq",
+        "marcadores": {
+          "evidenciales": [],
+          "clusividad": null
+        },
+        "tokens": [
+          {
+            "token": "nuqapaq",
+            "posicion": 0,
+            "es_puntuacion": false,
+            "raiz": "nuqapaq",
+            "lema": "nuqapaq",
+            "categoria_gramatical": "desconocido",
+            "glosa": "nuqapaq",
+            "acepciones": [],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 0.5
+          },
+          {
+            "token": "mikhunakuna",
+            "posicion": 1,
+            "es_puntuacion": false,
+            "raiz": "mikhuna",
+            "lema": "mikhuna",
+            "categoria_gramatical": "s.",
+            "glosa": "mikhuna-PL",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Alimento, comida, comestible",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "Almuerzo. Cena. . . ",
+                "dominio": null,
+                "sinonimos": "mihuna, mikuy"
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-kuna",
+                "slot": 4,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE NUMERO",
+                "funcion": "Pluraliza los sustantivos.",
+                "glosa_corta": "PL",
+                "ejemplos": "Wasikuna = las casas\nrunakuna = las personas"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "q'alan",
+            "posicion": 2,
+            "es_puntuacion": false,
+            "raiz": "q'ala",
+            "lema": "q'ala",
+            "categoria_gramatical": "adj.",
+            "glosa": "q'ala-3SG",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Desnudo, pelado, sin nada. ",
+                "dominio": null,
+                "sinonimos": "llat'a, q'ara"
+              },
+              {
+                "indice": 2,
+                "definicion": "adv. Totalmente, todos. ",
+                "dominio": null,
+                "sinonimos": "lluy"
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-n",
+                "slot": 3,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE PERSONA",
+                "funcion": "Sufijo posesivo  de tercera persona singular.",
+                "glosa_corta": "3SG",
+                "ejemplos": "wasin = su casa"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "sumaq",
+            "posicion": 3,
+            "es_puntuacion": false,
+            "raiz": "sumaq",
+            "lema": "sumaq",
+            "categoria_gramatical": "adj.",
+            "glosa": "sumaq",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Bello, bueno, agradable, exquisito, simpático. . sumaq",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          }
+        ]
+      }
+    ]
+  }
+}

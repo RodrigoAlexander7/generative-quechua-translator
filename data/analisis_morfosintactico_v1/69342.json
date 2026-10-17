@@ -1,0 +1,844 @@
+{
+  "client_id": "1dd0d3ea4ec879dadf7db18e23b9509a",
+  "audio_id": "69342",
+  "audio_file": "spontaneous-speech-qxp-69342.mp3",
+  "duration_ms": "14760",
+  "prompt_id": "7371",
+  "prompt": "Aylluykipi, musqhuykuna imatataq niyta munanku?",
+  "transcription": "Musqhuykunaqa aylluypiqa niyta munan tukuy willakuy, machasqa runawan musqhukunki hinaqa paranqa, mach'aqwata musqhuyniykipi rikunki hina wayra unquy hap'isunki.",
+  "variant": "",
+  "language": "Puno Quechua",
+  "split": "train",
+  "analisis_morfosintactico": {
+    "texto_original": "Musqhuykunaqa aylluypiqa niyta munan tukuy willakuy, machasqa runawan musqhukunki hinaqa paranqa, mach'aqwata musqhuyniykipi rikunki hina wayra unquy hap'isunki.",
+    "num_oraciones": 1,
+    "num_tokens": 18,
+    "marcadores_globales": {
+      "evidenciales": [],
+      "clusividad": null
+    },
+    "oraciones": [
+      {
+        "indice": 0,
+        "texto": "Musqhuykunaqa aylluypiqa niyta munan tukuy willakuy, machasqa runawan musqhukunki hinaqa paranqa, mach'aqwata musqhuyniykipi rikunki hina wayra unquy hap'isunki.",
+        "marcadores": {
+          "evidenciales": [],
+          "clusividad": null
+        },
+        "tokens": [
+          {
+            "token": "Musqhuykunaqa",
+            "posicion": 0,
+            "es_puntuacion": false,
+            "raiz": "musqhu",
+            "lema": "mosqoy",
+            "categoria_gramatical": "s.",
+            "glosa": "mosqoy-1SG.POS-PL-TOP",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Sueño, ensueño, visión de ensueño",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "v. Soñar o ensoñarse. Tener ensueños, visiones o vivencias en los sueños. . ",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-y",
+                "slot": 3,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE PERSONA",
+                "funcion": "Sufijo posesivo de primera persona singular.",
+                "glosa_corta": "1SG.POS",
+                "ejemplos": "wasiy = mi casa"
+              },
+              {
+                "morfema": "-kuna",
+                "slot": 4,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE NUMERO",
+                "funcion": "Pluraliza los sustantivos.",
+                "glosa_corta": "PL",
+                "ejemplos": "Wasikuna = las casas\nrunakuna = las personas"
+              },
+              {
+                "morfema": "-qa",
+                "slot": 8,
+                "categoria": "",
+                "subcategoria": "SUFIJO INDEPENDIENTE",
+                "funcion": "Denota información novedosa.",
+                "glosa_corta": "TOP",
+                "ejemplos": "Allqoqa aychatam suwakun = el perro roba carne"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "aylluypiqa",
+            "posicion": 1,
+            "es_puntuacion": false,
+            "raiz": "ayllu",
+            "lema": "ayllu",
+            "categoria_gramatical": "s.",
+            "glosa": "ayllu-1SG.POS-LOC-TOP",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Parentela",
+                "dominio": "Sociol.",
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "Or ganización social andina del inkanato. Constituyó la célula fundamental, formada por el conjunto de descendientes de un antepasado común. Se remonta a más de 3,000 años. En la actualidad subsiste como organización social básica de las comunidades campesinas del Perú, Bolivia, Ecuador y Chile",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 3,
+                "definicion": "Familia extensa, linaje, casta, con vínculo sanguíneo, con deberes y obligaciones comunes",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 4,
+                "definicion": "Demarcación territorial para usufructo general y por igual para todos. ",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 5,
+                "definicion": "Parentesco por afi nidad. sispa",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-y",
+                "slot": 3,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE PERSONA",
+                "funcion": "Sufijo posesivo de primera persona singular.",
+                "glosa_corta": "1SG.POS",
+                "ejemplos": "wasiy = mi casa"
+              },
+              {
+                "morfema": "-pi",
+                "slot": 5,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE CASO",
+                "funcion": "Indica locación en  el  tiempo  y  en  el espacio. Corresponde a la preposición ‘en’.",
+                "glosa_corta": "LOC",
+                "ejemplos": "Llaqtapi kashani = estoy en el pueblo"
+              },
+              {
+                "morfema": "-qa",
+                "slot": 8,
+                "categoria": "",
+                "subcategoria": "SUFIJO INDEPENDIENTE",
+                "funcion": "Denota información novedosa.",
+                "glosa_corta": "TOP",
+                "ejemplos": "Allqoqa aychatam suwakun = el perro roba carne"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "niyta",
+            "posicion": 2,
+            "es_puntuacion": false,
+            "raiz": "niy",
+            "lema": "niy",
+            "categoria_gramatical": "v.",
+            "glosa": "niy-AC",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "onomat. Exhalar el aliento por la boca. . ",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "onomat. Producir el ruido vibrante por las puertas u otros objetos o aparatos",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 3,
+                "definicion": "Decir, mencionar, expresar, manifestar. ",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 4,
+                "definicion": "Orden imperativa para decir algo. ",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 5,
+                "definicion": "Quedarse una persona tranquila, sana de alguna dolencia aguda, de una fiebre, de un susto",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 6,
+                "definicion": "Tranquilizarse, sosegarse, apaciguarse, calmarse después de una actividad esforzada o de una agitación, alboroto, riña o competencia",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-ta",
+                "slot": 5,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE CASO",
+                "funcion": "Designa el objeto directo con los verbos que no son de movimiento.",
+                "glosa_corta": "AC",
+                "ejemplos": "T'antata mikhuni: = yo como pan"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "munan",
+            "posicion": 3,
+            "es_puntuacion": false,
+            "raiz": "muna",
+            "lema": "muna",
+            "categoria_gramatical": "s.",
+            "glosa": "muna-3SG",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Afición, inclinación, deseo, voluntad",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "Arg: Acción de ofrecer y no dar.",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 3,
+                "definicion": ". Aficiónate, provócate",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-n",
+                "slot": 3,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE PERSONA",
+                "funcion": "Sufijo posesivo  de tercera persona singular.",
+                "glosa_corta": "3SG",
+                "ejemplos": "wasin = su casa"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "tukuy",
+            "posicion": 4,
+            "es_puntuacion": false,
+            "raiz": "tukuy",
+            "lema": "tukuy",
+            "categoria_gramatical": "adj.",
+            "glosa": "tukuy",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Cantidad infinita, incontable. ",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "willakuy",
+            "posicion": 5,
+            "es_puntuacion": false,
+            "raiz": "willakuy",
+            "lema": "willakuy",
+            "categoria_gramatical": "v.",
+            "glosa": "willakuy",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Contar, relatar, informar, anoticiar. ",
+                "dominio": null,
+                "sinonimos": "hawariy"
+              }
+            ],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": ",",
+            "posicion": null,
+            "es_puntuacion": true,
+            "raiz": ",",
+            "lema": ",",
+            "categoria_gramatical": "punct",
+            "sufijos": [],
+            "glosa": ",",
+            "acepciones": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 1.0
+          },
+          {
+            "token": "machasqa",
+            "posicion": 6,
+            "es_puntuacion": false,
+            "raiz": "machasqa",
+            "lema": "machasqa",
+            "categoria_gramatical": "adj.",
+            "glosa": "machasqa",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Ebrio, embriagado, borracho, bebido. . ",
+                "dominio": null,
+                "sinonimos": "ukyasqa"
+              }
+            ],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "runawan",
+            "posicion": 7,
+            "es_puntuacion": false,
+            "raiz": "runa",
+            "lema": "runa",
+            "categoria_gramatical": "adj.",
+            "glosa": "runa-INSTR/COM",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "V. RUNALLAÑA",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "figdo. Desganado, pusilánime, sin chispa",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 3,
+                "definicion": "figdo. Hombre muy duro, fuerte como la piedra",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 4,
+                "definicion": "Insensible, indolente. rumi",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 5,
+                "definicion": "y s. Hombre veraz, sincero, fidedigno, fiel",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-wan",
+                "slot": 5,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE CASO",
+                "funcion": "Conjunción que enlaza palabras o frases ('y', 'con'). Es un caso cogitativo, porque indica compromiso, compañía o instrumento.",
+                "glosa_corta": "INSTR/COM",
+                "ejemplos": "Michiwan alqowan = el gato y el perro\nChakitaqllawan = con la chakitaqlla\nTaytaywan = Con mi padre\nPaywan noqawan = él y yo\nTaki harawiwan = El canto "
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "musqhukunki",
+            "posicion": 8,
+            "es_puntuacion": false,
+            "raiz": "musqhukunki",
+            "lema": "musqhukunki",
+            "categoria_gramatical": "desconocido",
+            "glosa": "musqhukunki",
+            "acepciones": [],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 0.5
+          },
+          {
+            "token": "hinaqa",
+            "posicion": 9,
+            "es_puntuacion": false,
+            "raiz": "hina",
+            "lema": "hinay",
+            "categoria_gramatical": "v.",
+            "glosa": "hinay-TOP",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Hacer u obrar de esta manera, de este modo; hacer así (ilustrando con mímica). ",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-qa",
+                "slot": 8,
+                "categoria": "",
+                "subcategoria": "SUFIJO INDEPENDIENTE",
+                "funcion": "Denota información novedosa.",
+                "glosa_corta": "TOP",
+                "ejemplos": "Allqoqa aychatam suwakun = el perro roba carne"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "paranqa",
+            "posicion": 10,
+            "es_puntuacion": false,
+            "raiz": "para",
+            "lema": "para",
+            "categoria_gramatical": "s.",
+            "glosa": "para-3SG.FUT",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Lluvia, precipitación plu vial, aguacero. VARIEDADES. iphu para, llovizna; siphsi para, llovizna menuda; ch'allchaq para, chaparrón, lluvia torrencial; chikchipara, lluvia con granizo. . . ",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-nqa",
+                "slot": 5,
+                "categoria": "VERBAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE NUMERO",
+                "funcion": "Sufijo de tercera persona singular.",
+                "glosa_corta": "3SG.FUT",
+                "ejemplos": "Pay pukllanqa = él jugará"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": ",",
+            "posicion": null,
+            "es_puntuacion": true,
+            "raiz": ",",
+            "lema": ",",
+            "categoria_gramatical": "punct",
+            "sufijos": [],
+            "glosa": ",",
+            "acepciones": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 1.0
+          },
+          {
+            "token": "mach'aqwata",
+            "posicion": 11,
+            "es_puntuacion": false,
+            "raiz": "mach'aqwa",
+            "lema": "mach'aqwa",
+            "categoria_gramatical": "s.",
+            "glosa": "mach'aqwa-AC",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "V. MACH'AQWAY",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-ta",
+                "slot": 5,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE CASO",
+                "funcion": "Designa el objeto directo con los verbos que no son de movimiento.",
+                "glosa_corta": "AC",
+                "ejemplos": "T'antata mikhuni: = yo como pan"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "musqhuyniykipi",
+            "posicion": 12,
+            "es_puntuacion": false,
+            "raiz": "musqhuyniykipi",
+            "lema": "musqhuyniykipi",
+            "categoria_gramatical": "desconocido",
+            "glosa": "musqhuyniykipi",
+            "acepciones": [],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 0.5
+          },
+          {
+            "token": "rikunki",
+            "posicion": 13,
+            "es_puntuacion": false,
+            "raiz": "rikunki",
+            "lema": "rikunki",
+            "categoria_gramatical": "desconocido",
+            "glosa": "rikunki",
+            "acepciones": [],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 0.5
+          },
+          {
+            "token": "hina",
+            "posicion": 14,
+            "es_puntuacion": false,
+            "raiz": "hina",
+            "lema": "hinay",
+            "categoria_gramatical": "v.",
+            "glosa": "hinay",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Hacer u obrar de esta manera, de este modo; hacer así (ilustrando con mímica). ",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "wayra",
+            "posicion": 15,
+            "es_puntuacion": false,
+            "raiz": "wayra",
+            "lema": "wayra",
+            "categoria_gramatical": "s.",
+            "glosa": "wayra",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Viento, masa de aire en movimiento. . (V. SIKLLA) wayra",
+                "dominio": "Meteor.",
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "unquy",
+            "posicion": 16,
+            "es_puntuacion": false,
+            "raiz": "unquy",
+            "lema": "onqoy",
+            "categoria_gramatical": "s.",
+            "glosa": "onqoy",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "V. AMUQLLI",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "Paludismo. Enfermedad tropical de la sel va, de carácter endémico ",
+                "dominio": "Pat.",
+                "sinonimos": "hukuya"
+              },
+              {
+                "indice": 3,
+                "definicion": "V. CHHULLI",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 4,
+                "definicion": "(Gran enferme dad). Epidemia, peste. hatun",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 5,
+                "definicion": "Resfrío, gripe",
+                "dominio": "Pat.",
+                "sinonimos": null
+              },
+              {
+                "indice": 6,
+                "definicion": "V. QARACHA",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 7,
+                "definicion": "E pidemia. Enfermedad infecciosa que ataca a la población",
+                "dominio": "Med.",
+                "sinonimos": null
+              },
+              {
+                "indice": 8,
+                "definicion": "V. MURU",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 9,
+                "definicion": "Conjuntivitis. Mal de ojos. ñawi",
+                "dominio": "Pat.",
+                "sinonimos": null
+              },
+              {
+                "indice": 10,
+                "definicion": "Encefalitis. Inflamación del cerebro",
+                "dominio": "Pat.",
+                "sinonimos": null
+              },
+              {
+                "indice": 11,
+                "definicion": "Nombre genérico de las enfermedades, dolencias, padecimientos corporales, in disposiciones o males de salud",
+                "dominio": "Med.",
+                "sinonimos": null
+              },
+              {
+                "indice": 12,
+                "definicion": "v. Acción de enfermarse. Estado de enfermedad. . onqoy",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 13,
+                "definicion": "Hemorroide. Almorranas. Dilatación de las venas del recto. . oqoti",
+                "dominio": "Pat.",
+                "sinonimos": null
+              },
+              {
+                "indice": 14,
+                "definicion": "V. QONQAYONQOY",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 15,
+                "definicion": "Amnesia. Pérdida de la memoria. . qonqaylla. adv. Imprevistamente, al momento",
+                "dominio": "Med.",
+                "sinonimos": "qonqali onqoy"
+              },
+              {
+                "indice": 16,
+                "definicion": "Súbito, repentino. ",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 17,
+                "definicion": "Tuberculosis, tisis pulmonar",
+                "dominio": "Pat.",
+                "sinonimos": null
+              },
+              {
+                "indice": 18,
+                "definicion": "Asma. Enfermedad de los bronquios; provoca accesos de tos, respi ración incompleta y expecto ración escasa",
+                "dominio": "Med.",
+                "sinonimos": null
+              },
+              {
+                "indice": 19,
+                "definicion": "Cálculo. Litiasis. Formación de concreciones duras, generalmente calcáreas, en algunos órganos. rumi",
+                "dominio": "Med.",
+                "sinonimos": null
+              },
+              {
+                "indice": 20,
+                "definicion": "Fiebre o enfermedad febril",
+                "dominio": "Pat.",
+                "sinonimos": null
+              },
+              {
+                "indice": 21,
+                "definicion": "Temperatura alta en el cuerpo humano. ANTÓ",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 22,
+                "definicion": "Rasca rasca. Enfermedad cutánea con bastante escozor",
+                "dominio": "Med.",
+                "sinonimos": null
+              },
+              {
+                "indice": 23,
+                "definicion": "Tuberculosis pulmonar",
+                "dominio": "Med.",
+                "sinonimos": null
+              },
+              {
+                "indice": 24,
+                "definicion": "Enfermedad de la paraplegia",
+                "dominio": "Med.",
+                "sinonimos": null
+              },
+              {
+                "indice": 25,
+                "definicion": "V. AMAYCHURA. wiksa",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "hap'isunki",
+            "posicion": 17,
+            "es_puntuacion": false,
+            "raiz": "hap'isunki",
+            "lema": "hap'isunki",
+            "categoria_gramatical": "desconocido",
+            "glosa": "hap'isunki",
+            "acepciones": [],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 0.5
+          },
+          {
+            "token": ".",
+            "posicion": null,
+            "es_puntuacion": true,
+            "raiz": ".",
+            "lema": ".",
+            "categoria_gramatical": "punct",
+            "sufijos": [],
+            "glosa": ".",
+            "acepciones": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 1.0
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,610 @@
+{
+  "client_id": "65149769e817b44e2c0337d3c3fe6f69",
+  "audio_id": "67697",
+  "audio_file": "spontaneous-speech-qxp-67697.mp3",
+  "duration_ms": "14148",
+  "prompt_id": "4393",
+  "prompt": "Willay imayna runa kasqaykimanta. Imakunataq wakin kallpaykikuna?",
+  "transcription": "Nuqaqa kani allin sunquyuq runa, llank'aq, hinaspapis kusisqalla purikuni manaña allin kaqtinpas. Wawamasiykunata yanapani ima.",
+  "variant": "",
+  "language": "Puno Quechua",
+  "split": "dev",
+  "analisis_morfosintactico": {
+    "texto_original": "Nuqaqa kani allin sunquyuq runa, llank'aq, hinaspapis kusisqalla purikuni manaña allin kaqtinpas. Wawamasiykunata yanapani ima.",
+    "num_oraciones": 2,
+    "num_tokens": 15,
+    "marcadores_globales": {
+      "evidenciales": [],
+      "clusividad": null
+    },
+    "oraciones": [
+      {
+        "indice": 0,
+        "texto": "Nuqaqa kani allin sunquyuq runa, llank'aq, hinaspapis kusisqalla purikuni manaña allin kaqtinpas.",
+        "marcadores": {
+          "evidenciales": [],
+          "clusividad": null
+        },
+        "tokens": [
+          {
+            "token": "Nuqaqa",
+            "posicion": 0,
+            "es_puntuacion": false,
+            "raiz": "nu",
+            "lema": "nu",
+            "categoria_gramatical": "desconocido",
+            "glosa": "nu-TOP-TOP",
+            "acepciones": [],
+            "sufijos": [
+              {
+                "morfema": "-qa",
+                "slot": 8,
+                "categoria": "",
+                "subcategoria": "SUFIJO INDEPENDIENTE",
+                "funcion": "Denota información novedosa.",
+                "glosa_corta": "TOP",
+                "ejemplos": "Allqoqa aychatam suwakun = el perro roba carne"
+              },
+              {
+                "morfema": "-qa",
+                "slot": 8,
+                "categoria": "",
+                "subcategoria": "SUFIJO INDEPENDIENTE",
+                "funcion": "Denota información novedosa.",
+                "glosa_corta": "TOP",
+                "ejemplos": "Allqoqa aychatam suwakun = el perro roba carne"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 0.5
+          },
+          {
+            "token": "kani",
+            "posicion": 1,
+            "es_puntuacion": false,
+            "raiz": "kani",
+            "lema": "kani",
+            "categoria_gramatical": "s.",
+            "glosa": "kani",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Mordedura",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "Ladrido. ",
+                "dominio": null,
+                "sinonimos": "khanki"
+              },
+              {
+                "indice": 3,
+                "definicion": ". kani",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "allin",
+            "posicion": 2,
+            "es_puntuacion": false,
+            "raiz": "allin",
+            "lema": "allin",
+            "categoria_gramatical": "adj.",
+            "glosa": "allin",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Bueno (término de apro bación). . ",
+                "dominio": null,
+                "sinonimos": "kusa"
+              },
+              {
+                "indice": 2,
+                "definicion": "Mal, mal ejemplo, incorrecto. . mana",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "sunquyuq",
+            "posicion": 3,
+            "es_puntuacion": false,
+            "raiz": "sunquyuq",
+            "lema": "sonqoyoq",
+            "categoria_gramatical": "adj.",
+            "glosa": "sonqoyoq",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "y s. Todo ser que posee corazón",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "figdo. Persona responsable; sensible",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "runa",
+            "posicion": 4,
+            "es_puntuacion": false,
+            "raiz": "runa",
+            "lema": "runa",
+            "categoria_gramatical": "adj.",
+            "glosa": "runa",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "V. RUNALLAÑA",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "figdo. Desganado, pusilánime, sin chispa",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 3,
+                "definicion": "figdo. Hombre muy duro, fuerte como la piedra",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 4,
+                "definicion": "Insensible, indolente. rumi",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 5,
+                "definicion": "y s. Hombre veraz, sincero, fidedigno, fiel",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": ",",
+            "posicion": null,
+            "es_puntuacion": true,
+            "raiz": ",",
+            "lema": ",",
+            "categoria_gramatical": "punct",
+            "sufijos": [],
+            "glosa": ",",
+            "acepciones": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 1.0
+          },
+          {
+            "token": "llank'aq",
+            "posicion": 5,
+            "es_puntuacion": false,
+            "raiz": "llank'aq",
+            "lema": "llank'aq",
+            "categoria_gramatical": "s.",
+            "glosa": "llank'aq",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Agri cultor, labriego. . chakra",
+                "dominio": "Agri.",
+                "sinonimos": "chakra ruwaq, chakraq"
+              }
+            ],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": ",",
+            "posicion": null,
+            "es_puntuacion": true,
+            "raiz": ",",
+            "lema": ",",
+            "categoria_gramatical": "punct",
+            "sufijos": [],
+            "glosa": ",",
+            "acepciones": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 1.0
+          },
+          {
+            "token": "hinaspapis",
+            "posicion": 6,
+            "es_puntuacion": false,
+            "raiz": "hina",
+            "lema": "hinay",
+            "categoria_gramatical": "v.",
+            "glosa": "hinay-SUBORD-ADIT",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Hacer u obrar de esta manera, de este modo; hacer así (ilustrando con mímica). ",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-spa",
+                "slot": 5,
+                "categoria": "VERBAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE NUMERO",
+                "funcion": "Indica que la acción dependiente es anterior a la del verbo principal. Puede ser un gerundio.",
+                "glosa_corta": "SUBORD",
+                "ejemplos": "Takispa hamun, waqaspa ripun = viene cantando y se va llorando\nTakispa tususpa ripunku = Cantando y bailando se fueron"
+              },
+              {
+                "morfema": "-pis",
+                "slot": 8,
+                "categoria": "",
+                "subcategoria": "SUFIJO INDEPENDIENTE",
+                "funcion": "Aditivo. Se traduce como ‘también’ o ‘incluso’. Coordina oraciones.",
+                "glosa_corta": "ADIT",
+                "ejemplos": "Noqapas tususaqmi = Yo también bailaré\nNoqapis risaq = yo también iré"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "kusisqalla",
+            "posicion": 7,
+            "es_puntuacion": false,
+            "raiz": "kusi",
+            "lema": "kusi",
+            "categoria_gramatical": "s.",
+            "glosa": "kusi-PART.PAS-LIM",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Gozo, ventura, alborozo",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "adj. Alegre, contento, feliz. . kusi",
+                "dominio": null,
+                "sinonimos": "chama, sami, q'ocho"
+              },
+              {
+                "indice": 3,
+                "definicion": "(Araneidos sp.) Arañita. Arácnido muy pequeño de las órdenes quernetos, de andar rápido. Su aparición, según creencia popular, trae buena suerte",
+                "dominio": "Zool.",
+                "sinonimos": null
+              },
+              {
+                "indice": 4,
+                "definicion": "fam. Chiquilla alegre y ligera. . . kusi",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-sqa",
+                "slot": 3,
+                "categoria": "NOMINAL DERIVACIONAL",
+                "subcategoria": "DERIVACIONAL DEVERBATIVO",
+                "funcion": "Participio pasivo ('escrito') o pasado narrativo. indica hecho consumado, se utiliza en narraciones.",
+                "glosa_corta": "PART.PAS",
+                "ejemplos": "Qhelqasqa = escrito\nwañusqa = muerto"
+              },
+              {
+                "morfema": "-lla",
+                "slot": 8,
+                "categoria": "",
+                "subcategoria": "SUFIJO INDEPENDIENTE",
+                "funcion": "Corresponde a 'solamente’ o ‘únicamente’.Transmite afecto o es atenuador en las órdenes.",
+                "glosa_corta": "LIM",
+                "ejemplos": "Wasilla = solamente la casa\nqanlla = únicamente tú\nPayllam rinqa = Solamente él/ella irá\nunullatam munani = solamente quiero agua"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "purikuni",
+            "posicion": 8,
+            "es_puntuacion": false,
+            "raiz": "puriku",
+            "lema": "purikuy",
+            "categoria_gramatical": "v.",
+            "glosa": "purikuy-1SG",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Pasear, deambular, vagar de un lugar a otro",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-ni",
+                "slot": 2,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE PERSONA",
+                "funcion": "Sufijo que se agrega cuando la palabra termina en vocal, se sgrega antes del sufijo posesivo.",
+                "glosa_corta": "1SG",
+                "ejemplos": "yachachiqniy = mi profesor\nyawarniy = mi sangre\nyachachiqnin = su profesor"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "manaña",
+            "posicion": 9,
+            "es_puntuacion": false,
+            "raiz": "manaña",
+            "lema": "manaña",
+            "categoria_gramatical": "desconocido",
+            "glosa": "manaña",
+            "acepciones": [],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 0.5
+          },
+          {
+            "token": "allin",
+            "posicion": 10,
+            "es_puntuacion": false,
+            "raiz": "allin",
+            "lema": "allin",
+            "categoria_gramatical": "adj.",
+            "glosa": "allin",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Bueno (término de apro bación). . ",
+                "dominio": null,
+                "sinonimos": "kusa"
+              },
+              {
+                "indice": 2,
+                "definicion": "Mal, mal ejemplo, incorrecto. . mana",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "kaqtinpas",
+            "posicion": 11,
+            "es_puntuacion": false,
+            "raiz": "kaqti",
+            "lema": "kaqti",
+            "categoria_gramatical": "desconocido",
+            "glosa": "kaqti-3SG-ADIT",
+            "acepciones": [],
+            "sufijos": [
+              {
+                "morfema": "-n",
+                "slot": 3,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE PERSONA",
+                "funcion": "Sufijo posesivo  de tercera persona singular.",
+                "glosa_corta": "3SG",
+                "ejemplos": "wasin = su casa"
+              },
+              {
+                "morfema": "-pas",
+                "slot": 8,
+                "categoria": "",
+                "subcategoria": "SUFIJO INDEPENDIENTE",
+                "funcion": "Aditivo. Se traduce como ‘también’ o ‘incluso’. Coordina oraciones.",
+                "glosa_corta": "ADIT",
+                "ejemplos": "Noqapas tususaqmi = Yo también bailaré\nNoqapis risaq = yo también iré"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 0.5
+          },
+          {
+            "token": ".",
+            "posicion": null,
+            "es_puntuacion": true,
+            "raiz": ".",
+            "lema": ".",
+            "categoria_gramatical": "punct",
+            "sufijos": [],
+            "glosa": ".",
+            "acepciones": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 1.0
+          }
+        ]
+      },
+      {
+        "indice": 1,
+        "texto": "Wawamasiykunata yanapani ima.",
+        "marcadores": {
+          "evidenciales": [],
+          "clusividad": null
+        },
+        "tokens": [
+          {
+            "token": "Wawamasiykunata",
+            "posicion": 0,
+            "es_puntuacion": false,
+            "raiz": "wawamasiykunata",
+            "lema": "wawamasiykunata",
+            "categoria_gramatical": "desconocido",
+            "glosa": "wawamasiykunata",
+            "acepciones": [],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 0.5
+          },
+          {
+            "token": "yanapani",
+            "posicion": 1,
+            "es_puntuacion": false,
+            "raiz": "yanapa",
+            "lema": "yanapay",
+            "categoria_gramatical": "s.",
+            "glosa": "yanapay-1SG",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Ayuda, apoyo, asistencia, auxilio, colaboración",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "v. Ayudar, auxiliar, colaborar, socorrer, asistir",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-ni",
+                "slot": 2,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE PERSONA",
+                "funcion": "Sufijo que se agrega cuando la palabra termina en vocal, se sgrega antes del sufijo posesivo.",
+                "glosa_corta": "1SG",
+                "ejemplos": "yachachiqniy = mi profesor\nyawarniy = mi sangre\nyachachiqnin = su profesor"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "ima",
+            "posicion": 2,
+            "es_puntuacion": false,
+            "raiz": "ima",
+            "lema": "ima",
+            "categoria_gramatical": "desconocido",
+            "glosa": "ima",
+            "acepciones": [],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 0.5
+          },
+          {
+            "token": ".",
+            "posicion": null,
+            "es_puntuacion": true,
+            "raiz": ".",
+            "lema": ".",
+            "categoria_gramatical": "punct",
+            "sufijos": [],
+            "glosa": ".",
+            "acepciones": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 1.0
+          }
+        ]
+      }
+    ]
+  }
+}

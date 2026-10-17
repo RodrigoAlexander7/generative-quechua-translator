@@ -1,0 +1,548 @@
+{
+  "client_id": "385d8eea0a8ebb1e8e82c7464c4641af",
+  "audio_id": "67975",
+  "audio_file": "spontaneous-speech-qxp-67975.mp3",
+  "duration_ms": "9468",
+  "prompt_id": "4357",
+  "prompt": "Ima t'ikakunatataq riqsinki?",
+  "transcription": "Riqsini q'illut'ika, chiqchimpa, kisa, wayata chaki, qintu qintu, chaykunaqa llaqtaypi wiñan.",
+  "variant": "",
+  "language": "Puno Quechua",
+  "split": "train",
+  "analisis_morfosintactico": {
+    "texto_original": "Riqsini q'illut'ika, chiqchimpa, kisa, wayata chaki, qintu qintu, chaykunaqa llaqtaypi wiñan.",
+    "num_oraciones": 1,
+    "num_tokens": 11,
+    "marcadores_globales": {
+      "evidenciales": [],
+      "clusividad": null
+    },
+    "oraciones": [
+      {
+        "indice": 0,
+        "texto": "Riqsini q'illut'ika, chiqchimpa, kisa, wayata chaki, qintu qintu, chaykunaqa llaqtaypi wiñan.",
+        "marcadores": {
+          "evidenciales": [],
+          "clusividad": null
+        },
+        "tokens": [
+          {
+            "token": "Riqsini",
+            "posicion": 0,
+            "es_puntuacion": false,
+            "raiz": "riqsi",
+            "lema": "reqsiy",
+            "categoria_gramatical": "v.",
+            "glosa": "reqsiy-1SG",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Conocer algo. . reqsiy",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-ni",
+                "slot": 2,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE PERSONA",
+                "funcion": "Sufijo que se agrega cuando la palabra termina en vocal, se sgrega antes del sufijo posesivo.",
+                "glosa_corta": "1SG",
+                "ejemplos": "yachachiqniy = mi profesor\nyawarniy = mi sangre\nyachachiqnin = su profesor"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "q'illut'ika",
+            "posicion": 1,
+            "es_puntuacion": false,
+            "raiz": "q'illu+t'ika",
+            "lema": "q'illu+t'ika",
+            "categoria_gramatical": "s. (compuesto)",
+            "glosa": "q'illu+t'ika",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": ",",
+            "posicion": null,
+            "es_puntuacion": true,
+            "raiz": ",",
+            "lema": ",",
+            "categoria_gramatical": "punct",
+            "sufijos": [],
+            "glosa": ",",
+            "acepciones": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 1.0
+          },
+          {
+            "token": "chiqchimpa",
+            "posicion": 2,
+            "es_puntuacion": false,
+            "raiz": "chiqchimpa",
+            "lema": "chiqchimpa",
+            "categoria_gramatical": "desconocido",
+            "glosa": "chiqchimpa",
+            "acepciones": [],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 0.5
+          },
+          {
+            "token": ",",
+            "posicion": null,
+            "es_puntuacion": true,
+            "raiz": ",",
+            "lema": ",",
+            "categoria_gramatical": "punct",
+            "sufijos": [],
+            "glosa": ",",
+            "acepciones": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 1.0
+          },
+          {
+            "token": "kisa",
+            "posicion": 3,
+            "es_puntuacion": false,
+            "raiz": "kisa",
+            "lema": "kisa",
+            "categoria_gramatical": "s.",
+            "glosa": "kisa",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "(Urtica urens L.) Ortiga. De la familia de las urticáceas, cuyos tallos y hojas poseen pilosidades urticantes que producen sensación de picadura en la piel, por el ácido fórmico que contienen. . . kisa",
+                "dominio": "Bot.",
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "Ortigal o lugar donde crece bastante ortiga. . kisa",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 3,
+                "definicion": "V. KISA",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 4,
+                "definicion": "V. KISA",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 5,
+                "definicion": "(Cajophora Pentlandii Don). Ortiga macho. Planta herbácea. Med.Folk. Muy utilizada para la curación del q'echo o ciática",
+                "dominio": "Bot.",
+                "sinonimos": null
+              },
+              {
+                "indice": 6,
+                "definicion": "V. KISA. puna",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 7,
+                "definicion": "V. KISA. qowi",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 8,
+                "definicion": "(Urtica ma gellanica) Planta herbácea de la familia urticaria, caracterizada precisamente por su color negruzco. Med.Folk. Se utiliza para la curación de la ciática o q'echu",
+                "dominio": "Bot.",
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": ",",
+            "posicion": null,
+            "es_puntuacion": true,
+            "raiz": ",",
+            "lema": ",",
+            "categoria_gramatical": "punct",
+            "sufijos": [],
+            "glosa": ",",
+            "acepciones": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 1.0
+          },
+          {
+            "token": "wayata",
+            "posicion": 4,
+            "es_puntuacion": false,
+            "raiz": "waya",
+            "lema": "waya",
+            "categoria_gramatical": "adj.",
+            "glosa": "waya-AC",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Flojo, desajustable, a flojado. . waya",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-ta",
+                "slot": 5,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE CASO",
+                "funcion": "Designa el objeto directo con los verbos que no son de movimiento.",
+                "glosa_corta": "AC",
+                "ejemplos": "T'antata mikhuni: = yo como pan"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "chaki",
+            "posicion": 5,
+            "es_puntuacion": false,
+            "raiz": "chaki",
+            "lema": "chaki",
+            "categoria_gramatical": "s.",
+            "glosa": "chaki",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Pie. Pata en ani males, y en objetos las partes que sirven de sustentáculo o base. ",
+                "dominio": "Anat.",
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "(Scolopen drella sp. Oxidus gracilis). Mi riápodos de cien pies. Cuerpo a largado, casi vermiforme y deprimido. Numerosos pares de patas ambulatorias de idéntica longitud, habitantes de lugares húmedos. . . ",
+                "dominio": "Zool.",
+                "sinonimos": "atoq atoq"
+              },
+              {
+                "indice": 3,
+                "definicion": "(Sarcopaylla penetrans). Nigua. Pulga que generalmente penetra entre los dedos del pie para formar pequeñas bolsas. piki",
+                "dominio": "Zool.",
+                "sinonimos": null
+              },
+              {
+                "indice": 4,
+                "definicion": "(Anemone helleborifori DC.) (Pata de gallina) Planta voluble de la familia de las ranunculáceas. De flores amarillas, sus hojas se asemejan a las del mastuerzo y son de sabor picante. Med.Folk. Se utiliza como purgante. . wallpa",
+                "dominio": "Bot.",
+                "sinonimos": "soliman"
+              }
+            ],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": ",",
+            "posicion": null,
+            "es_puntuacion": true,
+            "raiz": ",",
+            "lema": ",",
+            "categoria_gramatical": "punct",
+            "sufijos": [],
+            "glosa": ",",
+            "acepciones": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 1.0
+          },
+          {
+            "token": "qintu",
+            "posicion": 6,
+            "es_puntuacion": false,
+            "raiz": "qintu",
+            "lema": "qintu",
+            "categoria_gramatical": "desconocido",
+            "glosa": "qintu",
+            "acepciones": [],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 0.5
+          },
+          {
+            "token": "qintu",
+            "posicion": 7,
+            "es_puntuacion": false,
+            "raiz": "qintu",
+            "lema": "qintu",
+            "categoria_gramatical": "desconocido",
+            "glosa": "qintu",
+            "acepciones": [],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 0.5
+          },
+          {
+            "token": ",",
+            "posicion": null,
+            "es_puntuacion": true,
+            "raiz": ",",
+            "lema": ",",
+            "categoria_gramatical": "punct",
+            "sufijos": [],
+            "glosa": ",",
+            "acepciones": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 1.0
+          },
+          {
+            "token": "chaykunaqa",
+            "posicion": 8,
+            "es_puntuacion": false,
+            "raiz": "chay",
+            "lema": "chay",
+            "categoria_gramatical": "s.",
+            "glosa": "chay-PL-TOP",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Descanso breve de medio día",
+                "dominio": "Siesta.",
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "v. Sestear. Descansar o dormir algún momento del día",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-kuna",
+                "slot": 4,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE NUMERO",
+                "funcion": "Pluraliza los sustantivos.",
+                "glosa_corta": "PL",
+                "ejemplos": "Wasikuna = las casas\nrunakuna = las personas"
+              },
+              {
+                "morfema": "-qa",
+                "slot": 8,
+                "categoria": "",
+                "subcategoria": "SUFIJO INDEPENDIENTE",
+                "funcion": "Denota información novedosa.",
+                "glosa_corta": "TOP",
+                "ejemplos": "Allqoqa aychatam suwakun = el perro roba carne"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "llaqtaypi",
+            "posicion": 9,
+            "es_puntuacion": false,
+            "raiz": "llaqta",
+            "lema": "llaqta",
+            "categoria_gramatical": "s.",
+            "glosa": "llaqta-1SG.POS-LOC",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Ciudad metro- poli, gran ciudad",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "NEOL. Capi tal. hatun",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 3,
+                "definicion": "Ciudad, pueblo, comunidad, villorrio, comarca",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 4,
+                "definicion": "Población. ",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 5,
+                "definicion": ". llaqta",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 6,
+                "definicion": "V. CH'IKURU. llaqta",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-y",
+                "slot": 3,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE PERSONA",
+                "funcion": "Sufijo posesivo de primera persona singular.",
+                "glosa_corta": "1SG.POS",
+                "ejemplos": "wasiy = mi casa"
+              },
+              {
+                "morfema": "-pi",
+                "slot": 5,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE CASO",
+                "funcion": "Indica locación en  el  tiempo  y  en  el espacio. Corresponde a la preposición ‘en’.",
+                "glosa_corta": "LOC",
+                "ejemplos": "Llaqtapi kashani = estoy en el pueblo"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "wiñan",
+            "posicion": 10,
+            "es_puntuacion": false,
+            "raiz": "wiña",
+            "lema": "wiña",
+            "categoria_gramatical": "s.",
+            "glosa": "wiña-3SG",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Crecimiento, desarrollo",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-n",
+                "slot": 3,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE PERSONA",
+                "funcion": "Sufijo posesivo  de tercera persona singular.",
+                "glosa_corta": "3SG",
+                "ejemplos": "wasin = su casa"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": ".",
+            "posicion": null,
+            "es_puntuacion": true,
+            "raiz": ".",
+            "lema": ".",
+            "categoria_gramatical": "punct",
+            "sufijos": [],
+            "glosa": ".",
+            "acepciones": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 1.0
+          }
+        ]
+      }
+    ]
+  }
+}

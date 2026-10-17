@@ -1,0 +1,858 @@
+{
+  "client_id": "a6f98d228e0d2525548137197409dab9",
+  "audio_id": "67519",
+  "audio_file": "spontaneous-speech-qxp-67519.mp3",
+  "duration_ms": "17028",
+  "prompt_id": "4395",
+  "prompt": "Imaynatataq allin kawsayniykita kachinki?",
+  "transcription": "Allin kawsayniytaqa allin mikhuywan, llank'aywan, hinaspa pachamamawan kushka kawsaywanmi kachini. Chaymi sunquyta, yuyayniyta qhali kachin.",
+  "variant": "",
+  "language": "Puno Quechua",
+  "split": "test",
+  "analisis_morfosintactico": {
+    "texto_original": "Allin kawsayniytaqa allin mikhuywan, llank'aywan, hinaspa pachamamawan kushka kawsaywanmi kachini. Chaymi sunquyta, yuyayniyta qhali kachin.",
+    "num_oraciones": 2,
+    "num_tokens": 15,
+    "marcadores_globales": {
+      "evidenciales": [
+        "DIRECTO / ATESTIGUADO (-mi)"
+      ],
+      "clusividad": null
+    },
+    "oraciones": [
+      {
+        "indice": 0,
+        "texto": "Allin kawsayniytaqa allin mikhuywan, llank'aywan, hinaspa pachamamawan kushka kawsaywanmi kachini.",
+        "marcadores": {
+          "evidenciales": [
+            "DIRECTO / ATESTIGUADO (-mi)"
+          ],
+          "clusividad": null
+        },
+        "tokens": [
+          {
+            "token": "Allin",
+            "posicion": 0,
+            "es_puntuacion": false,
+            "raiz": "allin",
+            "lema": "allin",
+            "categoria_gramatical": "adj.",
+            "glosa": "allin",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Bueno (término de apro bación). . ",
+                "dominio": null,
+                "sinonimos": "kusa"
+              },
+              {
+                "indice": 2,
+                "definicion": "Mal, mal ejemplo, incorrecto. . mana",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "kawsayniytaqa",
+            "posicion": 1,
+            "es_puntuacion": false,
+            "raiz": "kawsay",
+            "lema": "kawsay",
+            "categoria_gramatical": "s.",
+            "glosa": "kawsay-1SG-1SG.POS-AC-TOP",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Vida",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "Víveres para la alimentación",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 3,
+                "definicion": "v. Vivir. . kawsay",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 4,
+                "definicion": "Felicidad. Vida feliz. . kusi",
+                "dominio": null,
+                "sinonimos": "kusi sami"
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-ni",
+                "slot": 2,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE PERSONA",
+                "funcion": "Sufijo que se agrega cuando la palabra termina en vocal, se sgrega antes del sufijo posesivo.",
+                "glosa_corta": "1SG",
+                "ejemplos": "yachachiqniy = mi profesor\nyawarniy = mi sangre\nyachachiqnin = su profesor"
+              },
+              {
+                "morfema": "-y",
+                "slot": 3,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE PERSONA",
+                "funcion": "Sufijo posesivo de primera persona singular.",
+                "glosa_corta": "1SG.POS",
+                "ejemplos": "wasiy = mi casa"
+              },
+              {
+                "morfema": "-ta",
+                "slot": 5,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE CASO",
+                "funcion": "Designa el objeto directo con los verbos que no son de movimiento.",
+                "glosa_corta": "AC",
+                "ejemplos": "T'antata mikhuni: = yo como pan"
+              },
+              {
+                "morfema": "-qa",
+                "slot": 8,
+                "categoria": "",
+                "subcategoria": "SUFIJO INDEPENDIENTE",
+                "funcion": "Denota información novedosa.",
+                "glosa_corta": "TOP",
+                "ejemplos": "Allqoqa aychatam suwakun = el perro roba carne"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "allin",
+            "posicion": 2,
+            "es_puntuacion": false,
+            "raiz": "allin",
+            "lema": "allin",
+            "categoria_gramatical": "adj.",
+            "glosa": "allin",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Bueno (término de apro bación). . ",
+                "dominio": null,
+                "sinonimos": "kusa"
+              },
+              {
+                "indice": 2,
+                "definicion": "Mal, mal ejemplo, incorrecto. . mana",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "mikhuywan",
+            "posicion": 3,
+            "es_puntuacion": false,
+            "raiz": "mikhuy",
+            "lema": "mikhuy",
+            "categoria_gramatical": "v.",
+            "glosa": "mikhuy-INSTR/COM",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Comer, alimentarse, yantar, ingerir alimentos. . . . ",
+                "dominio": null,
+                "sinonimos": "mihuy"
+              },
+              {
+                "indice": 2,
+                "definicion": "s. V. MIKHUNA",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-wan",
+                "slot": 5,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE CASO",
+                "funcion": "Conjunción que enlaza palabras o frases ('y', 'con'). Es un caso cogitativo, porque indica compromiso, compañía o instrumento.",
+                "glosa_corta": "INSTR/COM",
+                "ejemplos": "Michiwan alqowan = el gato y el perro\nChakitaqllawan = con la chakitaqlla\nTaytaywan = Con mi padre\nPaywan noqawan = él y yo\nTaki harawiwan = El canto "
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": ",",
+            "posicion": null,
+            "es_puntuacion": true,
+            "raiz": ",",
+            "lema": ",",
+            "categoria_gramatical": "punct",
+            "sufijos": [],
+            "glosa": ",",
+            "acepciones": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 1.0
+          },
+          {
+            "token": "llank'aywan",
+            "posicion": 4,
+            "es_puntuacion": false,
+            "raiz": "llank'ay",
+            "lema": "llank'ay",
+            "categoria_gramatical": "s.",
+            "glosa": "llank'ay-INSTR/COM",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Trabajo, labor, tarea, ocupación. . ",
+                "dominio": null,
+                "sinonimos": "ruway"
+              },
+              {
+                "indice": 2,
+                "definicion": "v. Trabajar, laborar, ocuparse. . . ",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-wan",
+                "slot": 5,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE CASO",
+                "funcion": "Conjunción que enlaza palabras o frases ('y', 'con'). Es un caso cogitativo, porque indica compromiso, compañía o instrumento.",
+                "glosa_corta": "INSTR/COM",
+                "ejemplos": "Michiwan alqowan = el gato y el perro\nChakitaqllawan = con la chakitaqlla\nTaytaywan = Con mi padre\nPaywan noqawan = él y yo\nTaki harawiwan = El canto "
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": ",",
+            "posicion": null,
+            "es_puntuacion": true,
+            "raiz": ",",
+            "lema": ",",
+            "categoria_gramatical": "punct",
+            "sufijos": [],
+            "glosa": ",",
+            "acepciones": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 1.0
+          },
+          {
+            "token": "hinaspa",
+            "posicion": 5,
+            "es_puntuacion": false,
+            "raiz": "hina",
+            "lema": "hinay",
+            "categoria_gramatical": "v.",
+            "glosa": "hinay-SUBORD",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Hacer u obrar de esta manera, de este modo; hacer así (ilustrando con mímica). ",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-spa",
+                "slot": 5,
+                "categoria": "VERBAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE NUMERO",
+                "funcion": "Indica que la acción dependiente es anterior a la del verbo principal. Puede ser un gerundio.",
+                "glosa_corta": "SUBORD",
+                "ejemplos": "Takispa hamun, waqaspa ripun = viene cantando y se va llorando\nTakispa tususpa ripunku = Cantando y bailando se fueron"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "pachamamawan",
+            "posicion": 6,
+            "es_puntuacion": false,
+            "raiz": "pacha+mama",
+            "lema": "pacha+mama",
+            "categoria_gramatical": "s. (compuesto)",
+            "glosa": "pacha+mama-INSTR/COM",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-wan",
+                "slot": 5,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE CASO",
+                "funcion": "Conjunción que enlaza palabras o frases ('y', 'con'). Es un caso cogitativo, porque indica compromiso, compañía o instrumento.",
+                "glosa_corta": "INSTR/COM",
+                "ejemplos": "Michiwan alqowan = el gato y el perro\nChakitaqllawan = con la chakitaqlla\nTaytaywan = Con mi padre\nPaywan noqawan = él y yo\nTaki harawiwan = El canto "
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "kushka",
+            "posicion": 7,
+            "es_puntuacion": false,
+            "raiz": "kushka",
+            "lema": "kushka",
+            "categoria_gramatical": "desconocido",
+            "glosa": "kushka",
+            "acepciones": [],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 0.5
+          },
+          {
+            "token": "kawsaywanmi",
+            "posicion": 8,
+            "es_puntuacion": false,
+            "raiz": "kawsay",
+            "lema": "kawsay",
+            "categoria_gramatical": "s.",
+            "glosa": "kawsay-INSTR/COM-EVID.DIR",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Vida",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "Víveres para la alimentación",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 3,
+                "definicion": "v. Vivir. . kawsay",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 4,
+                "definicion": "Felicidad. Vida feliz. . kusi",
+                "dominio": null,
+                "sinonimos": "kusi sami"
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-wan",
+                "slot": 5,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE CASO",
+                "funcion": "Conjunción que enlaza palabras o frases ('y', 'con'). Es un caso cogitativo, porque indica compromiso, compañía o instrumento.",
+                "glosa_corta": "INSTR/COM",
+                "ejemplos": "Michiwan alqowan = el gato y el perro\nChakitaqllawan = con la chakitaqlla\nTaytaywan = Con mi padre\nPaywan noqawan = él y yo\nTaki harawiwan = El canto "
+              },
+              {
+                "morfema": "-mi",
+                "slot": 9,
+                "categoria": "",
+                "subcategoria": "SUFIJO INDEPENDIENTE",
+                "funcion": "Validador. Indica que el hablante ha sido testigo de la acción o está muy seguro de lo que dice. No se debe de usar cuando hay duda.  Cuando la palabra termina en vocal se usa la \"m\" y cuando termina en consonante se usa la \"mi\". Hace referencia a una información directa en relación con lo enunciado por el hablante. Es para afirmar, declarar, sostener.",
+                "glosa_corta": "EVID.DIR",
+                "ejemplos": "Pukllaqmi rirani = fui a jugar\nWarmim kani = soy mujer"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": "DIRECTO / ATESTIGUADO (-mi)",
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "kachini",
+            "posicion": 9,
+            "es_puntuacion": false,
+            "raiz": "kachi",
+            "lema": "kachi",
+            "categoria_gramatical": "s.",
+            "glosa": "kachi-1SG",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Quím. Cloruro de sodio. Sal de cocina. . jj . / Esparto. / Estímulo. / Título honorífico de los ancia nos. kachi",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "(Myrmeleon sp.) Libélula. Insecto neu róptero. . ",
+                "dominio": "Zool.",
+                "sinonimos": null
+              },
+              {
+                "indice": 3,
+                "definicion": "interj. Voz que se repite para llamar al ganado va cuno a fin de que se acerquen a lamer la sal",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 4,
+                "definicion": "Etnohist. (Agujero o ventana de sal) Cuarto barrio importante de la antigua ciudad inkaica del Qosqo, situado al NE del centro de la ciudad. Corresponde al actual barrio de San Blas, muy famoso y tradicional por vivir allí muchos artistas, sobre todo populares, y tener su templo colonial un maravilloso pulpito de cedro, mundialmente admirado",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-ni",
+                "slot": 2,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE PERSONA",
+                "funcion": "Sufijo que se agrega cuando la palabra termina en vocal, se sgrega antes del sufijo posesivo.",
+                "glosa_corta": "1SG",
+                "ejemplos": "yachachiqniy = mi profesor\nyawarniy = mi sangre\nyachachiqnin = su profesor"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": ".",
+            "posicion": null,
+            "es_puntuacion": true,
+            "raiz": ".",
+            "lema": ".",
+            "categoria_gramatical": "punct",
+            "sufijos": [],
+            "glosa": ".",
+            "acepciones": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 1.0
+          }
+        ]
+      },
+      {
+        "indice": 1,
+        "texto": "Chaymi sunquyta, yuyayniyta qhali kachin.",
+        "marcadores": {
+          "evidenciales": [
+            "DIRECTO / ATESTIGUADO (-mi)"
+          ],
+          "clusividad": null
+        },
+        "tokens": [
+          {
+            "token": "Chaymi",
+            "posicion": 0,
+            "es_puntuacion": false,
+            "raiz": "chay",
+            "lema": "chay",
+            "categoria_gramatical": "s.",
+            "glosa": "chay-EVID.DIR",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Descanso breve de medio día",
+                "dominio": "Siesta.",
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "v. Sestear. Descansar o dormir algún momento del día",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-mi",
+                "slot": 9,
+                "categoria": "",
+                "subcategoria": "SUFIJO INDEPENDIENTE",
+                "funcion": "Validador. Indica que el hablante ha sido testigo de la acción o está muy seguro de lo que dice. No se debe de usar cuando hay duda.  Cuando la palabra termina en vocal se usa la \"m\" y cuando termina en consonante se usa la \"mi\". Hace referencia a una información directa en relación con lo enunciado por el hablante. Es para afirmar, declarar, sostener.",
+                "glosa_corta": "EVID.DIR",
+                "ejemplos": "Pukllaqmi rirani = fui a jugar\nWarmim kani = soy mujer"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": "DIRECTO / ATESTIGUADO (-mi)",
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "sunquyta",
+            "posicion": 1,
+            "es_puntuacion": false,
+            "raiz": "sunqu",
+            "lema": "sonqo",
+            "categoria_gramatical": "adj.",
+            "glosa": "sonqo-1SG.POS-AC",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "y s. fam. Per sona muy inclinada a la descor tesía o insolencia",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "De gran corazón. Magnánimo, grandeza de ánimo",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 3,
+                "definicion": "figdo. Presumido. / Indomable, rebelde. hatun",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 4,
+                "definicion": "figdo. Cobarde",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 5,
+                "definicion": "Débil de carácter, pusilánime. . huch'uy",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 6,
+                "definicion": "(De dos cora zones), figdo. Voluble, inconsecuente",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 7,
+                "definicion": "Indeciso, dudoso, vacilante. iskay",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 8,
+                "definicion": "figdo. Insensible, duro de corazón. ",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 9,
+                "definicion": "Débil de corazón",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 10,
+                "definicion": "De corazón noble",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 11,
+                "definicion": "(Corazón per plejo) Dubitante, dubitativo. ",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 12,
+                "definicion": "(De corazón hirviente) figdo. Iracundo, re negón, de mal genio. ",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 13,
+                "definicion": "(Corazón de mujer) V. WARMICHU",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-y",
+                "slot": 3,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE PERSONA",
+                "funcion": "Sufijo posesivo de primera persona singular.",
+                "glosa_corta": "1SG.POS",
+                "ejemplos": "wasiy = mi casa"
+              },
+              {
+                "morfema": "-ta",
+                "slot": 5,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE CASO",
+                "funcion": "Designa el objeto directo con los verbos que no son de movimiento.",
+                "glosa_corta": "AC",
+                "ejemplos": "T'antata mikhuni: = yo como pan"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": ",",
+            "posicion": null,
+            "es_puntuacion": true,
+            "raiz": ",",
+            "lema": ",",
+            "categoria_gramatical": "punct",
+            "sufijos": [],
+            "glosa": ",",
+            "acepciones": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 1.0
+          },
+          {
+            "token": "yuyayniyta",
+            "posicion": 2,
+            "es_puntuacion": false,
+            "raiz": "yuyay",
+            "lema": "yuyay",
+            "categoria_gramatical": "s.",
+            "glosa": "yuyay-1SG-1SG.POS-AC",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Memoria, razón, pensamiento, juicio. Buen sentido, entendimiento",
+                "dominio": "Psic.",
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "Precaución, cautela. ",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 3,
+                "definicion": "Sien, parte lateral de la frente",
+                "dominio": "Anat.",
+                "sinonimos": null
+              },
+              {
+                "indice": 4,
+                "definicion": "v. Recordar, tener presente el re cuerdo de algo. (J.L.P.) ANTÓ",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-ni",
+                "slot": 2,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE PERSONA",
+                "funcion": "Sufijo que se agrega cuando la palabra termina en vocal, se sgrega antes del sufijo posesivo.",
+                "glosa_corta": "1SG",
+                "ejemplos": "yachachiqniy = mi profesor\nyawarniy = mi sangre\nyachachiqnin = su profesor"
+              },
+              {
+                "morfema": "-y",
+                "slot": 3,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE PERSONA",
+                "funcion": "Sufijo posesivo de primera persona singular.",
+                "glosa_corta": "1SG.POS",
+                "ejemplos": "wasiy = mi casa"
+              },
+              {
+                "morfema": "-ta",
+                "slot": 5,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE CASO",
+                "funcion": "Designa el objeto directo con los verbos que no son de movimiento.",
+                "glosa_corta": "AC",
+                "ejemplos": "T'antata mikhuni: = yo como pan"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "qhali",
+            "posicion": 3,
+            "es_puntuacion": false,
+            "raiz": "qhali",
+            "lema": "qhali",
+            "categoria_gramatical": "adj.",
+            "glosa": "qhali",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Sano, saludable, ileso. . ",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "kachin",
+            "posicion": 4,
+            "es_puntuacion": false,
+            "raiz": "kachi",
+            "lema": "kachi",
+            "categoria_gramatical": "s.",
+            "glosa": "kachi-3SG",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Quím. Cloruro de sodio. Sal de cocina. . jj . / Esparto. / Estímulo. / Título honorífico de los ancia nos. kachi",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "(Myrmeleon sp.) Libélula. Insecto neu róptero. . ",
+                "dominio": "Zool.",
+                "sinonimos": null
+              },
+              {
+                "indice": 3,
+                "definicion": "interj. Voz que se repite para llamar al ganado va cuno a fin de que se acerquen a lamer la sal",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 4,
+                "definicion": "Etnohist. (Agujero o ventana de sal) Cuarto barrio importante de la antigua ciudad inkaica del Qosqo, situado al NE del centro de la ciudad. Corresponde al actual barrio de San Blas, muy famoso y tradicional por vivir allí muchos artistas, sobre todo populares, y tener su templo colonial un maravilloso pulpito de cedro, mundialmente admirado",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-n",
+                "slot": 3,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE PERSONA",
+                "funcion": "Sufijo posesivo  de tercera persona singular.",
+                "glosa_corta": "3SG",
+                "ejemplos": "wasin = su casa"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": ".",
+            "posicion": null,
+            "es_puntuacion": true,
+            "raiz": ".",
+            "lema": ".",
+            "categoria_gramatical": "punct",
+            "sufijos": [],
+            "glosa": ".",
+            "acepciones": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 1.0
+          }
+        ]
+      }
+    ]
+  }
+}

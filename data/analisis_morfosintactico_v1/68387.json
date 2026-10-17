@@ -1,0 +1,1019 @@
+{
+  "client_id": "9b65f1e9eb5c4295de5a534c2114c193",
+  "audio_id": "68387",
+  "audio_file": "spontaneous-speech-qxp-68387.mp3",
+  "duration_ms": "28836",
+  "prompt_id": "7248",
+  "prompt": "Intimanta rimay.",
+  "transcription": "Intiqa kawsayninchista, llank'ayninchista ima k'ancharin, hinaspawanpis kallpachaqkunatapis quwanchismi. Chaqranchistapis wiñachin, uywanchistapis k'ancharin. Ñawpaqqa sinchi iñisqa karan, kunan ashwanpis mana nishutañachu.",
+  "variant": "",
+  "language": "Puno Quechua",
+  "split": "train",
+  "analisis_morfosintactico": {
+    "texto_original": "Intiqa kawsayninchista, llank'ayninchista ima k'ancharin, hinaspawanpis kallpachaqkunatapis quwanchismi. Chaqranchistapis wiñachin, uywanchistapis k'ancharin. Ñawpaqqa sinchi iñisqa karan, kunan ashwanpis mana nishutañachu.",
+    "num_oraciones": 3,
+    "num_tokens": 20,
+    "marcadores_globales": {
+      "evidenciales": [
+        "DIRECTO / ATESTIGUADO (-mi)"
+      ],
+      "clusividad": "INCLUSIVO (hablante + oyente)"
+    },
+    "oraciones": [
+      {
+        "indice": 0,
+        "texto": "Intiqa kawsayninchista, llank'ayninchista ima k'ancharin, hinaspawanpis kallpachaqkunatapis quwanchismi.",
+        "marcadores": {
+          "evidenciales": [
+            "DIRECTO / ATESTIGUADO (-mi)"
+          ],
+          "clusividad": "INCLUSIVO (hablante + oyente)"
+        },
+        "tokens": [
+          {
+            "token": "Intiqa",
+            "posicion": 0,
+            "es_puntuacion": false,
+            "raiz": "inti",
+            "lema": "inti",
+            "categoria_gramatical": "desconocido",
+            "glosa": "inti-TOP",
+            "acepciones": [],
+            "sufijos": [
+              {
+                "morfema": "-qa",
+                "slot": 8,
+                "categoria": "",
+                "subcategoria": "SUFIJO INDEPENDIENTE",
+                "funcion": "Denota información novedosa.",
+                "glosa_corta": "TOP",
+                "ejemplos": "Allqoqa aychatam suwakun = el perro roba carne"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 0.5
+          },
+          {
+            "token": "kawsayninchista",
+            "posicion": 1,
+            "es_puntuacion": false,
+            "raiz": "kawsay",
+            "lema": "kawsay",
+            "categoria_gramatical": "s.",
+            "glosa": "kawsay-1SG-1PL.INCL-AC",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Vida",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "Víveres para la alimentación",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 3,
+                "definicion": "v. Vivir. . kawsay",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 4,
+                "definicion": "Felicidad. Vida feliz. . kusi",
+                "dominio": null,
+                "sinonimos": "kusi sami"
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-ni",
+                "slot": 2,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE PERSONA",
+                "funcion": "Sufijo que se agrega cuando la palabra termina en vocal, se sgrega antes del sufijo posesivo.",
+                "glosa_corta": "1SG",
+                "ejemplos": "yachachiqniy = mi profesor\nyawarniy = mi sangre\nyachachiqnin = su profesor"
+              },
+              {
+                "morfema": "-nchis",
+                "slot": 4,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE NUMERO",
+                "funcion": "Sufijo de primera persona plural incluyente.",
+                "glosa_corta": "1PL.INCL",
+                "ejemplos": "Noqanchis pukllanchis = nosotros jugamos (incluyente es decir incluyéndote o incluyéndolos)."
+              },
+              {
+                "morfema": "-ta",
+                "slot": 5,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE CASO",
+                "funcion": "Designa el objeto directo con los verbos que no son de movimiento.",
+                "glosa_corta": "AC",
+                "ejemplos": "T'antata mikhuni: = yo como pan"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": "INCLUSIVO (hablante + oyente)"
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": ",",
+            "posicion": null,
+            "es_puntuacion": true,
+            "raiz": ",",
+            "lema": ",",
+            "categoria_gramatical": "punct",
+            "sufijos": [],
+            "glosa": ",",
+            "acepciones": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 1.0
+          },
+          {
+            "token": "llank'ayninchista",
+            "posicion": 2,
+            "es_puntuacion": false,
+            "raiz": "llank'ay",
+            "lema": "llank'ay",
+            "categoria_gramatical": "s.",
+            "glosa": "llank'ay-1SG-1PL.INCL-AC",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Trabajo, labor, tarea, ocupación. . ",
+                "dominio": null,
+                "sinonimos": "ruway"
+              },
+              {
+                "indice": 2,
+                "definicion": "v. Trabajar, laborar, ocuparse. . . ",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-ni",
+                "slot": 2,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE PERSONA",
+                "funcion": "Sufijo que se agrega cuando la palabra termina en vocal, se sgrega antes del sufijo posesivo.",
+                "glosa_corta": "1SG",
+                "ejemplos": "yachachiqniy = mi profesor\nyawarniy = mi sangre\nyachachiqnin = su profesor"
+              },
+              {
+                "morfema": "-nchis",
+                "slot": 4,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE NUMERO",
+                "funcion": "Sufijo de primera persona plural incluyente.",
+                "glosa_corta": "1PL.INCL",
+                "ejemplos": "Noqanchis pukllanchis = nosotros jugamos (incluyente es decir incluyéndote o incluyéndolos)."
+              },
+              {
+                "morfema": "-ta",
+                "slot": 5,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE CASO",
+                "funcion": "Designa el objeto directo con los verbos que no son de movimiento.",
+                "glosa_corta": "AC",
+                "ejemplos": "T'antata mikhuni: = yo como pan"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": "INCLUSIVO (hablante + oyente)"
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "ima",
+            "posicion": 3,
+            "es_puntuacion": false,
+            "raiz": "ima",
+            "lema": "ima",
+            "categoria_gramatical": "desconocido",
+            "glosa": "ima",
+            "acepciones": [],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 0.5
+          },
+          {
+            "token": "k'ancharin",
+            "posicion": 4,
+            "es_puntuacion": false,
+            "raiz": "k'ancha",
+            "lema": "k'ancha",
+            "categoria_gramatical": "s.",
+            "glosa": "k'ancha-INCO-3SG",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Luz, luminosidad, brillo, esplendor. k'ancha",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-ri",
+                "slot": 2,
+                "categoria": "VERBAL DERIVACIONAL",
+                "subcategoria": "FLEXIVOS DERIVACIONALES",
+                "funcion": "Expresa el inicio del proceso verbal o la realización parcial de aquél. Indica también matiz de cortesía sobre pedidos o mandatos. Indica el inicio de una acción.",
+                "glosa_corta": "INCO",
+                "ejemplos": "Qhawariy = empezar a mirar"
+              },
+              {
+                "morfema": "-n",
+                "slot": 3,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE PERSONA",
+                "funcion": "Sufijo posesivo  de tercera persona singular.",
+                "glosa_corta": "3SG",
+                "ejemplos": "wasin = su casa"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": ",",
+            "posicion": null,
+            "es_puntuacion": true,
+            "raiz": ",",
+            "lema": ",",
+            "categoria_gramatical": "punct",
+            "sufijos": [],
+            "glosa": ",",
+            "acepciones": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 1.0
+          },
+          {
+            "token": "hinaspawanpis",
+            "posicion": 5,
+            "es_puntuacion": false,
+            "raiz": "hina",
+            "lema": "hinay",
+            "categoria_gramatical": "v.",
+            "glosa": "hinay-SUBORD-INSTR/COM-ADIT",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Hacer u obrar de esta manera, de este modo; hacer así (ilustrando con mímica). ",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-spa",
+                "slot": 5,
+                "categoria": "VERBAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE NUMERO",
+                "funcion": "Indica que la acción dependiente es anterior a la del verbo principal. Puede ser un gerundio.",
+                "glosa_corta": "SUBORD",
+                "ejemplos": "Takispa hamun, waqaspa ripun = viene cantando y se va llorando\nTakispa tususpa ripunku = Cantando y bailando se fueron"
+              },
+              {
+                "morfema": "-wan",
+                "slot": 5,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE CASO",
+                "funcion": "Conjunción que enlaza palabras o frases ('y', 'con'). Es un caso cogitativo, porque indica compromiso, compañía o instrumento.",
+                "glosa_corta": "INSTR/COM",
+                "ejemplos": "Michiwan alqowan = el gato y el perro\nChakitaqllawan = con la chakitaqlla\nTaytaywan = Con mi padre\nPaywan noqawan = él y yo\nTaki harawiwan = El canto "
+              },
+              {
+                "morfema": "-pis",
+                "slot": 8,
+                "categoria": "",
+                "subcategoria": "SUFIJO INDEPENDIENTE",
+                "funcion": "Aditivo. Se traduce como ‘también’ o ‘incluso’. Coordina oraciones.",
+                "glosa_corta": "ADIT",
+                "ejemplos": "Noqapas tususaqmi = Yo también bailaré\nNoqapis risaq = yo también iré"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "kallpachaqkunatapis",
+            "posicion": 6,
+            "es_puntuacion": false,
+            "raiz": "kallpachaq",
+            "lema": "kallpachaq",
+            "categoria_gramatical": "adj.",
+            "glosa": "kallpachaq-PL-AC-ADIT",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "y s. Que da fuerza, vigor, ánimo",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-kuna",
+                "slot": 4,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE NUMERO",
+                "funcion": "Pluraliza los sustantivos.",
+                "glosa_corta": "PL",
+                "ejemplos": "Wasikuna = las casas\nrunakuna = las personas"
+              },
+              {
+                "morfema": "-ta",
+                "slot": 5,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE CASO",
+                "funcion": "Designa el objeto directo con los verbos que no son de movimiento.",
+                "glosa_corta": "AC",
+                "ejemplos": "T'antata mikhuni: = yo como pan"
+              },
+              {
+                "morfema": "-pis",
+                "slot": 8,
+                "categoria": "",
+                "subcategoria": "SUFIJO INDEPENDIENTE",
+                "funcion": "Aditivo. Se traduce como ‘también’ o ‘incluso’. Coordina oraciones.",
+                "glosa_corta": "ADIT",
+                "ejemplos": "Noqapas tususaqmi = Yo también bailaré\nNoqapis risaq = yo también iré"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "quwanchismi",
+            "posicion": 7,
+            "es_puntuacion": false,
+            "raiz": "qu",
+            "lema": "qoy",
+            "categoria_gramatical": "v.",
+            "glosa": "qoy-1.OBJ-1PL.INCL-EVID.DIR",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Dar, conceder, entregar, asignar, donar. . . ",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-wa",
+                "slot": 5,
+                "categoria": "DESCONOCIDO",
+                "subcategoria": "Sufijo Gramatical",
+                "funcion": "Sufijo morfológico -wa",
+                "glosa_corta": "1.OBJ",
+                "ejemplos": ""
+              },
+              {
+                "morfema": "-nchis",
+                "slot": 4,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE NUMERO",
+                "funcion": "Sufijo de primera persona plural incluyente.",
+                "glosa_corta": "1PL.INCL",
+                "ejemplos": "Noqanchis pukllanchis = nosotros jugamos (incluyente es decir incluyéndote o incluyéndolos)."
+              },
+              {
+                "morfema": "-mi",
+                "slot": 9,
+                "categoria": "",
+                "subcategoria": "SUFIJO INDEPENDIENTE",
+                "funcion": "Validador. Indica que el hablante ha sido testigo de la acción o está muy seguro de lo que dice. No se debe de usar cuando hay duda.  Cuando la palabra termina en vocal se usa la \"m\" y cuando termina en consonante se usa la \"mi\". Hace referencia a una información directa en relación con lo enunciado por el hablante. Es para afirmar, declarar, sostener.",
+                "glosa_corta": "EVID.DIR",
+                "ejemplos": "Pukllaqmi rirani = fui a jugar\nWarmim kani = soy mujer"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": "DIRECTO / ATESTIGUADO (-mi)",
+              "clusividad": "INCLUSIVO (hablante + oyente)"
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.87
+          },
+          {
+            "token": ".",
+            "posicion": null,
+            "es_puntuacion": true,
+            "raiz": ".",
+            "lema": ".",
+            "categoria_gramatical": "punct",
+            "sufijos": [],
+            "glosa": ".",
+            "acepciones": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 1.0
+          }
+        ]
+      },
+      {
+        "indice": 1,
+        "texto": "Chaqranchistapis wiñachin, uywanchistapis k'ancharin.",
+        "marcadores": {
+          "evidenciales": [],
+          "clusividad": "INCLUSIVO (hablante + oyente)"
+        },
+        "tokens": [
+          {
+            "token": "Chaqranchistapis",
+            "posicion": 0,
+            "es_puntuacion": false,
+            "raiz": "chaqra",
+            "lema": "ch'aqra",
+            "categoria_gramatical": "adj.",
+            "glosa": "ch'aqra-1PL.INCL-AC-ADIT",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "V. Q'AQRA",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-nchis",
+                "slot": 4,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE NUMERO",
+                "funcion": "Sufijo de primera persona plural incluyente.",
+                "glosa_corta": "1PL.INCL",
+                "ejemplos": "Noqanchis pukllanchis = nosotros jugamos (incluyente es decir incluyéndote o incluyéndolos)."
+              },
+              {
+                "morfema": "-ta",
+                "slot": 5,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE CASO",
+                "funcion": "Designa el objeto directo con los verbos que no son de movimiento.",
+                "glosa_corta": "AC",
+                "ejemplos": "T'antata mikhuni: = yo como pan"
+              },
+              {
+                "morfema": "-pis",
+                "slot": 8,
+                "categoria": "",
+                "subcategoria": "SUFIJO INDEPENDIENTE",
+                "funcion": "Aditivo. Se traduce como ‘también’ o ‘incluso’. Coordina oraciones.",
+                "glosa_corta": "ADIT",
+                "ejemplos": "Noqapas tususaqmi = Yo también bailaré\nNoqapis risaq = yo también iré"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": "INCLUSIVO (hablante + oyente)"
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "wiñachin",
+            "posicion": 1,
+            "es_puntuacion": false,
+            "raiz": "wiña",
+            "lema": "wiña",
+            "categoria_gramatical": "s.",
+            "glosa": "wiña-CAUS-3SG",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Crecimiento, desarrollo",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-chi",
+                "slot": 2,
+                "categoria": "VERBAL DERIVACIONAL",
+                "subcategoria": "FLEXIVOS DERIVACIONALES",
+                "funcion": "Indica que el sujeto motiva una acción que es ejecutada por otro. Corresponde al verbo ‘hacer’.",
+                "glosa_corta": "CAUS",
+                "ejemplos": "Puñuchiy = hacer dormir\nwaqachiy = hacerle llorar\nllank’achiychis = háganle trabajar"
+              },
+              {
+                "morfema": "-n",
+                "slot": 3,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE PERSONA",
+                "funcion": "Sufijo posesivo  de tercera persona singular.",
+                "glosa_corta": "3SG",
+                "ejemplos": "wasin = su casa"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": ",",
+            "posicion": null,
+            "es_puntuacion": true,
+            "raiz": ",",
+            "lema": ",",
+            "categoria_gramatical": "punct",
+            "sufijos": [],
+            "glosa": ",",
+            "acepciones": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 1.0
+          },
+          {
+            "token": "uywanchistapis",
+            "posicion": 2,
+            "es_puntuacion": false,
+            "raiz": "uywa",
+            "lema": "uywa",
+            "categoria_gramatical": "s.",
+            "glosa": "uywa-1PL.INCL-AC-ADIT",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Animal, nombre genérico con que se conoce a los equinos",
+                "dominio": "Zool.",
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "Todo animal do méstico, utilizado para carga y trilla. . uywa",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-nchis",
+                "slot": 4,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE NUMERO",
+                "funcion": "Sufijo de primera persona plural incluyente.",
+                "glosa_corta": "1PL.INCL",
+                "ejemplos": "Noqanchis pukllanchis = nosotros jugamos (incluyente es decir incluyéndote o incluyéndolos)."
+              },
+              {
+                "morfema": "-ta",
+                "slot": 5,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE CASO",
+                "funcion": "Designa el objeto directo con los verbos que no son de movimiento.",
+                "glosa_corta": "AC",
+                "ejemplos": "T'antata mikhuni: = yo como pan"
+              },
+              {
+                "morfema": "-pis",
+                "slot": 8,
+                "categoria": "",
+                "subcategoria": "SUFIJO INDEPENDIENTE",
+                "funcion": "Aditivo. Se traduce como ‘también’ o ‘incluso’. Coordina oraciones.",
+                "glosa_corta": "ADIT",
+                "ejemplos": "Noqapas tususaqmi = Yo también bailaré\nNoqapis risaq = yo también iré"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": "INCLUSIVO (hablante + oyente)"
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "k'ancharin",
+            "posicion": 3,
+            "es_puntuacion": false,
+            "raiz": "k'ancha",
+            "lema": "k'ancha",
+            "categoria_gramatical": "s.",
+            "glosa": "k'ancha-INCO-3SG",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Luz, luminosidad, brillo, esplendor. k'ancha",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-ri",
+                "slot": 2,
+                "categoria": "VERBAL DERIVACIONAL",
+                "subcategoria": "FLEXIVOS DERIVACIONALES",
+                "funcion": "Expresa el inicio del proceso verbal o la realización parcial de aquél. Indica también matiz de cortesía sobre pedidos o mandatos. Indica el inicio de una acción.",
+                "glosa_corta": "INCO",
+                "ejemplos": "Qhawariy = empezar a mirar"
+              },
+              {
+                "morfema": "-n",
+                "slot": 3,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE PERSONA",
+                "funcion": "Sufijo posesivo  de tercera persona singular.",
+                "glosa_corta": "3SG",
+                "ejemplos": "wasin = su casa"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": ".",
+            "posicion": null,
+            "es_puntuacion": true,
+            "raiz": ".",
+            "lema": ".",
+            "categoria_gramatical": "punct",
+            "sufijos": [],
+            "glosa": ".",
+            "acepciones": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 1.0
+          }
+        ]
+      },
+      {
+        "indice": 2,
+        "texto": "Ñawpaqqa sinchi iñisqa karan, kunan ashwanpis mana nishutañachu.",
+        "marcadores": {
+          "evidenciales": [],
+          "clusividad": null
+        },
+        "tokens": [
+          {
+            "token": "Ñawpaqqa",
+            "posicion": 0,
+            "es_puntuacion": false,
+            "raiz": "ñawpaq",
+            "lema": "ñawpaq",
+            "categoria_gramatical": "adj.",
+            "glosa": "ñawpaq-TOP",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "y s. . ",
+                "dominio": null,
+                "sinonimos": "qayllaq"
+              },
+              {
+                "indice": 2,
+                "definicion": "adj. Antiguo, remoto, antes de esta época. . ñawpaq",
+                "dominio": null,
+                "sinonimos": "ñawpa"
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-qa",
+                "slot": 8,
+                "categoria": "",
+                "subcategoria": "SUFIJO INDEPENDIENTE",
+                "funcion": "Denota información novedosa.",
+                "glosa_corta": "TOP",
+                "ejemplos": "Allqoqa aychatam suwakun = el perro roba carne"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "sinchi",
+            "posicion": 1,
+            "es_puntuacion": false,
+            "raiz": "sinchi",
+            "lema": "sinchi",
+            "categoria_gramatical": "s.",
+            "glosa": "sinchi",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Jefe de las agru paciones militares en el inkario",
+                "dominio": "Hist.",
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "adj. Valiente, valeroso, recio, fuerte, denodado, intrépido",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 3,
+                "definicion": "adv. Muy, demasiado, mucho, bastante. . sinchi",
+                "dominio": null,
+                "sinonimos": "nishu, sinchi"
+              }
+            ],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "iñisqa",
+            "posicion": 2,
+            "es_puntuacion": false,
+            "raiz": "iñisqa",
+            "lema": "iñisqa",
+            "categoria_gramatical": "adj.",
+            "glosa": "iñisqa",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Alguna afirmación creída, admitida por la fe",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "karan",
+            "posicion": 3,
+            "es_puntuacion": false,
+            "raiz": "ka",
+            "lema": "ka",
+            "categoria_gramatical": "s.",
+            "glosa": "ka-PAS",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Acto de dar o entregar algo a otra persona. . ",
+                "dominio": null,
+                "sinonimos": "kayqa"
+              },
+              {
+                "indice": 2,
+                "definicion": "imper. Toma, he aquí lo tienes",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 3,
+                "definicion": "conj. Pero",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 4,
+                "definicion": "Ec: el, la, lo.",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-ran",
+                "slot": 5,
+                "categoria": "DESCONOCIDO",
+                "subcategoria": "Sufijo Gramatical",
+                "funcion": "Sufijo morfológico -ran",
+                "glosa_corta": "PAS",
+                "ejemplos": ""
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.8
+          },
+          {
+            "token": ",",
+            "posicion": null,
+            "es_puntuacion": true,
+            "raiz": ",",
+            "lema": ",",
+            "categoria_gramatical": "punct",
+            "sufijos": [],
+            "glosa": ",",
+            "acepciones": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 1.0
+          },
+          {
+            "token": "kunan",
+            "posicion": 4,
+            "es_puntuacion": false,
+            "raiz": "kuna",
+            "lema": "kunay",
+            "categoria_gramatical": "v.",
+            "glosa": "kunay-3SG",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Aconsejar, advertir, recomendar. kunay",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-n",
+                "slot": 3,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE PERSONA",
+                "funcion": "Sufijo posesivo  de tercera persona singular.",
+                "glosa_corta": "3SG",
+                "ejemplos": "wasin = su casa"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "ashwanpis",
+            "posicion": 5,
+            "es_puntuacion": false,
+            "raiz": "ash",
+            "lema": "ash",
+            "categoria_gramatical": "desconocido",
+            "glosa": "ash-INSTR/COM-ADIT",
+            "acepciones": [],
+            "sufijos": [
+              {
+                "morfema": "-wan",
+                "slot": 5,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE CASO",
+                "funcion": "Conjunción que enlaza palabras o frases ('y', 'con'). Es un caso cogitativo, porque indica compromiso, compañía o instrumento.",
+                "glosa_corta": "INSTR/COM",
+                "ejemplos": "Michiwan alqowan = el gato y el perro\nChakitaqllawan = con la chakitaqlla\nTaytaywan = Con mi padre\nPaywan noqawan = él y yo\nTaki harawiwan = El canto "
+              },
+              {
+                "morfema": "-pis",
+                "slot": 8,
+                "categoria": "",
+                "subcategoria": "SUFIJO INDEPENDIENTE",
+                "funcion": "Aditivo. Se traduce como ‘también’ o ‘incluso’. Coordina oraciones.",
+                "glosa_corta": "ADIT",
+                "ejemplos": "Noqapas tususaqmi = Yo también bailaré\nNoqapis risaq = yo también iré"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 0.5
+          },
+          {
+            "token": "mana",
+            "posicion": 6,
+            "es_puntuacion": false,
+            "raiz": "ma",
+            "lema": "ma",
+            "categoria_gramatical": "desconocido",
+            "glosa": "ma-NMLZ",
+            "acepciones": [],
+            "sufijos": [
+              {
+                "morfema": "-na",
+                "slot": 2,
+                "categoria": "NOMINAL DERIVACIONAL",
+                "subcategoria": "DERIVACIONAL DEVERBATIVO",
+                "funcion": "Convierte una raíz verbal en sustantivo. concretiza o sustantiviza a un verbo.",
+                "glosa_corta": "NMLZ",
+                "ejemplos": "Pichana = escoba\ntiyana = asiento"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 0.5
+          },
+          {
+            "token": "nishutañachu",
+            "posicion": 7,
+            "es_puntuacion": false,
+            "raiz": "nishutaña",
+            "lema": "nishutaña",
+            "categoria_gramatical": "desconocido",
+            "glosa": "nishutaña-INTERR/NEG",
+            "acepciones": [],
+            "sufijos": [
+              {
+                "morfema": "-chu",
+                "slot": 9,
+                "categoria": "",
+                "subcategoria": "SUFIJO INDEPENDIENTE",
+                "funcion": "Interrogativo que exige respuesta afirmativa o negativa. Solo para preguntas cerradas.",
+                "glosa_corta": "INTERR/NEG",
+                "ejemplos": "¿Papata mikhunkichu? = ¿Comes papa?"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 0.5
+          },
+          {
+            "token": ".",
+            "posicion": null,
+            "es_puntuacion": true,
+            "raiz": ".",
+            "lema": ".",
+            "categoria_gramatical": "punct",
+            "sufijos": [],
+            "glosa": ".",
+            "acepciones": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 1.0
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,2912 @@
+{
+  "client_id": "65149769e817b44e2c0337d3c3fe6f69",
+  "audio_id": "69087",
+  "audio_file": "spontaneous-speech-qxp-69087.mp3",
+  "duration_ms": "39636",
+  "prompt_id": "7389",
+  "prompt": "Imanasqataq sapa kutin ashwan pisi Qhichwa rimaqkuna kapun?",
+  "transcription": "Qhichwa rimaqkuna pisiyasqanqa ñawpaqtaqa isturiyamanta, kawsaymanta ima sapanchasqa kasqanraykun, chaymi simita k'uchuhatarqan, waqcha kaywan, mana sapan llallipakuyta atispa, mana tinkuchispa ima. Kay ñit'iyqa, kastilla simi tukuy imapi kamachikusqanwan, mat'ikusqanwan ima, qhichwa ayllukunaman astachirqan waq karu llaqtakunaman, hina qhiparikapunku chaypi runasiminkuta qunqaspa.",
+  "variant": "",
+  "language": "Puno Quechua",
+  "split": "dev",
+  "analisis_morfosintactico": {
+    "texto_original": "Qhichwa rimaqkuna pisiyasqanqa ñawpaqtaqa isturiyamanta, kawsaymanta ima sapanchasqa kasqanraykun, chaymi simita k'uchuhatarqan, waqcha kaywan, mana sapan llallipakuyta atispa, mana tinkuchispa ima. Kay ñit'iyqa, kastilla simi tukuy imapi kamachikusqanwan, mat'ikusqanwan ima, qhichwa ayllukunaman astachirqan waq karu llaqtakunaman, hina qhiparikapunku chaypi runasiminkuta qunqaspa.",
+    "num_oraciones": 2,
+    "num_tokens": 41,
+    "marcadores_globales": {
+      "evidenciales": [
+        "DIRECTO / ATESTIGUADO (-mi)"
+      ],
+      "clusividad": null
+    },
+    "oraciones": [
+      {
+        "indice": 0,
+        "texto": "Qhichwa rimaqkuna pisiyasqanqa ñawpaqtaqa isturiyamanta, kawsaymanta ima sapanchasqa kasqanraykun, chaymi simita k'uchuhatarqan, waqcha kaywan, mana sapan llallipakuyta atispa, mana tinkuchispa ima.",
+        "marcadores": {
+          "evidenciales": [
+            "DIRECTO / ATESTIGUADO (-mi)"
+          ],
+          "clusividad": null
+        },
+        "tokens": [
+          {
+            "token": "Qhichwa",
+            "posicion": 0,
+            "es_puntuacion": false,
+            "raiz": "qhich",
+            "lema": "qhich",
+            "categoria_gramatical": "desconocido",
+            "glosa": "qhich-1.OBJ",
+            "acepciones": [],
+            "sufijos": [
+              {
+                "morfema": "-wa",
+                "slot": 5,
+                "categoria": "DESCONOCIDO",
+                "subcategoria": "Sufijo Gramatical",
+                "funcion": "Sufijo morfológico -wa",
+                "glosa_corta": "1.OBJ",
+                "ejemplos": ""
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 0.4
+          },
+          {
+            "token": "rimaqkuna",
+            "posicion": 1,
+            "es_puntuacion": false,
+            "raiz": "rimaq",
+            "lema": "rimaq",
+            "categoria_gramatical": "s.",
+            "glosa": "rimaq-PL",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "V. RIMAPUQE. rantina adj. Comprable",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "adj. y s. Mercadería o cosa que se expone a la compraventa. ",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-kuna",
+                "slot": 4,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE NUMERO",
+                "funcion": "Pluraliza los sustantivos.",
+                "glosa_corta": "PL",
+                "ejemplos": "Wasikuna = las casas\nrunakuna = las personas"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "pisiyasqanqa",
+            "posicion": 2,
+            "es_puntuacion": false,
+            "raiz": "pisiya",
+            "lema": "pisiyay",
+            "categoria_gramatical": "v.",
+            "glosa": "pisiyay-PART.PAS-3SG.FUT",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Ir disminuyendo; reducirse, aminorarse, acortarse, en cantidad o tamaño. ",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-sqa",
+                "slot": 3,
+                "categoria": "NOMINAL DERIVACIONAL",
+                "subcategoria": "DERIVACIONAL DEVERBATIVO",
+                "funcion": "Participio pasivo ('escrito') o pasado narrativo. indica hecho consumado, se utiliza en narraciones.",
+                "glosa_corta": "PART.PAS",
+                "ejemplos": "Qhelqasqa = escrito\nwañusqa = muerto"
+              },
+              {
+                "morfema": "-nqa",
+                "slot": 5,
+                "categoria": "VERBAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE NUMERO",
+                "funcion": "Sufijo de tercera persona singular.",
+                "glosa_corta": "3SG.FUT",
+                "ejemplos": "Pay pukllanqa = él jugará"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "ñawpaqtaqa",
+            "posicion": 3,
+            "es_puntuacion": false,
+            "raiz": "ñawpaq",
+            "lema": "ñawpaq",
+            "categoria_gramatical": "adj.",
+            "glosa": "ñawpaq-AC-TOP",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "y s. . ",
+                "dominio": null,
+                "sinonimos": "qayllaq"
+              },
+              {
+                "indice": 2,
+                "definicion": "adj. Antiguo, remoto, antes de esta época. . ñawpaq",
+                "dominio": null,
+                "sinonimos": "ñawpa"
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-ta",
+                "slot": 5,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE CASO",
+                "funcion": "Designa el objeto directo con los verbos que no son de movimiento.",
+                "glosa_corta": "AC",
+                "ejemplos": "T'antata mikhuni: = yo como pan"
+              },
+              {
+                "morfema": "-qa",
+                "slot": 8,
+                "categoria": "",
+                "subcategoria": "SUFIJO INDEPENDIENTE",
+                "funcion": "Denota información novedosa.",
+                "glosa_corta": "TOP",
+                "ejemplos": "Allqoqa aychatam suwakun = el perro roba carne"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "isturiyamanta",
+            "posicion": 4,
+            "es_puntuacion": false,
+            "raiz": "isturiya",
+            "lema": "isturiya",
+            "categoria_gramatical": "desconocido",
+            "glosa": "isturiya-ABL",
+            "acepciones": [],
+            "sufijos": [
+              {
+                "morfema": "-manta",
+                "slot": 5,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE CASO",
+                "funcion": "Indica procedencia (‘de’, ‘desde’) o el material de algo.",
+                "glosa_corta": "ABL",
+                "ejemplos": "Arequipamanta = de Arequipa\nThantamanta wawata ruwashan = Está haciendo wawa de pan"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 0.5
+          },
+          {
+            "token": ",",
+            "posicion": null,
+            "es_puntuacion": true,
+            "raiz": ",",
+            "lema": ",",
+            "categoria_gramatical": "punct",
+            "sufijos": [],
+            "glosa": ",",
+            "acepciones": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 1.0
+          },
+          {
+            "token": "kawsaymanta",
+            "posicion": 5,
+            "es_puntuacion": false,
+            "raiz": "kawsay",
+            "lema": "kawsay",
+            "categoria_gramatical": "s.",
+            "glosa": "kawsay-ABL",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Vida",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "Víveres para la alimentación",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 3,
+                "definicion": "v. Vivir. . kawsay",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 4,
+                "definicion": "Felicidad. Vida feliz. . kusi",
+                "dominio": null,
+                "sinonimos": "kusi sami"
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-manta",
+                "slot": 5,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE CASO",
+                "funcion": "Indica procedencia (‘de’, ‘desde’) o el material de algo.",
+                "glosa_corta": "ABL",
+                "ejemplos": "Arequipamanta = de Arequipa\nThantamanta wawata ruwashan = Está haciendo wawa de pan"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "ima",
+            "posicion": 6,
+            "es_puntuacion": false,
+            "raiz": "ima",
+            "lema": "ima",
+            "categoria_gramatical": "desconocido",
+            "glosa": "ima",
+            "acepciones": [],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 0.5
+          },
+          {
+            "token": "sapanchasqa",
+            "posicion": 7,
+            "es_puntuacion": false,
+            "raiz": "sapancha",
+            "lema": "sapanchay",
+            "categoria_gramatical": "v.",
+            "glosa": "sapanchay-PART.PAS",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Aislar a uno de entre otros. Dejar solo a alguien",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-sqa",
+                "slot": 3,
+                "categoria": "NOMINAL DERIVACIONAL",
+                "subcategoria": "DERIVACIONAL DEVERBATIVO",
+                "funcion": "Participio pasivo ('escrito') o pasado narrativo. indica hecho consumado, se utiliza en narraciones.",
+                "glosa_corta": "PART.PAS",
+                "ejemplos": "Qhelqasqa = escrito\nwañusqa = muerto"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "kasqanraykun",
+            "posicion": 8,
+            "es_puntuacion": false,
+            "raiz": "ka",
+            "lema": "ka",
+            "categoria_gramatical": "s.",
+            "glosa": "ka-PART.PAS-3SG-CAUS-3SG",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Acto de dar o entregar algo a otra persona. . ",
+                "dominio": null,
+                "sinonimos": "kayqa"
+              },
+              {
+                "indice": 2,
+                "definicion": "imper. Toma, he aquí lo tienes",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 3,
+                "definicion": "conj. Pero",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 4,
+                "definicion": "Ec: el, la, lo.",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-sqa",
+                "slot": 3,
+                "categoria": "NOMINAL DERIVACIONAL",
+                "subcategoria": "DERIVACIONAL DEVERBATIVO",
+                "funcion": "Participio pasivo ('escrito') o pasado narrativo. indica hecho consumado, se utiliza en narraciones.",
+                "glosa_corta": "PART.PAS",
+                "ejemplos": "Qhelqasqa = escrito\nwañusqa = muerto"
+              },
+              {
+                "morfema": "-n",
+                "slot": 3,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE PERSONA",
+                "funcion": "Sufijo posesivo  de tercera persona singular.",
+                "glosa_corta": "3SG",
+                "ejemplos": "wasin = su casa"
+              },
+              {
+                "morfema": "-rayku",
+                "slot": 5,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE CASO",
+                "funcion": "Indica el motivo de la realización de una acción. La causa por el que se encuentra en esa situación  o el efecto que ha causado. Indica la preposición 'por' (motivo).",
+                "glosa_corta": "CAUS",
+                "ejemplos": "Payrayku = por él.\nQolqerayku = por dinero"
+              },
+              {
+                "morfema": "-n",
+                "slot": 3,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE PERSONA",
+                "funcion": "Sufijo posesivo  de tercera persona singular.",
+                "glosa_corta": "3SG",
+                "ejemplos": "wasin = su casa"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": ",",
+            "posicion": null,
+            "es_puntuacion": true,
+            "raiz": ",",
+            "lema": ",",
+            "categoria_gramatical": "punct",
+            "sufijos": [],
+            "glosa": ",",
+            "acepciones": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 1.0
+          },
+          {
+            "token": "chaymi",
+            "posicion": 9,
+            "es_puntuacion": false,
+            "raiz": "chay",
+            "lema": "chay",
+            "categoria_gramatical": "s.",
+            "glosa": "chay-EVID.DIR",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Descanso breve de medio día",
+                "dominio": "Siesta.",
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "v. Sestear. Descansar o dormir algún momento del día",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-mi",
+                "slot": 9,
+                "categoria": "",
+                "subcategoria": "SUFIJO INDEPENDIENTE",
+                "funcion": "Validador. Indica que el hablante ha sido testigo de la acción o está muy seguro de lo que dice. No se debe de usar cuando hay duda.  Cuando la palabra termina en vocal se usa la \"m\" y cuando termina en consonante se usa la \"mi\". Hace referencia a una información directa en relación con lo enunciado por el hablante. Es para afirmar, declarar, sostener.",
+                "glosa_corta": "EVID.DIR",
+                "ejemplos": "Pukllaqmi rirani = fui a jugar\nWarmim kani = soy mujer"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": "DIRECTO / ATESTIGUADO (-mi)",
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "simita",
+            "posicion": 10,
+            "es_puntuacion": false,
+            "raiz": "simi",
+            "lema": "simi",
+            "categoria_gramatical": "adj.",
+            "glosa": "simi-AC",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "y s. Que dice palabras descorteses, frases in juriosas o hirientes. . haphlla",
+                "dominio": null,
+                "sinonimos": "qhe lli simi, map'a simi"
+              },
+              {
+                "indice": 2,
+                "definicion": "y s. De una sola palabra, de un solo decir, estado categórico. ",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 3,
+                "definicion": "y s. (De dos bocas). figdo. Persona inconsecuente en su palabra; de doble palabra; el que dice y luego se desdice; el que miente y desmiente. iskay",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 4,
+                "definicion": "Soez, grosero, indecente al hablar. . . . map'a",
+                "dominio": null,
+                "sinonimos": "haphlla simi"
+              },
+              {
+                "indice": 5,
+                "definicion": "V. HAPHLLA SIMI",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-ta",
+                "slot": 5,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE CASO",
+                "funcion": "Designa el objeto directo con los verbos que no son de movimiento.",
+                "glosa_corta": "AC",
+                "ejemplos": "T'antata mikhuni: = yo como pan"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "k'uchuhatarqan",
+            "posicion": 11,
+            "es_puntuacion": false,
+            "raiz": "k'uchuhatarqan",
+            "lema": "k'uchuhatarqan",
+            "categoria_gramatical": "desconocido",
+            "glosa": "k'uchuhatarqan",
+            "acepciones": [],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 0.5
+          },
+          {
+            "token": ",",
+            "posicion": null,
+            "es_puntuacion": true,
+            "raiz": ",",
+            "lema": ",",
+            "categoria_gramatical": "punct",
+            "sufijos": [],
+            "glosa": ",",
+            "acepciones": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 1.0
+          },
+          {
+            "token": "waqcha",
+            "posicion": 12,
+            "es_puntuacion": false,
+            "raiz": "waqcha",
+            "lema": "waqcha",
+            "categoria_gramatical": "desconocido",
+            "glosa": "waqcha",
+            "acepciones": [],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 0.5
+          },
+          {
+            "token": "kaywan",
+            "posicion": 13,
+            "es_puntuacion": false,
+            "raiz": "kay",
+            "lema": "kay",
+            "categoria_gramatical": "s.",
+            "glosa": "kay-INSTR/COM",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "allin",
+                "dominio": "Bondad.",
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "La verdad. Veraci dad",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 3,
+                "definicion": "La evidencia",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 4,
+                "definicion": "Preñez, gravidez. ",
+                "dominio": null,
+                "sinonimos": "wiksayoq kay"
+              },
+              {
+                "indice": 5,
+                "definicion": "Frigidez, gelidez",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 6,
+                "definicion": "figdo. Languidez, abatimiento, postración",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 7,
+                "definicion": "Flacura, delgadez, escualidez",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 8,
+                "definicion": "Condición de far sante, tramposo, engañoso, fu llero",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 9,
+                "definicion": "Afonía",
+                "dominio": "Pat.",
+                "sinonimos": null
+              },
+              {
+                "indice": 10,
+                "definicion": "v. Estar ronco, afónico",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 11,
+                "definicion": "Sequedad",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 12,
+                "definicion": "Humedad. Estado húmedo, mojado de algo. ch'aran",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 13,
+                "definicion": "jigdo. Beldad ex traordinaria. ch'askachay",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 14,
+                "definicion": "Diligencia, habilidad, prontitud, agilidad. ",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 15,
+                "definicion": "Estar vacío algo",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 16,
+                "definicion": "Calidad de estar desocupado algún ambiente",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 17,
+                "definicion": "Pureza, limpidez",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 18,
+                "definicion": "Claridad",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 19,
+                "definicion": "Limpidez en el comportamiento",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 20,
+                "definicion": "Niñez",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 21,
+                "definicion": "Etapa de la niñez. ",
+                "dominio": null,
+                "sinonimos": "herq'ekay"
+              },
+              {
+                "indice": 22,
+                "definicion": "Renguera. ",
+                "dominio": null,
+                "sinonimos": "wist'uyay, weqruyay"
+              },
+              {
+                "indice": 23,
+                "definicion": "Grandeza",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 24,
+                "definicion": "Majestad",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 25,
+                "definicion": "Extensión",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 26,
+                "definicion": "Elevación",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 27,
+                "definicion": "Prestigio. . Hatun",
+                "dominio": null,
+                "sinonimos": "qhapaq"
+              },
+              {
+                "indice": 28,
+                "definicion": "Crueldad, fero cidad, inhumanidad",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 29,
+                "definicion": "V. ERQE KAY",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 30,
+                "definicion": "Pequeñez. Tamaño reducido",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 31,
+                "definicion": "Infantil. . huch'uy",
+                "dominio": null,
+                "sinonimos": "t'ustu kay, tanka kay"
+              },
+              {
+                "indice": 32,
+                "definicion": "Estado de la mujer que perdió a su marido",
+                "dominio": "Viudez.",
+                "sinonimos": null
+              },
+              {
+                "indice": 33,
+                "definicion": "Justeza, exactitud",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 34,
+                "definicion": "Vanidad, pretensión, jactancia, presunción",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 35,
+                "definicion": "Raquitismo",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 36,
+                "definicion": "Ancianidad, vejez, decrepitud, senectud, estado de ancianidad. . Machu",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 37,
+                "definicion": "Maternidad. Calidad de madre o progenitora. Mama",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 38,
+                "definicion": "NEOL. Ser deudor o tener deuda de dinero, de alguna especie a favor recibido. manu",
+                "dominio": "Juris.",
+                "sinonimos": null
+              },
+              {
+                "indice": 39,
+                "definicion": "Tacañería, avaricia, mezquindad",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 40,
+                "definicion": "Incorrección, impudicia, deshonestidad. millay",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 41,
+                "definicion": "Antigüedad, condición de antiguo o remoto. (J.L.P.)",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 42,
+                "definicion": "Estado de ceguera o invidencia. Ceguera",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 43,
+                "definicion": "Estado de encontrarse triturado, desmenuzado las cosas",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 44,
+                "definicion": ". ñut'u",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 45,
+                "definicion": "Equivocación, error",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 46,
+                "definicion": "v. Vivir en lo errado, en lo falso, incierto o confuso. panta",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 47,
+                "definicion": "Ancianidad o vejez de la mujer. paya",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 48,
+                "definicion": "Insuficiencia, falto de fuerza, debilidad. pisi pisimanta. adv. V. AS ASMANTA",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 49,
+                "definicion": "Pereza, desgano para el trabajo, modorra. . . . ",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 50,
+                "definicion": "Riqueza, estado de opulencia y poder económico",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 51,
+                "definicion": "Tener virtudes o dones especiales que lo hacen a uno muy distinguido del común de las gentes. qhapaq",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 52,
+                "definicion": "V. Q'ARA KAY",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 53,
+                "definicion": "Calor, calentura. q'oñi",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 54,
+                "definicion": "Magnanimidad, ge nerosidad, liberalidad",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 55,
+                "definicion": "V. RUK'U KAY",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 56,
+                "definicion": "Senectud, decrepitud, chochez. ",
+                "dominio": null,
+                "sinonimos": "ruku kay"
+              },
+              {
+                "indice": 57,
+                "definicion": "figdo. Insensibilidad, indolencia, dureza del corazón. rumi",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 58,
+                "definicion": "Humanidad. Naturaleza humana, condición de ser humano. runa",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 59,
+                "definicion": "Condición de ser salvaje, arisco, esquivo, indómito. salqa",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 60,
+                "definicion": "Suavidad de carácter, propenso a la sumisión. sanp'a",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 61,
+                "definicion": "Apartamiento, sepa ración, aislamiento",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 62,
+                "definicion": "v. Quedar sólo, apartado, separado, aislado. Sapa",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 63,
+                "definicion": "Soledad, aislamiento de toda compañía",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 64,
+                "definicion": "Diablura, imitación al diablo",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 65,
+                "definicion": "Resistencia a la cocción",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 66,
+                "definicion": "Resistencia, dureza, reciedumbre. seq'ay",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 67,
+                "definicion": "Cualidad del rostro de ser picado de viruela",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 68,
+                "definicion": "E sbeltez, gallardía, hermosura",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 69,
+                "definicion": "Valentía, audacia, intrepidez, arrojo",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 70,
+                "definicion": "Fortaleza. Sinchi Roq'a",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 71,
+                "definicion": "Juventud, mocedad, pubertad de la mujer. Estado de doncella o de muchacha. (J.L.P.)",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 72,
+                "definicion": "Cercanía, proximidad. sispa",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 73,
+                "definicion": "Paraplegia o parálisis de las extremidades in feriores del hombre. such'u",
+                "dominio": "Med.",
+                "sinonimos": null
+              },
+              {
+                "indice": 74,
+                "definicion": "Menor de edad, condición de ser menor. sullk'a",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 75,
+                "definicion": "Agrado, armonía, estética, belleza. sumaq",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 76,
+                "definicion": "Claridad, evidencia, certeza, ser claro. Sut'i",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 77,
+                "definicion": "Latrocinio",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 78,
+                "definicion": "v. Ser ladrón, pillo o ratero",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 79,
+                "definicion": "Medianía, de mediana estatura",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 80,
+                "definicion": "V. HUCH'UY KAY. tanka",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 81,
+                "definicion": "Realeza, dignidad, real, magestad. . tupa",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 82,
+                "definicion": "Ancianidad, senectud, decrepitud. thuku",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 83,
+                "definicion": "Embriaguez aguda o extremada",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 84,
+                "definicion": "V. HUCH'UY KAY",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 85,
+                "definicion": "Hondura, profundidad. Ukhu Pacha. Filos.Ink. El mundo de abajo, de las cavernas y negros abismos; de los muertos, de los profundos reinos",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 86,
+                "definicion": "V. ATIMILLP'U, SUPAY WASI",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 87,
+                "definicion": "Calidad de ser cabeza, jefe de grupo",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 88,
+                "definicion": "Capitanía, caudillaje. uma",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 89,
+                "definicion": "Liquidez, acuosidad. unu killa s. V. PINCHIKILLA. unu",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 90,
+                "definicion": "Esterilidad, impotencia",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 91,
+                "definicion": "Frigidez",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 92,
+                "definicion": "Decaimiento, de bilitamiento, escualidez. usphu usphu. adv. Desganadamente, de un modo decaído, deprimido. ",
+                "dominio": null,
+                "sinonimos": "unphu unphu"
+              },
+              {
+                "indice": 93,
+                "definicion": "Inutilidad, inhabilidad",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 94,
+                "definicion": "Tutela, tutoría",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 95,
+                "definicion": "Femineidad",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 96,
+                "definicion": "Sexo femenino. warmi",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 97,
+                "definicion": "Niñez, puerilidad, infancia",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 98,
+                "definicion": "Soltura, liviandad de carácter. waya",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 99,
+                "definicion": "Juventud, mocedad. . Wayna",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 100,
+                "definicion": "V. CHICHU KAY",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 101,
+                "definicion": "Perpetuidad, eternidad, infinitud. . wiñay",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-wan",
+                "slot": 5,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE CASO",
+                "funcion": "Conjunción que enlaza palabras o frases ('y', 'con'). Es un caso cogitativo, porque indica compromiso, compañía o instrumento.",
+                "glosa_corta": "INSTR/COM",
+                "ejemplos": "Michiwan alqowan = el gato y el perro\nChakitaqllawan = con la chakitaqlla\nTaytaywan = Con mi padre\nPaywan noqawan = él y yo\nTaki harawiwan = El canto "
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": ",",
+            "posicion": null,
+            "es_puntuacion": true,
+            "raiz": ",",
+            "lema": ",",
+            "categoria_gramatical": "punct",
+            "sufijos": [],
+            "glosa": ",",
+            "acepciones": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 1.0
+          },
+          {
+            "token": "mana",
+            "posicion": 14,
+            "es_puntuacion": false,
+            "raiz": "ma",
+            "lema": "ma",
+            "categoria_gramatical": "desconocido",
+            "glosa": "ma-NMLZ",
+            "acepciones": [],
+            "sufijos": [
+              {
+                "morfema": "-na",
+                "slot": 2,
+                "categoria": "NOMINAL DERIVACIONAL",
+                "subcategoria": "DERIVACIONAL DEVERBATIVO",
+                "funcion": "Convierte una raíz verbal en sustantivo. concretiza o sustantiviza a un verbo.",
+                "glosa_corta": "NMLZ",
+                "ejemplos": "Pichana = escoba\ntiyana = asiento"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 0.5
+          },
+          {
+            "token": "sapan",
+            "posicion": 15,
+            "es_puntuacion": false,
+            "raiz": "sapan",
+            "lema": "sapan",
+            "categoria_gramatical": "adj.",
+            "glosa": "sapan",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Solo, único. ",
+                "dominio": null,
+                "sinonimos": "sapay"
+              }
+            ],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "llallipakuyta",
+            "posicion": 16,
+            "es_puntuacion": false,
+            "raiz": "llallipakuy",
+            "lema": "llallipakuy",
+            "categoria_gramatical": "v.",
+            "glosa": "llallipakuy-AC",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Pugnar, esforzarse por ganar o vencer en una contienda",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-ta",
+                "slot": 5,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE CASO",
+                "funcion": "Designa el objeto directo con los verbos que no son de movimiento.",
+                "glosa_corta": "AC",
+                "ejemplos": "T'antata mikhuni: = yo como pan"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "atispa",
+            "posicion": 17,
+            "es_puntuacion": false,
+            "raiz": "ati",
+            "lema": "ati",
+            "categoria_gramatical": "s.",
+            "glosa": "ati-SUBORD",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Fatalidad, desgracia",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "Po sibilidad",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 3,
+                "definicion": "adj. Ingente, mucho",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 4,
+                "definicion": "Posible, factible. ",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-spa",
+                "slot": 5,
+                "categoria": "VERBAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE NUMERO",
+                "funcion": "Indica que la acción dependiente es anterior a la del verbo principal. Puede ser un gerundio.",
+                "glosa_corta": "SUBORD",
+                "ejemplos": "Takispa hamun, waqaspa ripun = viene cantando y se va llorando\nTakispa tususpa ripunku = Cantando y bailando se fueron"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": ",",
+            "posicion": null,
+            "es_puntuacion": true,
+            "raiz": ",",
+            "lema": ",",
+            "categoria_gramatical": "punct",
+            "sufijos": [],
+            "glosa": ",",
+            "acepciones": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 1.0
+          },
+          {
+            "token": "mana",
+            "posicion": 18,
+            "es_puntuacion": false,
+            "raiz": "ma",
+            "lema": "ma",
+            "categoria_gramatical": "desconocido",
+            "glosa": "ma-NMLZ",
+            "acepciones": [],
+            "sufijos": [
+              {
+                "morfema": "-na",
+                "slot": 2,
+                "categoria": "NOMINAL DERIVACIONAL",
+                "subcategoria": "DERIVACIONAL DEVERBATIVO",
+                "funcion": "Convierte una raíz verbal en sustantivo. concretiza o sustantiviza a un verbo.",
+                "glosa_corta": "NMLZ",
+                "ejemplos": "Pichana = escoba\ntiyana = asiento"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 0.5
+          },
+          {
+            "token": "tinkuchispa",
+            "posicion": 19,
+            "es_puntuacion": false,
+            "raiz": "tinkuchi",
+            "lema": "tinkuchi",
+            "categoria_gramatical": "s.",
+            "glosa": "tinkuchi-SUBORD",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Farsa, mentira, ardid preparado para algún fin inte resado",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-spa",
+                "slot": 5,
+                "categoria": "VERBAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE NUMERO",
+                "funcion": "Indica que la acción dependiente es anterior a la del verbo principal. Puede ser un gerundio.",
+                "glosa_corta": "SUBORD",
+                "ejemplos": "Takispa hamun, waqaspa ripun = viene cantando y se va llorando\nTakispa tususpa ripunku = Cantando y bailando se fueron"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "ima",
+            "posicion": 20,
+            "es_puntuacion": false,
+            "raiz": "ima",
+            "lema": "ima",
+            "categoria_gramatical": "desconocido",
+            "glosa": "ima",
+            "acepciones": [],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 0.5
+          },
+          {
+            "token": ".",
+            "posicion": null,
+            "es_puntuacion": true,
+            "raiz": ".",
+            "lema": ".",
+            "categoria_gramatical": "punct",
+            "sufijos": [],
+            "glosa": ".",
+            "acepciones": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 1.0
+          }
+        ]
+      },
+      {
+        "indice": 1,
+        "texto": "Kay ñit'iyqa, kastilla simi tukuy imapi kamachikusqanwan, mat'ikusqanwan ima, qhichwa ayllukunaman astachirqan waq karu llaqtakunaman, hina qhiparikapunku chaypi runasiminkuta qunqaspa.",
+        "marcadores": {
+          "evidenciales": [],
+          "clusividad": null
+        },
+        "tokens": [
+          {
+            "token": "Kay",
+            "posicion": 0,
+            "es_puntuacion": false,
+            "raiz": "kay",
+            "lema": "kay",
+            "categoria_gramatical": "s.",
+            "glosa": "kay",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "allin",
+                "dominio": "Bondad.",
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "La verdad. Veraci dad",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 3,
+                "definicion": "La evidencia",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 4,
+                "definicion": "Preñez, gravidez. ",
+                "dominio": null,
+                "sinonimos": "wiksayoq kay"
+              },
+              {
+                "indice": 5,
+                "definicion": "Frigidez, gelidez",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 6,
+                "definicion": "figdo. Languidez, abatimiento, postración",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 7,
+                "definicion": "Flacura, delgadez, escualidez",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 8,
+                "definicion": "Condición de far sante, tramposo, engañoso, fu llero",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 9,
+                "definicion": "Afonía",
+                "dominio": "Pat.",
+                "sinonimos": null
+              },
+              {
+                "indice": 10,
+                "definicion": "v. Estar ronco, afónico",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 11,
+                "definicion": "Sequedad",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 12,
+                "definicion": "Humedad. Estado húmedo, mojado de algo. ch'aran",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 13,
+                "definicion": "jigdo. Beldad ex traordinaria. ch'askachay",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 14,
+                "definicion": "Diligencia, habilidad, prontitud, agilidad. ",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 15,
+                "definicion": "Estar vacío algo",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 16,
+                "definicion": "Calidad de estar desocupado algún ambiente",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 17,
+                "definicion": "Pureza, limpidez",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 18,
+                "definicion": "Claridad",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 19,
+                "definicion": "Limpidez en el comportamiento",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 20,
+                "definicion": "Niñez",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 21,
+                "definicion": "Etapa de la niñez. ",
+                "dominio": null,
+                "sinonimos": "herq'ekay"
+              },
+              {
+                "indice": 22,
+                "definicion": "Renguera. ",
+                "dominio": null,
+                "sinonimos": "wist'uyay, weqruyay"
+              },
+              {
+                "indice": 23,
+                "definicion": "Grandeza",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 24,
+                "definicion": "Majestad",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 25,
+                "definicion": "Extensión",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 26,
+                "definicion": "Elevación",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 27,
+                "definicion": "Prestigio. . Hatun",
+                "dominio": null,
+                "sinonimos": "qhapaq"
+              },
+              {
+                "indice": 28,
+                "definicion": "Crueldad, fero cidad, inhumanidad",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 29,
+                "definicion": "V. ERQE KAY",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 30,
+                "definicion": "Pequeñez. Tamaño reducido",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 31,
+                "definicion": "Infantil. . huch'uy",
+                "dominio": null,
+                "sinonimos": "t'ustu kay, tanka kay"
+              },
+              {
+                "indice": 32,
+                "definicion": "Estado de la mujer que perdió a su marido",
+                "dominio": "Viudez.",
+                "sinonimos": null
+              },
+              {
+                "indice": 33,
+                "definicion": "Justeza, exactitud",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 34,
+                "definicion": "Vanidad, pretensión, jactancia, presunción",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 35,
+                "definicion": "Raquitismo",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 36,
+                "definicion": "Ancianidad, vejez, decrepitud, senectud, estado de ancianidad. . Machu",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 37,
+                "definicion": "Maternidad. Calidad de madre o progenitora. Mama",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 38,
+                "definicion": "NEOL. Ser deudor o tener deuda de dinero, de alguna especie a favor recibido. manu",
+                "dominio": "Juris.",
+                "sinonimos": null
+              },
+              {
+                "indice": 39,
+                "definicion": "Tacañería, avaricia, mezquindad",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 40,
+                "definicion": "Incorrección, impudicia, deshonestidad. millay",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 41,
+                "definicion": "Antigüedad, condición de antiguo o remoto. (J.L.P.)",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 42,
+                "definicion": "Estado de ceguera o invidencia. Ceguera",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 43,
+                "definicion": "Estado de encontrarse triturado, desmenuzado las cosas",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 44,
+                "definicion": ". ñut'u",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 45,
+                "definicion": "Equivocación, error",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 46,
+                "definicion": "v. Vivir en lo errado, en lo falso, incierto o confuso. panta",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 47,
+                "definicion": "Ancianidad o vejez de la mujer. paya",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 48,
+                "definicion": "Insuficiencia, falto de fuerza, debilidad. pisi pisimanta. adv. V. AS ASMANTA",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 49,
+                "definicion": "Pereza, desgano para el trabajo, modorra. . . . ",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 50,
+                "definicion": "Riqueza, estado de opulencia y poder económico",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 51,
+                "definicion": "Tener virtudes o dones especiales que lo hacen a uno muy distinguido del común de las gentes. qhapaq",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 52,
+                "definicion": "V. Q'ARA KAY",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 53,
+                "definicion": "Calor, calentura. q'oñi",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 54,
+                "definicion": "Magnanimidad, ge nerosidad, liberalidad",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 55,
+                "definicion": "V. RUK'U KAY",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 56,
+                "definicion": "Senectud, decrepitud, chochez. ",
+                "dominio": null,
+                "sinonimos": "ruku kay"
+              },
+              {
+                "indice": 57,
+                "definicion": "figdo. Insensibilidad, indolencia, dureza del corazón. rumi",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 58,
+                "definicion": "Humanidad. Naturaleza humana, condición de ser humano. runa",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 59,
+                "definicion": "Condición de ser salvaje, arisco, esquivo, indómito. salqa",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 60,
+                "definicion": "Suavidad de carácter, propenso a la sumisión. sanp'a",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 61,
+                "definicion": "Apartamiento, sepa ración, aislamiento",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 62,
+                "definicion": "v. Quedar sólo, apartado, separado, aislado. Sapa",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 63,
+                "definicion": "Soledad, aislamiento de toda compañía",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 64,
+                "definicion": "Diablura, imitación al diablo",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 65,
+                "definicion": "Resistencia a la cocción",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 66,
+                "definicion": "Resistencia, dureza, reciedumbre. seq'ay",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 67,
+                "definicion": "Cualidad del rostro de ser picado de viruela",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 68,
+                "definicion": "E sbeltez, gallardía, hermosura",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 69,
+                "definicion": "Valentía, audacia, intrepidez, arrojo",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 70,
+                "definicion": "Fortaleza. Sinchi Roq'a",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 71,
+                "definicion": "Juventud, mocedad, pubertad de la mujer. Estado de doncella o de muchacha. (J.L.P.)",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 72,
+                "definicion": "Cercanía, proximidad. sispa",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 73,
+                "definicion": "Paraplegia o parálisis de las extremidades in feriores del hombre. such'u",
+                "dominio": "Med.",
+                "sinonimos": null
+              },
+              {
+                "indice": 74,
+                "definicion": "Menor de edad, condición de ser menor. sullk'a",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 75,
+                "definicion": "Agrado, armonía, estética, belleza. sumaq",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 76,
+                "definicion": "Claridad, evidencia, certeza, ser claro. Sut'i",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 77,
+                "definicion": "Latrocinio",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 78,
+                "definicion": "v. Ser ladrón, pillo o ratero",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 79,
+                "definicion": "Medianía, de mediana estatura",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 80,
+                "definicion": "V. HUCH'UY KAY. tanka",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 81,
+                "definicion": "Realeza, dignidad, real, magestad. . tupa",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 82,
+                "definicion": "Ancianidad, senectud, decrepitud. thuku",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 83,
+                "definicion": "Embriaguez aguda o extremada",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 84,
+                "definicion": "V. HUCH'UY KAY",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 85,
+                "definicion": "Hondura, profundidad. Ukhu Pacha. Filos.Ink. El mundo de abajo, de las cavernas y negros abismos; de los muertos, de los profundos reinos",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 86,
+                "definicion": "V. ATIMILLP'U, SUPAY WASI",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 87,
+                "definicion": "Calidad de ser cabeza, jefe de grupo",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 88,
+                "definicion": "Capitanía, caudillaje. uma",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 89,
+                "definicion": "Liquidez, acuosidad. unu killa s. V. PINCHIKILLA. unu",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 90,
+                "definicion": "Esterilidad, impotencia",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 91,
+                "definicion": "Frigidez",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 92,
+                "definicion": "Decaimiento, de bilitamiento, escualidez. usphu usphu. adv. Desganadamente, de un modo decaído, deprimido. ",
+                "dominio": null,
+                "sinonimos": "unphu unphu"
+              },
+              {
+                "indice": 93,
+                "definicion": "Inutilidad, inhabilidad",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 94,
+                "definicion": "Tutela, tutoría",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 95,
+                "definicion": "Femineidad",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 96,
+                "definicion": "Sexo femenino. warmi",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 97,
+                "definicion": "Niñez, puerilidad, infancia",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 98,
+                "definicion": "Soltura, liviandad de carácter. waya",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 99,
+                "definicion": "Juventud, mocedad. . Wayna",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 100,
+                "definicion": "V. CHICHU KAY",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 101,
+                "definicion": "Perpetuidad, eternidad, infinitud. . wiñay",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "ñit'iyqa",
+            "posicion": 1,
+            "es_puntuacion": false,
+            "raiz": "ñit'iy",
+            "lema": "ñit'iy",
+            "categoria_gramatical": "v.",
+            "glosa": "ñit'iy-TOP",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Aplastar, comprimir",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "Imprimir. . ",
+                "dominio": null,
+                "sinonimos": "ñup'uy"
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-qa",
+                "slot": 8,
+                "categoria": "",
+                "subcategoria": "SUFIJO INDEPENDIENTE",
+                "funcion": "Denota información novedosa.",
+                "glosa_corta": "TOP",
+                "ejemplos": "Allqoqa aychatam suwakun = el perro roba carne"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": ",",
+            "posicion": null,
+            "es_puntuacion": true,
+            "raiz": ",",
+            "lema": ",",
+            "categoria_gramatical": "punct",
+            "sufijos": [],
+            "glosa": ",",
+            "acepciones": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 1.0
+          },
+          {
+            "token": "kastilla",
+            "posicion": 2,
+            "es_puntuacion": false,
+            "raiz": "kasti",
+            "lema": "kasti",
+            "categoria_gramatical": "desconocido",
+            "glosa": "kasti-LIM",
+            "acepciones": [],
+            "sufijos": [
+              {
+                "morfema": "-lla",
+                "slot": 8,
+                "categoria": "",
+                "subcategoria": "SUFIJO INDEPENDIENTE",
+                "funcion": "Corresponde a 'solamente’ o ‘únicamente’.Transmite afecto o es atenuador en las órdenes.",
+                "glosa_corta": "LIM",
+                "ejemplos": "Wasilla = solamente la casa\nqanlla = únicamente tú\nPayllam rinqa = Solamente él/ella irá\nunullatam munani = solamente quiero agua"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 0.5
+          },
+          {
+            "token": "simi",
+            "posicion": 3,
+            "es_puntuacion": false,
+            "raiz": "simi",
+            "lema": "simi",
+            "categoria_gramatical": "adj.",
+            "glosa": "simi",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "y s. Que dice palabras descorteses, frases in juriosas o hirientes. . haphlla",
+                "dominio": null,
+                "sinonimos": "qhe lli simi, map'a simi"
+              },
+              {
+                "indice": 2,
+                "definicion": "y s. De una sola palabra, de un solo decir, estado categórico. ",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 3,
+                "definicion": "y s. (De dos bocas). figdo. Persona inconsecuente en su palabra; de doble palabra; el que dice y luego se desdice; el que miente y desmiente. iskay",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 4,
+                "definicion": "Soez, grosero, indecente al hablar. . . . map'a",
+                "dominio": null,
+                "sinonimos": "haphlla simi"
+              },
+              {
+                "indice": 5,
+                "definicion": "V. HAPHLLA SIMI",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "tukuy",
+            "posicion": 4,
+            "es_puntuacion": false,
+            "raiz": "tukuy",
+            "lema": "tukuy",
+            "categoria_gramatical": "adj.",
+            "glosa": "tukuy",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Cantidad infinita, incontable. ",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "imapi",
+            "posicion": 5,
+            "es_puntuacion": false,
+            "raiz": "ima",
+            "lema": "ima",
+            "categoria_gramatical": "desconocido",
+            "glosa": "ima-LOC",
+            "acepciones": [],
+            "sufijos": [
+              {
+                "morfema": "-pi",
+                "slot": 5,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE CASO",
+                "funcion": "Indica locación en  el  tiempo  y  en  el espacio. Corresponde a la preposición ‘en’.",
+                "glosa_corta": "LOC",
+                "ejemplos": "Llaqtapi kashani = estoy en el pueblo"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 0.5
+          },
+          {
+            "token": "kamachikusqanwan",
+            "posicion": 6,
+            "es_puntuacion": false,
+            "raiz": "kamachiku",
+            "lema": "kamachikuy",
+            "categoria_gramatical": "s.",
+            "glosa": "kamachikuy-PART.PAS-3SG-INSTR/COM",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "NEOL. Ley, precepto, mandamiento, ordenanza. . simi",
+                "dominio": "Juris.",
+                "sinonimos": "kamachikusqa simi"
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-sqa",
+                "slot": 3,
+                "categoria": "NOMINAL DERIVACIONAL",
+                "subcategoria": "DERIVACIONAL DEVERBATIVO",
+                "funcion": "Participio pasivo ('escrito') o pasado narrativo. indica hecho consumado, se utiliza en narraciones.",
+                "glosa_corta": "PART.PAS",
+                "ejemplos": "Qhelqasqa = escrito\nwañusqa = muerto"
+              },
+              {
+                "morfema": "-n",
+                "slot": 3,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE PERSONA",
+                "funcion": "Sufijo posesivo  de tercera persona singular.",
+                "glosa_corta": "3SG",
+                "ejemplos": "wasin = su casa"
+              },
+              {
+                "morfema": "-wan",
+                "slot": 5,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE CASO",
+                "funcion": "Conjunción que enlaza palabras o frases ('y', 'con'). Es un caso cogitativo, porque indica compromiso, compañía o instrumento.",
+                "glosa_corta": "INSTR/COM",
+                "ejemplos": "Michiwan alqowan = el gato y el perro\nChakitaqllawan = con la chakitaqlla\nTaytaywan = Con mi padre\nPaywan noqawan = él y yo\nTaki harawiwan = El canto "
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": ",",
+            "posicion": null,
+            "es_puntuacion": true,
+            "raiz": ",",
+            "lema": ",",
+            "categoria_gramatical": "punct",
+            "sufijos": [],
+            "glosa": ",",
+            "acepciones": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 1.0
+          },
+          {
+            "token": "mat'ikusqanwan",
+            "posicion": 7,
+            "es_puntuacion": false,
+            "raiz": "mat'iku",
+            "lema": "mat'ikuy",
+            "categoria_gramatical": "v.",
+            "glosa": "mat'ikuy-PART.PAS-3SG-INSTR/COM",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Ajustarse, apretarse o remacharse. ",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "fam. Privarse de gastos para ahorrar dinero",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-sqa",
+                "slot": 3,
+                "categoria": "NOMINAL DERIVACIONAL",
+                "subcategoria": "DERIVACIONAL DEVERBATIVO",
+                "funcion": "Participio pasivo ('escrito') o pasado narrativo. indica hecho consumado, se utiliza en narraciones.",
+                "glosa_corta": "PART.PAS",
+                "ejemplos": "Qhelqasqa = escrito\nwañusqa = muerto"
+              },
+              {
+                "morfema": "-n",
+                "slot": 3,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE PERSONA",
+                "funcion": "Sufijo posesivo  de tercera persona singular.",
+                "glosa_corta": "3SG",
+                "ejemplos": "wasin = su casa"
+              },
+              {
+                "morfema": "-wan",
+                "slot": 5,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE CASO",
+                "funcion": "Conjunción que enlaza palabras o frases ('y', 'con'). Es un caso cogitativo, porque indica compromiso, compañía o instrumento.",
+                "glosa_corta": "INSTR/COM",
+                "ejemplos": "Michiwan alqowan = el gato y el perro\nChakitaqllawan = con la chakitaqlla\nTaytaywan = Con mi padre\nPaywan noqawan = él y yo\nTaki harawiwan = El canto "
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "ima",
+            "posicion": 8,
+            "es_puntuacion": false,
+            "raiz": "ima",
+            "lema": "ima",
+            "categoria_gramatical": "desconocido",
+            "glosa": "ima",
+            "acepciones": [],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 0.5
+          },
+          {
+            "token": ",",
+            "posicion": null,
+            "es_puntuacion": true,
+            "raiz": ",",
+            "lema": ",",
+            "categoria_gramatical": "punct",
+            "sufijos": [],
+            "glosa": ",",
+            "acepciones": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 1.0
+          },
+          {
+            "token": "qhichwa",
+            "posicion": 9,
+            "es_puntuacion": false,
+            "raiz": "qhich",
+            "lema": "qhich",
+            "categoria_gramatical": "desconocido",
+            "glosa": "qhich-1.OBJ",
+            "acepciones": [],
+            "sufijos": [
+              {
+                "morfema": "-wa",
+                "slot": 5,
+                "categoria": "DESCONOCIDO",
+                "subcategoria": "Sufijo Gramatical",
+                "funcion": "Sufijo morfológico -wa",
+                "glosa_corta": "1.OBJ",
+                "ejemplos": ""
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 0.4
+          },
+          {
+            "token": "ayllukunaman",
+            "posicion": 10,
+            "es_puntuacion": false,
+            "raiz": "ayllu",
+            "lema": "ayllu",
+            "categoria_gramatical": "s.",
+            "glosa": "ayllu-PL-ILA",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Parentela",
+                "dominio": "Sociol.",
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "Or ganización social andina del inkanato. Constituyó la célula fundamental, formada por el conjunto de descendientes de un antepasado común. Se remonta a más de 3,000 años. En la actualidad subsiste como organización social básica de las comunidades campesinas del Perú, Bolivia, Ecuador y Chile",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 3,
+                "definicion": "Familia extensa, linaje, casta, con vínculo sanguíneo, con deberes y obligaciones comunes",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 4,
+                "definicion": "Demarcación territorial para usufructo general y por igual para todos. ",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 5,
+                "definicion": "Parentesco por afi nidad. sispa",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-kuna",
+                "slot": 4,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE NUMERO",
+                "funcion": "Pluraliza los sustantivos.",
+                "glosa_corta": "PL",
+                "ejemplos": "Wasikuna = las casas\nrunakuna = las personas"
+              },
+              {
+                "morfema": "-man",
+                "slot": 5,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE CASO",
+                "funcion": "Es el sufijo que marca movimiento, direccionalidad, objeto indirecto, locación temporal y locación espacial. Indica movimiento con la preposición ‘a’, ‘hacia’.",
+                "glosa_corta": "ILA",
+                "ejemplos": "Orqoman = hacia el cerro \nAtuq sallqaman rishan = El zorro está yendo a la puna\nKillaman llaqtayta kutimusaq = al mes regresaré a mi pueblo\nqanman = a"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "astachirqan",
+            "posicion": 11,
+            "es_puntuacion": false,
+            "raiz": "asta",
+            "lema": "astay",
+            "categoria_gramatical": "v.",
+            "glosa": "astay-CAUS-PAS",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Trasladar, transportar, a carrear",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-chi",
+                "slot": 2,
+                "categoria": "VERBAL DERIVACIONAL",
+                "subcategoria": "FLEXIVOS DERIVACIONALES",
+                "funcion": "Indica que el sujeto motiva una acción que es ejecutada por otro. Corresponde al verbo ‘hacer’.",
+                "glosa_corta": "CAUS",
+                "ejemplos": "Puñuchiy = hacer dormir\nwaqachiy = hacerle llorar\nllank’achiychis = háganle trabajar"
+              },
+              {
+                "morfema": "-rqan",
+                "slot": 5,
+                "categoria": "DESCONOCIDO",
+                "subcategoria": "Sufijo Gramatical",
+                "funcion": "Sufijo morfológico -rqan",
+                "glosa_corta": "PAS",
+                "ejemplos": ""
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.85
+          },
+          {
+            "token": "waq",
+            "posicion": 12,
+            "es_puntuacion": false,
+            "raiz": "wa",
+            "lema": "wa",
+            "categoria_gramatical": "desconocido",
+            "glosa": "wa-AG/HAB",
+            "acepciones": [],
+            "sufijos": [
+              {
+                "morfema": "-q",
+                "slot": 5,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE CASO",
+                "funcion": "Su marca es “-q” cuando termina en vocal y \"-paq\" cuando termina en consonante, que es igual a la preposición “de”.",
+                "glosa_corta": "AG/HAB",
+                "ejemplos": "Runaq = de la gente\nYachachiqpaq = del profesor"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 0.5
+          },
+          {
+            "token": "karu",
+            "posicion": 13,
+            "es_puntuacion": false,
+            "raiz": "karu",
+            "lema": "kharu",
+            "categoria_gramatical": "s.",
+            "glosa": "kharu",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Chamisa. Leña delgada arbustiva para caldear hornos de panificación. . ",
+                "dominio": null,
+                "sinonimos": "ch'aphsa"
+              }
+            ],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "llaqtakunaman",
+            "posicion": 14,
+            "es_puntuacion": false,
+            "raiz": "llaqta",
+            "lema": "llaqta",
+            "categoria_gramatical": "s.",
+            "glosa": "llaqta-PL-ILA",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Ciudad metro- poli, gran ciudad",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "NEOL. Capi tal. hatun",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 3,
+                "definicion": "Ciudad, pueblo, comunidad, villorrio, comarca",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 4,
+                "definicion": "Población. ",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 5,
+                "definicion": ". llaqta",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 6,
+                "definicion": "V. CH'IKURU. llaqta",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-kuna",
+                "slot": 4,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE NUMERO",
+                "funcion": "Pluraliza los sustantivos.",
+                "glosa_corta": "PL",
+                "ejemplos": "Wasikuna = las casas\nrunakuna = las personas"
+              },
+              {
+                "morfema": "-man",
+                "slot": 5,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE CASO",
+                "funcion": "Es el sufijo que marca movimiento, direccionalidad, objeto indirecto, locación temporal y locación espacial. Indica movimiento con la preposición ‘a’, ‘hacia’.",
+                "glosa_corta": "ILA",
+                "ejemplos": "Orqoman = hacia el cerro \nAtuq sallqaman rishan = El zorro está yendo a la puna\nKillaman llaqtayta kutimusaq = al mes regresaré a mi pueblo\nqanman = a"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": ",",
+            "posicion": null,
+            "es_puntuacion": true,
+            "raiz": ",",
+            "lema": ",",
+            "categoria_gramatical": "punct",
+            "sufijos": [],
+            "glosa": ",",
+            "acepciones": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 1.0
+          },
+          {
+            "token": "hina",
+            "posicion": 15,
+            "es_puntuacion": false,
+            "raiz": "hina",
+            "lema": "hinay",
+            "categoria_gramatical": "v.",
+            "glosa": "hinay",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Hacer u obrar de esta manera, de este modo; hacer así (ilustrando con mímica). ",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "qhiparikapunku",
+            "posicion": 16,
+            "es_puntuacion": false,
+            "raiz": "qhiparika",
+            "lema": "qhiparika",
+            "categoria_gramatical": "desconocido",
+            "glosa": "qhiparika-BEN.DIR-3PL",
+            "acepciones": [],
+            "sufijos": [
+              {
+                "morfema": "-pu",
+                "slot": 2,
+                "categoria": "VERBAL DERIVACIONAL",
+                "subcategoria": "FLEXIVOS DERIVACIONALES",
+                "funcion": "Indica irse de un lugar o realizar una acción en beneficio o reemplazo de otra persona. La acción se realiza en beneficio o detrimento de una tercera persona.",
+                "glosa_corta": "BEN.DIR",
+                "ejemplos": "Pasapuy = irse \ntusupuy = danzar en reemplazo de otra persona"
+              },
+              {
+                "morfema": "-nku",
+                "slot": 4,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE NUMERO",
+                "funcion": "Sufijo de tercera persona plural.",
+                "glosa_corta": "3PL",
+                "ejemplos": "Paykuna pukllanku = ellos/ellas juegan"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 0.5
+          },
+          {
+            "token": "chaypi",
+            "posicion": 17,
+            "es_puntuacion": false,
+            "raiz": "chay",
+            "lema": "chay",
+            "categoria_gramatical": "s.",
+            "glosa": "chay-LOC",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Descanso breve de medio día",
+                "dominio": "Siesta.",
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "v. Sestear. Descansar o dormir algún momento del día",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-pi",
+                "slot": 5,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE CASO",
+                "funcion": "Indica locación en  el  tiempo  y  en  el espacio. Corresponde a la preposición ‘en’.",
+                "glosa_corta": "LOC",
+                "ejemplos": "Llaqtapi kashani = estoy en el pueblo"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "runasiminkuta",
+            "posicion": 18,
+            "es_puntuacion": false,
+            "raiz": "runasiminkuta",
+            "lema": "runasiminkuta",
+            "categoria_gramatical": "desconocido",
+            "glosa": "runasiminkuta",
+            "acepciones": [],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 0.5
+          },
+          {
+            "token": "qunqaspa",
+            "posicion": 19,
+            "es_puntuacion": false,
+            "raiz": "qunqa",
+            "lema": "qonqa",
+            "categoria_gramatical": "s.",
+            "glosa": "qonqa-SUBORD",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Olvido, descuido, omisión, negligencia. . . ",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-spa",
+                "slot": 5,
+                "categoria": "VERBAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE NUMERO",
+                "funcion": "Indica que la acción dependiente es anterior a la del verbo principal. Puede ser un gerundio.",
+                "glosa_corta": "SUBORD",
+                "ejemplos": "Takispa hamun, waqaspa ripun = viene cantando y se va llorando\nTakispa tususpa ripunku = Cantando y bailando se fueron"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": ".",
+            "posicion": null,
+            "es_puntuacion": true,
+            "raiz": ".",
+            "lema": ".",
+            "categoria_gramatical": "punct",
+            "sufijos": [],
+            "glosa": ".",
+            "acepciones": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 1.0
+          }
+        ]
+      }
+    ]
+  }
+}

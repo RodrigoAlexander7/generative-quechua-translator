@@ -1,0 +1,223 @@
+{
+  "client_id": "1dd0d3ea4ec879dadf7db18e23b9509a",
+  "audio_id": "70104",
+  "audio_file": "spontaneous-speech-qxp-70104.mp3",
+  "duration_ms": "5580",
+  "prompt_id": "7729",
+  "prompt": "Imaraykutaq hanaqpacha anqas kanman?",
+  "transcription": "Ñawpaq watapiña tatitu chayhinatapunis ruwasqa hanaqpachata.",
+  "variant": "",
+  "language": "Puno Quechua",
+  "split": "train",
+  "analisis_morfosintactico": {
+    "texto_original": "Ñawpaq watapiña tatitu chayhinatapunis ruwasqa hanaqpachata.",
+    "num_oraciones": 1,
+    "num_tokens": 6,
+    "marcadores_globales": {
+      "evidenciales": [
+        "REPORTATIVO (-si)"
+      ],
+      "clusividad": null
+    },
+    "oraciones": [
+      {
+        "indice": 0,
+        "texto": "Ñawpaq watapiña tatitu chayhinatapunis ruwasqa hanaqpachata.",
+        "marcadores": {
+          "evidenciales": [
+            "REPORTATIVO (-si)"
+          ],
+          "clusividad": null
+        },
+        "tokens": [
+          {
+            "token": "Ñawpaq",
+            "posicion": 0,
+            "es_puntuacion": false,
+            "raiz": "ñawpaq",
+            "lema": "ñawpaq",
+            "categoria_gramatical": "adj.",
+            "glosa": "ñawpaq",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "y s. . ",
+                "dominio": null,
+                "sinonimos": "qayllaq"
+              },
+              {
+                "indice": 2,
+                "definicion": "adj. Antiguo, remoto, antes de esta época. . ñawpaq",
+                "dominio": null,
+                "sinonimos": "ñawpa"
+              }
+            ],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "watapiña",
+            "posicion": 1,
+            "es_puntuacion": false,
+            "raiz": "watapiña",
+            "lema": "watapiña",
+            "categoria_gramatical": "desconocido",
+            "glosa": "watapiña",
+            "acepciones": [],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 0.5
+          },
+          {
+            "token": "tatitu",
+            "posicion": 2,
+            "es_puntuacion": false,
+            "raiz": "tatitu",
+            "lema": "tatitu",
+            "categoria_gramatical": "desconocido",
+            "glosa": "tatitu",
+            "acepciones": [],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 0.5
+          },
+          {
+            "token": "chayhinatapunis",
+            "posicion": 3,
+            "es_puntuacion": false,
+            "raiz": "chayhi",
+            "lema": "chayhi",
+            "categoria_gramatical": "desconocido",
+            "glosa": "chayhi-NMLZ-AC-ENF-EVID.REP",
+            "acepciones": [],
+            "sufijos": [
+              {
+                "morfema": "-na",
+                "slot": 2,
+                "categoria": "NOMINAL DERIVACIONAL",
+                "subcategoria": "DERIVACIONAL DEVERBATIVO",
+                "funcion": "Convierte una raíz verbal en sustantivo. concretiza o sustantiviza a un verbo.",
+                "glosa_corta": "NMLZ",
+                "ejemplos": "Pichana = escoba\ntiyana = asiento"
+              },
+              {
+                "morfema": "-ta",
+                "slot": 5,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE CASO",
+                "funcion": "Designa el objeto directo con los verbos que no son de movimiento.",
+                "glosa_corta": "AC",
+                "ejemplos": "T'antata mikhuni: = yo como pan"
+              },
+              {
+                "morfema": "-puni",
+                "slot": 8,
+                "categoria": "",
+                "subcategoria": "SUFIJO INDEPENDIENTE",
+                "funcion": "Indica afirmación o negación rotunda; certidumbre plena ('definitivamente'). Expresa seguridad.",
+                "glosa_corta": "ENF",
+                "ejemplos": "Allinpuni = excelente\nmanapuni = de ninguna manera \nParanqapuni = lloverá de todas maneras"
+              },
+              {
+                "morfema": "-s",
+                "slot": 9,
+                "categoria": "",
+                "subcategoria": "SUFIJO INDEPENDIENTE",
+                "funcion": "Corresponde a 'dicen que'. Indica que el hablante no ha sido testigo de la acción o no está muy seguro de lo que dice. Se usa cuando hay duda.  Cuando la palabra termina en vocal se usa la \"s\" y cuando termina en consonante se usa la \"si\" . El hablante declara o comenta sobre algo que escapa  de su conocimiento personal y directo (inconsciente).",
+                "glosa_corta": "EVID.REP",
+                "ejemplos": "Pukllaqsi riranku = dicen que fueron a jugar\nSasas kasqa mana mamayoq kay = dicen que había sido difícil no tener madre\nPaysi wayk'unqa = Dicen que él"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": "REPORTATIVO (-si)",
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 0.5
+          },
+          {
+            "token": "ruwasqa",
+            "posicion": 4,
+            "es_puntuacion": false,
+            "raiz": "ruwa",
+            "lema": "ruway",
+            "categoria_gramatical": "v.",
+            "glosa": "ruway-PART.PAS",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "V. LLANK'AY, RURAY",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-sqa",
+                "slot": 3,
+                "categoria": "NOMINAL DERIVACIONAL",
+                "subcategoria": "DERIVACIONAL DEVERBATIVO",
+                "funcion": "Participio pasivo ('escrito') o pasado narrativo. indica hecho consumado, se utiliza en narraciones.",
+                "glosa_corta": "PART.PAS",
+                "ejemplos": "Qhelqasqa = escrito\nwañusqa = muerto"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "hanaqpachata",
+            "posicion": 5,
+            "es_puntuacion": false,
+            "raiz": "hanaqpachata",
+            "lema": "hanaqpachata",
+            "categoria_gramatical": "desconocido",
+            "glosa": "hanaqpachata",
+            "acepciones": [],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 0.5
+          },
+          {
+            "token": ".",
+            "posicion": null,
+            "es_puntuacion": true,
+            "raiz": ".",
+            "lema": ".",
+            "categoria_gramatical": "punct",
+            "sufijos": [],
+            "glosa": ".",
+            "acepciones": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 1.0
+          }
+        ]
+      }
+    ]
+  }
+}

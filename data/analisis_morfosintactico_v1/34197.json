@@ -1,0 +1,943 @@
+{
+  "client_id": "52b99da1457acebd59f609f330ab5dc7",
+  "audio_id": "34197",
+  "audio_file": "spontaneous-speech-qxp-34197.mp3",
+  "duration_ms": "22464",
+  "prompt_id": "4358",
+  "prompt": "Piwantaq qichwa simita rimanki?",
+  "transcription": "Astawan rimani mamitaywan, paymi aswanqa qichwa yachachiq karqan. Kunanqa mana nishutañachu rimani, hinaspapis sullk'aykunawan kuraqniykunawan rimayta yanani. Astawan puniqa mamitaywan.",
+  "variant": "",
+  "language": "Puno Quechua",
+  "split": "test",
+  "analisis_morfosintactico": {
+    "texto_original": "Astawan rimani mamitaywan, paymi aswanqa qichwa yachachiq karqan. Kunanqa mana nishutañachu rimani, hinaspapis sullk'aykunawan kuraqniykunawan rimayta yanani. Astawan puniqa mamitaywan.",
+    "num_oraciones": 3,
+    "num_tokens": 20,
+    "marcadores_globales": {
+      "evidenciales": [
+        "DIRECTO / ATESTIGUADO (-mi)"
+      ],
+      "clusividad": null
+    },
+    "oraciones": [
+      {
+        "indice": 0,
+        "texto": "Astawan rimani mamitaywan, paymi aswanqa qichwa yachachiq karqan.",
+        "marcadores": {
+          "evidenciales": [
+            "DIRECTO / ATESTIGUADO (-mi)"
+          ],
+          "clusividad": null
+        },
+        "tokens": [
+          {
+            "token": "Astawan",
+            "posicion": 0,
+            "es_puntuacion": false,
+            "raiz": "asta",
+            "lema": "astay",
+            "categoria_gramatical": "v.",
+            "glosa": "astay-INSTR/COM",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Trasladar, transportar, a carrear",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-wan",
+                "slot": 5,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE CASO",
+                "funcion": "Conjunción que enlaza palabras o frases ('y', 'con'). Es un caso cogitativo, porque indica compromiso, compañía o instrumento.",
+                "glosa_corta": "INSTR/COM",
+                "ejemplos": "Michiwan alqowan = el gato y el perro\nChakitaqllawan = con la chakitaqlla\nTaytaywan = Con mi padre\nPaywan noqawan = él y yo\nTaki harawiwan = El canto "
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "rimani",
+            "posicion": 1,
+            "es_puntuacion": false,
+            "raiz": "rima",
+            "lema": "rimay",
+            "categoria_gramatical": "s.",
+            "glosa": "rimay-1SG",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "y Ling. (El habla del Inka). El habla de la nobleza inka, de los hamawt'as y la clase gobernante. El pueblo o panparuna hablaba el runasimi, \"habla del hombre\", que posteriormente es conocido co mo el qheswa simi o qheswa, o sea el quechua. Inka",
+                "dominio": "Hist.",
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "El habla",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 3,
+                "definicion": "Lenguaje humano. Expresión verbal hu mana",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 4,
+                "definicion": "v. Hablar, expresar los pensamientos con la palabra articulada",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 5,
+                "definicion": "Conversar, dialogar, platicar. ",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-ni",
+                "slot": 2,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE PERSONA",
+                "funcion": "Sufijo que se agrega cuando la palabra termina en vocal, se sgrega antes del sufijo posesivo.",
+                "glosa_corta": "1SG",
+                "ejemplos": "yachachiqniy = mi profesor\nyawarniy = mi sangre\nyachachiqnin = su profesor"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "mamitaywan",
+            "posicion": 2,
+            "es_puntuacion": false,
+            "raiz": "mamitaywan",
+            "lema": "mamitaywan",
+            "categoria_gramatical": "desconocido",
+            "glosa": "mamitaywan",
+            "acepciones": [],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 0.5
+          },
+          {
+            "token": ",",
+            "posicion": null,
+            "es_puntuacion": true,
+            "raiz": ",",
+            "lema": ",",
+            "categoria_gramatical": "punct",
+            "sufijos": [],
+            "glosa": ",",
+            "acepciones": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 1.0
+          },
+          {
+            "token": "paymi",
+            "posicion": 3,
+            "es_puntuacion": false,
+            "raiz": "pa",
+            "lema": "pa",
+            "categoria_gramatical": "desconocido",
+            "glosa": "pa-1SG.POS-EVID.DIR",
+            "acepciones": [],
+            "sufijos": [
+              {
+                "morfema": "-y",
+                "slot": 3,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE PERSONA",
+                "funcion": "Sufijo posesivo de primera persona singular.",
+                "glosa_corta": "1SG.POS",
+                "ejemplos": "wasiy = mi casa"
+              },
+              {
+                "morfema": "-mi",
+                "slot": 9,
+                "categoria": "",
+                "subcategoria": "SUFIJO INDEPENDIENTE",
+                "funcion": "Validador. Indica que el hablante ha sido testigo de la acción o está muy seguro de lo que dice. No se debe de usar cuando hay duda.  Cuando la palabra termina en vocal se usa la \"m\" y cuando termina en consonante se usa la \"mi\". Hace referencia a una información directa en relación con lo enunciado por el hablante. Es para afirmar, declarar, sostener.",
+                "glosa_corta": "EVID.DIR",
+                "ejemplos": "Pukllaqmi rirani = fui a jugar\nWarmim kani = soy mujer"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": "DIRECTO / ATESTIGUADO (-mi)",
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 0.5
+          },
+          {
+            "token": "aswanqa",
+            "posicion": 4,
+            "es_puntuacion": false,
+            "raiz": "as",
+            "lema": "as",
+            "categoria_gramatical": "desconocido",
+            "glosa": "as-1.OBJ-3SG.FUT",
+            "acepciones": [],
+            "sufijos": [
+              {
+                "morfema": "-wa",
+                "slot": 5,
+                "categoria": "DESCONOCIDO",
+                "subcategoria": "Sufijo Gramatical",
+                "funcion": "Sufijo morfológico -wa",
+                "glosa_corta": "1.OBJ",
+                "ejemplos": ""
+              },
+              {
+                "morfema": "-nqa",
+                "slot": 5,
+                "categoria": "VERBAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE NUMERO",
+                "funcion": "Sufijo de tercera persona singular.",
+                "glosa_corta": "3SG.FUT",
+                "ejemplos": "Pay pukllanqa = él jugará"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 0.45
+          },
+          {
+            "token": "qichwa",
+            "posicion": 5,
+            "es_puntuacion": false,
+            "raiz": "qich",
+            "lema": "qich",
+            "categoria_gramatical": "desconocido",
+            "glosa": "qich-1.OBJ",
+            "acepciones": [],
+            "sufijos": [
+              {
+                "morfema": "-wa",
+                "slot": 5,
+                "categoria": "DESCONOCIDO",
+                "subcategoria": "Sufijo Gramatical",
+                "funcion": "Sufijo morfológico -wa",
+                "glosa_corta": "1.OBJ",
+                "ejemplos": ""
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 0.4
+          },
+          {
+            "token": "yachachiq",
+            "posicion": 6,
+            "es_puntuacion": false,
+            "raiz": "yachachiq",
+            "lema": "yachachiq",
+            "categoria_gramatical": "adj.",
+            "glosa": "yachachiq",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "y s. Que enseña, educa o instruye",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "Maestro, pro fesor. NEOL. Catedrático, licen ciado en Educación",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 3,
+                "definicion": "Amaes trador, domador",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "karqan",
+            "posicion": 7,
+            "es_puntuacion": false,
+            "raiz": "ka",
+            "lema": "ka",
+            "categoria_gramatical": "s.",
+            "glosa": "ka-PAS",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Acto de dar o entregar algo a otra persona. . ",
+                "dominio": null,
+                "sinonimos": "kayqa"
+              },
+              {
+                "indice": 2,
+                "definicion": "imper. Toma, he aquí lo tienes",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 3,
+                "definicion": "conj. Pero",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 4,
+                "definicion": "Ec: el, la, lo.",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-rqan",
+                "slot": 5,
+                "categoria": "DESCONOCIDO",
+                "subcategoria": "Sufijo Gramatical",
+                "funcion": "Sufijo morfológico -rqan",
+                "glosa_corta": "PAS",
+                "ejemplos": ""
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.8
+          },
+          {
+            "token": ".",
+            "posicion": null,
+            "es_puntuacion": true,
+            "raiz": ".",
+            "lema": ".",
+            "categoria_gramatical": "punct",
+            "sufijos": [],
+            "glosa": ".",
+            "acepciones": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 1.0
+          }
+        ]
+      },
+      {
+        "indice": 1,
+        "texto": "Kunanqa mana nishutañachu rimani, hinaspapis sullk'aykunawan kuraqniykunawan rimayta yanani.",
+        "marcadores": {
+          "evidenciales": [],
+          "clusividad": null
+        },
+        "tokens": [
+          {
+            "token": "Kunanqa",
+            "posicion": 0,
+            "es_puntuacion": false,
+            "raiz": "kuna",
+            "lema": "kunay",
+            "categoria_gramatical": "v.",
+            "glosa": "kunay-3SG.FUT",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Aconsejar, advertir, recomendar. kunay",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-nqa",
+                "slot": 5,
+                "categoria": "VERBAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE NUMERO",
+                "funcion": "Sufijo de tercera persona singular.",
+                "glosa_corta": "3SG.FUT",
+                "ejemplos": "Pay pukllanqa = él jugará"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "mana",
+            "posicion": 1,
+            "es_puntuacion": false,
+            "raiz": "ma",
+            "lema": "ma",
+            "categoria_gramatical": "desconocido",
+            "glosa": "ma-NMLZ",
+            "acepciones": [],
+            "sufijos": [
+              {
+                "morfema": "-na",
+                "slot": 2,
+                "categoria": "NOMINAL DERIVACIONAL",
+                "subcategoria": "DERIVACIONAL DEVERBATIVO",
+                "funcion": "Convierte una raíz verbal en sustantivo. concretiza o sustantiviza a un verbo.",
+                "glosa_corta": "NMLZ",
+                "ejemplos": "Pichana = escoba\ntiyana = asiento"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 0.5
+          },
+          {
+            "token": "nishutañachu",
+            "posicion": 2,
+            "es_puntuacion": false,
+            "raiz": "nishutaña",
+            "lema": "nishutaña",
+            "categoria_gramatical": "desconocido",
+            "glosa": "nishutaña-INTERR/NEG",
+            "acepciones": [],
+            "sufijos": [
+              {
+                "morfema": "-chu",
+                "slot": 9,
+                "categoria": "",
+                "subcategoria": "SUFIJO INDEPENDIENTE",
+                "funcion": "Interrogativo que exige respuesta afirmativa o negativa. Solo para preguntas cerradas.",
+                "glosa_corta": "INTERR/NEG",
+                "ejemplos": "¿Papata mikhunkichu? = ¿Comes papa?"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 0.5
+          },
+          {
+            "token": "rimani",
+            "posicion": 3,
+            "es_puntuacion": false,
+            "raiz": "rima",
+            "lema": "rimay",
+            "categoria_gramatical": "s.",
+            "glosa": "rimay-1SG",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "y Ling. (El habla del Inka). El habla de la nobleza inka, de los hamawt'as y la clase gobernante. El pueblo o panparuna hablaba el runasimi, \"habla del hombre\", que posteriormente es conocido co mo el qheswa simi o qheswa, o sea el quechua. Inka",
+                "dominio": "Hist.",
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "El habla",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 3,
+                "definicion": "Lenguaje humano. Expresión verbal hu mana",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 4,
+                "definicion": "v. Hablar, expresar los pensamientos con la palabra articulada",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 5,
+                "definicion": "Conversar, dialogar, platicar. ",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-ni",
+                "slot": 2,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE PERSONA",
+                "funcion": "Sufijo que se agrega cuando la palabra termina en vocal, se sgrega antes del sufijo posesivo.",
+                "glosa_corta": "1SG",
+                "ejemplos": "yachachiqniy = mi profesor\nyawarniy = mi sangre\nyachachiqnin = su profesor"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": ",",
+            "posicion": null,
+            "es_puntuacion": true,
+            "raiz": ",",
+            "lema": ",",
+            "categoria_gramatical": "punct",
+            "sufijos": [],
+            "glosa": ",",
+            "acepciones": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 1.0
+          },
+          {
+            "token": "hinaspapis",
+            "posicion": 4,
+            "es_puntuacion": false,
+            "raiz": "hina",
+            "lema": "hinay",
+            "categoria_gramatical": "v.",
+            "glosa": "hinay-SUBORD-ADIT",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Hacer u obrar de esta manera, de este modo; hacer así (ilustrando con mímica). ",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-spa",
+                "slot": 5,
+                "categoria": "VERBAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE NUMERO",
+                "funcion": "Indica que la acción dependiente es anterior a la del verbo principal. Puede ser un gerundio.",
+                "glosa_corta": "SUBORD",
+                "ejemplos": "Takispa hamun, waqaspa ripun = viene cantando y se va llorando\nTakispa tususpa ripunku = Cantando y bailando se fueron"
+              },
+              {
+                "morfema": "-pis",
+                "slot": 8,
+                "categoria": "",
+                "subcategoria": "SUFIJO INDEPENDIENTE",
+                "funcion": "Aditivo. Se traduce como ‘también’ o ‘incluso’. Coordina oraciones.",
+                "glosa_corta": "ADIT",
+                "ejemplos": "Noqapas tususaqmi = Yo también bailaré\nNoqapis risaq = yo también iré"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "sullk'aykunawan",
+            "posicion": 5,
+            "es_puntuacion": false,
+            "raiz": "sullk'a",
+            "lema": "sullk'a",
+            "categoria_gramatical": "adj.",
+            "glosa": "sullk'a-1SG.POS-PL-INSTR/COM",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Menor de edad; menor en categorí. sullk'a",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-y",
+                "slot": 3,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE PERSONA",
+                "funcion": "Sufijo posesivo de primera persona singular.",
+                "glosa_corta": "1SG.POS",
+                "ejemplos": "wasiy = mi casa"
+              },
+              {
+                "morfema": "-kuna",
+                "slot": 4,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE NUMERO",
+                "funcion": "Pluraliza los sustantivos.",
+                "glosa_corta": "PL",
+                "ejemplos": "Wasikuna = las casas\nrunakuna = las personas"
+              },
+              {
+                "morfema": "-wan",
+                "slot": 5,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE CASO",
+                "funcion": "Conjunción que enlaza palabras o frases ('y', 'con'). Es un caso cogitativo, porque indica compromiso, compañía o instrumento.",
+                "glosa_corta": "INSTR/COM",
+                "ejemplos": "Michiwan alqowan = el gato y el perro\nChakitaqllawan = con la chakitaqlla\nTaytaywan = Con mi padre\nPaywan noqawan = él y yo\nTaki harawiwan = El canto "
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "kuraqniykunawan",
+            "posicion": 6,
+            "es_puntuacion": false,
+            "raiz": "kuraq",
+            "lema": "kuraq",
+            "categoria_gramatical": "adj.",
+            "glosa": "kuraq-1SG-1SG.POS-PL-INSTR/COM",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "y s. El de mayor edad. Hijo primogénito",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "Bol: De mayor peso y cantidad de cosas.",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 3,
+                "definicion": "Ec: Excesivo.",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-ni",
+                "slot": 2,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE PERSONA",
+                "funcion": "Sufijo que se agrega cuando la palabra termina en vocal, se sgrega antes del sufijo posesivo.",
+                "glosa_corta": "1SG",
+                "ejemplos": "yachachiqniy = mi profesor\nyawarniy = mi sangre\nyachachiqnin = su profesor"
+              },
+              {
+                "morfema": "-y",
+                "slot": 3,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE PERSONA",
+                "funcion": "Sufijo posesivo de primera persona singular.",
+                "glosa_corta": "1SG.POS",
+                "ejemplos": "wasiy = mi casa"
+              },
+              {
+                "morfema": "-kuna",
+                "slot": 4,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE NUMERO",
+                "funcion": "Pluraliza los sustantivos.",
+                "glosa_corta": "PL",
+                "ejemplos": "Wasikuna = las casas\nrunakuna = las personas"
+              },
+              {
+                "morfema": "-wan",
+                "slot": 5,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE CASO",
+                "funcion": "Conjunción que enlaza palabras o frases ('y', 'con'). Es un caso cogitativo, porque indica compromiso, compañía o instrumento.",
+                "glosa_corta": "INSTR/COM",
+                "ejemplos": "Michiwan alqowan = el gato y el perro\nChakitaqllawan = con la chakitaqlla\nTaytaywan = Con mi padre\nPaywan noqawan = él y yo\nTaki harawiwan = El canto "
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "rimayta",
+            "posicion": 7,
+            "es_puntuacion": false,
+            "raiz": "rimay",
+            "lema": "rimay",
+            "categoria_gramatical": "s.",
+            "glosa": "rimay-AC",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "y Ling. (El habla del Inka). El habla de la nobleza inka, de los hamawt'as y la clase gobernante. El pueblo o panparuna hablaba el runasimi, \"habla del hombre\", que posteriormente es conocido co mo el qheswa simi o qheswa, o sea el quechua. Inka",
+                "dominio": "Hist.",
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "El habla",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 3,
+                "definicion": "Lenguaje humano. Expresión verbal hu mana",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 4,
+                "definicion": "v. Hablar, expresar los pensamientos con la palabra articulada",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 5,
+                "definicion": "Conversar, dialogar, platicar. ",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-ta",
+                "slot": 5,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE CASO",
+                "funcion": "Designa el objeto directo con los verbos que no son de movimiento.",
+                "glosa_corta": "AC",
+                "ejemplos": "T'antata mikhuni: = yo como pan"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "yanani",
+            "posicion": 8,
+            "es_puntuacion": false,
+            "raiz": "yana",
+            "lema": "yana",
+            "categoria_gramatical": "s.",
+            "glosa": "yana-1SG",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Novio, novia, pareja, amante, enamorado(a), querido(a)",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "Mozo o moza de servicio o criado",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 3,
+                "definicion": "adj. Negro, color negro. ANTÓ. . Hist. En el inkanato el pantalón usado era siempre de color negro. yana",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-ni",
+                "slot": 2,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE PERSONA",
+                "funcion": "Sufijo que se agrega cuando la palabra termina en vocal, se sgrega antes del sufijo posesivo.",
+                "glosa_corta": "1SG",
+                "ejemplos": "yachachiqniy = mi profesor\nyawarniy = mi sangre\nyachachiqnin = su profesor"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": ".",
+            "posicion": null,
+            "es_puntuacion": true,
+            "raiz": ".",
+            "lema": ".",
+            "categoria_gramatical": "punct",
+            "sufijos": [],
+            "glosa": ".",
+            "acepciones": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 1.0
+          }
+        ]
+      },
+      {
+        "indice": 2,
+        "texto": "Astawan puniqa mamitaywan.",
+        "marcadores": {
+          "evidenciales": [],
+          "clusividad": null
+        },
+        "tokens": [
+          {
+            "token": "Astawan",
+            "posicion": 0,
+            "es_puntuacion": false,
+            "raiz": "asta",
+            "lema": "astay",
+            "categoria_gramatical": "v.",
+            "glosa": "astay-INSTR/COM",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Trasladar, transportar, a carrear",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-wan",
+                "slot": 5,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE CASO",
+                "funcion": "Conjunción que enlaza palabras o frases ('y', 'con'). Es un caso cogitativo, porque indica compromiso, compañía o instrumento.",
+                "glosa_corta": "INSTR/COM",
+                "ejemplos": "Michiwan alqowan = el gato y el perro\nChakitaqllawan = con la chakitaqlla\nTaytaywan = Con mi padre\nPaywan noqawan = él y yo\nTaki harawiwan = El canto "
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "puniqa",
+            "posicion": 1,
+            "es_puntuacion": false,
+            "raiz": "pu",
+            "lema": "pu",
+            "categoria_gramatical": "desconocido",
+            "glosa": "pu-1SG-TOP",
+            "acepciones": [],
+            "sufijos": [
+              {
+                "morfema": "-ni",
+                "slot": 2,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE PERSONA",
+                "funcion": "Sufijo que se agrega cuando la palabra termina en vocal, se sgrega antes del sufijo posesivo.",
+                "glosa_corta": "1SG",
+                "ejemplos": "yachachiqniy = mi profesor\nyawarniy = mi sangre\nyachachiqnin = su profesor"
+              },
+              {
+                "morfema": "-qa",
+                "slot": 8,
+                "categoria": "",
+                "subcategoria": "SUFIJO INDEPENDIENTE",
+                "funcion": "Denota información novedosa.",
+                "glosa_corta": "TOP",
+                "ejemplos": "Allqoqa aychatam suwakun = el perro roba carne"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 0.5
+          },
+          {
+            "token": "mamitaywan",
+            "posicion": 2,
+            "es_puntuacion": false,
+            "raiz": "mamitaywan",
+            "lema": "mamitaywan",
+            "categoria_gramatical": "desconocido",
+            "glosa": "mamitaywan",
+            "acepciones": [],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 0.5
+          },
+          {
+            "token": ".",
+            "posicion": null,
+            "es_puntuacion": true,
+            "raiz": ".",
+            "lema": ".",
+            "categoria_gramatical": "punct",
+            "sufijos": [],
+            "glosa": ".",
+            "acepciones": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 1.0
+          }
+        ]
+      }
+    ]
+  }
+}

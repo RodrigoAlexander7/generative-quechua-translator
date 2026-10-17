@@ -1,0 +1,407 @@
+{
+  "client_id": "385d8eea0a8ebb1e8e82c7464c4641af",
+  "audio_id": "67996",
+  "audio_file": "spontaneous-speech-qxp-67996.mp3",
+  "duration_ms": "7920",
+  "prompt_id": "4389",
+  "prompt": "Willawaqchu huk takiqmanta, payqa qanpaq anchha riksisqa?",
+  "transcription": "Nuqa uyarini Mayte Carpio ancha munay allin kawsaymantapis sumaqta takin.",
+  "variant": "",
+  "language": "Puno Quechua",
+  "split": "train",
+  "analisis_morfosintactico": {
+    "texto_original": "Nuqa uyarini Mayte Carpio ancha munay allin kawsaymantapis sumaqta takin.",
+    "num_oraciones": 1,
+    "num_tokens": 10,
+    "marcadores_globales": {
+      "evidenciales": [
+        "CONJETURAL (-chá)"
+      ],
+      "clusividad": null
+    },
+    "oraciones": [
+      {
+        "indice": 0,
+        "texto": "Nuqa uyarini Mayte Carpio ancha munay allin kawsaymantapis sumaqta takin.",
+        "marcadores": {
+          "evidenciales": [
+            "CONJETURAL (-chá)"
+          ],
+          "clusividad": null
+        },
+        "tokens": [
+          {
+            "token": "Nuqa",
+            "posicion": 0,
+            "es_puntuacion": false,
+            "raiz": "nu",
+            "lema": "nu",
+            "categoria_gramatical": "desconocido",
+            "glosa": "nu-TOP",
+            "acepciones": [],
+            "sufijos": [
+              {
+                "morfema": "-qa",
+                "slot": 8,
+                "categoria": "",
+                "subcategoria": "SUFIJO INDEPENDIENTE",
+                "funcion": "Denota información novedosa.",
+                "glosa_corta": "TOP",
+                "ejemplos": "Allqoqa aychatam suwakun = el perro roba carne"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 0.5
+          },
+          {
+            "token": "uyarini",
+            "posicion": 1,
+            "es_puntuacion": false,
+            "raiz": "uyari",
+            "lema": "uyariy",
+            "categoria_gramatical": "s.",
+            "glosa": "uyariy-1SG",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Audición, acto de oir",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "v. Oir, escuchar, percibir sonidos. ",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-ni",
+                "slot": 2,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE PERSONA",
+                "funcion": "Sufijo que se agrega cuando la palabra termina en vocal, se sgrega antes del sufijo posesivo.",
+                "glosa_corta": "1SG",
+                "ejemplos": "yachachiqniy = mi profesor\nyawarniy = mi sangre\nyachachiqnin = su profesor"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "Mayte",
+            "posicion": 2,
+            "es_puntuacion": false,
+            "raiz": "mayte",
+            "lema": "mayte",
+            "categoria_gramatical": "desconocido",
+            "glosa": "mayte",
+            "acepciones": [],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 0.5
+          },
+          {
+            "token": "Carpio",
+            "posicion": 3,
+            "es_puntuacion": false,
+            "raiz": "carpio",
+            "lema": "carpio",
+            "categoria_gramatical": "desconocido",
+            "glosa": "carpio",
+            "acepciones": [],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 0.5
+          },
+          {
+            "token": "ancha",
+            "posicion": 4,
+            "es_puntuacion": false,
+            "raiz": "an",
+            "lema": "an",
+            "categoria_gramatical": "desconocido",
+            "glosa": "an-EVID.CONJ",
+            "acepciones": [],
+            "sufijos": [
+              {
+                "morfema": "-cha",
+                "slot": 9,
+                "categoria": "NOMINAL DERIVACIONAL",
+                "subcategoria": "DERIVACIONAL DENOMINATIVO",
+                "funcion": "Indica diminutivo. En español corresponde a las terminaciones: …ito, …ita, …ecito, …ecita. Su connotación puede ser diminutiva, apreciativa o\ndespreciativa, de acuerdo al contexto en el que se use.",
+                "glosa_corta": "EVID.CONJ",
+                "ejemplos": "alqocha = perrito\nrumicha = piedrita\nYana ñawi sipascha = jovencita de ojos negros"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": "CONJETURAL (-chá)",
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 0.5
+          },
+          {
+            "token": "munay",
+            "posicion": 5,
+            "es_puntuacion": false,
+            "raiz": "munay",
+            "lema": "munay",
+            "categoria_gramatical": "s.",
+            "glosa": "munay",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Voluntad, ánimo, gusto",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "Mandato",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 3,
+                "definicion": "adj. Lindo, bello, hermoso, precioso, maravilloso, v. Querer, amar, desear",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 4,
+                "definicion": ". ANTÓ. . munay",
+                "dominio": null,
+                "sinonimos": "munaycha"
+              }
+            ],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "allin",
+            "posicion": 6,
+            "es_puntuacion": false,
+            "raiz": "allin",
+            "lema": "allin",
+            "categoria_gramatical": "adj.",
+            "glosa": "allin",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Bueno (término de apro bación). . ",
+                "dominio": null,
+                "sinonimos": "kusa"
+              },
+              {
+                "indice": 2,
+                "definicion": "Mal, mal ejemplo, incorrecto. . mana",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "kawsaymantapis",
+            "posicion": 7,
+            "es_puntuacion": false,
+            "raiz": "kawsay",
+            "lema": "kawsay",
+            "categoria_gramatical": "s.",
+            "glosa": "kawsay-ABL-ADIT",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Vida",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "Víveres para la alimentación",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 3,
+                "definicion": "v. Vivir. . kawsay",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 4,
+                "definicion": "Felicidad. Vida feliz. . kusi",
+                "dominio": null,
+                "sinonimos": "kusi sami"
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-manta",
+                "slot": 5,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE CASO",
+                "funcion": "Indica procedencia (‘de’, ‘desde’) o el material de algo.",
+                "glosa_corta": "ABL",
+                "ejemplos": "Arequipamanta = de Arequipa\nThantamanta wawata ruwashan = Está haciendo wawa de pan"
+              },
+              {
+                "morfema": "-pis",
+                "slot": 8,
+                "categoria": "",
+                "subcategoria": "SUFIJO INDEPENDIENTE",
+                "funcion": "Aditivo. Se traduce como ‘también’ o ‘incluso’. Coordina oraciones.",
+                "glosa_corta": "ADIT",
+                "ejemplos": "Noqapas tususaqmi = Yo también bailaré\nNoqapis risaq = yo también iré"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "sumaqta",
+            "posicion": 8,
+            "es_puntuacion": false,
+            "raiz": "sumaq",
+            "lema": "sumaq",
+            "categoria_gramatical": "adj.",
+            "glosa": "sumaq-AC",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Bello, bueno, agradable, exquisito, simpático. . sumaq",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-ta",
+                "slot": 5,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE CASO",
+                "funcion": "Designa el objeto directo con los verbos que no son de movimiento.",
+                "glosa_corta": "AC",
+                "ejemplos": "T'antata mikhuni: = yo como pan"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "takin",
+            "posicion": 9,
+            "es_puntuacion": false,
+            "raiz": "taki",
+            "lema": "taki",
+            "categoria_gramatical": "s.",
+            "glosa": "taki-3SG",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "V. AYRIWANKA",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "V. AYRIWANKA",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 3,
+                "definicion": "Mús. Canción con que se solemnizaba la fiesta de la salubridad en el inkario",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 4,
+                "definicion": "Mús. Canto, canción, himno, música vocal",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 5,
+                "definicion": "Género de poesía qhechua cuyo estilo de verso cantado tenía la mayor amplitud temática en la época inkaica",
+                "dominio": "Lit.",
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-n",
+                "slot": 3,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE PERSONA",
+                "funcion": "Sufijo posesivo  de tercera persona singular.",
+                "glosa_corta": "3SG",
+                "ejemplos": "wasin = su casa"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": ".",
+            "posicion": null,
+            "es_puntuacion": true,
+            "raiz": ".",
+            "lema": ".",
+            "categoria_gramatical": "punct",
+            "sufijos": [],
+            "glosa": ".",
+            "acepciones": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 1.0
+          }
+        ]
+      }
+    ]
+  }
+}

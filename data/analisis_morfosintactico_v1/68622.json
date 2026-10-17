@@ -1,0 +1,695 @@
+{
+  "client_id": "a6f98d228e0d2525548137197409dab9",
+  "audio_id": "68622",
+  "audio_file": "spontaneous-speech-qxp-68622.mp3",
+  "duration_ms": "16380",
+  "prompt_id": "7265",
+  "prompt": "Imaynan aylluykipaq p'achankuna?",
+  "transcription": "Qharikunaqa ch'ullutan, punchutan churakuyku. Warmikunaqa pullirata, lliqllata, chunpiwan. Sapa p'achaqa imaymana llimphiyuq, pallayniyuqmi.",
+  "variant": "",
+  "language": "Puno Quechua",
+  "split": "test",
+  "analisis_morfosintactico": {
+    "texto_original": "Qharikunaqa ch'ullutan, punchutan churakuyku. Warmikunaqa pullirata, lliqllata, chunpiwan. Sapa p'achaqa imaymana llimphiyuq, pallayniyuqmi.",
+    "num_oraciones": 3,
+    "num_tokens": 13,
+    "marcadores_globales": {
+      "evidenciales": [
+        "DIRECTO / ATESTIGUADO (-mi)"
+      ],
+      "clusividad": "EXCLUSIVO (hablante + otros, sin oyente)"
+    },
+    "oraciones": [
+      {
+        "indice": 0,
+        "texto": "Qharikunaqa ch'ullutan, punchutan churakuyku.",
+        "marcadores": {
+          "evidenciales": [],
+          "clusividad": "EXCLUSIVO (hablante + otros, sin oyente)"
+        },
+        "tokens": [
+          {
+            "token": "Qharikunaqa",
+            "posicion": 0,
+            "es_puntuacion": false,
+            "raiz": "qhari",
+            "lema": "qhari",
+            "categoria_gramatical": "s.",
+            "glosa": "qhari-PL-TOP",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Varón; del género mas culino",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "Valiente, aguerrido, arrojado. . . . ",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 3,
+                "definicion": "tej. Vestido o traje de bandas, al largo no al través",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-kuna",
+                "slot": 4,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE NUMERO",
+                "funcion": "Pluraliza los sustantivos.",
+                "glosa_corta": "PL",
+                "ejemplos": "Wasikuna = las casas\nrunakuna = las personas"
+              },
+              {
+                "morfema": "-qa",
+                "slot": 8,
+                "categoria": "",
+                "subcategoria": "SUFIJO INDEPENDIENTE",
+                "funcion": "Denota información novedosa.",
+                "glosa_corta": "TOP",
+                "ejemplos": "Allqoqa aychatam suwakun = el perro roba carne"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "ch'ullutan",
+            "posicion": 1,
+            "es_puntuacion": false,
+            "raiz": "ch'ullu",
+            "lema": "ch'ullu",
+            "categoria_gramatical": "s.",
+            "glosa": "ch'ullu-AC-3SG",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Gorro con ore jeras, tejido de hilos de colores y dibujos característicos por zo- nas y regiones andinas. Su uso es para contrarrestar el frío en la cabeza. Lo usan sólo los varones. ",
+                "dominio": "Chullo.",
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-ta",
+                "slot": 5,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE CASO",
+                "funcion": "Designa el objeto directo con los verbos que no son de movimiento.",
+                "glosa_corta": "AC",
+                "ejemplos": "T'antata mikhuni: = yo como pan"
+              },
+              {
+                "morfema": "-n",
+                "slot": 3,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE PERSONA",
+                "funcion": "Sufijo posesivo  de tercera persona singular.",
+                "glosa_corta": "3SG",
+                "ejemplos": "wasin = su casa"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": ",",
+            "posicion": null,
+            "es_puntuacion": true,
+            "raiz": ",",
+            "lema": ",",
+            "categoria_gramatical": "punct",
+            "sufijos": [],
+            "glosa": ",",
+            "acepciones": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 1.0
+          },
+          {
+            "token": "punchutan",
+            "posicion": 2,
+            "es_puntuacion": false,
+            "raiz": "punchu",
+            "lema": "punchu",
+            "categoria_gramatical": "s.",
+            "glosa": "punchu-AC-3SG",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Indumentaria creada por los españoles y adop tada por los habitantes del Ande en la época del coloniaje y que subsiste actualmente en los poblados de la sierra",
+                "dominio": "Poncho.",
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-ta",
+                "slot": 5,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE CASO",
+                "funcion": "Designa el objeto directo con los verbos que no son de movimiento.",
+                "glosa_corta": "AC",
+                "ejemplos": "T'antata mikhuni: = yo como pan"
+              },
+              {
+                "morfema": "-n",
+                "slot": 3,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE PERSONA",
+                "funcion": "Sufijo posesivo  de tercera persona singular.",
+                "glosa_corta": "3SG",
+                "ejemplos": "wasin = su casa"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "churakuyku",
+            "posicion": 3,
+            "es_puntuacion": false,
+            "raiz": "churaku",
+            "lema": "churakuy",
+            "categoria_gramatical": "v.",
+            "glosa": "churakuy-1PL.EXCL",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Ponerse, situarse, colocarse en algún lugar",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "En trometerse en problemas ajenos",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 3,
+                "definicion": "Indumentarse",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 4,
+                "definicion": "s. V. QHATU",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-yku",
+                "slot": 4,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE NUMERO",
+                "funcion": "Sufijo de primera persona plural excluyente.",
+                "glosa_corta": "1PL.EXCL",
+                "ejemplos": "Noqayku pukllayku = nosotros jugamos (excluyente es decir sin incluirte o incluirlos)"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": "EXCLUSIVO (hablante + otros, sin oyente)"
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": ".",
+            "posicion": null,
+            "es_puntuacion": true,
+            "raiz": ".",
+            "lema": ".",
+            "categoria_gramatical": "punct",
+            "sufijos": [],
+            "glosa": ".",
+            "acepciones": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 1.0
+          }
+        ]
+      },
+      {
+        "indice": 1,
+        "texto": "Warmikunaqa pullirata, lliqllata, chunpiwan.",
+        "marcadores": {
+          "evidenciales": [],
+          "clusividad": null
+        },
+        "tokens": [
+          {
+            "token": "Warmikunaqa",
+            "posicion": 0,
+            "es_puntuacion": false,
+            "raiz": "warmi",
+            "lema": "warmi",
+            "categoria_gramatical": "adj.",
+            "glosa": "warmi-PL-TOP",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "V. Q'ETA",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-kuna",
+                "slot": 4,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE NUMERO",
+                "funcion": "Pluraliza los sustantivos.",
+                "glosa_corta": "PL",
+                "ejemplos": "Wasikuna = las casas\nrunakuna = las personas"
+              },
+              {
+                "morfema": "-qa",
+                "slot": 8,
+                "categoria": "",
+                "subcategoria": "SUFIJO INDEPENDIENTE",
+                "funcion": "Denota información novedosa.",
+                "glosa_corta": "TOP",
+                "ejemplos": "Allqoqa aychatam suwakun = el perro roba carne"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "pullirata",
+            "posicion": 1,
+            "es_puntuacion": false,
+            "raiz": "pullira",
+            "lema": "pullira",
+            "categoria_gramatical": "desconocido",
+            "glosa": "pullira-AC",
+            "acepciones": [],
+            "sufijos": [
+              {
+                "morfema": "-ta",
+                "slot": 5,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE CASO",
+                "funcion": "Designa el objeto directo con los verbos que no son de movimiento.",
+                "glosa_corta": "AC",
+                "ejemplos": "T'antata mikhuni: = yo como pan"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 0.5
+          },
+          {
+            "token": ",",
+            "posicion": null,
+            "es_puntuacion": true,
+            "raiz": ",",
+            "lema": ",",
+            "categoria_gramatical": "punct",
+            "sufijos": [],
+            "glosa": ",",
+            "acepciones": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 1.0
+          },
+          {
+            "token": "lliqllata",
+            "posicion": 2,
+            "es_puntuacion": false,
+            "raiz": "lliq",
+            "lema": "lleq",
+            "categoria_gramatical": "s.",
+            "glosa": "lleq-LIM-AC",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "onomat. Voz onomatopéyica que que significa purulencia, estado purulento por des composición de la carne",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-lla",
+                "slot": 8,
+                "categoria": "",
+                "subcategoria": "SUFIJO INDEPENDIENTE",
+                "funcion": "Corresponde a 'solamente’ o ‘únicamente’.Transmite afecto o es atenuador en las órdenes.",
+                "glosa_corta": "LIM",
+                "ejemplos": "Wasilla = solamente la casa\nqanlla = únicamente tú\nPayllam rinqa = Solamente él/ella irá\nunullatam munani = solamente quiero agua"
+              },
+              {
+                "morfema": "-ta",
+                "slot": 5,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE CASO",
+                "funcion": "Designa el objeto directo con los verbos que no son de movimiento.",
+                "glosa_corta": "AC",
+                "ejemplos": "T'antata mikhuni: = yo como pan"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": ",",
+            "posicion": null,
+            "es_puntuacion": true,
+            "raiz": ",",
+            "lema": ",",
+            "categoria_gramatical": "punct",
+            "sufijos": [],
+            "glosa": ",",
+            "acepciones": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 1.0
+          },
+          {
+            "token": "chunpiwan",
+            "posicion": 3,
+            "es_puntuacion": false,
+            "raiz": "chunpi",
+            "lema": "chunpi",
+            "categoria_gramatical": "s.",
+            "glosa": "chunpi-INSTR/COM",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Cinto o faja, tejida con hilos de color y dibujos primo rosos, que sirve para fajar a las criaturas y para ceñir la cintura de los adultos. ",
+                "dominio": null,
+                "sinonimos": "añaqo"
+              },
+              {
+                "indice": 2,
+                "definicion": "Refajo o tejido grueso, largo y angosto que se utiliza para sostener el aksu, el unku o la wara",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 3,
+                "definicion": "Pe.Aya: Parduzco.",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 4,
+                "definicion": ". / Obscuro",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-wan",
+                "slot": 5,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE CASO",
+                "funcion": "Conjunción que enlaza palabras o frases ('y', 'con'). Es un caso cogitativo, porque indica compromiso, compañía o instrumento.",
+                "glosa_corta": "INSTR/COM",
+                "ejemplos": "Michiwan alqowan = el gato y el perro\nChakitaqllawan = con la chakitaqlla\nTaytaywan = Con mi padre\nPaywan noqawan = él y yo\nTaki harawiwan = El canto "
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": ".",
+            "posicion": null,
+            "es_puntuacion": true,
+            "raiz": ".",
+            "lema": ".",
+            "categoria_gramatical": "punct",
+            "sufijos": [],
+            "glosa": ".",
+            "acepciones": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 1.0
+          }
+        ]
+      },
+      {
+        "indice": 2,
+        "texto": "Sapa p'achaqa imaymana llimphiyuq, pallayniyuqmi.",
+        "marcadores": {
+          "evidenciales": [
+            "DIRECTO / ATESTIGUADO (-mi)"
+          ],
+          "clusividad": null
+        },
+        "tokens": [
+          {
+            "token": "Sapa",
+            "posicion": 0,
+            "es_puntuacion": false,
+            "raiz": "sapa",
+            "lema": "sapay",
+            "categoria_gramatical": "adj.",
+            "glosa": "sapay",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Yo solo. V. SAPAN. sapay",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "p'achaqa",
+            "posicion": 1,
+            "es_puntuacion": false,
+            "raiz": "p'acha",
+            "lema": "p'acha",
+            "categoria_gramatical": "s.",
+            "glosa": "p'acha-TOP",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Ropa, atuendo, vestimenta. . . ",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "Disfraz o vestido de danzarines",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 3,
+                "definicion": "Vestuario o traje de danzarín",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-qa",
+                "slot": 8,
+                "categoria": "",
+                "subcategoria": "SUFIJO INDEPENDIENTE",
+                "funcion": "Denota información novedosa.",
+                "glosa_corta": "TOP",
+                "ejemplos": "Allqoqa aychatam suwakun = el perro roba carne"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "imaymana",
+            "posicion": 2,
+            "es_puntuacion": false,
+            "raiz": "imaymana",
+            "lema": "imaymana",
+            "categoria_gramatical": "s.",
+            "glosa": "imaymana",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "De todo, muchas cosas, todas las cosas, diversas cosas, múltiples cosas. ",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "llimphiyuq",
+            "posicion": 3,
+            "es_puntuacion": false,
+            "raiz": "llimphiyu",
+            "lema": "llimphiyu",
+            "categoria_gramatical": "desconocido",
+            "glosa": "llimphiyu-AG/HAB",
+            "acepciones": [],
+            "sufijos": [
+              {
+                "morfema": "-q",
+                "slot": 5,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE CASO",
+                "funcion": "Su marca es “-q” cuando termina en vocal y \"-paq\" cuando termina en consonante, que es igual a la preposición “de”.",
+                "glosa_corta": "AG/HAB",
+                "ejemplos": "Runaq = de la gente\nYachachiqpaq = del profesor"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 0.5
+          },
+          {
+            "token": ",",
+            "posicion": null,
+            "es_puntuacion": true,
+            "raiz": ",",
+            "lema": ",",
+            "categoria_gramatical": "punct",
+            "sufijos": [],
+            "glosa": ",",
+            "acepciones": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 1.0
+          },
+          {
+            "token": "pallayniyuqmi",
+            "posicion": 4,
+            "es_puntuacion": false,
+            "raiz": "pallay+niyuq",
+            "lema": "pallay+niyuq",
+            "categoria_gramatical": "s. (compuesto)",
+            "glosa": "pallay+niyuq-EVID.DIR",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-mi",
+                "slot": 9,
+                "categoria": "",
+                "subcategoria": "SUFIJO INDEPENDIENTE",
+                "funcion": "Validador. Indica que el hablante ha sido testigo de la acción o está muy seguro de lo que dice. No se debe de usar cuando hay duda.  Cuando la palabra termina en vocal se usa la \"m\" y cuando termina en consonante se usa la \"mi\". Hace referencia a una información directa en relación con lo enunciado por el hablante. Es para afirmar, declarar, sostener.",
+                "glosa_corta": "EVID.DIR",
+                "ejemplos": "Pukllaqmi rirani = fui a jugar\nWarmim kani = soy mujer"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": "DIRECTO / ATESTIGUADO (-mi)",
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": ".",
+            "posicion": null,
+            "es_puntuacion": true,
+            "raiz": ".",
+            "lema": ".",
+            "categoria_gramatical": "punct",
+            "sufijos": [],
+            "glosa": ".",
+            "acepciones": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 1.0
+          }
+        ]
+      }
+    ]
+  }
+}

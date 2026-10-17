@@ -1,0 +1,1620 @@
+{
+  "client_id": "51e7d55fa215680f369878ecd2c05a93",
+  "audio_id": "41554",
+  "audio_file": "spontaneous-speech-qxp-41554.mp3",
+  "duration_ms": "30636",
+  "prompt_id": "4378",
+  "prompt": "Pitaq llaqtaykipi wawa unquq warmikunata qhawan?",
+  "transcription": "Huk warmi unquq lluksin hinaqa, sapa killa hampina wasiman rinan, chaypi p'unchaykunata yupanku, hinaman hina hampikunata qunku utaq mikhuykunawan yanapanku, chaypi qhawanku unqukusqanmanta pacha, unquykunankama, chaymanta wawatañataq yanapanku, aswanqa chayqa waqña.",
+  "variant": "",
+  "language": "Puno Quechua",
+  "split": "train",
+  "analisis_morfosintactico": {
+    "texto_original": "Huk warmi unquq lluksin hinaqa, sapa killa hampina wasiman rinan, chaypi p'unchaykunata yupanku, hinaman hina hampikunata qunku utaq mikhuykunawan yanapanku, chaypi qhawanku unqukusqanmanta pacha, unquykunankama, chaymanta wawatañataq yanapanku, aswanqa chayqa waqña.",
+    "num_oraciones": 1,
+    "num_tokens": 31,
+    "marcadores_globales": {
+      "evidenciales": [],
+      "clusividad": null
+    },
+    "oraciones": [
+      {
+        "indice": 0,
+        "texto": "Huk warmi unquq lluksin hinaqa, sapa killa hampina wasiman rinan, chaypi p'unchaykunata yupanku, hinaman hina hampikunata qunku utaq mikhuykunawan yanapanku, chaypi qhawanku unqukusqanmanta pacha, unquykunankama, chaymanta wawatañataq yanapanku, aswanqa chayqa waqña.",
+        "marcadores": {
+          "evidenciales": [],
+          "clusividad": null
+        },
+        "tokens": [
+          {
+            "token": "Huk",
+            "posicion": 0,
+            "es_puntuacion": false,
+            "raiz": "huk",
+            "lema": "huk",
+            "categoria_gramatical": "adj.",
+            "glosa": "huk",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "núm.card. Uno. ",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "adj. un, una, cierto, cierta. . huk kaq. pron. El otro, de entre dos. . huk kuti. adv. Una vez. SINÓ. huk",
+                "dominio": null,
+                "sinonimos": "huq kaqnin, huknin"
+              }
+            ],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "warmi",
+            "posicion": 1,
+            "es_puntuacion": false,
+            "raiz": "warmi",
+            "lema": "warmi",
+            "categoria_gramatical": "adj.",
+            "glosa": "warmi",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "V. Q'ETA",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "unquq",
+            "posicion": 2,
+            "es_puntuacion": false,
+            "raiz": "unquq",
+            "lema": "onqoq",
+            "categoria_gramatical": "s.",
+            "glosa": "onqoq",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Enfermo, persona que padece enfermedad, que sufre un mal",
+                "dominio": "Med.",
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "Embarazada, grávida, encinta. . onqoq",
+                "dominio": null,
+                "sinonimos": "chichu Pe"
+              }
+            ],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "lluksin",
+            "posicion": 3,
+            "es_puntuacion": false,
+            "raiz": "lluksin",
+            "lema": "lluksin",
+            "categoria_gramatical": "desconocido",
+            "glosa": "lluksin",
+            "acepciones": [],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 0.5
+          },
+          {
+            "token": "hinaqa",
+            "posicion": 4,
+            "es_puntuacion": false,
+            "raiz": "hina",
+            "lema": "hinay",
+            "categoria_gramatical": "v.",
+            "glosa": "hinay-TOP",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Hacer u obrar de esta manera, de este modo; hacer así (ilustrando con mímica). ",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-qa",
+                "slot": 8,
+                "categoria": "",
+                "subcategoria": "SUFIJO INDEPENDIENTE",
+                "funcion": "Denota información novedosa.",
+                "glosa_corta": "TOP",
+                "ejemplos": "Allqoqa aychatam suwakun = el perro roba carne"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": ",",
+            "posicion": null,
+            "es_puntuacion": true,
+            "raiz": ",",
+            "lema": ",",
+            "categoria_gramatical": "punct",
+            "sufijos": [],
+            "glosa": ",",
+            "acepciones": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 1.0
+          },
+          {
+            "token": "sapa",
+            "posicion": 5,
+            "es_puntuacion": false,
+            "raiz": "sapa",
+            "lema": "sapay",
+            "categoria_gramatical": "adj.",
+            "glosa": "sapay",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Yo solo. V. SAPAN. sapay",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "killa",
+            "posicion": 6,
+            "es_puntuacion": false,
+            "raiz": "killa",
+            "lema": "killa",
+            "categoria_gramatical": "s.",
+            "glosa": "killa",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "V. PURAKILLA",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "calend. Un décimo mes del año solar, entre octubre y noviembre",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 3,
+                "definicion": "NEOL. Alquiler mensual de vivienda. wasi",
+                "dominio": "Juris.",
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "hampina",
+            "posicion": 7,
+            "es_puntuacion": false,
+            "raiz": "hampina",
+            "lema": "hanpina",
+            "categoria_gramatical": "adj.",
+            "glosa": "hanpina",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "y s. Paciente que re quiere ser curado; enfermo sus ceptible de curación. ",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "wasiman",
+            "posicion": 8,
+            "es_puntuacion": false,
+            "raiz": "wasi",
+            "lema": "wasi",
+            "categoria_gramatical": "s.",
+            "glosa": "wasi-ILA",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "(Casa de las escogidas). En el Inkario, casa donde habitaban las escogidas o Vírgenes del Sol, hoy mo nasterio de Santa Catalina. Se ubicaba en la parte oriental, in mediata a Inti k'ikllu, actual calle Loreto, en el Qosqo",
+                "dominio": "Hist.",
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "(Casa donde se mastica coca). Tercera waka o adoratorio inka del sexto seq'e del sector Qollasuyu. En esta casa se guardaba el cuerpo momificado del inka Sinchi Roq'a, ubicado en el actual sector de Winpilláy en el Qosqo. akwa",
+                "dominio": "Hist.",
+                "sinonimos": null
+              },
+              {
+                "indice": 3,
+                "definicion": "(Casa de la serpiente con altos). Séptima waka o adoratorio inka del primer seq'e del Antisuyu. Era casa de Amaru Tupaq Inka Yupanki y estaba ubicada en la parte NO de la ciudad del Qosqo, en el camino al Antisu yu. Estuvo a cargo de Suksu panaka ayllu. Amaru",
+                "dominio": "Hist.",
+                "sinonimos": null
+              },
+              {
+                "indice": 4,
+                "definicion": "Cárcel, presidio. NEOL. Centro de readaptación social ",
+                "dominio": null,
+                "sinonimos": "muchuy wasi, watay wasi"
+              },
+              {
+                "indice": 5,
+                "definicion": "Pocilga, chiquero, porquerizo, cuchitril",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 6,
+                "definicion": "fam. Casa deshonrada",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 7,
+                "definicion": "NEOL. Casa de Préstamo. ",
+                "dominio": null,
+                "sinonimos": "manuna wasi"
+              },
+              {
+                "indice": 8,
+                "definicion": "V. MANU WASI",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 9,
+                "definicion": "V. ATISANKA WAsi",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 10,
+                "definicion": "Clinica, hospital, sanatorio, enfermería. ",
+                "dominio": "Med.",
+                "sinonimos": null
+              },
+              {
+                "indice": 11,
+                "definicion": "Alojamiento, casa de hospedaje. NEOL. Hotel, hostal, alojamiento",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 12,
+                "definicion": "En el inkario, cárcel subterránea en donde al preso se atormentaba con fieras y alimañas. ",
+                "dominio": null,
+                "sinonimos": "watay wasi"
+              },
+              {
+                "indice": 13,
+                "definicion": "(Casa del diablo) Infierno, averno, morada de los diablos",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 14,
+                "definicion": "Lugar de tormentos de los réprobos. ",
+                "dominio": null,
+                "sinonimos": "Ukhu Pacha, atimillp'u"
+              },
+              {
+                "indice": 15,
+                "definicion": "Casa donde se realizan las reuniones, asambleas, cabildos",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 16,
+                "definicion": "NEOL. Tintorería, lugar o casa donde se tiñen telas o hilos",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 17,
+                "definicion": "NEOL. Panadería, local donde se elabora el pan. t'anta",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 18,
+                "definicion": "NEOL. Lavandería o casa destinada para el lavado de ropas",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 19,
+                "definicion": "Casa, aposento, edificio, hogar, morada",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 20,
+                "definicion": "Poblado, villorrio, pequeña comunidad campesina",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 21,
+                "definicion": "Cárcel. ",
+                "dominio": null,
+                "sinonimos": "ati sanka wasi, sank'ay wasi, piñas"
+              },
+              {
+                "indice": 22,
+                "definicion": "V. YACHAY WASI",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 23,
+                "definicion": "(Casa del saber) Escuela, colegio, jardín escolar, ateneo. . ",
+                "dominio": "Educ.",
+                "sinonimos": "yachana wasi"
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-man",
+                "slot": 5,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE CASO",
+                "funcion": "Es el sufijo que marca movimiento, direccionalidad, objeto indirecto, locación temporal y locación espacial. Indica movimiento con la preposición ‘a’, ‘hacia’.",
+                "glosa_corta": "ILA",
+                "ejemplos": "Orqoman = hacia el cerro \nAtuq sallqaman rishan = El zorro está yendo a la puna\nKillaman llaqtayta kutimusaq = al mes regresaré a mi pueblo\nqanman = a"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "rinan",
+            "posicion": 9,
+            "es_puntuacion": false,
+            "raiz": "rina",
+            "lema": "rina",
+            "categoria_gramatical": "s.",
+            "glosa": "rina-3SG",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Ida a un lugar determinado. Movimiento o traslado de acá para allá",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "Viaje",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-n",
+                "slot": 3,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE PERSONA",
+                "funcion": "Sufijo posesivo  de tercera persona singular.",
+                "glosa_corta": "3SG",
+                "ejemplos": "wasin = su casa"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": ",",
+            "posicion": null,
+            "es_puntuacion": true,
+            "raiz": ",",
+            "lema": ",",
+            "categoria_gramatical": "punct",
+            "sufijos": [],
+            "glosa": ",",
+            "acepciones": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 1.0
+          },
+          {
+            "token": "chaypi",
+            "posicion": 10,
+            "es_puntuacion": false,
+            "raiz": "chay",
+            "lema": "chay",
+            "categoria_gramatical": "s.",
+            "glosa": "chay-LOC",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Descanso breve de medio día",
+                "dominio": "Siesta.",
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "v. Sestear. Descansar o dormir algún momento del día",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-pi",
+                "slot": 5,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE CASO",
+                "funcion": "Indica locación en  el  tiempo  y  en  el espacio. Corresponde a la preposición ‘en’.",
+                "glosa_corta": "LOC",
+                "ejemplos": "Llaqtapi kashani = estoy en el pueblo"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "p'unchaykunata",
+            "posicion": 11,
+            "es_puntuacion": false,
+            "raiz": "p'unchay",
+            "lema": "p'unchay",
+            "categoria_gramatical": "s.",
+            "glosa": "p'unchay-PL-AC",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "V. INTIU CHAY",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "Día grande, día festivo. NEOL. Feriado. hatun",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 3,
+                "definicion": "Día, tiempo que dura desde el amanecer hasta el anochecer. . E- . . . ",
+                "dominio": null,
+                "sinonimos": "p'unchaw"
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-kuna",
+                "slot": 4,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE NUMERO",
+                "funcion": "Pluraliza los sustantivos.",
+                "glosa_corta": "PL",
+                "ejemplos": "Wasikuna = las casas\nrunakuna = las personas"
+              },
+              {
+                "morfema": "-ta",
+                "slot": 5,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE CASO",
+                "funcion": "Designa el objeto directo con los verbos que no son de movimiento.",
+                "glosa_corta": "AC",
+                "ejemplos": "T'antata mikhuni: = yo como pan"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "yupanku",
+            "posicion": 12,
+            "es_puntuacion": false,
+            "raiz": "yupa",
+            "lema": "yupa",
+            "categoria_gramatical": "s.",
+            "glosa": "yupa-3PL",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Conteo, numeración, con tabilidad",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "adj. Abundante, mu cho, cuantioso, ingente. ",
+                "dominio": null,
+                "sinonimos": "wak"
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-nku",
+                "slot": 4,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE NUMERO",
+                "funcion": "Sufijo de tercera persona plural.",
+                "glosa_corta": "3PL",
+                "ejemplos": "Paykuna pukllanku = ellos/ellas juegan"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": ",",
+            "posicion": null,
+            "es_puntuacion": true,
+            "raiz": ",",
+            "lema": ",",
+            "categoria_gramatical": "punct",
+            "sufijos": [],
+            "glosa": ",",
+            "acepciones": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 1.0
+          },
+          {
+            "token": "hinaman",
+            "posicion": 13,
+            "es_puntuacion": false,
+            "raiz": "hina",
+            "lema": "hinay",
+            "categoria_gramatical": "v.",
+            "glosa": "hinay-ILA",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Hacer u obrar de esta manera, de este modo; hacer así (ilustrando con mímica). ",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-man",
+                "slot": 5,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE CASO",
+                "funcion": "Es el sufijo que marca movimiento, direccionalidad, objeto indirecto, locación temporal y locación espacial. Indica movimiento con la preposición ‘a’, ‘hacia’.",
+                "glosa_corta": "ILA",
+                "ejemplos": "Orqoman = hacia el cerro \nAtuq sallqaman rishan = El zorro está yendo a la puna\nKillaman llaqtayta kutimusaq = al mes regresaré a mi pueblo\nqanman = a"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "hina",
+            "posicion": 14,
+            "es_puntuacion": false,
+            "raiz": "hina",
+            "lema": "hinay",
+            "categoria_gramatical": "v.",
+            "glosa": "hinay",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Hacer u obrar de esta manera, de este modo; hacer así (ilustrando con mímica). ",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "hampikunata",
+            "posicion": 15,
+            "es_puntuacion": false,
+            "raiz": "hampi",
+            "lema": "hanpi",
+            "categoria_gramatical": "s.",
+            "glosa": "hanpi-PL-AC",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Medicina, remedio, me dicamento. ",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-kuna",
+                "slot": 4,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE NUMERO",
+                "funcion": "Pluraliza los sustantivos.",
+                "glosa_corta": "PL",
+                "ejemplos": "Wasikuna = las casas\nrunakuna = las personas"
+              },
+              {
+                "morfema": "-ta",
+                "slot": 5,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE CASO",
+                "funcion": "Designa el objeto directo con los verbos que no son de movimiento.",
+                "glosa_corta": "AC",
+                "ejemplos": "T'antata mikhuni: = yo como pan"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "qunku",
+            "posicion": 16,
+            "es_puntuacion": false,
+            "raiz": "qu",
+            "lema": "qoy",
+            "categoria_gramatical": "v.",
+            "glosa": "qoy-3PL",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Dar, conceder, entregar, asignar, donar. . . ",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-nku",
+                "slot": 4,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE NUMERO",
+                "funcion": "Sufijo de tercera persona plural.",
+                "glosa_corta": "3PL",
+                "ejemplos": "Paykuna pukllanku = ellos/ellas juegan"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "utaq",
+            "posicion": 17,
+            "es_puntuacion": false,
+            "raiz": "uta",
+            "lema": "uta",
+            "categoria_gramatical": "s.",
+            "glosa": "uta-AG/HAB",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Hukuya. Enfermedad producida por la Leishmania brasilensis o Leishmania ame ricana en Brasil, Colombia, Bolivia, Perú y América Central, transmitida por mosquitos de la orden díptera y familia psychoididae. ",
+                "dominio": "Med.",
+                "sinonimos": "qepo, tiyaq araña, anti onqoy"
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-q",
+                "slot": 5,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE CASO",
+                "funcion": "Su marca es “-q” cuando termina en vocal y \"-paq\" cuando termina en consonante, que es igual a la preposición “de”.",
+                "glosa_corta": "AG/HAB",
+                "ejemplos": "Runaq = de la gente\nYachachiqpaq = del profesor"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "mikhuykunawan",
+            "posicion": 18,
+            "es_puntuacion": false,
+            "raiz": "mikhuy",
+            "lema": "mikhuy",
+            "categoria_gramatical": "v.",
+            "glosa": "mikhuy-PL-INSTR/COM",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Comer, alimentarse, yantar, ingerir alimentos. . . . ",
+                "dominio": null,
+                "sinonimos": "mihuy"
+              },
+              {
+                "indice": 2,
+                "definicion": "s. V. MIKHUNA",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-kuna",
+                "slot": 4,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE NUMERO",
+                "funcion": "Pluraliza los sustantivos.",
+                "glosa_corta": "PL",
+                "ejemplos": "Wasikuna = las casas\nrunakuna = las personas"
+              },
+              {
+                "morfema": "-wan",
+                "slot": 5,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE CASO",
+                "funcion": "Conjunción que enlaza palabras o frases ('y', 'con'). Es un caso cogitativo, porque indica compromiso, compañía o instrumento.",
+                "glosa_corta": "INSTR/COM",
+                "ejemplos": "Michiwan alqowan = el gato y el perro\nChakitaqllawan = con la chakitaqlla\nTaytaywan = Con mi padre\nPaywan noqawan = él y yo\nTaki harawiwan = El canto "
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "yanapanku",
+            "posicion": 19,
+            "es_puntuacion": false,
+            "raiz": "yanapa",
+            "lema": "yanapay",
+            "categoria_gramatical": "s.",
+            "glosa": "yanapay-3PL",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Ayuda, apoyo, asistencia, auxilio, colaboración",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "v. Ayudar, auxiliar, colaborar, socorrer, asistir",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-nku",
+                "slot": 4,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE NUMERO",
+                "funcion": "Sufijo de tercera persona plural.",
+                "glosa_corta": "3PL",
+                "ejemplos": "Paykuna pukllanku = ellos/ellas juegan"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": ",",
+            "posicion": null,
+            "es_puntuacion": true,
+            "raiz": ",",
+            "lema": ",",
+            "categoria_gramatical": "punct",
+            "sufijos": [],
+            "glosa": ",",
+            "acepciones": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 1.0
+          },
+          {
+            "token": "chaypi",
+            "posicion": 20,
+            "es_puntuacion": false,
+            "raiz": "chay",
+            "lema": "chay",
+            "categoria_gramatical": "s.",
+            "glosa": "chay-LOC",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Descanso breve de medio día",
+                "dominio": "Siesta.",
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "v. Sestear. Descansar o dormir algún momento del día",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-pi",
+                "slot": 5,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE CASO",
+                "funcion": "Indica locación en  el  tiempo  y  en  el espacio. Corresponde a la preposición ‘en’.",
+                "glosa_corta": "LOC",
+                "ejemplos": "Llaqtapi kashani = estoy en el pueblo"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "qhawanku",
+            "posicion": 21,
+            "es_puntuacion": false,
+            "raiz": "qhawa",
+            "lema": "qhawa",
+            "categoria_gramatical": "s.",
+            "glosa": "qhawa-3PL",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "V. PITA",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "V. PANTI LLAQOTA",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 3,
+                "definicion": "tej. Camiseta listada de colores. (Término aymara utilizado en quechua). (M. J. de la E.). ",
+                "dominio": null,
+                "sinonimos": "apita qhawa"
+              },
+              {
+                "indice": 4,
+                "definicion": "tej. Camiseta colorada y azul a medias. (Término usado en aymara y quechua.) (M.J. de la E.) Qora",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 5,
+                "definicion": "Mirada",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 6,
+                "definicion": "NEOL. Lectura. . . ",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-nku",
+                "slot": 4,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE NUMERO",
+                "funcion": "Sufijo de tercera persona plural.",
+                "glosa_corta": "3PL",
+                "ejemplos": "Paykuna pukllanku = ellos/ellas juegan"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "unqukusqanmanta",
+            "posicion": 22,
+            "es_puntuacion": false,
+            "raiz": "unqu",
+            "lema": "onqo",
+            "categoria_gramatical": "s.",
+            "glosa": "onqo-REFL-PART.PAS-3SG-ABL",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Enfermedad. Achaque. Malestar. ",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-ku",
+                "slot": 2,
+                "categoria": "VERBAL DERIVACIONAL",
+                "subcategoria": "FLEXIVOS DERIVACIONALES",
+                "funcion": "Indica un verbo reflexivo. Funciona como los pronombres enclíticos: me, te, se, nos. Se convierte en ‘KA’, cuando precede al sufijo -MU. Con verbos transitivos. indica una acción refleja, o sea la acción recae  sobre el propio sujeto. En otros casos  indica beneficio o provecho personal. tambien tiene valor impersonal.",
+                "glosa_corta": "REFL",
+                "ejemplos": "P’achakuni = me visto\nrantikunqa = se comprará\nP'achakamuy = visteté\nWisk'akun = se cierra"
+              },
+              {
+                "morfema": "-sqa",
+                "slot": 3,
+                "categoria": "NOMINAL DERIVACIONAL",
+                "subcategoria": "DERIVACIONAL DEVERBATIVO",
+                "funcion": "Participio pasivo ('escrito') o pasado narrativo. indica hecho consumado, se utiliza en narraciones.",
+                "glosa_corta": "PART.PAS",
+                "ejemplos": "Qhelqasqa = escrito\nwañusqa = muerto"
+              },
+              {
+                "morfema": "-n",
+                "slot": 3,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE PERSONA",
+                "funcion": "Sufijo posesivo  de tercera persona singular.",
+                "glosa_corta": "3SG",
+                "ejemplos": "wasin = su casa"
+              },
+              {
+                "morfema": "-manta",
+                "slot": 5,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE CASO",
+                "funcion": "Indica procedencia (‘de’, ‘desde’) o el material de algo.",
+                "glosa_corta": "ABL",
+                "ejemplos": "Arequipamanta = de Arequipa\nThantamanta wawata ruwashan = Está haciendo wawa de pan"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "pacha",
+            "posicion": 23,
+            "es_puntuacion": false,
+            "raiz": "pacha",
+            "lema": "pacha",
+            "categoria_gramatical": "s.",
+            "glosa": "pacha",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Tiempo o época de la siega. . ichhuy",
+                "dominio": null,
+                "sinonimos": "ichhuy ukhu, ichhuy kinray"
+              },
+              {
+                "indice": 2,
+                "definicion": "V. KAY PACHA. kawsay",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 3,
+                "definicion": "Invierno",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 4,
+                "definicion": "Mundo, tierra",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 5,
+                "definicion": "Universo. . ",
+                "dominio": null,
+                "sinonimos": "pachan"
+              },
+              {
+                "indice": 6,
+                "definicion": "Sufijo o morfema que indica el momento, el instante y el tiempo de la acción. . pacha",
+                "dominio": "Gram.",
+                "sinonimos": null
+              },
+              {
+                "indice": 7,
+                "definicion": "V. SITUWA MIT'A. Situwa",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 8,
+                "definicion": "V. TARPUY MIT'A. tarpuy",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 9,
+                "definicion": "V. TIPIY UKHU. tipiy",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": ",",
+            "posicion": null,
+            "es_puntuacion": true,
+            "raiz": ",",
+            "lema": ",",
+            "categoria_gramatical": "punct",
+            "sufijos": [],
+            "glosa": ",",
+            "acepciones": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 1.0
+          },
+          {
+            "token": "unquykunankama",
+            "posicion": 24,
+            "es_puntuacion": false,
+            "raiz": "unquy",
+            "lema": "onqoy",
+            "categoria_gramatical": "s.",
+            "glosa": "onqoy-PL-3SG-LIM.TERM",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "V. AMUQLLI",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "Paludismo. Enfermedad tropical de la sel va, de carácter endémico ",
+                "dominio": "Pat.",
+                "sinonimos": "hukuya"
+              },
+              {
+                "indice": 3,
+                "definicion": "V. CHHULLI",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 4,
+                "definicion": "(Gran enferme dad). Epidemia, peste. hatun",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 5,
+                "definicion": "Resfrío, gripe",
+                "dominio": "Pat.",
+                "sinonimos": null
+              },
+              {
+                "indice": 6,
+                "definicion": "V. QARACHA",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 7,
+                "definicion": "E pidemia. Enfermedad infecciosa que ataca a la población",
+                "dominio": "Med.",
+                "sinonimos": null
+              },
+              {
+                "indice": 8,
+                "definicion": "V. MURU",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 9,
+                "definicion": "Conjuntivitis. Mal de ojos. ñawi",
+                "dominio": "Pat.",
+                "sinonimos": null
+              },
+              {
+                "indice": 10,
+                "definicion": "Encefalitis. Inflamación del cerebro",
+                "dominio": "Pat.",
+                "sinonimos": null
+              },
+              {
+                "indice": 11,
+                "definicion": "Nombre genérico de las enfermedades, dolencias, padecimientos corporales, in disposiciones o males de salud",
+                "dominio": "Med.",
+                "sinonimos": null
+              },
+              {
+                "indice": 12,
+                "definicion": "v. Acción de enfermarse. Estado de enfermedad. . onqoy",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 13,
+                "definicion": "Hemorroide. Almorranas. Dilatación de las venas del recto. . oqoti",
+                "dominio": "Pat.",
+                "sinonimos": null
+              },
+              {
+                "indice": 14,
+                "definicion": "V. QONQAYONQOY",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 15,
+                "definicion": "Amnesia. Pérdida de la memoria. . qonqaylla. adv. Imprevistamente, al momento",
+                "dominio": "Med.",
+                "sinonimos": "qonqali onqoy"
+              },
+              {
+                "indice": 16,
+                "definicion": "Súbito, repentino. ",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 17,
+                "definicion": "Tuberculosis, tisis pulmonar",
+                "dominio": "Pat.",
+                "sinonimos": null
+              },
+              {
+                "indice": 18,
+                "definicion": "Asma. Enfermedad de los bronquios; provoca accesos de tos, respi ración incompleta y expecto ración escasa",
+                "dominio": "Med.",
+                "sinonimos": null
+              },
+              {
+                "indice": 19,
+                "definicion": "Cálculo. Litiasis. Formación de concreciones duras, generalmente calcáreas, en algunos órganos. rumi",
+                "dominio": "Med.",
+                "sinonimos": null
+              },
+              {
+                "indice": 20,
+                "definicion": "Fiebre o enfermedad febril",
+                "dominio": "Pat.",
+                "sinonimos": null
+              },
+              {
+                "indice": 21,
+                "definicion": "Temperatura alta en el cuerpo humano. ANTÓ",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 22,
+                "definicion": "Rasca rasca. Enfermedad cutánea con bastante escozor",
+                "dominio": "Med.",
+                "sinonimos": null
+              },
+              {
+                "indice": 23,
+                "definicion": "Tuberculosis pulmonar",
+                "dominio": "Med.",
+                "sinonimos": null
+              },
+              {
+                "indice": 24,
+                "definicion": "Enfermedad de la paraplegia",
+                "dominio": "Med.",
+                "sinonimos": null
+              },
+              {
+                "indice": 25,
+                "definicion": "V. AMAYCHURA. wiksa",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-kuna",
+                "slot": 4,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE NUMERO",
+                "funcion": "Pluraliza los sustantivos.",
+                "glosa_corta": "PL",
+                "ejemplos": "Wasikuna = las casas\nrunakuna = las personas"
+              },
+              {
+                "morfema": "-n",
+                "slot": 3,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE PERSONA",
+                "funcion": "Sufijo posesivo  de tercera persona singular.",
+                "glosa_corta": "3SG",
+                "ejemplos": "wasin = su casa"
+              },
+              {
+                "morfema": "-kama",
+                "slot": 5,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE CASO",
+                "funcion": "Indica límite ('hasta') o simultaneidad ('mientras', 'mientras tanto', 'entre tanto', 'en tanto'). El otro valor dekama es el distributivo (cada quien, entre).",
+                "glosa_corta": "LIM.TERM",
+                "ejemplos": "Paqarinkama = hasta mañana\ntakishanaykama tusunqa = bailará mientras cante\nsapanka waranqakama = cada uno a mil"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": ",",
+            "posicion": null,
+            "es_puntuacion": true,
+            "raiz": ",",
+            "lema": ",",
+            "categoria_gramatical": "punct",
+            "sufijos": [],
+            "glosa": ",",
+            "acepciones": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 1.0
+          },
+          {
+            "token": "chaymanta",
+            "posicion": 25,
+            "es_puntuacion": false,
+            "raiz": "chay",
+            "lema": "chay",
+            "categoria_gramatical": "s.",
+            "glosa": "chay-ABL",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Descanso breve de medio día",
+                "dominio": "Siesta.",
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "v. Sestear. Descansar o dormir algún momento del día",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-manta",
+                "slot": 5,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE CASO",
+                "funcion": "Indica procedencia (‘de’, ‘desde’) o el material de algo.",
+                "glosa_corta": "ABL",
+                "ejemplos": "Arequipamanta = de Arequipa\nThantamanta wawata ruwashan = Está haciendo wawa de pan"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "wawatañataq",
+            "posicion": 26,
+            "es_puntuacion": false,
+            "raiz": "wawataña",
+            "lema": "wawataña",
+            "categoria_gramatical": "desconocido",
+            "glosa": "wawataña-CONTR",
+            "acepciones": [],
+            "sufijos": [
+              {
+                "morfema": "-taq",
+                "slot": 8,
+                "categoria": "",
+                "subcategoria": "SUFIJO INDEPENDIENTE",
+                "funcion": "También marca la pregunta abierta que requiere alguna información adicional como respuesta.",
+                "glosa_corta": "CONTR",
+                "ejemplos": "¿Piwantaq? = ¿Con quién?"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 0.5
+          },
+          {
+            "token": "yanapanku",
+            "posicion": 27,
+            "es_puntuacion": false,
+            "raiz": "yanapa",
+            "lema": "yanapay",
+            "categoria_gramatical": "s.",
+            "glosa": "yanapay-3PL",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Ayuda, apoyo, asistencia, auxilio, colaboración",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "v. Ayudar, auxiliar, colaborar, socorrer, asistir",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-nku",
+                "slot": 4,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE NUMERO",
+                "funcion": "Sufijo de tercera persona plural.",
+                "glosa_corta": "3PL",
+                "ejemplos": "Paykuna pukllanku = ellos/ellas juegan"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": ",",
+            "posicion": null,
+            "es_puntuacion": true,
+            "raiz": ",",
+            "lema": ",",
+            "categoria_gramatical": "punct",
+            "sufijos": [],
+            "glosa": ",",
+            "acepciones": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 1.0
+          },
+          {
+            "token": "aswanqa",
+            "posicion": 28,
+            "es_puntuacion": false,
+            "raiz": "as",
+            "lema": "as",
+            "categoria_gramatical": "desconocido",
+            "glosa": "as-1.OBJ-3SG.FUT",
+            "acepciones": [],
+            "sufijos": [
+              {
+                "morfema": "-wa",
+                "slot": 5,
+                "categoria": "DESCONOCIDO",
+                "subcategoria": "Sufijo Gramatical",
+                "funcion": "Sufijo morfológico -wa",
+                "glosa_corta": "1.OBJ",
+                "ejemplos": ""
+              },
+              {
+                "morfema": "-nqa",
+                "slot": 5,
+                "categoria": "VERBAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE NUMERO",
+                "funcion": "Sufijo de tercera persona singular.",
+                "glosa_corta": "3SG.FUT",
+                "ejemplos": "Pay pukllanqa = él jugará"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 0.45
+          },
+          {
+            "token": "chayqa",
+            "posicion": 29,
+            "es_puntuacion": false,
+            "raiz": "chay",
+            "lema": "chay",
+            "categoria_gramatical": "s.",
+            "glosa": "chay-TOP",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Descanso breve de medio día",
+                "dominio": "Siesta.",
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "v. Sestear. Descansar o dormir algún momento del día",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-qa",
+                "slot": 8,
+                "categoria": "",
+                "subcategoria": "SUFIJO INDEPENDIENTE",
+                "funcion": "Denota información novedosa.",
+                "glosa_corta": "TOP",
+                "ejemplos": "Allqoqa aychatam suwakun = el perro roba carne"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "waqña",
+            "posicion": 30,
+            "es_puntuacion": false,
+            "raiz": "waqña",
+            "lema": "waqña",
+            "categoria_gramatical": "desconocido",
+            "glosa": "waqña",
+            "acepciones": [],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 0.5
+          },
+          {
+            "token": ".",
+            "posicion": null,
+            "es_puntuacion": true,
+            "raiz": ".",
+            "lema": ".",
+            "categoria_gramatical": "punct",
+            "sufijos": [],
+            "glosa": ".",
+            "acepciones": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 1.0
+          }
+        ]
+      }
+    ]
+  }
+}

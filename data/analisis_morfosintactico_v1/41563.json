@@ -1,0 +1,1065 @@
+{
+  "client_id": "51e7d55fa215680f369878ecd2c05a93",
+  "audio_id": "41563",
+  "audio_file": "spontaneous-speech-qxp-41563.mp3",
+  "duration_ms": "22392",
+  "prompt_id": "4379",
+  "prompt": "Pita tapukunki ima unquymanta tapukuyniyki kaqtin?",
+  "transcription": "Warmiymi hampikuq, imapis rikhurimun hinaqa paytakama tapukuyku, payqa ancha sumaqmi, imataña tapukunki hinapis payqa kutichillasunki, chay kaqtinmi llaqta runakunaqa sinchita munanku, k'ikllupi purin hinapis, karumantaña ñapaykunku.",
+  "variant": "",
+  "language": "Puno Quechua",
+  "split": "train",
+  "analisis_morfosintactico": {
+    "texto_original": "Warmiymi hampikuq, imapis rikhurimun hinaqa paytakama tapukuyku, payqa ancha sumaqmi, imataña tapukunki hinapis payqa kutichillasunki, chay kaqtinmi llaqta runakunaqa sinchita munanku, k'ikllupi purin hinapis, karumantaña ñapaykunku.",
+    "num_oraciones": 1,
+    "num_tokens": 26,
+    "marcadores_globales": {
+      "evidenciales": [
+        "CONJETURAL (-chá)",
+        "DIRECTO / ATESTIGUADO (-mi)"
+      ],
+      "clusividad": "EXCLUSIVO (hablante + otros, sin oyente)"
+    },
+    "oraciones": [
+      {
+        "indice": 0,
+        "texto": "Warmiymi hampikuq, imapis rikhurimun hinaqa paytakama tapukuyku, payqa ancha sumaqmi, imataña tapukunki hinapis payqa kutichillasunki, chay kaqtinmi llaqta runakunaqa sinchita munanku, k'ikllupi purin hinapis, karumantaña ñapaykunku.",
+        "marcadores": {
+          "evidenciales": [
+            "CONJETURAL (-chá)",
+            "DIRECTO / ATESTIGUADO (-mi)"
+          ],
+          "clusividad": "EXCLUSIVO (hablante + otros, sin oyente)"
+        },
+        "tokens": [
+          {
+            "token": "Warmiymi",
+            "posicion": 0,
+            "es_puntuacion": false,
+            "raiz": "warmi",
+            "lema": "warmi",
+            "categoria_gramatical": "adj.",
+            "glosa": "warmi-1SG.POS-EVID.DIR",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "V. Q'ETA",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-y",
+                "slot": 3,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE PERSONA",
+                "funcion": "Sufijo posesivo de primera persona singular.",
+                "glosa_corta": "1SG.POS",
+                "ejemplos": "wasiy = mi casa"
+              },
+              {
+                "morfema": "-mi",
+                "slot": 9,
+                "categoria": "",
+                "subcategoria": "SUFIJO INDEPENDIENTE",
+                "funcion": "Validador. Indica que el hablante ha sido testigo de la acción o está muy seguro de lo que dice. No se debe de usar cuando hay duda.  Cuando la palabra termina en vocal se usa la \"m\" y cuando termina en consonante se usa la \"mi\". Hace referencia a una información directa en relación con lo enunciado por el hablante. Es para afirmar, declarar, sostener.",
+                "glosa_corta": "EVID.DIR",
+                "ejemplos": "Pukllaqmi rirani = fui a jugar\nWarmim kani = soy mujer"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": "DIRECTO / ATESTIGUADO (-mi)",
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "hampikuq",
+            "posicion": 1,
+            "es_puntuacion": false,
+            "raiz": "hampikuq",
+            "lema": "hanpikuq",
+            "categoria_gramatical": "adj.",
+            "glosa": "hanpikuq",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "y s. Que se cura a sí mismo",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "Persona entendida en curar enfermedades",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 3,
+                "definicion": "Sustancia que tiene la virtud de curar enfermedades",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": ",",
+            "posicion": null,
+            "es_puntuacion": true,
+            "raiz": ",",
+            "lema": ",",
+            "categoria_gramatical": "punct",
+            "sufijos": [],
+            "glosa": ",",
+            "acepciones": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 1.0
+          },
+          {
+            "token": "imapis",
+            "posicion": 2,
+            "es_puntuacion": false,
+            "raiz": "ima",
+            "lema": "ima",
+            "categoria_gramatical": "desconocido",
+            "glosa": "ima-ADIT",
+            "acepciones": [],
+            "sufijos": [
+              {
+                "morfema": "-pis",
+                "slot": 8,
+                "categoria": "",
+                "subcategoria": "SUFIJO INDEPENDIENTE",
+                "funcion": "Aditivo. Se traduce como ‘también’ o ‘incluso’. Coordina oraciones.",
+                "glosa_corta": "ADIT",
+                "ejemplos": "Noqapas tususaqmi = Yo también bailaré\nNoqapis risaq = yo también iré"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 0.5
+          },
+          {
+            "token": "rikhurimun",
+            "posicion": 3,
+            "es_puntuacion": false,
+            "raiz": "rikhurimu",
+            "lema": "rikhurimuy",
+            "categoria_gramatical": "v.",
+            "glosa": "rikhurimuy-3SG",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Empezar a aparecer, hacerse visible, manifestar- se",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-n",
+                "slot": 3,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE PERSONA",
+                "funcion": "Sufijo posesivo  de tercera persona singular.",
+                "glosa_corta": "3SG",
+                "ejemplos": "wasin = su casa"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "hinaqa",
+            "posicion": 4,
+            "es_puntuacion": false,
+            "raiz": "hina",
+            "lema": "hinay",
+            "categoria_gramatical": "v.",
+            "glosa": "hinay-TOP",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Hacer u obrar de esta manera, de este modo; hacer así (ilustrando con mímica). ",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-qa",
+                "slot": 8,
+                "categoria": "",
+                "subcategoria": "SUFIJO INDEPENDIENTE",
+                "funcion": "Denota información novedosa.",
+                "glosa_corta": "TOP",
+                "ejemplos": "Allqoqa aychatam suwakun = el perro roba carne"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "paytakama",
+            "posicion": 5,
+            "es_puntuacion": false,
+            "raiz": "pa",
+            "lema": "pa",
+            "categoria_gramatical": "desconocido",
+            "glosa": "pa-1SG.POS-AC-LIM.TERM",
+            "acepciones": [],
+            "sufijos": [
+              {
+                "morfema": "-y",
+                "slot": 3,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE PERSONA",
+                "funcion": "Sufijo posesivo de primera persona singular.",
+                "glosa_corta": "1SG.POS",
+                "ejemplos": "wasiy = mi casa"
+              },
+              {
+                "morfema": "-ta",
+                "slot": 5,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE CASO",
+                "funcion": "Designa el objeto directo con los verbos que no son de movimiento.",
+                "glosa_corta": "AC",
+                "ejemplos": "T'antata mikhuni: = yo como pan"
+              },
+              {
+                "morfema": "-kama",
+                "slot": 5,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE CASO",
+                "funcion": "Indica límite ('hasta') o simultaneidad ('mientras', 'mientras tanto', 'entre tanto', 'en tanto'). El otro valor dekama es el distributivo (cada quien, entre).",
+                "glosa_corta": "LIM.TERM",
+                "ejemplos": "Paqarinkama = hasta mañana\ntakishanaykama tusunqa = bailará mientras cante\nsapanka waranqakama = cada uno a mil"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 0.5
+          },
+          {
+            "token": "tapukuyku",
+            "posicion": 6,
+            "es_puntuacion": false,
+            "raiz": "tapuku",
+            "lema": "tapukuy",
+            "categoria_gramatical": "v.",
+            "glosa": "tapukuy-1PL.EXCL",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Preguntar, interrogar con mucho interés y a más de una persona; preguntar para beneficio propio. ",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-yku",
+                "slot": 4,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE NUMERO",
+                "funcion": "Sufijo de primera persona plural excluyente.",
+                "glosa_corta": "1PL.EXCL",
+                "ejemplos": "Noqayku pukllayku = nosotros jugamos (excluyente es decir sin incluirte o incluirlos)"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": "EXCLUSIVO (hablante + otros, sin oyente)"
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": ",",
+            "posicion": null,
+            "es_puntuacion": true,
+            "raiz": ",",
+            "lema": ",",
+            "categoria_gramatical": "punct",
+            "sufijos": [],
+            "glosa": ",",
+            "acepciones": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 1.0
+          },
+          {
+            "token": "payqa",
+            "posicion": 7,
+            "es_puntuacion": false,
+            "raiz": "pa",
+            "lema": "pa",
+            "categoria_gramatical": "desconocido",
+            "glosa": "pa-1SG.POS-TOP",
+            "acepciones": [],
+            "sufijos": [
+              {
+                "morfema": "-y",
+                "slot": 3,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE PERSONA",
+                "funcion": "Sufijo posesivo de primera persona singular.",
+                "glosa_corta": "1SG.POS",
+                "ejemplos": "wasiy = mi casa"
+              },
+              {
+                "morfema": "-qa",
+                "slot": 8,
+                "categoria": "",
+                "subcategoria": "SUFIJO INDEPENDIENTE",
+                "funcion": "Denota información novedosa.",
+                "glosa_corta": "TOP",
+                "ejemplos": "Allqoqa aychatam suwakun = el perro roba carne"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 0.5
+          },
+          {
+            "token": "ancha",
+            "posicion": 8,
+            "es_puntuacion": false,
+            "raiz": "an",
+            "lema": "an",
+            "categoria_gramatical": "desconocido",
+            "glosa": "an-EVID.CONJ",
+            "acepciones": [],
+            "sufijos": [
+              {
+                "morfema": "-cha",
+                "slot": 9,
+                "categoria": "NOMINAL DERIVACIONAL",
+                "subcategoria": "DERIVACIONAL DENOMINATIVO",
+                "funcion": "Indica diminutivo. En español corresponde a las terminaciones: …ito, …ita, …ecito, …ecita. Su connotación puede ser diminutiva, apreciativa o\ndespreciativa, de acuerdo al contexto en el que se use.",
+                "glosa_corta": "EVID.CONJ",
+                "ejemplos": "alqocha = perrito\nrumicha = piedrita\nYana ñawi sipascha = jovencita de ojos negros"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": "CONJETURAL (-chá)",
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 0.5
+          },
+          {
+            "token": "sumaqmi",
+            "posicion": 9,
+            "es_puntuacion": false,
+            "raiz": "sumaq",
+            "lema": "sumaq",
+            "categoria_gramatical": "adj.",
+            "glosa": "sumaq-EVID.DIR",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Bello, bueno, agradable, exquisito, simpático. . sumaq",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-mi",
+                "slot": 9,
+                "categoria": "",
+                "subcategoria": "SUFIJO INDEPENDIENTE",
+                "funcion": "Validador. Indica que el hablante ha sido testigo de la acción o está muy seguro de lo que dice. No se debe de usar cuando hay duda.  Cuando la palabra termina en vocal se usa la \"m\" y cuando termina en consonante se usa la \"mi\". Hace referencia a una información directa en relación con lo enunciado por el hablante. Es para afirmar, declarar, sostener.",
+                "glosa_corta": "EVID.DIR",
+                "ejemplos": "Pukllaqmi rirani = fui a jugar\nWarmim kani = soy mujer"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": "DIRECTO / ATESTIGUADO (-mi)",
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": ",",
+            "posicion": null,
+            "es_puntuacion": true,
+            "raiz": ",",
+            "lema": ",",
+            "categoria_gramatical": "punct",
+            "sufijos": [],
+            "glosa": ",",
+            "acepciones": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 1.0
+          },
+          {
+            "token": "imataña",
+            "posicion": 10,
+            "es_puntuacion": false,
+            "raiz": "imataña",
+            "lema": "imataña",
+            "categoria_gramatical": "desconocido",
+            "glosa": "imataña",
+            "acepciones": [],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 0.5
+          },
+          {
+            "token": "tapukunki",
+            "posicion": 11,
+            "es_puntuacion": false,
+            "raiz": "tapukunki",
+            "lema": "tapukunki",
+            "categoria_gramatical": "desconocido",
+            "glosa": "tapukunki",
+            "acepciones": [],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 0.5
+          },
+          {
+            "token": "hinapis",
+            "posicion": 12,
+            "es_puntuacion": false,
+            "raiz": "hina",
+            "lema": "hinay",
+            "categoria_gramatical": "v.",
+            "glosa": "hinay-ADIT",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Hacer u obrar de esta manera, de este modo; hacer así (ilustrando con mímica). ",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-pis",
+                "slot": 8,
+                "categoria": "",
+                "subcategoria": "SUFIJO INDEPENDIENTE",
+                "funcion": "Aditivo. Se traduce como ‘también’ o ‘incluso’. Coordina oraciones.",
+                "glosa_corta": "ADIT",
+                "ejemplos": "Noqapas tususaqmi = Yo también bailaré\nNoqapis risaq = yo también iré"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "payqa",
+            "posicion": 13,
+            "es_puntuacion": false,
+            "raiz": "pa",
+            "lema": "pa",
+            "categoria_gramatical": "desconocido",
+            "glosa": "pa-1SG.POS-TOP",
+            "acepciones": [],
+            "sufijos": [
+              {
+                "morfema": "-y",
+                "slot": 3,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE PERSONA",
+                "funcion": "Sufijo posesivo de primera persona singular.",
+                "glosa_corta": "1SG.POS",
+                "ejemplos": "wasiy = mi casa"
+              },
+              {
+                "morfema": "-qa",
+                "slot": 8,
+                "categoria": "",
+                "subcategoria": "SUFIJO INDEPENDIENTE",
+                "funcion": "Denota información novedosa.",
+                "glosa_corta": "TOP",
+                "ejemplos": "Allqoqa aychatam suwakun = el perro roba carne"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 0.5
+          },
+          {
+            "token": "kutichillasunki",
+            "posicion": 14,
+            "es_puntuacion": false,
+            "raiz": "kutichillasunki",
+            "lema": "kutichillasunki",
+            "categoria_gramatical": "desconocido",
+            "glosa": "kutichillasunki",
+            "acepciones": [],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 0.5
+          },
+          {
+            "token": ",",
+            "posicion": null,
+            "es_puntuacion": true,
+            "raiz": ",",
+            "lema": ",",
+            "categoria_gramatical": "punct",
+            "sufijos": [],
+            "glosa": ",",
+            "acepciones": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 1.0
+          },
+          {
+            "token": "chay",
+            "posicion": 15,
+            "es_puntuacion": false,
+            "raiz": "chay",
+            "lema": "chay",
+            "categoria_gramatical": "s.",
+            "glosa": "chay",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Descanso breve de medio día",
+                "dominio": "Siesta.",
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "v. Sestear. Descansar o dormir algún momento del día",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "kaqtinmi",
+            "posicion": 16,
+            "es_puntuacion": false,
+            "raiz": "kaqti",
+            "lema": "kaqti",
+            "categoria_gramatical": "desconocido",
+            "glosa": "kaqti-3SG-EVID.DIR",
+            "acepciones": [],
+            "sufijos": [
+              {
+                "morfema": "-n",
+                "slot": 3,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE PERSONA",
+                "funcion": "Sufijo posesivo  de tercera persona singular.",
+                "glosa_corta": "3SG",
+                "ejemplos": "wasin = su casa"
+              },
+              {
+                "morfema": "-mi",
+                "slot": 9,
+                "categoria": "",
+                "subcategoria": "SUFIJO INDEPENDIENTE",
+                "funcion": "Validador. Indica que el hablante ha sido testigo de la acción o está muy seguro de lo que dice. No se debe de usar cuando hay duda.  Cuando la palabra termina en vocal se usa la \"m\" y cuando termina en consonante se usa la \"mi\". Hace referencia a una información directa en relación con lo enunciado por el hablante. Es para afirmar, declarar, sostener.",
+                "glosa_corta": "EVID.DIR",
+                "ejemplos": "Pukllaqmi rirani = fui a jugar\nWarmim kani = soy mujer"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": "DIRECTO / ATESTIGUADO (-mi)",
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 0.5
+          },
+          {
+            "token": "llaqta",
+            "posicion": 17,
+            "es_puntuacion": false,
+            "raiz": "llaqta",
+            "lema": "llaqta",
+            "categoria_gramatical": "s.",
+            "glosa": "llaqta",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Ciudad metro- poli, gran ciudad",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "NEOL. Capi tal. hatun",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 3,
+                "definicion": "Ciudad, pueblo, comunidad, villorrio, comarca",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 4,
+                "definicion": "Población. ",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 5,
+                "definicion": ". llaqta",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 6,
+                "definicion": "V. CH'IKURU. llaqta",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "runakunaqa",
+            "posicion": 18,
+            "es_puntuacion": false,
+            "raiz": "runa",
+            "lema": "runa",
+            "categoria_gramatical": "adj.",
+            "glosa": "runa-PL-TOP",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "V. RUNALLAÑA",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "figdo. Desganado, pusilánime, sin chispa",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 3,
+                "definicion": "figdo. Hombre muy duro, fuerte como la piedra",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 4,
+                "definicion": "Insensible, indolente. rumi",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 5,
+                "definicion": "y s. Hombre veraz, sincero, fidedigno, fiel",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-kuna",
+                "slot": 4,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE NUMERO",
+                "funcion": "Pluraliza los sustantivos.",
+                "glosa_corta": "PL",
+                "ejemplos": "Wasikuna = las casas\nrunakuna = las personas"
+              },
+              {
+                "morfema": "-qa",
+                "slot": 8,
+                "categoria": "",
+                "subcategoria": "SUFIJO INDEPENDIENTE",
+                "funcion": "Denota información novedosa.",
+                "glosa_corta": "TOP",
+                "ejemplos": "Allqoqa aychatam suwakun = el perro roba carne"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "sinchita",
+            "posicion": 19,
+            "es_puntuacion": false,
+            "raiz": "sinchi",
+            "lema": "sinchi",
+            "categoria_gramatical": "s.",
+            "glosa": "sinchi-AC",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Jefe de las agru paciones militares en el inkario",
+                "dominio": "Hist.",
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "adj. Valiente, valeroso, recio, fuerte, denodado, intrépido",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 3,
+                "definicion": "adv. Muy, demasiado, mucho, bastante. . sinchi",
+                "dominio": null,
+                "sinonimos": "nishu, sinchi"
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-ta",
+                "slot": 5,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE CASO",
+                "funcion": "Designa el objeto directo con los verbos que no son de movimiento.",
+                "glosa_corta": "AC",
+                "ejemplos": "T'antata mikhuni: = yo como pan"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "munanku",
+            "posicion": 20,
+            "es_puntuacion": false,
+            "raiz": "muna",
+            "lema": "muna",
+            "categoria_gramatical": "s.",
+            "glosa": "muna-3PL",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Afición, inclinación, deseo, voluntad",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "Arg: Acción de ofrecer y no dar.",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 3,
+                "definicion": ". Aficiónate, provócate",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-nku",
+                "slot": 4,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE NUMERO",
+                "funcion": "Sufijo de tercera persona plural.",
+                "glosa_corta": "3PL",
+                "ejemplos": "Paykuna pukllanku = ellos/ellas juegan"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": ",",
+            "posicion": null,
+            "es_puntuacion": true,
+            "raiz": ",",
+            "lema": ",",
+            "categoria_gramatical": "punct",
+            "sufijos": [],
+            "glosa": ",",
+            "acepciones": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 1.0
+          },
+          {
+            "token": "k'ikllupi",
+            "posicion": 21,
+            "es_puntuacion": false,
+            "raiz": "k'ikllu",
+            "lema": "k'ikllu",
+            "categoria_gramatical": "desconocido",
+            "glosa": "k'ikllu-LOC",
+            "acepciones": [],
+            "sufijos": [
+              {
+                "morfema": "-pi",
+                "slot": 5,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE CASO",
+                "funcion": "Indica locación en  el  tiempo  y  en  el espacio. Corresponde a la preposición ‘en’.",
+                "glosa_corta": "LOC",
+                "ejemplos": "Llaqtapi kashani = estoy en el pueblo"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 0.5
+          },
+          {
+            "token": "purin",
+            "posicion": 22,
+            "es_puntuacion": false,
+            "raiz": "puri",
+            "lema": "puri",
+            "categoria_gramatical": "s.",
+            "glosa": "puri-3SG",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Locomoción, tracción o desplazamiento",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-n",
+                "slot": 3,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE PERSONA",
+                "funcion": "Sufijo posesivo  de tercera persona singular.",
+                "glosa_corta": "3SG",
+                "ejemplos": "wasin = su casa"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "hinapis",
+            "posicion": 23,
+            "es_puntuacion": false,
+            "raiz": "hina",
+            "lema": "hinay",
+            "categoria_gramatical": "v.",
+            "glosa": "hinay-ADIT",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Hacer u obrar de esta manera, de este modo; hacer así (ilustrando con mímica). ",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-pis",
+                "slot": 8,
+                "categoria": "",
+                "subcategoria": "SUFIJO INDEPENDIENTE",
+                "funcion": "Aditivo. Se traduce como ‘también’ o ‘incluso’. Coordina oraciones.",
+                "glosa_corta": "ADIT",
+                "ejemplos": "Noqapas tususaqmi = Yo también bailaré\nNoqapis risaq = yo también iré"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": ",",
+            "posicion": null,
+            "es_puntuacion": true,
+            "raiz": ",",
+            "lema": ",",
+            "categoria_gramatical": "punct",
+            "sufijos": [],
+            "glosa": ",",
+            "acepciones": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 1.0
+          },
+          {
+            "token": "karumantaña",
+            "posicion": 24,
+            "es_puntuacion": false,
+            "raiz": "karumantaña",
+            "lema": "karumantaña",
+            "categoria_gramatical": "desconocido",
+            "glosa": "karumantaña",
+            "acepciones": [],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 0.5
+          },
+          {
+            "token": "ñapaykunku",
+            "posicion": 25,
+            "es_puntuacion": false,
+            "raiz": "ña",
+            "lema": "ña",
+            "categoria_gramatical": "desconocido",
+            "glosa": "ña-ITER/BEN-1PL.EXCL-3PL",
+            "acepciones": [],
+            "sufijos": [
+              {
+                "morfema": "-pa",
+                "slot": 2,
+                "categoria": "VERBAL DERIVACIONAL",
+                "subcategoria": "FLEXIVOS DERIVACIONALES",
+                "funcion": "Indica que la acción se realiza más de una vez.",
+                "glosa_corta": "ITER/BEN",
+                "ejemplos": "Pichapay = volver a barrer o barrer una y otra vez"
+              },
+              {
+                "morfema": "-yku",
+                "slot": 4,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE NUMERO",
+                "funcion": "Sufijo de primera persona plural excluyente.",
+                "glosa_corta": "1PL.EXCL",
+                "ejemplos": "Noqayku pukllayku = nosotros jugamos (excluyente es decir sin incluirte o incluirlos)"
+              },
+              {
+                "morfema": "-nku",
+                "slot": 4,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE NUMERO",
+                "funcion": "Sufijo de tercera persona plural.",
+                "glosa_corta": "3PL",
+                "ejemplos": "Paykuna pukllanku = ellos/ellas juegan"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": "EXCLUSIVO (hablante + otros, sin oyente)"
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 0.5
+          },
+          {
+            "token": ".",
+            "posicion": null,
+            "es_puntuacion": true,
+            "raiz": ".",
+            "lema": ".",
+            "categoria_gramatical": "punct",
+            "sufijos": [],
+            "glosa": ".",
+            "acepciones": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 1.0
+          }
+        ]
+      }
+    ]
+  }
+}

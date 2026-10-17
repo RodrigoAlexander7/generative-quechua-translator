@@ -1,0 +1,517 @@
+{
+  "client_id": "1dd0d3ea4ec879dadf7db18e23b9509a",
+  "audio_id": "69335",
+  "audio_file": "spontaneous-speech-qxp-69335.mp3",
+  "duration_ms": "9540",
+  "prompt_id": "7414",
+  "prompt": "Imaraykutaq Pachamamata chaninchana?",
+  "transcription": "Nuqanchisqa imatapis pachamama patapi ruwanchis, chayrayku sinchita iñikuna allin kawsayta quwasqanchismanta.",
+  "variant": "",
+  "language": "Puno Quechua",
+  "split": "train",
+  "analisis_morfosintactico": {
+    "texto_original": "Nuqanchisqa imatapis pachamama patapi ruwanchis, chayrayku sinchita iñikuna allin kawsayta quwasqanchismanta.",
+    "num_oraciones": 1,
+    "num_tokens": 11,
+    "marcadores_globales": {
+      "evidenciales": [],
+      "clusividad": "INCLUSIVO (hablante + oyente)"
+    },
+    "oraciones": [
+      {
+        "indice": 0,
+        "texto": "Nuqanchisqa imatapis pachamama patapi ruwanchis, chayrayku sinchita iñikuna allin kawsayta quwasqanchismanta.",
+        "marcadores": {
+          "evidenciales": [],
+          "clusividad": "INCLUSIVO (hablante + oyente)"
+        },
+        "tokens": [
+          {
+            "token": "Nuqanchisqa",
+            "posicion": 0,
+            "es_puntuacion": false,
+            "raiz": "nuqanchisqa",
+            "lema": "nuqanchisqa",
+            "categoria_gramatical": "desconocido",
+            "glosa": "nuqanchisqa",
+            "acepciones": [],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 0.5
+          },
+          {
+            "token": "imatapis",
+            "posicion": 1,
+            "es_puntuacion": false,
+            "raiz": "ima",
+            "lema": "ima",
+            "categoria_gramatical": "desconocido",
+            "glosa": "ima-AC-ADIT",
+            "acepciones": [],
+            "sufijos": [
+              {
+                "morfema": "-ta",
+                "slot": 5,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE CASO",
+                "funcion": "Designa el objeto directo con los verbos que no son de movimiento.",
+                "glosa_corta": "AC",
+                "ejemplos": "T'antata mikhuni: = yo como pan"
+              },
+              {
+                "morfema": "-pis",
+                "slot": 8,
+                "categoria": "",
+                "subcategoria": "SUFIJO INDEPENDIENTE",
+                "funcion": "Aditivo. Se traduce como ‘también’ o ‘incluso’. Coordina oraciones.",
+                "glosa_corta": "ADIT",
+                "ejemplos": "Noqapas tususaqmi = Yo también bailaré\nNoqapis risaq = yo también iré"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 0.5
+          },
+          {
+            "token": "pachamama",
+            "posicion": 2,
+            "es_puntuacion": false,
+            "raiz": "pacha+mama",
+            "lema": "pacha+mama",
+            "categoria_gramatical": "s. (compuesto)",
+            "glosa": "pacha+mama",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "patapi",
+            "posicion": 3,
+            "es_puntuacion": false,
+            "raiz": "pata",
+            "lema": "pata",
+            "categoria_gramatical": "s.",
+            "glosa": "pata-LOC",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "tej. Vestido aderezado del pecho a los hombros. (M.J. de la E.)",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "Parte alta de alguna cosa. Eminencia de un cerro, casa, etc",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 3,
+                "definicion": "adv. Encima, en lugar superior en oposición al inferior. (J.L.P.) . ",
+                "dominio": null,
+                "sinonimos": "hawan"
+              },
+              {
+                "indice": 4,
+                "definicion": "tej. Escalera o gradería tejida en el vestido. (M. J. de la E.) Pata",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 5,
+                "definicion": "Gradería, andenería, escalinata, escalones en superpo sición",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 6,
+                "definicion": "adj. Repliegue o plisado en telas. Pata",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 7,
+                "definicion": "Selva baja o selva alta. yunka",
+                "dominio": "Geog.",
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-pi",
+                "slot": 5,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE CASO",
+                "funcion": "Indica locación en  el  tiempo  y  en  el espacio. Corresponde a la preposición ‘en’.",
+                "glosa_corta": "LOC",
+                "ejemplos": "Llaqtapi kashani = estoy en el pueblo"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "ruwanchis",
+            "posicion": 4,
+            "es_puntuacion": false,
+            "raiz": "ruwa",
+            "lema": "ruway",
+            "categoria_gramatical": "v.",
+            "glosa": "ruway-1PL.INCL",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "V. LLANK'AY, RURAY",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-nchis",
+                "slot": 4,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE NUMERO",
+                "funcion": "Sufijo de primera persona plural incluyente.",
+                "glosa_corta": "1PL.INCL",
+                "ejemplos": "Noqanchis pukllanchis = nosotros jugamos (incluyente es decir incluyéndote o incluyéndolos)."
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": "INCLUSIVO (hablante + oyente)"
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": ",",
+            "posicion": null,
+            "es_puntuacion": true,
+            "raiz": ",",
+            "lema": ",",
+            "categoria_gramatical": "punct",
+            "sufijos": [],
+            "glosa": ",",
+            "acepciones": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 1.0
+          },
+          {
+            "token": "chayrayku",
+            "posicion": 5,
+            "es_puntuacion": false,
+            "raiz": "chay",
+            "lema": "chay",
+            "categoria_gramatical": "s.",
+            "glosa": "chay-CAUS",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Descanso breve de medio día",
+                "dominio": "Siesta.",
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "v. Sestear. Descansar o dormir algún momento del día",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-rayku",
+                "slot": 5,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE CASO",
+                "funcion": "Indica el motivo de la realización de una acción. La causa por el que se encuentra en esa situación  o el efecto que ha causado. Indica la preposición 'por' (motivo).",
+                "glosa_corta": "CAUS",
+                "ejemplos": "Payrayku = por él.\nQolqerayku = por dinero"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "sinchita",
+            "posicion": 6,
+            "es_puntuacion": false,
+            "raiz": "sinchi",
+            "lema": "sinchi",
+            "categoria_gramatical": "s.",
+            "glosa": "sinchi-AC",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Jefe de las agru paciones militares en el inkario",
+                "dominio": "Hist.",
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "adj. Valiente, valeroso, recio, fuerte, denodado, intrépido",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 3,
+                "definicion": "adv. Muy, demasiado, mucho, bastante. . sinchi",
+                "dominio": null,
+                "sinonimos": "nishu, sinchi"
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-ta",
+                "slot": 5,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE CASO",
+                "funcion": "Designa el objeto directo con los verbos que no son de movimiento.",
+                "glosa_corta": "AC",
+                "ejemplos": "T'antata mikhuni: = yo como pan"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "iñikuna",
+            "posicion": 7,
+            "es_puntuacion": false,
+            "raiz": "iñi",
+            "lema": "iñiy",
+            "categoria_gramatical": "v.",
+            "glosa": "iñiy-PL",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Creer, asentir, tener fe, dar crédito. ",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-kuna",
+                "slot": 4,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE NUMERO",
+                "funcion": "Pluraliza los sustantivos.",
+                "glosa_corta": "PL",
+                "ejemplos": "Wasikuna = las casas\nrunakuna = las personas"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "allin",
+            "posicion": 8,
+            "es_puntuacion": false,
+            "raiz": "allin",
+            "lema": "allin",
+            "categoria_gramatical": "adj.",
+            "glosa": "allin",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Bueno (término de apro bación). . ",
+                "dominio": null,
+                "sinonimos": "kusa"
+              },
+              {
+                "indice": 2,
+                "definicion": "Mal, mal ejemplo, incorrecto. . mana",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "kawsayta",
+            "posicion": 9,
+            "es_puntuacion": false,
+            "raiz": "kawsay",
+            "lema": "kawsay",
+            "categoria_gramatical": "s.",
+            "glosa": "kawsay-AC",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Vida",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "Víveres para la alimentación",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 3,
+                "definicion": "v. Vivir. . kawsay",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 4,
+                "definicion": "Felicidad. Vida feliz. . kusi",
+                "dominio": null,
+                "sinonimos": "kusi sami"
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-ta",
+                "slot": 5,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE CASO",
+                "funcion": "Designa el objeto directo con los verbos que no son de movimiento.",
+                "glosa_corta": "AC",
+                "ejemplos": "T'antata mikhuni: = yo como pan"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "quwasqanchismanta",
+            "posicion": 10,
+            "es_puntuacion": false,
+            "raiz": "qu",
+            "lema": "qoy",
+            "categoria_gramatical": "v.",
+            "glosa": "qoy-1.OBJ-PART.PAS-1PL.INCL-ABL",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Dar, conceder, entregar, asignar, donar. . . ",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-wa",
+                "slot": 5,
+                "categoria": "DESCONOCIDO",
+                "subcategoria": "Sufijo Gramatical",
+                "funcion": "Sufijo morfológico -wa",
+                "glosa_corta": "1.OBJ",
+                "ejemplos": ""
+              },
+              {
+                "morfema": "-sqa",
+                "slot": 3,
+                "categoria": "NOMINAL DERIVACIONAL",
+                "subcategoria": "DERIVACIONAL DEVERBATIVO",
+                "funcion": "Participio pasivo ('escrito') o pasado narrativo. indica hecho consumado, se utiliza en narraciones.",
+                "glosa_corta": "PART.PAS",
+                "ejemplos": "Qhelqasqa = escrito\nwañusqa = muerto"
+              },
+              {
+                "morfema": "-nchis",
+                "slot": 4,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE NUMERO",
+                "funcion": "Sufijo de primera persona plural incluyente.",
+                "glosa_corta": "1PL.INCL",
+                "ejemplos": "Noqanchis pukllanchis = nosotros jugamos (incluyente es decir incluyéndote o incluyéndolos)."
+              },
+              {
+                "morfema": "-manta",
+                "slot": 5,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE CASO",
+                "funcion": "Indica procedencia (‘de’, ‘desde’) o el material de algo.",
+                "glosa_corta": "ABL",
+                "ejemplos": "Arequipamanta = de Arequipa\nThantamanta wawata ruwashan = Está haciendo wawa de pan"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": "INCLUSIVO (hablante + oyente)"
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.88
+          },
+          {
+            "token": ".",
+            "posicion": null,
+            "es_puntuacion": true,
+            "raiz": ".",
+            "lema": ".",
+            "categoria_gramatical": "punct",
+            "sufijos": [],
+            "glosa": ".",
+            "acepciones": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 1.0
+          }
+        ]
+      }
+    ]
+  }
+}

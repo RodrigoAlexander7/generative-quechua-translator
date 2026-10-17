@@ -1,0 +1,381 @@
+{
+  "client_id": "65149769e817b44e2c0337d3c3fe6f69",
+  "audio_id": "67699",
+  "audio_file": "spontaneous-speech-qxp-67699.mp3",
+  "duration_ms": "7056",
+  "prompt_id": "4367",
+  "prompt": "Imataq manchachisunkiman?",
+  "transcription": "Nuqataqa mach'aqwakuna manchachiwanman, millay kuruchakuna ima.",
+  "variant": "",
+  "language": "Puno Quechua",
+  "split": "dev",
+  "analisis_morfosintactico": {
+    "texto_original": "Nuqataqa mach'aqwakuna manchachiwanman, millay kuruchakuna ima.",
+    "num_oraciones": 1,
+    "num_tokens": 6,
+    "marcadores_globales": {
+      "evidenciales": [
+        "CONJETURAL (-chá)"
+      ],
+      "clusividad": null
+    },
+    "oraciones": [
+      {
+        "indice": 0,
+        "texto": "Nuqataqa mach'aqwakuna manchachiwanman, millay kuruchakuna ima.",
+        "marcadores": {
+          "evidenciales": [
+            "CONJETURAL (-chá)"
+          ],
+          "clusividad": null
+        },
+        "tokens": [
+          {
+            "token": "Nuqataqa",
+            "posicion": 0,
+            "es_puntuacion": false,
+            "raiz": "nuqataqa",
+            "lema": "nuqataqa",
+            "categoria_gramatical": "desconocido",
+            "glosa": "nuqataqa",
+            "acepciones": [],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 0.5
+          },
+          {
+            "token": "mach'aqwakuna",
+            "posicion": 1,
+            "es_puntuacion": false,
+            "raiz": "mach'aqwa",
+            "lema": "mach'aqwa",
+            "categoria_gramatical": "s.",
+            "glosa": "mach'aqwa-PL",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "V. MACH'AQWAY",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-kuna",
+                "slot": 4,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE NUMERO",
+                "funcion": "Pluraliza los sustantivos.",
+                "glosa_corta": "PL",
+                "ejemplos": "Wasikuna = las casas\nrunakuna = las personas"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "manchachiwanman",
+            "posicion": 2,
+            "es_puntuacion": false,
+            "raiz": "manchachi",
+            "lema": "manchachi",
+            "categoria_gramatical": "s.",
+            "glosa": "manchachi-INSTR/COM-ILA",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Espantajo, esperpento, espantapájaros",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "V. ARARIWA",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-wan",
+                "slot": 5,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE CASO",
+                "funcion": "Conjunción que enlaza palabras o frases ('y', 'con'). Es un caso cogitativo, porque indica compromiso, compañía o instrumento.",
+                "glosa_corta": "INSTR/COM",
+                "ejemplos": "Michiwan alqowan = el gato y el perro\nChakitaqllawan = con la chakitaqlla\nTaytaywan = Con mi padre\nPaywan noqawan = él y yo\nTaki harawiwan = El canto "
+              },
+              {
+                "morfema": "-man",
+                "slot": 5,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE CASO",
+                "funcion": "Es el sufijo que marca movimiento, direccionalidad, objeto indirecto, locación temporal y locación espacial. Indica movimiento con la preposición ‘a’, ‘hacia’.",
+                "glosa_corta": "ILA",
+                "ejemplos": "Orqoman = hacia el cerro \nAtuq sallqaman rishan = El zorro está yendo a la puna\nKillaman llaqtayta kutimusaq = al mes regresaré a mi pueblo\nqanman = a"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": ",",
+            "posicion": null,
+            "es_puntuacion": true,
+            "raiz": ",",
+            "lema": ",",
+            "categoria_gramatical": "punct",
+            "sufijos": [],
+            "glosa": ",",
+            "acepciones": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 1.0
+          },
+          {
+            "token": "millay",
+            "posicion": 3,
+            "es_puntuacion": false,
+            "raiz": "millay",
+            "lema": "millay",
+            "categoria_gramatical": "adj.",
+            "glosa": "millay",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "V. MILLAYLLAÑA",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "kuruchakuna",
+            "posicion": 4,
+            "es_puntuacion": false,
+            "raiz": "kuru",
+            "lema": "kuru",
+            "categoria_gramatical": "s.",
+            "glosa": "kuru-EVID.CONJ-PL",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "V. AÑAPANKU",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "Gusano que se alimenta de las hojas del maíz y la papa",
+                "dominio": "Zool.",
+                "sinonimos": null
+              },
+              {
+                "indice": 3,
+                "definicion": "V. CH'IKIÑA",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 4,
+                "definicion": "Variedad de larva muy menuda que se desarrolla dentro de la mazorca del maíz tierno",
+                "dominio": "Zool.",
+                "sinonimos": null
+              },
+              {
+                "indice": 5,
+                "definicion": "(Acordulucera sp.) Gusano de las hojas de papa. Orden hymenóptera, familia tenthredinidae. Plaga que ataca las hojas y tallos de la papa y otras plantas. . Illa",
+                "dominio": "Zool.",
+                "sinonimos": "illaqo, e picauta"
+              },
+              {
+                "indice": 6,
+                "definicion": "(Megalopygidae sp.) Orugas de diferentes lepidópteros que poseen pelos y espinas urticantes que causan picadura dolorosa en la piel",
+                "dominio": "Zool.",
+                "sinonimos": null
+              },
+              {
+                "indice": 7,
+                "definicion": "Gusano. . ",
+                "dominio": "Zool.",
+                "sinonimos": null
+              },
+              {
+                "indice": 8,
+                "definicion": "V. PICHINKURU. k'anchaq",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 9,
+                "definicion": "(Cephaloscopia vittata Bruner. Astroma verrucos un Mello y otras especies). Palito viviente. Del orden orthoptera, familia proscopidae. De cuerpo alargado y antenas cortas",
+                "dominio": "Zool.",
+                "sinonimos": null
+              },
+              {
+                "indice": 10,
+                "definicion": "fam. Insulto a la persona alta y flaca. . . Pe.S. . ",
+                "dominio": null,
+                "sinonimos": "llant'a kuru"
+              },
+              {
+                "indice": 11,
+                "definicion": "(Ptorimoca operculella Tell). Hongos y gusanos que atacan las hojas de las plantas. Familia de las lortricidae, pyralidae y gelechirdae. ",
+                "dominio": "Zool.",
+                "sinonimos": "wernacha, werna kuru"
+              },
+              {
+                "indice": 12,
+                "definicion": "(Anchostatus peruvianus Bruner y otras especies). Palito viviente de las familias proscopidae. De cuerpo alargado y antenas largas. . . . ",
+                "dominio": "Zool.",
+                "sinonimos": "k'aspi kuru"
+              },
+              {
+                "indice": 13,
+                "definicion": "V. KUCH'UY NINA NINA, PINCHINKURU. nina",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 14,
+                "definicion": "(Premnotiypes suturicallus Kushel). Gu- sano de la papa. Gusano blanco. Gorgojo de los Andes. Gusano que ataca la papa en altitudes comprendidas en los 2,500 a 4,350 m.s.n.m., en los Andes sudamericanos. papa",
+                "dominio": "Zool.",
+                "sinonimos": null
+              },
+              {
+                "indice": 15,
+                "definicion": "Gusano que vive en el tallo de la achupalla. Med.Folk. Molido y hervido, se toma para aumentar la leche materna",
+                "dominio": "Zool.",
+                "sinonimos": null
+              },
+              {
+                "indice": 16,
+                "definicion": "V. QARWA",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 17,
+                "definicion": "Larvas de di ferentes escarabajos que atacan los cultivos de papa, maíz y otros. ",
+                "dominio": "Zool.",
+                "sinonimos": "atoq atoq"
+              },
+              {
+                "indice": 18,
+                "definicion": "(Heliothiszca, noctuidae y otras especies). Orden lepidóptera, familia noc tuidae. Gusano del tallo y ma zorca del maíz. . ",
+                "dominio": "Zool.",
+                "sinonimos": "silwi"
+              },
+              {
+                "indice": 19,
+                "definicion": "(Liriomyza quadreta) Orden díptera, familia agromycidae. Mosca minadora de la parte central de la papa y habas. sonqo",
+                "dominio": "Zool.",
+                "sinonimos": null
+              },
+              {
+                "indice": 20,
+                "definicion": "(Pseudomelos cockerelli. Pseudomelos andendis, y otros.) Vaquita. Orden coleópteros, de la familia moloididae, de coloración rojiza y élitros pequeños. Med.Folk. El líquido que exuda es utilizado para curar la verruga o tikti; contiene cantaridina, usa- do como vesicante. ",
+                "dominio": "Zool.",
+                "sinonimos": "uchu q'aspa"
+              },
+              {
+                "indice": 21,
+                "definicion": "V. RINCHINKURU. tuta",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 22,
+                "definicion": "V. K'INPI KURU",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-cha",
+                "slot": 9,
+                "categoria": "NOMINAL DERIVACIONAL",
+                "subcategoria": "DERIVACIONAL DENOMINATIVO",
+                "funcion": "Indica diminutivo. En español corresponde a las terminaciones: …ito, …ita, …ecito, …ecita. Su connotación puede ser diminutiva, apreciativa o\ndespreciativa, de acuerdo al contexto en el que se use.",
+                "glosa_corta": "EVID.CONJ",
+                "ejemplos": "alqocha = perrito\nrumicha = piedrita\nYana ñawi sipascha = jovencita de ojos negros"
+              },
+              {
+                "morfema": "-kuna",
+                "slot": 4,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE NUMERO",
+                "funcion": "Pluraliza los sustantivos.",
+                "glosa_corta": "PL",
+                "ejemplos": "Wasikuna = las casas\nrunakuna = las personas"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": "CONJETURAL (-chá)",
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "ima",
+            "posicion": 5,
+            "es_puntuacion": false,
+            "raiz": "ima",
+            "lema": "ima",
+            "categoria_gramatical": "desconocido",
+            "glosa": "ima",
+            "acepciones": [],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 0.5
+          },
+          {
+            "token": ".",
+            "posicion": null,
+            "es_puntuacion": true,
+            "raiz": ".",
+            "lema": ".",
+            "categoria_gramatical": "punct",
+            "sufijos": [],
+            "glosa": ".",
+            "acepciones": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 1.0
+          }
+        ]
+      }
+    ]
+  }
+}

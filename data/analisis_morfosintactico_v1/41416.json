@@ -1,0 +1,1139 @@
+{
+  "client_id": "1dd0d3ea4ec879dadf7db18e23b9509a",
+  "audio_id": "41416",
+  "audio_file": "spontaneous-speech-qxp-41416.mp3",
+  "duration_ms": "21456",
+  "prompt_id": "4361",
+  "prompt": "Yachankichu apukunaq sutinta?",
+  "transcription": "Llaqtaypi runakuna sumaqta mañakunku askha apukunamanta, sutinkutaqmi apu Choquechambi, apu Muñara, apu Chocca, apu Qanqari. Juliaca llaqta apuntaq sutin Waynaroque, Puno suyupaqtaq apunkunaq sutin apu Asiruni, apu Waksapata.",
+  "variant": "",
+  "language": "Puno Quechua",
+  "split": "train",
+  "analisis_morfosintactico": {
+    "texto_original": "Llaqtaypi runakuna sumaqta mañakunku askha apukunamanta, sutinkutaqmi apu Choquechambi, apu Muñara, apu Chocca, apu Qanqari. Juliaca llaqta apuntaq sutin Waynaroque, Puno suyupaqtaq apunkunaq sutin apu Asiruni, apu Waksapata.",
+    "num_oraciones": 2,
+    "num_tokens": 28,
+    "marcadores_globales": {
+      "evidenciales": [
+        "DIRECTO / ATESTIGUADO (-mi)"
+      ],
+      "clusividad": null
+    },
+    "oraciones": [
+      {
+        "indice": 0,
+        "texto": "Llaqtaypi runakuna sumaqta mañakunku askha apukunamanta, sutinkutaqmi apu Choquechambi, apu Muñara, apu Chocca, apu Qanqari.",
+        "marcadores": {
+          "evidenciales": [
+            "DIRECTO / ATESTIGUADO (-mi)"
+          ],
+          "clusividad": null
+        },
+        "tokens": [
+          {
+            "token": "Llaqtaypi",
+            "posicion": 0,
+            "es_puntuacion": false,
+            "raiz": "llaqta",
+            "lema": "llaqta",
+            "categoria_gramatical": "s.",
+            "glosa": "llaqta-1SG.POS-LOC",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Ciudad metro- poli, gran ciudad",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "NEOL. Capi tal. hatun",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 3,
+                "definicion": "Ciudad, pueblo, comunidad, villorrio, comarca",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 4,
+                "definicion": "Población. ",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 5,
+                "definicion": ". llaqta",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 6,
+                "definicion": "V. CH'IKURU. llaqta",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-y",
+                "slot": 3,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE PERSONA",
+                "funcion": "Sufijo posesivo de primera persona singular.",
+                "glosa_corta": "1SG.POS",
+                "ejemplos": "wasiy = mi casa"
+              },
+              {
+                "morfema": "-pi",
+                "slot": 5,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE CASO",
+                "funcion": "Indica locación en  el  tiempo  y  en  el espacio. Corresponde a la preposición ‘en’.",
+                "glosa_corta": "LOC",
+                "ejemplos": "Llaqtapi kashani = estoy en el pueblo"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "runakuna",
+            "posicion": 1,
+            "es_puntuacion": false,
+            "raiz": "runa",
+            "lema": "runa",
+            "categoria_gramatical": "adj.",
+            "glosa": "runa-PL",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "V. RUNALLAÑA",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "figdo. Desganado, pusilánime, sin chispa",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 3,
+                "definicion": "figdo. Hombre muy duro, fuerte como la piedra",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 4,
+                "definicion": "Insensible, indolente. rumi",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 5,
+                "definicion": "y s. Hombre veraz, sincero, fidedigno, fiel",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-kuna",
+                "slot": 4,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE NUMERO",
+                "funcion": "Pluraliza los sustantivos.",
+                "glosa_corta": "PL",
+                "ejemplos": "Wasikuna = las casas\nrunakuna = las personas"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "sumaqta",
+            "posicion": 2,
+            "es_puntuacion": false,
+            "raiz": "sumaq",
+            "lema": "sumaq",
+            "categoria_gramatical": "adj.",
+            "glosa": "sumaq-AC",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Bello, bueno, agradable, exquisito, simpático. . sumaq",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-ta",
+                "slot": 5,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE CASO",
+                "funcion": "Designa el objeto directo con los verbos que no son de movimiento.",
+                "glosa_corta": "AC",
+                "ejemplos": "T'antata mikhuni: = yo como pan"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "mañakunku",
+            "posicion": 3,
+            "es_puntuacion": false,
+            "raiz": "mañaku",
+            "lema": "mañaku",
+            "categoria_gramatical": "adj.",
+            "glosa": "mañaku-3PL",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "V. MAÑAPAKUQ",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-nku",
+                "slot": 4,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE NUMERO",
+                "funcion": "Sufijo de tercera persona plural.",
+                "glosa_corta": "3PL",
+                "ejemplos": "Paykuna pukllanku = ellos/ellas juegan"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "askha",
+            "posicion": 4,
+            "es_puntuacion": false,
+            "raiz": "askha",
+            "lema": "askha",
+            "categoria_gramatical": "desconocido",
+            "glosa": "askha",
+            "acepciones": [],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 0.5
+          },
+          {
+            "token": "apukunamanta",
+            "posicion": 5,
+            "es_puntuacion": false,
+            "raiz": "apu",
+            "lema": "apu",
+            "categoria_gramatical": "s.",
+            "glosa": "apu-PL-ABL",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Autoridad superior, mandatario. Hatun",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "Inspector, visitador inkaico que lo veía y observaba todo",
+                "dominio": "Hist.",
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-kuna",
+                "slot": 4,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE NUMERO",
+                "funcion": "Pluraliza los sustantivos.",
+                "glosa_corta": "PL",
+                "ejemplos": "Wasikuna = las casas\nrunakuna = las personas"
+              },
+              {
+                "morfema": "-manta",
+                "slot": 5,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE CASO",
+                "funcion": "Indica procedencia (‘de’, ‘desde’) o el material de algo.",
+                "glosa_corta": "ABL",
+                "ejemplos": "Arequipamanta = de Arequipa\nThantamanta wawata ruwashan = Está haciendo wawa de pan"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": ",",
+            "posicion": null,
+            "es_puntuacion": true,
+            "raiz": ",",
+            "lema": ",",
+            "categoria_gramatical": "punct",
+            "sufijos": [],
+            "glosa": ",",
+            "acepciones": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 1.0
+          },
+          {
+            "token": "sutinkutaqmi",
+            "posicion": 6,
+            "es_puntuacion": false,
+            "raiz": "suti",
+            "lema": "suti",
+            "categoria_gramatical": "s.",
+            "glosa": "suti-3PL-CONTR-EVID.DIR",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Nombre de persona, animal o cosa",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": ". suti",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-nku",
+                "slot": 4,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE NUMERO",
+                "funcion": "Sufijo de tercera persona plural.",
+                "glosa_corta": "3PL",
+                "ejemplos": "Paykuna pukllanku = ellos/ellas juegan"
+              },
+              {
+                "morfema": "-taq",
+                "slot": 8,
+                "categoria": "",
+                "subcategoria": "SUFIJO INDEPENDIENTE",
+                "funcion": "También marca la pregunta abierta que requiere alguna información adicional como respuesta.",
+                "glosa_corta": "CONTR",
+                "ejemplos": "¿Piwantaq? = ¿Con quién?"
+              },
+              {
+                "morfema": "-mi",
+                "slot": 9,
+                "categoria": "",
+                "subcategoria": "SUFIJO INDEPENDIENTE",
+                "funcion": "Validador. Indica que el hablante ha sido testigo de la acción o está muy seguro de lo que dice. No se debe de usar cuando hay duda.  Cuando la palabra termina en vocal se usa la \"m\" y cuando termina en consonante se usa la \"mi\". Hace referencia a una información directa en relación con lo enunciado por el hablante. Es para afirmar, declarar, sostener.",
+                "glosa_corta": "EVID.DIR",
+                "ejemplos": "Pukllaqmi rirani = fui a jugar\nWarmim kani = soy mujer"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": "DIRECTO / ATESTIGUADO (-mi)",
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "apu",
+            "posicion": 7,
+            "es_puntuacion": false,
+            "raiz": "apu",
+            "lema": "apu",
+            "categoria_gramatical": "s.",
+            "glosa": "apu",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Autoridad superior, mandatario. Hatun",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "Inspector, visitador inkaico que lo veía y observaba todo",
+                "dominio": "Hist.",
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "Choquechambi",
+            "posicion": 8,
+            "es_puntuacion": false,
+            "raiz": "choquechambi",
+            "lema": "choquechambi",
+            "categoria_gramatical": "desconocido",
+            "glosa": "choquechambi",
+            "acepciones": [],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 0.5
+          },
+          {
+            "token": ",",
+            "posicion": null,
+            "es_puntuacion": true,
+            "raiz": ",",
+            "lema": ",",
+            "categoria_gramatical": "punct",
+            "sufijos": [],
+            "glosa": ",",
+            "acepciones": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 1.0
+          },
+          {
+            "token": "apu",
+            "posicion": 9,
+            "es_puntuacion": false,
+            "raiz": "apu",
+            "lema": "apu",
+            "categoria_gramatical": "s.",
+            "glosa": "apu",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Autoridad superior, mandatario. Hatun",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "Inspector, visitador inkaico que lo veía y observaba todo",
+                "dominio": "Hist.",
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "Muñara",
+            "posicion": 10,
+            "es_puntuacion": false,
+            "raiz": "muñara",
+            "lema": "muñara",
+            "categoria_gramatical": "desconocido",
+            "glosa": "muñara",
+            "acepciones": [],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 0.5
+          },
+          {
+            "token": ",",
+            "posicion": null,
+            "es_puntuacion": true,
+            "raiz": ",",
+            "lema": ",",
+            "categoria_gramatical": "punct",
+            "sufijos": [],
+            "glosa": ",",
+            "acepciones": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 1.0
+          },
+          {
+            "token": "apu",
+            "posicion": 11,
+            "es_puntuacion": false,
+            "raiz": "apu",
+            "lema": "apu",
+            "categoria_gramatical": "s.",
+            "glosa": "apu",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Autoridad superior, mandatario. Hatun",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "Inspector, visitador inkaico que lo veía y observaba todo",
+                "dominio": "Hist.",
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "Chocca",
+            "posicion": 12,
+            "es_puntuacion": false,
+            "raiz": "chocca",
+            "lema": "chocca",
+            "categoria_gramatical": "desconocido",
+            "glosa": "chocca",
+            "acepciones": [],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 0.5
+          },
+          {
+            "token": ",",
+            "posicion": null,
+            "es_puntuacion": true,
+            "raiz": ",",
+            "lema": ",",
+            "categoria_gramatical": "punct",
+            "sufijos": [],
+            "glosa": ",",
+            "acepciones": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 1.0
+          },
+          {
+            "token": "apu",
+            "posicion": 13,
+            "es_puntuacion": false,
+            "raiz": "apu",
+            "lema": "apu",
+            "categoria_gramatical": "s.",
+            "glosa": "apu",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Autoridad superior, mandatario. Hatun",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "Inspector, visitador inkaico que lo veía y observaba todo",
+                "dominio": "Hist.",
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "Qanqari",
+            "posicion": 14,
+            "es_puntuacion": false,
+            "raiz": "qanqari",
+            "lema": "qanqari",
+            "categoria_gramatical": "desconocido",
+            "glosa": "qanqari",
+            "acepciones": [],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 0.5
+          },
+          {
+            "token": ".",
+            "posicion": null,
+            "es_puntuacion": true,
+            "raiz": ".",
+            "lema": ".",
+            "categoria_gramatical": "punct",
+            "sufijos": [],
+            "glosa": ".",
+            "acepciones": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 1.0
+          }
+        ]
+      },
+      {
+        "indice": 1,
+        "texto": "Juliaca llaqta apuntaq sutin Waynaroque, Puno suyupaqtaq apunkunaq sutin apu Asiruni, apu Waksapata.",
+        "marcadores": {
+          "evidenciales": [],
+          "clusividad": null
+        },
+        "tokens": [
+          {
+            "token": "Juliaca",
+            "posicion": 0,
+            "es_puntuacion": false,
+            "raiz": "juliaca",
+            "lema": "juliaca",
+            "categoria_gramatical": "desconocido",
+            "glosa": "juliaca",
+            "acepciones": [],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 0.5
+          },
+          {
+            "token": "llaqta",
+            "posicion": 1,
+            "es_puntuacion": false,
+            "raiz": "llaqta",
+            "lema": "llaqta",
+            "categoria_gramatical": "s.",
+            "glosa": "llaqta",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Ciudad metro- poli, gran ciudad",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "NEOL. Capi tal. hatun",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 3,
+                "definicion": "Ciudad, pueblo, comunidad, villorrio, comarca",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 4,
+                "definicion": "Población. ",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 5,
+                "definicion": ". llaqta",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 6,
+                "definicion": "V. CH'IKURU. llaqta",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "apuntaq",
+            "posicion": 2,
+            "es_puntuacion": false,
+            "raiz": "apu",
+            "lema": "apu",
+            "categoria_gramatical": "s.",
+            "glosa": "apu-3SG-CONTR",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Autoridad superior, mandatario. Hatun",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "Inspector, visitador inkaico que lo veía y observaba todo",
+                "dominio": "Hist.",
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-n",
+                "slot": 3,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE PERSONA",
+                "funcion": "Sufijo posesivo  de tercera persona singular.",
+                "glosa_corta": "3SG",
+                "ejemplos": "wasin = su casa"
+              },
+              {
+                "morfema": "-taq",
+                "slot": 8,
+                "categoria": "",
+                "subcategoria": "SUFIJO INDEPENDIENTE",
+                "funcion": "También marca la pregunta abierta que requiere alguna información adicional como respuesta.",
+                "glosa_corta": "CONTR",
+                "ejemplos": "¿Piwantaq? = ¿Con quién?"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "sutin",
+            "posicion": 3,
+            "es_puntuacion": false,
+            "raiz": "suti",
+            "lema": "suti",
+            "categoria_gramatical": "s.",
+            "glosa": "suti-3SG",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Nombre de persona, animal o cosa",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": ". suti",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-n",
+                "slot": 3,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE PERSONA",
+                "funcion": "Sufijo posesivo  de tercera persona singular.",
+                "glosa_corta": "3SG",
+                "ejemplos": "wasin = su casa"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "Waynaroque",
+            "posicion": 4,
+            "es_puntuacion": false,
+            "raiz": "waynaroque",
+            "lema": "waynaroque",
+            "categoria_gramatical": "desconocido",
+            "glosa": "waynaroque",
+            "acepciones": [],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 0.5
+          },
+          {
+            "token": ",",
+            "posicion": null,
+            "es_puntuacion": true,
+            "raiz": ",",
+            "lema": ",",
+            "categoria_gramatical": "punct",
+            "sufijos": [],
+            "glosa": ",",
+            "acepciones": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 1.0
+          },
+          {
+            "token": "Puno",
+            "posicion": 5,
+            "es_puntuacion": false,
+            "raiz": "puno",
+            "lema": "puno",
+            "categoria_gramatical": "desconocido",
+            "glosa": "puno",
+            "acepciones": [],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 0.5
+          },
+          {
+            "token": "suyupaqtaq",
+            "posicion": 6,
+            "es_puntuacion": false,
+            "raiz": "suyu",
+            "lema": "suyu",
+            "categoria_gramatical": "s.",
+            "glosa": "suyu-BEN-CONTR",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Región, provincia, territorio, comarca, estado",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "En el inkario, cada uno de las cuatro regiones en que se dividía el im perio, por lo que se le denominó Tawantinsuyu o Imperio de las Cuatro Regiones, individuali zándolas de la siguiente ",
+                "dominio": "Hist.",
+                "sinonimos": null
+              },
+              {
+                "indice": 3,
+                "definicion": "Las ciu dades y las poblaciones se divi dían también en Hanansuyu y ",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 4,
+                "definicion": "Parte de trabajo en los cultivos, tareas, etc. suyu",
+                "dominio": "Agri.",
+                "sinonimos": null
+              },
+              {
+                "indice": 5,
+                "definicion": "fej. Franjas de di versos colores en los tejidos",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 6,
+                "definicion": "adj. Dividido en muchas par celas, en forma listada o de franjas",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-paq",
+                "slot": 5,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE CASO",
+                "funcion": "Es el sufijo que indica al destinatario o beneficiario de una acción o de algo. Estos pueden ser destinatarios directos o indirectos. Indica la preposición ‘para’. Cuando le antecede una acción verbal se convierte en NAPAQ,",
+                "glosa_corta": "BEN",
+                "ejemplos": "Yachaqpaq = para el estudiante; \npichanapaq = para barrer."
+              },
+              {
+                "morfema": "-taq",
+                "slot": 8,
+                "categoria": "",
+                "subcategoria": "SUFIJO INDEPENDIENTE",
+                "funcion": "También marca la pregunta abierta que requiere alguna información adicional como respuesta.",
+                "glosa_corta": "CONTR",
+                "ejemplos": "¿Piwantaq? = ¿Con quién?"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "apunkunaq",
+            "posicion": 7,
+            "es_puntuacion": false,
+            "raiz": "apunkunaq",
+            "lema": "apunkunaq",
+            "categoria_gramatical": "desconocido",
+            "glosa": "apunkunaq",
+            "acepciones": [],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 0.5
+          },
+          {
+            "token": "sutin",
+            "posicion": 8,
+            "es_puntuacion": false,
+            "raiz": "suti",
+            "lema": "suti",
+            "categoria_gramatical": "s.",
+            "glosa": "suti-3SG",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Nombre de persona, animal o cosa",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": ". suti",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-n",
+                "slot": 3,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE PERSONA",
+                "funcion": "Sufijo posesivo  de tercera persona singular.",
+                "glosa_corta": "3SG",
+                "ejemplos": "wasin = su casa"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "apu",
+            "posicion": 9,
+            "es_puntuacion": false,
+            "raiz": "apu",
+            "lema": "apu",
+            "categoria_gramatical": "s.",
+            "glosa": "apu",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Autoridad superior, mandatario. Hatun",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "Inspector, visitador inkaico que lo veía y observaba todo",
+                "dominio": "Hist.",
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "Asiruni",
+            "posicion": 10,
+            "es_puntuacion": false,
+            "raiz": "asiru",
+            "lema": "asiru",
+            "categoria_gramatical": "desconocido",
+            "glosa": "asiru-1SG",
+            "acepciones": [],
+            "sufijos": [
+              {
+                "morfema": "-ni",
+                "slot": 2,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE PERSONA",
+                "funcion": "Sufijo que se agrega cuando la palabra termina en vocal, se sgrega antes del sufijo posesivo.",
+                "glosa_corta": "1SG",
+                "ejemplos": "yachachiqniy = mi profesor\nyawarniy = mi sangre\nyachachiqnin = su profesor"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 0.5
+          },
+          {
+            "token": ",",
+            "posicion": null,
+            "es_puntuacion": true,
+            "raiz": ",",
+            "lema": ",",
+            "categoria_gramatical": "punct",
+            "sufijos": [],
+            "glosa": ",",
+            "acepciones": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 1.0
+          },
+          {
+            "token": "apu",
+            "posicion": 11,
+            "es_puntuacion": false,
+            "raiz": "apu",
+            "lema": "apu",
+            "categoria_gramatical": "s.",
+            "glosa": "apu",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Autoridad superior, mandatario. Hatun",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "Inspector, visitador inkaico que lo veía y observaba todo",
+                "dominio": "Hist.",
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "Waksapata",
+            "posicion": 12,
+            "es_puntuacion": false,
+            "raiz": "wak+sapa",
+            "lema": "wak+sapa",
+            "categoria_gramatical": "s. (compuesto)",
+            "glosa": "wak+sapa-AC",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-ta",
+                "slot": 5,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE CASO",
+                "funcion": "Designa el objeto directo con los verbos que no son de movimiento.",
+                "glosa_corta": "AC",
+                "ejemplos": "T'antata mikhuni: = yo como pan"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": ".",
+            "posicion": null,
+            "es_puntuacion": true,
+            "raiz": ".",
+            "lema": ".",
+            "categoria_gramatical": "punct",
+            "sufijos": [],
+            "glosa": ".",
+            "acepciones": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 1.0
+          }
+        ]
+      }
+    ]
+  }
+}

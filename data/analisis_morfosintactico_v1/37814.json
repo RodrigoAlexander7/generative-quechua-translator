@@ -1,0 +1,961 @@
+{
+  "client_id": "ae1ffa62321ae9eddbb74a6e1c09cc39",
+  "audio_id": "37814",
+  "audio_file": "spontaneous-speech-qxp-37814.mp3",
+  "duration_ms": "17640",
+  "prompt_id": "4363",
+  "prompt": "Imaynataq chiri tiyasqaykipi?",
+  "transcription": "Tiyasqaypika ñishutan chirin, qasapis qasan, chikchipis chikchin, wayrapis wayran, parapis paran, rit'ipis rit'in hina, allin p'istusqa purinayki mana hinaka chirimusunki chaymantataq manan allinchu kanki.",
+  "variant": "",
+  "language": "Puno Quechua",
+  "split": "test",
+  "analisis_morfosintactico": {
+    "texto_original": "Tiyasqaypika ñishutan chirin, qasapis qasan, chikchipis chikchin, wayrapis wayran, parapis paran, rit'ipis rit'in hina, allin p'istusqa purinayki mana hinaka chirimusunki chaymantataq manan allinchu kanki.",
+    "num_oraciones": 1,
+    "num_tokens": 24,
+    "marcadores_globales": {
+      "evidenciales": [],
+      "clusividad": null
+    },
+    "oraciones": [
+      {
+        "indice": 0,
+        "texto": "Tiyasqaypika ñishutan chirin, qasapis qasan, chikchipis chikchin, wayrapis wayran, parapis paran, rit'ipis rit'in hina, allin p'istusqa purinayki mana hinaka chirimusunki chaymantataq manan allinchu kanki.",
+        "marcadores": {
+          "evidenciales": [],
+          "clusividad": null
+        },
+        "tokens": [
+          {
+            "token": "Tiyasqaypika",
+            "posicion": 0,
+            "es_puntuacion": false,
+            "raiz": "tiyasqaypika",
+            "lema": "tiyasqaypika",
+            "categoria_gramatical": "desconocido",
+            "glosa": "tiyasqaypika",
+            "acepciones": [],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 0.5
+          },
+          {
+            "token": "ñishutan",
+            "posicion": 1,
+            "es_puntuacion": false,
+            "raiz": "ñishu",
+            "lema": "ñishu",
+            "categoria_gramatical": "desconocido",
+            "glosa": "ñishu-AC-3SG",
+            "acepciones": [],
+            "sufijos": [
+              {
+                "morfema": "-ta",
+                "slot": 5,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE CASO",
+                "funcion": "Designa el objeto directo con los verbos que no son de movimiento.",
+                "glosa_corta": "AC",
+                "ejemplos": "T'antata mikhuni: = yo como pan"
+              },
+              {
+                "morfema": "-n",
+                "slot": 3,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE PERSONA",
+                "funcion": "Sufijo posesivo  de tercera persona singular.",
+                "glosa_corta": "3SG",
+                "ejemplos": "wasin = su casa"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 0.5
+          },
+          {
+            "token": "chirin",
+            "posicion": 2,
+            "es_puntuacion": false,
+            "raiz": "chiri",
+            "lema": "chiri",
+            "categoria_gramatical": "s.",
+            "glosa": "chiri-3SG",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Frío. Estado de baja tem peratura",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "adj. Frígido, frío. . ANTÓ",
+                "dominio": null,
+                "sinonimos": "qasa, khutu"
+              },
+              {
+                "indice": 3,
+                "definicion": "figdo. Indiferente, apático. . chiri",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-n",
+                "slot": 3,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE PERSONA",
+                "funcion": "Sufijo posesivo  de tercera persona singular.",
+                "glosa_corta": "3SG",
+                "ejemplos": "wasin = su casa"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": ",",
+            "posicion": null,
+            "es_puntuacion": true,
+            "raiz": ",",
+            "lema": ",",
+            "categoria_gramatical": "punct",
+            "sufijos": [],
+            "glosa": ",",
+            "acepciones": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 1.0
+          },
+          {
+            "token": "qasapis",
+            "posicion": 3,
+            "es_puntuacion": false,
+            "raiz": "qasa",
+            "lema": "qasa",
+            "categoria_gramatical": "s.",
+            "glosa": "qasa-ADIT",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Helada hú meda a la cual se someten las papas para elaborar la moraya y el chuño. (O.B. y M.B.)",
+                "dominio": "Clim.",
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "Helada. Frío invernal. . . . qasa",
+                "dominio": "Clim.",
+                "sinonimos": "chiri, khutu"
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-pis",
+                "slot": 8,
+                "categoria": "",
+                "subcategoria": "SUFIJO INDEPENDIENTE",
+                "funcion": "Aditivo. Se traduce como ‘también’ o ‘incluso’. Coordina oraciones.",
+                "glosa_corta": "ADIT",
+                "ejemplos": "Noqapas tususaqmi = Yo también bailaré\nNoqapis risaq = yo también iré"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "qasan",
+            "posicion": 4,
+            "es_puntuacion": false,
+            "raiz": "qasa",
+            "lema": "qasa",
+            "categoria_gramatical": "s.",
+            "glosa": "qasa-3SG",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Helada hú meda a la cual se someten las papas para elaborar la moraya y el chuño. (O.B. y M.B.)",
+                "dominio": "Clim.",
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "Helada. Frío invernal. . . . qasa",
+                "dominio": "Clim.",
+                "sinonimos": "chiri, khutu"
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-n",
+                "slot": 3,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE PERSONA",
+                "funcion": "Sufijo posesivo  de tercera persona singular.",
+                "glosa_corta": "3SG",
+                "ejemplos": "wasin = su casa"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": ",",
+            "posicion": null,
+            "es_puntuacion": true,
+            "raiz": ",",
+            "lema": ",",
+            "categoria_gramatical": "punct",
+            "sufijos": [],
+            "glosa": ",",
+            "acepciones": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 1.0
+          },
+          {
+            "token": "chikchipis",
+            "posicion": 5,
+            "es_puntuacion": false,
+            "raiz": "chikchi",
+            "lema": "chikchi",
+            "categoria_gramatical": "s.",
+            "glosa": "chikchi-ADIT",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Granizo",
+                "dominio": "Clim.",
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "Gra nizada",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 3,
+                "definicion": "(Nasturtium o ficinale R. Br.) Mostacilla. Planta acuática de flores blancas. ",
+                "dominio": "Bot.",
+                "sinonimos": "mayu mostasa"
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-pis",
+                "slot": 8,
+                "categoria": "",
+                "subcategoria": "SUFIJO INDEPENDIENTE",
+                "funcion": "Aditivo. Se traduce como ‘también’ o ‘incluso’. Coordina oraciones.",
+                "glosa_corta": "ADIT",
+                "ejemplos": "Noqapas tususaqmi = Yo también bailaré\nNoqapis risaq = yo también iré"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "chikchin",
+            "posicion": 6,
+            "es_puntuacion": false,
+            "raiz": "chikchi",
+            "lema": "chikchi",
+            "categoria_gramatical": "s.",
+            "glosa": "chikchi-3SG",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Granizo",
+                "dominio": "Clim.",
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "Gra nizada",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 3,
+                "definicion": "(Nasturtium o ficinale R. Br.) Mostacilla. Planta acuática de flores blancas. ",
+                "dominio": "Bot.",
+                "sinonimos": "mayu mostasa"
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-n",
+                "slot": 3,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE PERSONA",
+                "funcion": "Sufijo posesivo  de tercera persona singular.",
+                "glosa_corta": "3SG",
+                "ejemplos": "wasin = su casa"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": ",",
+            "posicion": null,
+            "es_puntuacion": true,
+            "raiz": ",",
+            "lema": ",",
+            "categoria_gramatical": "punct",
+            "sufijos": [],
+            "glosa": ",",
+            "acepciones": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 1.0
+          },
+          {
+            "token": "wayrapis",
+            "posicion": 7,
+            "es_puntuacion": false,
+            "raiz": "wayra",
+            "lema": "wayra",
+            "categoria_gramatical": "s.",
+            "glosa": "wayra-ADIT",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Viento, masa de aire en movimiento. . (V. SIKLLA) wayra",
+                "dominio": "Meteor.",
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-pis",
+                "slot": 8,
+                "categoria": "",
+                "subcategoria": "SUFIJO INDEPENDIENTE",
+                "funcion": "Aditivo. Se traduce como ‘también’ o ‘incluso’. Coordina oraciones.",
+                "glosa_corta": "ADIT",
+                "ejemplos": "Noqapas tususaqmi = Yo también bailaré\nNoqapis risaq = yo también iré"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "wayran",
+            "posicion": 8,
+            "es_puntuacion": false,
+            "raiz": "wayra",
+            "lema": "wayra",
+            "categoria_gramatical": "s.",
+            "glosa": "wayra-3SG",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Viento, masa de aire en movimiento. . (V. SIKLLA) wayra",
+                "dominio": "Meteor.",
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-n",
+                "slot": 3,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE PERSONA",
+                "funcion": "Sufijo posesivo  de tercera persona singular.",
+                "glosa_corta": "3SG",
+                "ejemplos": "wasin = su casa"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": ",",
+            "posicion": null,
+            "es_puntuacion": true,
+            "raiz": ",",
+            "lema": ",",
+            "categoria_gramatical": "punct",
+            "sufijos": [],
+            "glosa": ",",
+            "acepciones": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 1.0
+          },
+          {
+            "token": "parapis",
+            "posicion": 9,
+            "es_puntuacion": false,
+            "raiz": "para",
+            "lema": "para",
+            "categoria_gramatical": "s.",
+            "glosa": "para-ADIT",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Lluvia, precipitación plu vial, aguacero. VARIEDADES. iphu para, llovizna; siphsi para, llovizna menuda; ch'allchaq para, chaparrón, lluvia torrencial; chikchipara, lluvia con granizo. . . ",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-pis",
+                "slot": 8,
+                "categoria": "",
+                "subcategoria": "SUFIJO INDEPENDIENTE",
+                "funcion": "Aditivo. Se traduce como ‘también’ o ‘incluso’. Coordina oraciones.",
+                "glosa_corta": "ADIT",
+                "ejemplos": "Noqapas tususaqmi = Yo también bailaré\nNoqapis risaq = yo también iré"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "paran",
+            "posicion": 10,
+            "es_puntuacion": false,
+            "raiz": "para",
+            "lema": "para",
+            "categoria_gramatical": "s.",
+            "glosa": "para-3SG",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Lluvia, precipitación plu vial, aguacero. VARIEDADES. iphu para, llovizna; siphsi para, llovizna menuda; ch'allchaq para, chaparrón, lluvia torrencial; chikchipara, lluvia con granizo. . . ",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-n",
+                "slot": 3,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE PERSONA",
+                "funcion": "Sufijo posesivo  de tercera persona singular.",
+                "glosa_corta": "3SG",
+                "ejemplos": "wasin = su casa"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": ",",
+            "posicion": null,
+            "es_puntuacion": true,
+            "raiz": ",",
+            "lema": ",",
+            "categoria_gramatical": "punct",
+            "sufijos": [],
+            "glosa": ",",
+            "acepciones": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 1.0
+          },
+          {
+            "token": "rit'ipis",
+            "posicion": 11,
+            "es_puntuacion": false,
+            "raiz": "rit'i",
+            "lema": "rit'i",
+            "categoria_gramatical": "s.",
+            "glosa": "rit'i-ADIT",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Estado sólido del agua por baja temperatura. ",
+                "dominio": "Nieve.",
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-pis",
+                "slot": 8,
+                "categoria": "",
+                "subcategoria": "SUFIJO INDEPENDIENTE",
+                "funcion": "Aditivo. Se traduce como ‘también’ o ‘incluso’. Coordina oraciones.",
+                "glosa_corta": "ADIT",
+                "ejemplos": "Noqapas tususaqmi = Yo también bailaré\nNoqapis risaq = yo también iré"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "rit'in",
+            "posicion": 12,
+            "es_puntuacion": false,
+            "raiz": "rit'i",
+            "lema": "rit'i",
+            "categoria_gramatical": "s.",
+            "glosa": "rit'i-3SG",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Estado sólido del agua por baja temperatura. ",
+                "dominio": "Nieve.",
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-n",
+                "slot": 3,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE PERSONA",
+                "funcion": "Sufijo posesivo  de tercera persona singular.",
+                "glosa_corta": "3SG",
+                "ejemplos": "wasin = su casa"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "hina",
+            "posicion": 13,
+            "es_puntuacion": false,
+            "raiz": "hina",
+            "lema": "hinay",
+            "categoria_gramatical": "v.",
+            "glosa": "hinay",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Hacer u obrar de esta manera, de este modo; hacer así (ilustrando con mímica). ",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": ",",
+            "posicion": null,
+            "es_puntuacion": true,
+            "raiz": ",",
+            "lema": ",",
+            "categoria_gramatical": "punct",
+            "sufijos": [],
+            "glosa": ",",
+            "acepciones": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 1.0
+          },
+          {
+            "token": "allin",
+            "posicion": 14,
+            "es_puntuacion": false,
+            "raiz": "allin",
+            "lema": "allin",
+            "categoria_gramatical": "adj.",
+            "glosa": "allin",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Bueno (término de apro bación). . ",
+                "dominio": null,
+                "sinonimos": "kusa"
+              },
+              {
+                "indice": 2,
+                "definicion": "Mal, mal ejemplo, incorrecto. . mana",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "p'istusqa",
+            "posicion": 15,
+            "es_puntuacion": false,
+            "raiz": "p'istusqa",
+            "lema": "p'istusqa",
+            "categoria_gramatical": "adj.",
+            "glosa": "p'istusqa",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "V. QATASQA",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "purinayki",
+            "posicion": 16,
+            "es_puntuacion": false,
+            "raiz": "purina",
+            "lema": "purina",
+            "categoria_gramatical": "adj.",
+            "glosa": "purina-2SG.POS",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Transitable, andable, recurrible. &",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-yki",
+                "slot": 3,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE PERSONA",
+                "funcion": "Sufijo posesivo de segunda persona singular.",
+                "glosa_corta": "2SG.POS",
+                "ejemplos": "wasiyki = tu casa"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "mana",
+            "posicion": 17,
+            "es_puntuacion": false,
+            "raiz": "ma",
+            "lema": "ma",
+            "categoria_gramatical": "desconocido",
+            "glosa": "ma-NMLZ",
+            "acepciones": [],
+            "sufijos": [
+              {
+                "morfema": "-na",
+                "slot": 2,
+                "categoria": "NOMINAL DERIVACIONAL",
+                "subcategoria": "DERIVACIONAL DEVERBATIVO",
+                "funcion": "Convierte una raíz verbal en sustantivo. concretiza o sustantiviza a un verbo.",
+                "glosa_corta": "NMLZ",
+                "ejemplos": "Pichana = escoba\ntiyana = asiento"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 0.5
+          },
+          {
+            "token": "hinaka",
+            "posicion": 18,
+            "es_puntuacion": false,
+            "raiz": "hinaka",
+            "lema": "hinaka",
+            "categoria_gramatical": "desconocido",
+            "glosa": "hinaka",
+            "acepciones": [],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 0.5
+          },
+          {
+            "token": "chirimusunki",
+            "posicion": 19,
+            "es_puntuacion": false,
+            "raiz": "chirimusunki",
+            "lema": "chirimusunki",
+            "categoria_gramatical": "desconocido",
+            "glosa": "chirimusunki",
+            "acepciones": [],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 0.5
+          },
+          {
+            "token": "chaymantataq",
+            "posicion": 20,
+            "es_puntuacion": false,
+            "raiz": "chay",
+            "lema": "chay",
+            "categoria_gramatical": "s.",
+            "glosa": "chay-ABL-CONTR",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Descanso breve de medio día",
+                "dominio": "Siesta.",
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "v. Sestear. Descansar o dormir algún momento del día",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-manta",
+                "slot": 5,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE CASO",
+                "funcion": "Indica procedencia (‘de’, ‘desde’) o el material de algo.",
+                "glosa_corta": "ABL",
+                "ejemplos": "Arequipamanta = de Arequipa\nThantamanta wawata ruwashan = Está haciendo wawa de pan"
+              },
+              {
+                "morfema": "-taq",
+                "slot": 8,
+                "categoria": "",
+                "subcategoria": "SUFIJO INDEPENDIENTE",
+                "funcion": "También marca la pregunta abierta que requiere alguna información adicional como respuesta.",
+                "glosa_corta": "CONTR",
+                "ejemplos": "¿Piwantaq? = ¿Con quién?"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "manan",
+            "posicion": 21,
+            "es_puntuacion": false,
+            "raiz": "ma",
+            "lema": "ma",
+            "categoria_gramatical": "desconocido",
+            "glosa": "ma-NMLZ-3SG",
+            "acepciones": [],
+            "sufijos": [
+              {
+                "morfema": "-na",
+                "slot": 2,
+                "categoria": "NOMINAL DERIVACIONAL",
+                "subcategoria": "DERIVACIONAL DEVERBATIVO",
+                "funcion": "Convierte una raíz verbal en sustantivo. concretiza o sustantiviza a un verbo.",
+                "glosa_corta": "NMLZ",
+                "ejemplos": "Pichana = escoba\ntiyana = asiento"
+              },
+              {
+                "morfema": "-n",
+                "slot": 3,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE PERSONA",
+                "funcion": "Sufijo posesivo  de tercera persona singular.",
+                "glosa_corta": "3SG",
+                "ejemplos": "wasin = su casa"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 0.5
+          },
+          {
+            "token": "allinchu",
+            "posicion": 22,
+            "es_puntuacion": false,
+            "raiz": "allin",
+            "lema": "allin",
+            "categoria_gramatical": "adj.",
+            "glosa": "allin-INTERR/NEG",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Bueno (término de apro bación). . ",
+                "dominio": null,
+                "sinonimos": "kusa"
+              },
+              {
+                "indice": 2,
+                "definicion": "Mal, mal ejemplo, incorrecto. . mana",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-chu",
+                "slot": 9,
+                "categoria": "",
+                "subcategoria": "SUFIJO INDEPENDIENTE",
+                "funcion": "Interrogativo que exige respuesta afirmativa o negativa. Solo para preguntas cerradas.",
+                "glosa_corta": "INTERR/NEG",
+                "ejemplos": "¿Papata mikhunkichu? = ¿Comes papa?"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "kanki",
+            "posicion": 23,
+            "es_puntuacion": false,
+            "raiz": "kanki",
+            "lema": "khanki",
+            "categoria_gramatical": "s.",
+            "glosa": "khanki",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Mordisco superficial",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "adj. Roído, mellado. ",
+                "dominio": null,
+                "sinonimos": "khaska, khachu"
+              },
+              {
+                "indice": 3,
+                "definicion": ". khanki",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": ".",
+            "posicion": null,
+            "es_puntuacion": true,
+            "raiz": ".",
+            "lema": ".",
+            "categoria_gramatical": "punct",
+            "sufijos": [],
+            "glosa": ".",
+            "acepciones": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 1.0
+          }
+        ]
+      }
+    ]
+  }
+}

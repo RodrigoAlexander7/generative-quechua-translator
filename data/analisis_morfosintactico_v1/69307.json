@@ -1,0 +1,719 @@
+{
+  "client_id": "1dd0d3ea4ec879dadf7db18e23b9509a",
+  "audio_id": "69307",
+  "audio_file": "spontaneous-speech-qxp-69307.mp3",
+  "duration_ms": "14040",
+  "prompt_id": "7385",
+  "prompt": "Imamantataq ñawpaqpi llaqtaykipi runakuna kawsarqanku?",
+  "transcription": "Runakunaqa ñawpaqpi kawsarqanku llama, uwiha, wakakunata uywaspa, chaymantapis chaqrakunata ruwaspa, challwakunata quchamanta hap'ispa.",
+  "variant": "",
+  "language": "Puno Quechua",
+  "split": "train",
+  "analisis_morfosintactico": {
+    "texto_original": "Runakunaqa ñawpaqpi kawsarqanku llama, uwiha, wakakunata uywaspa, chaymantapis chaqrakunata ruwaspa, challwakunata quchamanta hap'ispa.",
+    "num_oraciones": 1,
+    "num_tokens": 13,
+    "marcadores_globales": {
+      "evidenciales": [],
+      "clusividad": null
+    },
+    "oraciones": [
+      {
+        "indice": 0,
+        "texto": "Runakunaqa ñawpaqpi kawsarqanku llama, uwiha, wakakunata uywaspa, chaymantapis chaqrakunata ruwaspa, challwakunata quchamanta hap'ispa.",
+        "marcadores": {
+          "evidenciales": [],
+          "clusividad": null
+        },
+        "tokens": [
+          {
+            "token": "Runakunaqa",
+            "posicion": 0,
+            "es_puntuacion": false,
+            "raiz": "runa",
+            "lema": "runa",
+            "categoria_gramatical": "adj.",
+            "glosa": "runa-PL-TOP",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "V. RUNALLAÑA",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "figdo. Desganado, pusilánime, sin chispa",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 3,
+                "definicion": "figdo. Hombre muy duro, fuerte como la piedra",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 4,
+                "definicion": "Insensible, indolente. rumi",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 5,
+                "definicion": "y s. Hombre veraz, sincero, fidedigno, fiel",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-kuna",
+                "slot": 4,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE NUMERO",
+                "funcion": "Pluraliza los sustantivos.",
+                "glosa_corta": "PL",
+                "ejemplos": "Wasikuna = las casas\nrunakuna = las personas"
+              },
+              {
+                "morfema": "-qa",
+                "slot": 8,
+                "categoria": "",
+                "subcategoria": "SUFIJO INDEPENDIENTE",
+                "funcion": "Denota información novedosa.",
+                "glosa_corta": "TOP",
+                "ejemplos": "Allqoqa aychatam suwakun = el perro roba carne"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "ñawpaqpi",
+            "posicion": 1,
+            "es_puntuacion": false,
+            "raiz": "ñawpaq",
+            "lema": "ñawpaq",
+            "categoria_gramatical": "adj.",
+            "glosa": "ñawpaq-LOC",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "y s. . ",
+                "dominio": null,
+                "sinonimos": "qayllaq"
+              },
+              {
+                "indice": 2,
+                "definicion": "adj. Antiguo, remoto, antes de esta época. . ñawpaq",
+                "dominio": null,
+                "sinonimos": "ñawpa"
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-pi",
+                "slot": 5,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE CASO",
+                "funcion": "Indica locación en  el  tiempo  y  en  el espacio. Corresponde a la preposición ‘en’.",
+                "glosa_corta": "LOC",
+                "ejemplos": "Llaqtapi kashani = estoy en el pueblo"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "kawsarqanku",
+            "posicion": 2,
+            "es_puntuacion": false,
+            "raiz": "kawsa",
+            "lema": "kawsay",
+            "categoria_gramatical": "s.",
+            "glosa": "kawsay-PAS-3PL",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Vida",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "Víveres para la alimentación",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 3,
+                "definicion": "v. Vivir. . kawsay",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 4,
+                "definicion": "Felicidad. Vida feliz. . kusi",
+                "dominio": null,
+                "sinonimos": "kusi sami"
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-rqa",
+                "slot": 5,
+                "categoria": "VERBAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE NUMERO",
+                "funcion": "Temporizador de pasado simple lejano y experimentado",
+                "glosa_corta": "PAS",
+                "ejemplos": "Puñurqani = dormí"
+              },
+              {
+                "morfema": "-nku",
+                "slot": 4,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE NUMERO",
+                "funcion": "Sufijo de tercera persona plural.",
+                "glosa_corta": "3PL",
+                "ejemplos": "Paykuna pukllanku = ellos/ellas juegan"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "llama",
+            "posicion": 3,
+            "es_puntuacion": false,
+            "raiz": "llama",
+            "lema": "llama",
+            "categoria_gramatical": "s.",
+            "glosa": "llama",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Llama de estatura pequeña, constitución débil, patas cortas, lana larga y lacia, sin presencia",
+                "dominio": "Zoot.",
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "(Lama glama Litineo). Llama. De la familia de los camélidos sudamericanos. Orejas largas, cabeza cubierta de pelaje corto, de colores variados. Su talla llega a 1.15 mts. Se utiliza, desde tiempos inkaicos, como animal de carga así como también su carne en la alimentación. llama",
+                "dominio": "Zool.",
+                "sinonimos": null
+              },
+              {
+                "indice": 3,
+                "definicion": "Género literario dramático de origen inkaico. ",
+                "dominio": "Lit.",
+                "sinonimos": "aranwa"
+              },
+              {
+                "indice": 4,
+                "definicion": "Llama de estatura alta, constitución fuerte, lana corta y palas largas, ge neralmente de color blanco",
+                "dominio": "Zool.",
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": ",",
+            "posicion": null,
+            "es_puntuacion": true,
+            "raiz": ",",
+            "lema": ",",
+            "categoria_gramatical": "punct",
+            "sufijos": [],
+            "glosa": ",",
+            "acepciones": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 1.0
+          },
+          {
+            "token": "uwiha",
+            "posicion": 4,
+            "es_puntuacion": false,
+            "raiz": "uwiha",
+            "lema": "uwiha",
+            "categoria_gramatical": "desconocido",
+            "glosa": "uwiha",
+            "acepciones": [],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 0.5
+          },
+          {
+            "token": ",",
+            "posicion": null,
+            "es_puntuacion": true,
+            "raiz": ",",
+            "lema": ",",
+            "categoria_gramatical": "punct",
+            "sufijos": [],
+            "glosa": ",",
+            "acepciones": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 1.0
+          },
+          {
+            "token": "wakakunata",
+            "posicion": 5,
+            "es_puntuacion": false,
+            "raiz": "waka",
+            "lema": "waka",
+            "categoria_gramatical": "s.",
+            "glosa": "waka-PL-AC",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Arqueol. Santuario y ne crópolis preinkas situados en la costa y sierra del Perú",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "Etnohist. Adoratorio, objeto sagrado inka. El universo cosmológico andino tawantinsuyano estuvo dividido y jerarquizado en tres . Los elementos deificados de estos tres universos eran objetos de culto y ceremonias rituales, representados en wakas u objetos sagrados. Existían wakas de diferente naturaleza, tipos y funciones en todo el Tawantinsuyu. Especialmente en el Qosqo, en el denominado Espacio Sagrado, ha bían más de 350, representando a diferentes ., distribuidos en 41 seq'es. Cada waka tenía su propio sacerdote o tarpuntay y estaba asignada o a cargo de los ayllus, familias reales o panakas",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 3,
+                "definicion": "(Bost taurus Lineo) Toro, vaca, buey. Orden artiodáctyla, familia bovidae. Mamífero ungulado, rumiante, patas terminadas en dedos pares y eminencias frontales, terminadas en cuernos lisos y cilíndricos cónicos, sometidos a la domesticación por su carne, leche, cuero y su trabajo agrícola para el arado de la tierra. Waka",
+                "dominio": "Zool.",
+                "sinonimos": null
+              },
+              {
+                "indice": 4,
+                "definicion": "Danza satírica del arte taurino, de origen colonial, con gran área de dispersión en el sur del Perú, especialmente en el Qosqo y Puno. waka",
+                "dominio": "Folk.",
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-kuna",
+                "slot": 4,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE NUMERO",
+                "funcion": "Pluraliza los sustantivos.",
+                "glosa_corta": "PL",
+                "ejemplos": "Wasikuna = las casas\nrunakuna = las personas"
+              },
+              {
+                "morfema": "-ta",
+                "slot": 5,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE CASO",
+                "funcion": "Designa el objeto directo con los verbos que no son de movimiento.",
+                "glosa_corta": "AC",
+                "ejemplos": "T'antata mikhuni: = yo como pan"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "uywaspa",
+            "posicion": 6,
+            "es_puntuacion": false,
+            "raiz": "uywa",
+            "lema": "uywa",
+            "categoria_gramatical": "s.",
+            "glosa": "uywa-SUBORD",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Animal, nombre genérico con que se conoce a los equinos",
+                "dominio": "Zool.",
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "Todo animal do méstico, utilizado para carga y trilla. . uywa",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-spa",
+                "slot": 5,
+                "categoria": "VERBAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE NUMERO",
+                "funcion": "Indica que la acción dependiente es anterior a la del verbo principal. Puede ser un gerundio.",
+                "glosa_corta": "SUBORD",
+                "ejemplos": "Takispa hamun, waqaspa ripun = viene cantando y se va llorando\nTakispa tususpa ripunku = Cantando y bailando se fueron"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": ",",
+            "posicion": null,
+            "es_puntuacion": true,
+            "raiz": ",",
+            "lema": ",",
+            "categoria_gramatical": "punct",
+            "sufijos": [],
+            "glosa": ",",
+            "acepciones": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 1.0
+          },
+          {
+            "token": "chaymantapis",
+            "posicion": 7,
+            "es_puntuacion": false,
+            "raiz": "chay",
+            "lema": "chay",
+            "categoria_gramatical": "s.",
+            "glosa": "chay-ABL-ADIT",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Descanso breve de medio día",
+                "dominio": "Siesta.",
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "v. Sestear. Descansar o dormir algún momento del día",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-manta",
+                "slot": 5,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE CASO",
+                "funcion": "Indica procedencia (‘de’, ‘desde’) o el material de algo.",
+                "glosa_corta": "ABL",
+                "ejemplos": "Arequipamanta = de Arequipa\nThantamanta wawata ruwashan = Está haciendo wawa de pan"
+              },
+              {
+                "morfema": "-pis",
+                "slot": 8,
+                "categoria": "",
+                "subcategoria": "SUFIJO INDEPENDIENTE",
+                "funcion": "Aditivo. Se traduce como ‘también’ o ‘incluso’. Coordina oraciones.",
+                "glosa_corta": "ADIT",
+                "ejemplos": "Noqapas tususaqmi = Yo también bailaré\nNoqapis risaq = yo también iré"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "chaqrakunata",
+            "posicion": 8,
+            "es_puntuacion": false,
+            "raiz": "chaqra",
+            "lema": "ch'aqra",
+            "categoria_gramatical": "adj.",
+            "glosa": "ch'aqra-PL-AC",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "V. Q'AQRA",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-kuna",
+                "slot": 4,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE NUMERO",
+                "funcion": "Pluraliza los sustantivos.",
+                "glosa_corta": "PL",
+                "ejemplos": "Wasikuna = las casas\nrunakuna = las personas"
+              },
+              {
+                "morfema": "-ta",
+                "slot": 5,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE CASO",
+                "funcion": "Designa el objeto directo con los verbos que no son de movimiento.",
+                "glosa_corta": "AC",
+                "ejemplos": "T'antata mikhuni: = yo como pan"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "ruwaspa",
+            "posicion": 9,
+            "es_puntuacion": false,
+            "raiz": "ruwa",
+            "lema": "ruway",
+            "categoria_gramatical": "v.",
+            "glosa": "ruway-SUBORD",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "V. LLANK'AY, RURAY",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-spa",
+                "slot": 5,
+                "categoria": "VERBAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE NUMERO",
+                "funcion": "Indica que la acción dependiente es anterior a la del verbo principal. Puede ser un gerundio.",
+                "glosa_corta": "SUBORD",
+                "ejemplos": "Takispa hamun, waqaspa ripun = viene cantando y se va llorando\nTakispa tususpa ripunku = Cantando y bailando se fueron"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": ",",
+            "posicion": null,
+            "es_puntuacion": true,
+            "raiz": ",",
+            "lema": ",",
+            "categoria_gramatical": "punct",
+            "sufijos": [],
+            "glosa": ",",
+            "acepciones": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 1.0
+          },
+          {
+            "token": "challwakunata",
+            "posicion": 10,
+            "es_puntuacion": false,
+            "raiz": "challwa",
+            "lema": "challwa",
+            "categoria_gramatical": "s.",
+            "glosa": "challwa-PL-AC",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "(Orestias agassi y otras especies). Boguita. Pequeños peces del sistema hidrográfico del lago Titikaka (Bolivia–Perú), sin aletas ventrales. Orden cyprimo dontiformes, familia cyprimo dontidae. ",
+                "dominio": "Zool.",
+                "sinonimos": "qaracha, ch'iñi"
+              },
+              {
+                "indice": 2,
+                "definicion": "adj. Diminuto, pequeñísimo. . . ",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-kuna",
+                "slot": 4,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE NUMERO",
+                "funcion": "Pluraliza los sustantivos.",
+                "glosa_corta": "PL",
+                "ejemplos": "Wasikuna = las casas\nrunakuna = las personas"
+              },
+              {
+                "morfema": "-ta",
+                "slot": 5,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE CASO",
+                "funcion": "Designa el objeto directo con los verbos que no son de movimiento.",
+                "glosa_corta": "AC",
+                "ejemplos": "T'antata mikhuni: = yo como pan"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "quchamanta",
+            "posicion": 11,
+            "es_puntuacion": false,
+            "raiz": "qucha",
+            "lema": "qocha",
+            "categoria_gramatical": "s.",
+            "glosa": "qocha-ABL",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Laguna, lago, re presa de agua, aguajales de la selva baja",
+                "dominio": "Geog.",
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "Lagunitas artificiales que se utilizan en la agricultura para guardar el agua para diferentes cultivos en la época de invierno y sequía",
+                "dominio": "Agri.",
+                "sinonimos": null
+              },
+              {
+                "indice": 3,
+                "definicion": "figdo. mama qocha, mar u océano. . . . . qocha",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 4,
+                "definicion": "Lagunillas, lagunas, charcos o estanques numerosos y pequeños. qocha",
+                "dominio": "Geog.",
+                "sinonimos": null
+              },
+              {
+                "indice": 5,
+                "definicion": "V. WIÑAPUNA",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 6,
+                "definicion": "(Laguna de sangre) Importante laguna y restos arqueológicos en la provincia de Yauyos, departamento de Lima, Perú. yawar",
+                "dominio": "Geog.",
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-manta",
+                "slot": 5,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE CASO",
+                "funcion": "Indica procedencia (‘de’, ‘desde’) o el material de algo.",
+                "glosa_corta": "ABL",
+                "ejemplos": "Arequipamanta = de Arequipa\nThantamanta wawata ruwashan = Está haciendo wawa de pan"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "hap'ispa",
+            "posicion": 12,
+            "es_puntuacion": false,
+            "raiz": "hap'i",
+            "lema": "hap'i",
+            "categoria_gramatical": "s.",
+            "glosa": "hap'i-SUBORD",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Prendimiento, captura. ANTÓ",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-spa",
+                "slot": 5,
+                "categoria": "VERBAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE NUMERO",
+                "funcion": "Indica que la acción dependiente es anterior a la del verbo principal. Puede ser un gerundio.",
+                "glosa_corta": "SUBORD",
+                "ejemplos": "Takispa hamun, waqaspa ripun = viene cantando y se va llorando\nTakispa tususpa ripunku = Cantando y bailando se fueron"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": ".",
+            "posicion": null,
+            "es_puntuacion": true,
+            "raiz": ".",
+            "lema": ".",
+            "categoria_gramatical": "punct",
+            "sufijos": [],
+            "glosa": ".",
+            "acepciones": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 1.0
+          }
+        ]
+      }
+    ]
+  }
+}

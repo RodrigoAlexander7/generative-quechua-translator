@@ -1,0 +1,820 @@
+{
+  "client_id": "65149769e817b44e2c0337d3c3fe6f69",
+  "audio_id": "67702",
+  "audio_file": "spontaneous-speech-qxp-67702.mp3",
+  "duration_ms": "14796",
+  "prompt_id": "4363",
+  "prompt": "Imaynataq chiri tiyasqaykipi?",
+  "transcription": "Chiri killapiqa supaytan qasan, chayrayku mayu unupas qucha unupas chhullunku hunt'a paqarin. Wayrapis tuta p'unchaymi tukuy kallpawanmi phukun.",
+  "variant": "",
+  "language": "Puno Quechua",
+  "split": "dev",
+  "analisis_morfosintactico": {
+    "texto_original": "Chiri killapiqa supaytan qasan, chayrayku mayu unupas qucha unupas chhullunku hunt'a paqarin. Wayrapis tuta p'unchaymi tukuy kallpawanmi phukun.",
+    "num_oraciones": 2,
+    "num_tokens": 18,
+    "marcadores_globales": {
+      "evidenciales": [
+        "DIRECTO / ATESTIGUADO (-mi)"
+      ],
+      "clusividad": null
+    },
+    "oraciones": [
+      {
+        "indice": 0,
+        "texto": "Chiri killapiqa supaytan qasan, chayrayku mayu unupas qucha unupas chhullunku hunt'a paqarin.",
+        "marcadores": {
+          "evidenciales": [],
+          "clusividad": null
+        },
+        "tokens": [
+          {
+            "token": "Chiri",
+            "posicion": 0,
+            "es_puntuacion": false,
+            "raiz": "chiri",
+            "lema": "chiri",
+            "categoria_gramatical": "s.",
+            "glosa": "chiri",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Frío. Estado de baja tem peratura",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "adj. Frígido, frío. . ANTÓ",
+                "dominio": null,
+                "sinonimos": "qasa, khutu"
+              },
+              {
+                "indice": 3,
+                "definicion": "figdo. Indiferente, apático. . chiri",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "killapiqa",
+            "posicion": 1,
+            "es_puntuacion": false,
+            "raiz": "killa",
+            "lema": "killa",
+            "categoria_gramatical": "s.",
+            "glosa": "killa-LOC-TOP",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "V. PURAKILLA",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "calend. Un décimo mes del año solar, entre octubre y noviembre",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 3,
+                "definicion": "NEOL. Alquiler mensual de vivienda. wasi",
+                "dominio": "Juris.",
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-pi",
+                "slot": 5,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE CASO",
+                "funcion": "Indica locación en  el  tiempo  y  en  el espacio. Corresponde a la preposición ‘en’.",
+                "glosa_corta": "LOC",
+                "ejemplos": "Llaqtapi kashani = estoy en el pueblo"
+              },
+              {
+                "morfema": "-qa",
+                "slot": 8,
+                "categoria": "",
+                "subcategoria": "SUFIJO INDEPENDIENTE",
+                "funcion": "Denota información novedosa.",
+                "glosa_corta": "TOP",
+                "ejemplos": "Allqoqa aychatam suwakun = el perro roba carne"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "supaytan",
+            "posicion": 2,
+            "es_puntuacion": false,
+            "raiz": "supay",
+            "lema": "supay",
+            "categoria_gramatical": "s.",
+            "glosa": "supay-AC-3SG",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Divinidad maligna de la mitología inka",
+                "dominio": "Hist.",
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "NEOL. Diablo, demonio, satanás. ",
+                "dominio": "Relig.",
+                "sinonimos": "saqra"
+              },
+              {
+                "indice": 3,
+                "definicion": "adj. Pésimo, malvado, canalla. supay",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-ta",
+                "slot": 5,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE CASO",
+                "funcion": "Designa el objeto directo con los verbos que no son de movimiento.",
+                "glosa_corta": "AC",
+                "ejemplos": "T'antata mikhuni: = yo como pan"
+              },
+              {
+                "morfema": "-n",
+                "slot": 3,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE PERSONA",
+                "funcion": "Sufijo posesivo  de tercera persona singular.",
+                "glosa_corta": "3SG",
+                "ejemplos": "wasin = su casa"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "qasan",
+            "posicion": 3,
+            "es_puntuacion": false,
+            "raiz": "qasa",
+            "lema": "qasa",
+            "categoria_gramatical": "s.",
+            "glosa": "qasa-3SG",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Helada hú meda a la cual se someten las papas para elaborar la moraya y el chuño. (O.B. y M.B.)",
+                "dominio": "Clim.",
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "Helada. Frío invernal. . . . qasa",
+                "dominio": "Clim.",
+                "sinonimos": "chiri, khutu"
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-n",
+                "slot": 3,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE PERSONA",
+                "funcion": "Sufijo posesivo  de tercera persona singular.",
+                "glosa_corta": "3SG",
+                "ejemplos": "wasin = su casa"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": ",",
+            "posicion": null,
+            "es_puntuacion": true,
+            "raiz": ",",
+            "lema": ",",
+            "categoria_gramatical": "punct",
+            "sufijos": [],
+            "glosa": ",",
+            "acepciones": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 1.0
+          },
+          {
+            "token": "chayrayku",
+            "posicion": 4,
+            "es_puntuacion": false,
+            "raiz": "chay",
+            "lema": "chay",
+            "categoria_gramatical": "s.",
+            "glosa": "chay-CAUS",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Descanso breve de medio día",
+                "dominio": "Siesta.",
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "v. Sestear. Descansar o dormir algún momento del día",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-rayku",
+                "slot": 5,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE CASO",
+                "funcion": "Indica el motivo de la realización de una acción. La causa por el que se encuentra en esa situación  o el efecto que ha causado. Indica la preposición 'por' (motivo).",
+                "glosa_corta": "CAUS",
+                "ejemplos": "Payrayku = por él.\nQolqerayku = por dinero"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "mayu",
+            "posicion": 5,
+            "es_puntuacion": false,
+            "raiz": "mayu",
+            "lema": "mayu",
+            "categoria_gramatical": "s.",
+            "glosa": "mayu",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "(Río de serpientes). Antiguo nombre del río Madre de Dios, formado por la confluencia de los ríos Pillkopata y Piñipiñi en las sel vas de Q'osñipata, provincia de Paucartambo, Qosqo. Amaru",
+                "dominio": "Geog.",
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "Río. Corriente de agua de regular o gran volumen. . . mayu",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "unupas",
+            "posicion": 6,
+            "es_puntuacion": false,
+            "raiz": "unu",
+            "lema": "unu",
+            "categoria_gramatical": "s.",
+            "glosa": "unu-ADIT",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Quím. Agua; líquido incoloro, inodoro e insípido compuesto por dos volúmenes de hidrógeno y uno de oxígeno. . ",
+                "dominio": null,
+                "sinonimos": "yaku"
+              },
+              {
+                "indice": 2,
+                "definicion": "adj. Aguado, líquido, acuoso, de la naturaleza del agua. (J.L.P.) unu",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 3,
+                "definicion": "Lejía o agua de ceniza utilizado como detergente",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 4,
+                "definicion": "(Agua ensan grentada) Una de las figuras coreográficas de las danzas fol klóricas de los Qollas y K'achanpas de la provincia de Paucartambo y otras del Qosqo, Perú. Yawar Waqaq",
+                "dominio": "Folk.",
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-pas",
+                "slot": 8,
+                "categoria": "",
+                "subcategoria": "SUFIJO INDEPENDIENTE",
+                "funcion": "Aditivo. Se traduce como ‘también’ o ‘incluso’. Coordina oraciones.",
+                "glosa_corta": "ADIT",
+                "ejemplos": "Noqapas tususaqmi = Yo también bailaré\nNoqapis risaq = yo también iré"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "qucha",
+            "posicion": 7,
+            "es_puntuacion": false,
+            "raiz": "qucha",
+            "lema": "qocha",
+            "categoria_gramatical": "s.",
+            "glosa": "qocha",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Laguna, lago, re presa de agua, aguajales de la selva baja",
+                "dominio": "Geog.",
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "Lagunitas artificiales que se utilizan en la agricultura para guardar el agua para diferentes cultivos en la época de invierno y sequía",
+                "dominio": "Agri.",
+                "sinonimos": null
+              },
+              {
+                "indice": 3,
+                "definicion": "figdo. mama qocha, mar u océano. . . . . qocha",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 4,
+                "definicion": "Lagunillas, lagunas, charcos o estanques numerosos y pequeños. qocha",
+                "dominio": "Geog.",
+                "sinonimos": null
+              },
+              {
+                "indice": 5,
+                "definicion": "V. WIÑAPUNA",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 6,
+                "definicion": "(Laguna de sangre) Importante laguna y restos arqueológicos en la provincia de Yauyos, departamento de Lima, Perú. yawar",
+                "dominio": "Geog.",
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "unupas",
+            "posicion": 8,
+            "es_puntuacion": false,
+            "raiz": "unu",
+            "lema": "unu",
+            "categoria_gramatical": "s.",
+            "glosa": "unu-ADIT",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Quím. Agua; líquido incoloro, inodoro e insípido compuesto por dos volúmenes de hidrógeno y uno de oxígeno. . ",
+                "dominio": null,
+                "sinonimos": "yaku"
+              },
+              {
+                "indice": 2,
+                "definicion": "adj. Aguado, líquido, acuoso, de la naturaleza del agua. (J.L.P.) unu",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 3,
+                "definicion": "Lejía o agua de ceniza utilizado como detergente",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 4,
+                "definicion": "(Agua ensan grentada) Una de las figuras coreográficas de las danzas fol klóricas de los Qollas y K'achanpas de la provincia de Paucartambo y otras del Qosqo, Perú. Yawar Waqaq",
+                "dominio": "Folk.",
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-pas",
+                "slot": 8,
+                "categoria": "",
+                "subcategoria": "SUFIJO INDEPENDIENTE",
+                "funcion": "Aditivo. Se traduce como ‘también’ o ‘incluso’. Coordina oraciones.",
+                "glosa_corta": "ADIT",
+                "ejemplos": "Noqapas tususaqmi = Yo también bailaré\nNoqapis risaq = yo también iré"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "chhullunku",
+            "posicion": 9,
+            "es_puntuacion": false,
+            "raiz": "chhullu",
+            "lema": "chhullu",
+            "categoria_gramatical": "desconocido",
+            "glosa": "chhullu-3PL",
+            "acepciones": [],
+            "sufijos": [
+              {
+                "morfema": "-nku",
+                "slot": 4,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE NUMERO",
+                "funcion": "Sufijo de tercera persona plural.",
+                "glosa_corta": "3PL",
+                "ejemplos": "Paykuna pukllanku = ellos/ellas juegan"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 0.5
+          },
+          {
+            "token": "hunt'a",
+            "posicion": 10,
+            "es_puntuacion": false,
+            "raiz": "hunt'a",
+            "lema": "hunt'a",
+            "categoria_gramatical": "adj.",
+            "glosa": "hunt'a",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Colmado, lleno, re pleto. . hunt'a",
+                "dominio": null,
+                "sinonimos": "llinp'a, qaqa"
+              }
+            ],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "paqarin",
+            "posicion": 11,
+            "es_puntuacion": false,
+            "raiz": "paqari",
+            "lema": "paqariy",
+            "categoria_gramatical": "s.",
+            "glosa": "paqariy-3SG",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "y v. V. PACHAILLARIY, P'UNCHAY",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-n",
+                "slot": 3,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE PERSONA",
+                "funcion": "Sufijo posesivo  de tercera persona singular.",
+                "glosa_corta": "3SG",
+                "ejemplos": "wasin = su casa"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": ".",
+            "posicion": null,
+            "es_puntuacion": true,
+            "raiz": ".",
+            "lema": ".",
+            "categoria_gramatical": "punct",
+            "sufijos": [],
+            "glosa": ".",
+            "acepciones": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 1.0
+          }
+        ]
+      },
+      {
+        "indice": 1,
+        "texto": "Wayrapis tuta p'unchaymi tukuy kallpawanmi phukun.",
+        "marcadores": {
+          "evidenciales": [
+            "DIRECTO / ATESTIGUADO (-mi)"
+          ],
+          "clusividad": null
+        },
+        "tokens": [
+          {
+            "token": "Wayrapis",
+            "posicion": 0,
+            "es_puntuacion": false,
+            "raiz": "wayra",
+            "lema": "wayra",
+            "categoria_gramatical": "s.",
+            "glosa": "wayra-ADIT",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Viento, masa de aire en movimiento. . (V. SIKLLA) wayra",
+                "dominio": "Meteor.",
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-pis",
+                "slot": 8,
+                "categoria": "",
+                "subcategoria": "SUFIJO INDEPENDIENTE",
+                "funcion": "Aditivo. Se traduce como ‘también’ o ‘incluso’. Coordina oraciones.",
+                "glosa_corta": "ADIT",
+                "ejemplos": "Noqapas tususaqmi = Yo también bailaré\nNoqapis risaq = yo también iré"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "tuta",
+            "posicion": 1,
+            "es_puntuacion": false,
+            "raiz": "tuta",
+            "lema": "tuta",
+            "categoria_gramatical": "s.",
+            "glosa": "tuta",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Tiempo en que está ausente el Sol",
+                "dominio": "Noche.",
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "adj. Obscuro, lóbrego. . NEOL. Qhapaq tuta, noche de navidad. . tuta",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "p'unchaymi",
+            "posicion": 2,
+            "es_puntuacion": false,
+            "raiz": "p'unchay",
+            "lema": "p'unchay",
+            "categoria_gramatical": "s.",
+            "glosa": "p'unchay-EVID.DIR",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "V. INTIU CHAY",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "Día grande, día festivo. NEOL. Feriado. hatun",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 3,
+                "definicion": "Día, tiempo que dura desde el amanecer hasta el anochecer. . E- . . . ",
+                "dominio": null,
+                "sinonimos": "p'unchaw"
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-mi",
+                "slot": 9,
+                "categoria": "",
+                "subcategoria": "SUFIJO INDEPENDIENTE",
+                "funcion": "Validador. Indica que el hablante ha sido testigo de la acción o está muy seguro de lo que dice. No se debe de usar cuando hay duda.  Cuando la palabra termina en vocal se usa la \"m\" y cuando termina en consonante se usa la \"mi\". Hace referencia a una información directa en relación con lo enunciado por el hablante. Es para afirmar, declarar, sostener.",
+                "glosa_corta": "EVID.DIR",
+                "ejemplos": "Pukllaqmi rirani = fui a jugar\nWarmim kani = soy mujer"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": "DIRECTO / ATESTIGUADO (-mi)",
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "tukuy",
+            "posicion": 3,
+            "es_puntuacion": false,
+            "raiz": "tukuy",
+            "lema": "tukuy",
+            "categoria_gramatical": "adj.",
+            "glosa": "tukuy",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Cantidad infinita, incontable. ",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "kallpawanmi",
+            "posicion": 4,
+            "es_puntuacion": false,
+            "raiz": "kallpa",
+            "lema": "kallpa",
+            "categoria_gramatical": "s.",
+            "glosa": "kallpa-INSTR/COM-EVID.DIR",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Fuerza, vigor",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "Esfuerzo. ",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 3,
+                "definicion": ". / Cosa grande",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-wan",
+                "slot": 5,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE CASO",
+                "funcion": "Conjunción que enlaza palabras o frases ('y', 'con'). Es un caso cogitativo, porque indica compromiso, compañía o instrumento.",
+                "glosa_corta": "INSTR/COM",
+                "ejemplos": "Michiwan alqowan = el gato y el perro\nChakitaqllawan = con la chakitaqlla\nTaytaywan = Con mi padre\nPaywan noqawan = él y yo\nTaki harawiwan = El canto "
+              },
+              {
+                "morfema": "-mi",
+                "slot": 9,
+                "categoria": "",
+                "subcategoria": "SUFIJO INDEPENDIENTE",
+                "funcion": "Validador. Indica que el hablante ha sido testigo de la acción o está muy seguro de lo que dice. No se debe de usar cuando hay duda.  Cuando la palabra termina en vocal se usa la \"m\" y cuando termina en consonante se usa la \"mi\". Hace referencia a una información directa en relación con lo enunciado por el hablante. Es para afirmar, declarar, sostener.",
+                "glosa_corta": "EVID.DIR",
+                "ejemplos": "Pukllaqmi rirani = fui a jugar\nWarmim kani = soy mujer"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": "DIRECTO / ATESTIGUADO (-mi)",
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "phukun",
+            "posicion": 5,
+            "es_puntuacion": false,
+            "raiz": "phuku",
+            "lema": "phuku",
+            "categoria_gramatical": "s.",
+            "glosa": "phuku-3SG",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Soplo, movimiento del aire. . ",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-n",
+                "slot": 3,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE PERSONA",
+                "funcion": "Sufijo posesivo  de tercera persona singular.",
+                "glosa_corta": "3SG",
+                "ejemplos": "wasin = su casa"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": ".",
+            "posicion": null,
+            "es_puntuacion": true,
+            "raiz": ".",
+            "lema": ".",
+            "categoria_gramatical": "punct",
+            "sufijos": [],
+            "glosa": ".",
+            "acepciones": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 1.0
+          }
+        ]
+      }
+    ]
+  }
+}

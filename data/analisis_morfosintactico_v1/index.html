@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Explorador Morfosintáctico Quechua · Corpus Puno</title>
+<style>
+  :root {
+    --bg: #0f1419;
+    --bg-panel: #171e26;
+    --bg-elev: #1e2730;
+    --border: #2a3440;
+    --text: #e6edf3;
+    --text-dim: #8b98a5;
+    --accent: #58a6ff;
+    --accent-soft: #1f6feb33;
+    /* Colores por tipo de slot morfotáctico */
+    --slot-deriv: #d2a8ff;   /* derivacional 1-2 */
+    --slot-tam: #f0883e;     /* tiempo/aspecto/pos 3 */
+    --slot-num: #56d364;     /* plural 4 */
+    --slot-case: #79c0ff;    /* caso/persona 5 */
+    --slot-clitic: #e3b341;  /* clíticos 8 */
+    --slot-evid: #ff7b72;    /* evidencial 9 */
+    --ok: #3fb950;
+    --warn: #d29922;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
+    background: var(--bg); color: var(--text); height: 100vh; overflow: hidden;
+  }
+  .app { display: grid; grid-template-columns: 300px 1fr; height: 100vh; }
+
+  /* Sidebar */
+  .sidebar { background: var(--bg-panel); border-right: 1px solid var(--border); display: flex; flex-direction: column; min-height: 0; }
+  .sidebar header { padding: 16px; border-bottom: 1px solid var(--border); }
+  .sidebar h1 { font-size: 15px; margin: 0 0 4px; }
+  .sidebar .sub { font-size: 11px; color: var(--text-dim); }
+  .search { padding: 12px 16px; border-bottom: 1px solid var(--border); }
+  .search input {
+    width: 100%; padding: 8px 10px; border-radius: 8px; border: 1px solid var(--border);
+    background: var(--bg-elev); color: var(--text); font-size: 13px; outline: none;
+  }
+  .search input:focus { border-color: var(--accent); }
+  .audio-list { overflow-y: auto; flex: 1; min-height: 0; }
+  .audio-item {
+    padding: 10px 16px; border-bottom: 1px solid var(--border); cursor: pointer; font-size: 13px;
+  }
+  .audio-item:hover { background: var(--bg-elev); }
+  .audio-item.active { background: var(--accent-soft); border-left: 3px solid var(--accent); }
+  .audio-item .id { font-weight: 600; }
+  .audio-item .meta { font-size: 11px; color: var(--text-dim); margin-top: 2px; display: flex; gap: 8px; }
+  .badge { font-size: 10px; padding: 1px 6px; border-radius: 10px; background: var(--bg-elev); border: 1px solid var(--border); }
+
+  /* Main */
+  .main { display: flex; flex-direction: column; min-height: 0; overflow: hidden; }
+  .main-head { padding: 16px 24px; border-bottom: 1px solid var(--border); background: var(--bg-panel); }
+  .main-head .prompt { font-size: 12px; color: var(--text-dim); }
+  .main-head .title { font-size: 16px; font-weight: 600; margin-top: 4px; display: flex; align-items: center; gap: 12px; }
+  .main-head .player { width: 100%; max-width: 520px; height: 36px; margin-top: 10px; display: block; }
+  .main-head .markers { margin-top: 8px; display: flex; gap: 8px; flex-wrap: wrap; }
+  .marker { font-size: 11px; padding: 3px 10px; border-radius: 12px; border: 1px solid var(--border); }
+  .marker.evid { background: #ff7b7222; border-color: var(--slot-evid); color: var(--slot-evid); }
+  .marker.clus { background: #d2a8ff22; border-color: var(--slot-deriv); color: var(--slot-deriv); }
+
+  .content { flex: 1; overflow-y: auto; padding: 24px; display: grid; grid-template-columns: 1fr 380px; gap: 24px; min-height: 0; }
+  .phrase-area { }
+
+  /* Barra de opciones de lectura */
+  .read-toolbar { display: flex; align-items: center; gap: 14px; margin-bottom: 18px; flex-wrap: wrap; font-size: 12px; color: var(--text-dim); }
+  .read-toolbar label { display: flex; align-items: center; gap: 6px; cursor: pointer; user-select: none; }
+  .read-toolbar .size-btns { display: flex; gap: 4px; }
+  .read-toolbar button {
+    background: var(--bg-elev); color: var(--text); border: 1px solid var(--border);
+    border-radius: 6px; padding: 3px 10px; cursor: pointer; font-size: 12px;
+  }
+  .read-toolbar button:hover { border-color: var(--accent); }
+
+  /* Texto completo en lectura corrida natural */
+  .fulltext {
+    background: var(--bg-panel); border: 1px solid var(--border); border-radius: 12px;
+    padding: 24px 28px; line-height: 2.1; font-size: var(--read-size, 19px);
+  }
+  .sentence { display: inline; }
+  .sentence-sep { display: inline; }
+
+  .word {
+    display: inline; padding: 1px 2px; border-radius: 5px; cursor: pointer;
+    border-bottom: 2px solid transparent; transition: background .1s, border-color .1s;
+  }
+  .word:hover { background: var(--bg-elev); }
+  .word.selected { background: var(--accent-soft); border-bottom-color: var(--accent); font-weight: 600; }
+  .word.not-found { border-bottom: 2px dashed var(--warn); }
+  .word.has-evid { border-bottom-color: var(--slot-evid); }
+  .word .morphs { display: none; }
+
+  /* Modo glosa: muestra morfemas bajo cada palabra (interlineal) */
+  .fulltext.show-gloss { line-height: 3.6; }
+  .fulltext.show-gloss .word { display: inline-flex; flex-direction: column; align-items: center; padding: 2px 4px; margin: 0 1px; vertical-align: top; }
+  .fulltext.show-gloss .word .morphs { display: block; font-size: 10px; color: var(--text-dim); margin-top: 2px; white-space: nowrap; }
+  .fulltext.show-gloss .word .morphs .suf { padding: 0 1px; }
+  .punct { color: var(--text-dim); }
+
+  /* Chips de slot */
+  .suf-slot-1, .suf-slot-2 { color: var(--slot-deriv); }
+  .suf-slot-3 { color: var(--slot-tam); }
+  .suf-slot-4 { color: var(--slot-num); }
+  .suf-slot-5 { color: var(--slot-case); }
+  .suf-slot-8 { color: var(--slot-clitic); }
+  .suf-slot-9 { color: var(--slot-evid); }
+
+  /* Panel de detalle */
+  .detail { background: var(--bg-panel); border: 1px solid var(--border); border-radius: 12px; padding: 20px; align-self: start; position: sticky; top: 0; }
+  .detail .empty { color: var(--text-dim); font-size: 13px; text-align: center; padding: 40px 0; }
+  .detail h2 { margin: 0; font-size: 22px; }
+  .detail .lemma-row { font-size: 13px; color: var(--text-dim); margin: 6px 0 14px; }
+  .detail .pos { background: var(--slot-deriv); color: #000; padding: 1px 8px; border-radius: 10px; font-size: 11px; font-weight: 600; }
+  .detail .gloss { font-family: "Cascadia Code", "Consolas", monospace; font-size: 13px; background: var(--bg-elev); padding: 8px 10px; border-radius: 8px; margin-bottom: 16px; word-break: break-word; }
+  .conf-bar { height: 5px; background: var(--bg-elev); border-radius: 3px; overflow: hidden; margin: 2px 0 14px; }
+  .conf-bar > div { height: 100%; background: var(--ok); }
+
+  .section-title { font-size: 11px; text-transform: uppercase; letter-spacing: 1px; color: var(--text-dim); margin: 16px 0 8px; }
+  .suffix-card { border: 1px solid var(--border); border-left-width: 3px; border-radius: 8px; padding: 8px 10px; margin-bottom: 8px; background: var(--bg-elev); }
+  .suffix-card .morph { font-weight: 700; font-size: 14px; }
+  .suffix-card .tags { display: flex; gap: 6px; flex-wrap: wrap; margin: 4px 0; }
+  .suffix-card .tag { font-size: 10px; padding: 1px 6px; border-radius: 8px; background: var(--bg-panel); border: 1px solid var(--border); color: var(--text-dim); }
+  .suffix-card .func { font-size: 12px; color: var(--text); }
+  .suffix-card .ex { font-size: 11px; color: var(--text-dim); margin-top: 4px; font-style: italic; white-space: pre-line; }
+  .sense { font-size: 12px; margin-bottom: 6px; padding-left: 16px; position: relative; }
+  .sense::before { content: attr(data-i); position: absolute; left: 0; color: var(--accent); font-weight: 600; }
+  .sense .dom { color: var(--slot-num); font-size: 10px; }
+
+  .loader, .err { padding: 40px; text-align: center; color: var(--text-dim); }
+  .err { color: var(--slot-evid); }
+  .legend { display: flex; gap: 10px; flex-wrap: wrap; font-size: 10px; margin-top: 10px; }
+  .legend span { display: flex; align-items: center; gap: 3px; }
+  .legend i { width: 10px; height: 10px; border-radius: 3px; display: inline-block; }
+  .filebar { padding: 10px 16px; border-bottom: 1px solid var(--border); font-size: 11px; color: var(--text-dim); }
+  .filebar input { font-size: 11px; color: var(--text); }
+</style>
+</head>
+<body>
+<div class="app">
+  <aside class="sidebar">
+    <header>
+      <h1>🪶 Explorador Morfosintáctico</h1>
+      <div class="sub">Corpus Quechua Puno (qxp)</div>
+      <div class="sub" id="coverage" style="margin-top:6px"></div>
+    </header>
+    <div class="search">
+      <input id="search" type="text" placeholder="Buscar por id, palabra o texto…">
+    </div>
+    <div id="fallback" class="filebar" style="display:none">
+      No se pudo cargar por servidor. Selecciona la carpeta:
+      <input id="dirPicker" type="file" webkitdirectory directory multiple>
+    </div>
+    <div id="audioList" class="audio-list"><div class="loader">Cargando índice…</div></div>
+  </aside>
+
+  <main class="main">
+    <div id="mainHead" class="main-head">
+      <div class="prompt">Selecciona un audio del panel izquierdo</div>
+      <div class="title">—</div>
+    </div>
+    <div id="content" class="content">
+      <div class="phrase-area"><div class="loader">Elige un audio para ver su análisis.</div></div>
+      <div class="detail"><div class="empty">👆 Haz clic en una palabra para ver su desglose morfosintáctico.</div></div>
+    </div>
+  </main>
+</div>
+
+<script>
+// ---------------------------------------------------------------------------
+// Estado
+// ---------------------------------------------------------------------------
+let RESUMEN = null;
+let AUDIOS = [];           // lista del índice
+let CURRENT = null;        // registro actual cargado
+let FILES_MAP = null;      // cuando se usa el selector de carpeta (fallback file://)
+
+const SLOT_NAMES = {
+  1: "Derivacional", 2: "Deriv./Objeto", 3: "Tiempo/Aspecto/Posesivo",
+  4: "Plural", 5: "Caso/Persona", 6: "Plural verbal", 8: "Clítico/Conectivo", 9: "Evidencial/Validador"
+};
+
+// ---------------------------------------------------------------------------
+// Carga de datos (fetch con servidor, o File API como fallback)
+// ---------------------------------------------------------------------------
+// Modo paquete: datos embebidos en window.CORPUS (datos.js). Esquiva fetch en file://.
+const EMBEDDED = (typeof window.CORPUS !== "undefined") ? window.CORPUS : null;
+
+async function loadResumen() {
+  if (EMBEDDED) {
+    RESUMEN = EMBEDDED.resumen || {};
+    AUDIOS = EMBEDDED.indice || [];
+    renderList(AUDIOS);
+    return;
+  }
+  try {
+    const r = await fetch("_resumen.json");
+    if (!r.ok) throw new Error("HTTP " + r.status);
+    RESUMEN = await r.json();
+    AUDIOS = RESUMEN.audios || [];
+    renderList(AUDIOS);
+  } catch (e) {
+    document.getElementById("fallback").style.display = "block";
+    document.getElementById("audioList").innerHTML =
+      '<div class="err">Abre esta página con un servidor local<br>(python -m http.server)<br>o usa el selector de carpeta de arriba.</div>';
+  }
+}
+
+async function loadAudio(audioId) {
+  if (EMBEDDED) {
+    const rec = EMBEDDED.registros[audioId];
+    if (!rec) throw new Error("Registro no encontrado: " + audioId);
+    return rec;
+  }
+  if (FILES_MAP) {
+    const file = FILES_MAP[audioId + ".json"];
+    if (!file) throw new Error("Archivo no encontrado en la carpeta seleccionada");
+    return JSON.parse(await file.text());
+  }
+  const r = await fetch(audioId + ".json");
+  if (!r.ok) throw new Error("HTTP " + r.status);
+  return await r.json();
+}
+
+// Fallback: selector de carpeta
+document.getElementById("dirPicker").addEventListener("change", (ev) => {
+  FILES_MAP = {};
+  let resumenFile = null;
+  for (const f of ev.target.files) {
+    FILES_MAP[f.name] = f;
+    if (f.name === "_resumen.json") resumenFile = f;
+  }
+  if (resumenFile) {
+    resumenFile.text().then(t => {
+      RESUMEN = JSON.parse(t);
+      AUDIOS = RESUMEN.audios || [];
+      document.getElementById("fallback").style.display = "none";
+      renderList(AUDIOS);
+    });
+  }
+});
+
+// ---------------------------------------------------------------------------
+// Render lista
+// ---------------------------------------------------------------------------
+function renderCoverage() {
+  const cov = RESUMEN && RESUMEN.cobertura_corpus;
+  const el = document.getElementById("coverage");
+  if (!el || !cov) return;
+  el.innerHTML = `📊 ${cov.utilizables} con transcripción + audio ·
+    ${cov.sin_transcripcion} solo audio · ${cov.total} total`;
+}
+
+function renderList(audios) {
+  renderCoverage();
+  const el = document.getElementById("audioList");
+  if (!audios.length) { el.innerHTML = '<div class="loader">Sin resultados</div>'; return; }
+  el.innerHTML = "";
+  for (const a of audios.slice(0, 500)) {
+    const div = document.createElement("div");
+    div.className = "audio-item";
+    div.dataset.id = a.audio_id;
+    const cob = a.num_tokens ? Math.round(a.tokens_en_diccionario / a.num_tokens * 100) : 0;
+    div.innerHTML = `<div class="id">#${a.audio_id}</div>
+      <div class="meta"><span class="badge">${a.split}</span>
+      <span>${a.num_tokens} tokens</span><span>${cob}% dic</span></div>`;
+    div.addEventListener("click", () => selectAudio(a.audio_id, div));
+    el.appendChild(div);
+  }
+}
+
+async function selectAudio(audioId, divEl) {
+  document.querySelectorAll(".audio-item.active").forEach(e => e.classList.remove("active"));
+  if (divEl) divEl.classList.add("active");
+  const content = document.getElementById("content");
+  content.innerHTML = '<div class="phrase-area"><div class="loader">Cargando…</div></div><div class="detail"></div>';
+  try {
+    CURRENT = await loadAudio(audioId);
+    renderAudio(CURRENT);
+  } catch (e) {
+    content.innerHTML = '<div class="err">Error: ' + e.message + '</div>';
+  }
+}
+
+// ---------------------------------------------------------------------------
+// Render análisis
+// ---------------------------------------------------------------------------
+function renderAudio(rec) {
+  const a = rec.analisis_morfosintactico;
+  const head = document.getElementById("mainHead");
+  const gm = a.marcadores_globales || {};
+  let markers = "";
+  (gm.evidenciales || []).forEach(e => markers += `<span class="marker evid">🎯 ${e}</span>`);
+  if (gm.clusividad) markers += `<span class="marker clus">👥 ${gm.clusividad}</span>`;
+  const audioSrc = rec.audio_file ? ("audios/" + rec.audio_file) : "";
+  head.innerHTML = `
+    <div class="prompt">Pregunta: ${esc(rec.prompt || "")}</div>
+    <div class="title">🔊 #${rec.audio_id}
+      <span class="badge">${rec.split}</span>
+      <span class="badge">${a.num_tokens} tokens</span>
+      <span class="badge">${a.num_oraciones} oraciones</span>
+      <span class="badge">${rec.audio_file || ""}</span>
+    </div>
+    ${audioSrc ? `<audio class="player" controls preload="none" src="${esc(audioSrc)}"></audio>` : ""}
+    <div class="markers">${markers}</div>`;
+
+  const content = document.getElementById("content");
+  content.innerHTML = `
+    <div class="phrase-area">
+      <div class="read-toolbar">
+        <label><input type="checkbox" id="toggleGloss"> Mostrar glosa bajo cada palabra</label>
+        <span style="opacity:.4">|</span>
+        <span>Texto:</span>
+        <div class="size-btns">
+          <button data-size="16">A-</button>
+          <button data-size="19">A</button>
+          <button data-size="24">A+</button>
+        </div>
+        <span style="opacity:.4">|</span>
+        <span style="color:var(--text-dim)">Haz clic en cualquier palabra para ver su análisis →</span>
+      </div>
+      <div class="fulltext" id="fulltext"></div>
+    </div>
+    <div class="detail" id="detail"><div class="empty">👆 Haz clic en una palabra del texto para ver su desglose morfosintáctico.</div></div>`;
+
+  const ft = document.getElementById("fulltext");
+
+  a.oraciones.forEach((orac, oi) => {
+    const sSpan = document.createElement("span");
+    sSpan.className = "sentence";
+
+    orac.tokens.forEach((tok) => {
+      if (tok.es_puntuacion) {
+        const p = document.createElement("span");
+        p.className = "punct";
+        p.textContent = tok.token;
+        sSpan.appendChild(p);
+        sSpan.appendChild(document.createTextNode(" "));
+        return;
+      }
+      const w = document.createElement("span");
+      let cls = "word";
+      if (!tok.encontrado_en_diccionario) cls += " not-found";
+      if (tok.marcadores && tok.marcadores.evidencialidad) cls += " has-evid";
+      w.className = cls;
+      w.title = `${tok.raiz} [${tok.categoria_gramatical}] · ${tok.glosa}`;
+
+      // morfemas (ocultos salvo modo glosa)
+      let morphs = `<span class="suf">${esc(tok.raiz)}</span>`;
+      (tok.sufijos || []).forEach(s => {
+        morphs += `<span class="suf suf-slot-${s.slot}">-${esc(s.glosa_corta)}</span>`;
+      });
+      w.innerHTML = `<span class="surface">${esc(tok.token)}</span><span class="morphs">${morphs}</span>`;
+      w.addEventListener("click", () => {
+        document.querySelectorAll(".word.selected").forEach(e => e.classList.remove("selected"));
+        w.classList.add("selected");
+        renderDetail(tok);
+      });
+      sSpan.appendChild(w);
+      sSpan.appendChild(document.createTextNode(" "));
+    });
+    ft.appendChild(sSpan);
+    // separación suave entre oraciones (sin romper el párrafo)
+    ft.appendChild(document.createTextNode(" "));
+  });
+
+  // Toolbar: toggle glosa
+  document.getElementById("toggleGloss").addEventListener("change", (e) => {
+    ft.classList.toggle("show-gloss", e.target.checked);
+  });
+  // Toolbar: tamaño de texto
+  document.querySelectorAll(".read-toolbar .size-btns button").forEach(btn => {
+    btn.addEventListener("click", () => {
+      ft.style.setProperty("--read-size", btn.dataset.size + "px");
+      ft.style.fontSize = btn.dataset.size + "px";
+    });
+  });
+}
+
+function renderDetail(tok) {
+  const d = document.getElementById("detail");
+  const conf = Math.round((tok.confianza || 0) * 100);
+  let html = `<h2>${esc(tok.token)}</h2>
+    <div class="lemma-row"><span class="pos">${esc(tok.categoria_gramatical)}</span>
+      &nbsp; raíz: <b>${esc(tok.raiz)}</b> &nbsp;·&nbsp; lema: <b>${esc(tok.lema)}</b></div>
+    <div class="gloss">${esc(tok.glosa)}</div>
+    <div class="section-title">Confianza · ${conf}%</div>
+    <div class="conf-bar"><div style="width:${conf}%"></div></div>`;
+
+  // Marcadores
+  const m = tok.marcadores || {};
+  if (m.evidencialidad || m.clusividad) {
+    html += `<div class="markers" style="margin-bottom:12px">`;
+    if (m.evidencialidad) html += `<span class="marker evid">🎯 ${esc(m.evidencialidad)}</span>`;
+    if (m.clusividad) html += `<span class="marker clus">👥 ${esc(m.clusividad)}</span>`;
+    html += `</div>`;
+  }
+
+  // Sufijos
+  if ((tok.sufijos || []).length) {
+    html += `<div class="section-title">Sufijos (${tok.sufijos.length})</div>`;
+    tok.sufijos.forEach(s => {
+      const color = `var(--slot-${s.slot === 1 || s.slot === 2 ? 'deriv' : s.slot === 3 ? 'tam' : s.slot === 4 ? 'num' : s.slot === 5 ? 'case' : s.slot === 8 ? 'clitic' : s.slot === 9 ? 'evid' : 'case'})`;
+      html += `<div class="suffix-card" style="border-left-color:${color}">
+        <div class="morph suf-slot-${s.slot}">${esc(s.morfema)} <span style="font-size:11px;color:var(--text-dim)">${esc(s.glosa_corta)}</span></div>
+        <div class="tags">
+          <span class="tag">slot ${s.slot} · ${SLOT_NAMES[s.slot] || "—"}</span>
+          ${s.categoria ? `<span class="tag">${esc(s.categoria)}</span>` : ""}
+          ${s.subcategoria ? `<span class="tag">${esc(s.subcategoria)}</span>` : ""}
+        </div>
+        <div class="func">${esc(s.funcion || "")}</div>
+        ${s.ejemplos ? `<div class="ex">📝 ${esc(s.ejemplos)}</div>` : ""}
+      </div>`;
+    });
+  } else {
+    html += `<div class="section-title">Sufijos</div><div style="color:var(--text-dim);font-size:12px">Raíz sin afijos.</div>`;
+  }
+
+  // Acepciones
+  if ((tok.acepciones || []).length) {
+    html += `<div class="section-title">Acepciones del diccionario (${tok.acepciones.length})</div>`;
+    tok.acepciones.slice(0, 12).forEach(ac => {
+      html += `<div class="sense" data-i="${ac.indice}.">${esc(ac.definicion)}
+        ${ac.dominio ? `<span class="dom">[${esc(ac.dominio)}]</span>` : ""}</div>`;
+    });
+    if (tok.acepciones.length > 12) html += `<div style="color:var(--text-dim);font-size:11px">… y ${tok.acepciones.length - 12} más</div>`;
+  }
+  d.innerHTML = html;
+}
+
+// ---------------------------------------------------------------------------
+// Búsqueda
+// ---------------------------------------------------------------------------
+document.getElementById("search").addEventListener("input", (e) => {
+  const q = e.target.value.toLowerCase().trim();
+  if (!q) { renderList(AUDIOS); return; }
+  const filtered = AUDIOS.filter(a =>
+    a.audio_id.includes(q) || (a.split || "").includes(q)
+  );
+  renderList(filtered);
+});
+
+function esc(s) {
+  return String(s == null ? "" : s)
+    .replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+}
+
+// init
+loadResumen();
+</script>
+</body>
+</html>

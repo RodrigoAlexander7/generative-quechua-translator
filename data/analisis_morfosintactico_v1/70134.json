@@ -1,0 +1,234 @@
+{
+  "client_id": "385d8eea0a8ebb1e8e82c7464c4641af",
+  "audio_id": "70134",
+  "audio_file": "spontaneous-speech-qxp-70134.mp3",
+  "duration_ms": "5076",
+  "prompt_id": "7410",
+  "prompt": "Chakiykita k'irichakuqtiyki, imawantaq hampikunki?",
+  "transcription": "K'irichakuqtiy, hampikuni yuraq q'illu unuwan.",
+  "variant": "",
+  "language": "Puno Quechua",
+  "split": "train",
+  "analisis_morfosintactico": {
+    "texto_original": "K'irichakuqtiy, hampikuni yuraq q'illu unuwan.",
+    "num_oraciones": 1,
+    "num_tokens": 5,
+    "marcadores_globales": {
+      "evidenciales": [],
+      "clusividad": null
+    },
+    "oraciones": [
+      {
+        "indice": 0,
+        "texto": "K'irichakuqtiy, hampikuni yuraq q'illu unuwan.",
+        "marcadores": {
+          "evidenciales": [],
+          "clusividad": null
+        },
+        "tokens": [
+          {
+            "token": "K'irichakuqtiy",
+            "posicion": 0,
+            "es_puntuacion": false,
+            "raiz": "k'irichakuqti",
+            "lema": "k'irichakuqti",
+            "categoria_gramatical": "desconocido",
+            "glosa": "k'irichakuqti-1SG.POS",
+            "acepciones": [],
+            "sufijos": [
+              {
+                "morfema": "-y",
+                "slot": 3,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE PERSONA",
+                "funcion": "Sufijo posesivo de primera persona singular.",
+                "glosa_corta": "1SG.POS",
+                "ejemplos": "wasiy = mi casa"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 0.5
+          },
+          {
+            "token": ",",
+            "posicion": null,
+            "es_puntuacion": true,
+            "raiz": ",",
+            "lema": ",",
+            "categoria_gramatical": "punct",
+            "sufijos": [],
+            "glosa": ",",
+            "acepciones": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 1.0
+          },
+          {
+            "token": "hampikuni",
+            "posicion": 1,
+            "es_puntuacion": false,
+            "raiz": "hampiku",
+            "lema": "hanpikuy",
+            "categoria_gramatical": "v.",
+            "glosa": "hanpikuy-1SG",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Curarse a sí mismo",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "Curarse o medici narse a sí mismo",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-ni",
+                "slot": 2,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE PERSONA",
+                "funcion": "Sufijo que se agrega cuando la palabra termina en vocal, se sgrega antes del sufijo posesivo.",
+                "glosa_corta": "1SG",
+                "ejemplos": "yachachiqniy = mi profesor\nyawarniy = mi sangre\nyachachiqnin = su profesor"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "yuraq",
+            "posicion": 2,
+            "es_puntuacion": false,
+            "raiz": "yuraq",
+            "lema": "yuraq",
+            "categoria_gramatical": "adj.",
+            "glosa": "yuraq",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Color blanco, albo. . . ANTÓ. yuraq",
+                "dominio": null,
+                "sinonimos": "qoyllu"
+              }
+            ],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "q'illu",
+            "posicion": 3,
+            "es_puntuacion": false,
+            "raiz": "q'illu",
+            "lema": "q'ellu",
+            "categoria_gramatical": "s.",
+            "glosa": "q'ellu",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "(Begonia parviflora Poepp et Endl). Planta herbácea de las begoniáceas; se cultiva como ornamental y es también utilizada en la medici- putaqllanku 416 na popular. ",
+                "dominio": "Bot.",
+                "sinonimos": "achanqaray, achanqayra"
+              }
+            ],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "unuwan",
+            "posicion": 4,
+            "es_puntuacion": false,
+            "raiz": "unu",
+            "lema": "unu",
+            "categoria_gramatical": "s.",
+            "glosa": "unu-INSTR/COM",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Quím. Agua; líquido incoloro, inodoro e insípido compuesto por dos volúmenes de hidrógeno y uno de oxígeno. . ",
+                "dominio": null,
+                "sinonimos": "yaku"
+              },
+              {
+                "indice": 2,
+                "definicion": "adj. Aguado, líquido, acuoso, de la naturaleza del agua. (J.L.P.) unu",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 3,
+                "definicion": "Lejía o agua de ceniza utilizado como detergente",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 4,
+                "definicion": "(Agua ensan grentada) Una de las figuras coreográficas de las danzas fol klóricas de los Qollas y K'achanpas de la provincia de Paucartambo y otras del Qosqo, Perú. Yawar Waqaq",
+                "dominio": "Folk.",
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-wan",
+                "slot": 5,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE CASO",
+                "funcion": "Conjunción que enlaza palabras o frases ('y', 'con'). Es un caso cogitativo, porque indica compromiso, compañía o instrumento.",
+                "glosa_corta": "INSTR/COM",
+                "ejemplos": "Michiwan alqowan = el gato y el perro\nChakitaqllawan = con la chakitaqlla\nTaytaywan = Con mi padre\nPaywan noqawan = él y yo\nTaki harawiwan = El canto "
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": ".",
+            "posicion": null,
+            "es_puntuacion": true,
+            "raiz": ".",
+            "lema": ".",
+            "categoria_gramatical": "punct",
+            "sufijos": [],
+            "glosa": ".",
+            "acepciones": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 1.0
+          }
+        ]
+      }
+    ]
+  }
+}

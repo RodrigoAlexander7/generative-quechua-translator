@@ -1,0 +1,663 @@
+{
+  "client_id": "65149769e817b44e2c0337d3c3fe6f69",
+  "audio_id": "69369",
+  "audio_file": "spontaneous-speech-qxp-69369.mp3",
+  "duration_ms": "14976",
+  "prompt_id": "7418",
+  "prompt": "Chaqrapi tarpuy pachamanta rimariy.",
+  "transcription": "Mayhinachus Milkarpiqa chaqraqa, tarpuy pachaqa qallarikun akustu killamanta ñawpaqman, para chayachaqtin, uqtubri killapitaq mast'akun.",
+  "variant": "",
+  "language": "Puno Quechua",
+  "split": "dev",
+  "analisis_morfosintactico": {
+    "texto_original": "Mayhinachus Milkarpiqa chaqraqa, tarpuy pachaqa qallarikun akustu killamanta ñawpaqman, para chayachaqtin, uqtubri killapitaq mast'akun.",
+    "num_oraciones": 1,
+    "num_tokens": 14,
+    "marcadores_globales": {
+      "evidenciales": [
+        "REPORTATIVO (-si)"
+      ],
+      "clusividad": null
+    },
+    "oraciones": [
+      {
+        "indice": 0,
+        "texto": "Mayhinachus Milkarpiqa chaqraqa, tarpuy pachaqa qallarikun akustu killamanta ñawpaqman, para chayachaqtin, uqtubri killapitaq mast'akun.",
+        "marcadores": {
+          "evidenciales": [
+            "REPORTATIVO (-si)"
+          ],
+          "clusividad": null
+        },
+        "tokens": [
+          {
+            "token": "Mayhinachus",
+            "posicion": 0,
+            "es_puntuacion": false,
+            "raiz": "mayhi",
+            "lema": "mayhi",
+            "categoria_gramatical": "desconocido",
+            "glosa": "mayhi-NMLZ-INTERR/NEG-EVID.REP",
+            "acepciones": [],
+            "sufijos": [
+              {
+                "morfema": "-na",
+                "slot": 2,
+                "categoria": "NOMINAL DERIVACIONAL",
+                "subcategoria": "DERIVACIONAL DEVERBATIVO",
+                "funcion": "Convierte una raíz verbal en sustantivo. concretiza o sustantiviza a un verbo.",
+                "glosa_corta": "NMLZ",
+                "ejemplos": "Pichana = escoba\ntiyana = asiento"
+              },
+              {
+                "morfema": "-chu",
+                "slot": 9,
+                "categoria": "",
+                "subcategoria": "SUFIJO INDEPENDIENTE",
+                "funcion": "Interrogativo que exige respuesta afirmativa o negativa. Solo para preguntas cerradas.",
+                "glosa_corta": "INTERR/NEG",
+                "ejemplos": "¿Papata mikhunkichu? = ¿Comes papa?"
+              },
+              {
+                "morfema": "-s",
+                "slot": 9,
+                "categoria": "",
+                "subcategoria": "SUFIJO INDEPENDIENTE",
+                "funcion": "Corresponde a 'dicen que'. Indica que el hablante no ha sido testigo de la acción o no está muy seguro de lo que dice. Se usa cuando hay duda.  Cuando la palabra termina en vocal se usa la \"s\" y cuando termina en consonante se usa la \"si\" . El hablante declara o comenta sobre algo que escapa  de su conocimiento personal y directo (inconsciente).",
+                "glosa_corta": "EVID.REP",
+                "ejemplos": "Pukllaqsi riranku = dicen que fueron a jugar\nSasas kasqa mana mamayoq kay = dicen que había sido difícil no tener madre\nPaysi wayk'unqa = Dicen que él"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": "REPORTATIVO (-si)",
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 0.5
+          },
+          {
+            "token": "Milkarpiqa",
+            "posicion": 1,
+            "es_puntuacion": false,
+            "raiz": "milkar",
+            "lema": "milkar",
+            "categoria_gramatical": "desconocido",
+            "glosa": "milkar-LOC-TOP",
+            "acepciones": [],
+            "sufijos": [
+              {
+                "morfema": "-pi",
+                "slot": 5,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE CASO",
+                "funcion": "Indica locación en  el  tiempo  y  en  el espacio. Corresponde a la preposición ‘en’.",
+                "glosa_corta": "LOC",
+                "ejemplos": "Llaqtapi kashani = estoy en el pueblo"
+              },
+              {
+                "morfema": "-qa",
+                "slot": 8,
+                "categoria": "",
+                "subcategoria": "SUFIJO INDEPENDIENTE",
+                "funcion": "Denota información novedosa.",
+                "glosa_corta": "TOP",
+                "ejemplos": "Allqoqa aychatam suwakun = el perro roba carne"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 0.5
+          },
+          {
+            "token": "chaqraqa",
+            "posicion": 2,
+            "es_puntuacion": false,
+            "raiz": "chaqra",
+            "lema": "ch'aqra",
+            "categoria_gramatical": "adj.",
+            "glosa": "ch'aqra-TOP",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "V. Q'AQRA",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-qa",
+                "slot": 8,
+                "categoria": "",
+                "subcategoria": "SUFIJO INDEPENDIENTE",
+                "funcion": "Denota información novedosa.",
+                "glosa_corta": "TOP",
+                "ejemplos": "Allqoqa aychatam suwakun = el perro roba carne"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": ",",
+            "posicion": null,
+            "es_puntuacion": true,
+            "raiz": ",",
+            "lema": ",",
+            "categoria_gramatical": "punct",
+            "sufijos": [],
+            "glosa": ",",
+            "acepciones": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 1.0
+          },
+          {
+            "token": "tarpuy",
+            "posicion": 3,
+            "es_puntuacion": false,
+            "raiz": "tarpuy",
+            "lema": "tarpuy",
+            "categoria_gramatical": "s.",
+            "glosa": "tarpuy",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Primera siembra, con o sin riego. . ñawpaq",
+                "dominio": "Agri.",
+                "sinonimos": "miska, maway"
+              },
+              {
+                "indice": 2,
+                "definicion": "Siembra atrasada o última siembra en noviembre o diciembre, en la sierra. qhepa",
+                "dominio": "Agri.",
+                "sinonimos": null
+              },
+              {
+                "indice": 3,
+                "definicion": "Siembra, acto de sembrar el maíz, tubérculos y leguminosas, menos los granos que siembran al voleo llamado t'akay. Las épocas de las siembra .– Maway tarpuy, siembra temprana que comienza en junio. 2.– Ñawpaq tarpuy, siembra adelantada con riego. 3.– Chawpi tarpuy, siembra a media temporada en agosto y setiembre. 4.– Hatun tarpuy, siembra grande o principal en octubre y noviembre. 5.– Qhepa tarpuy, la última siembra atrasada en noviembre y diciembre. (O.B. y M.B.) tarpuy",
+                "dominio": "Agri.",
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "pachaqa",
+            "posicion": 4,
+            "es_puntuacion": false,
+            "raiz": "pacha",
+            "lema": "pacha",
+            "categoria_gramatical": "s.",
+            "glosa": "pacha-TOP",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Tiempo o época de la siega. . ichhuy",
+                "dominio": null,
+                "sinonimos": "ichhuy ukhu, ichhuy kinray"
+              },
+              {
+                "indice": 2,
+                "definicion": "V. KAY PACHA. kawsay",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 3,
+                "definicion": "Invierno",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 4,
+                "definicion": "Mundo, tierra",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 5,
+                "definicion": "Universo. . ",
+                "dominio": null,
+                "sinonimos": "pachan"
+              },
+              {
+                "indice": 6,
+                "definicion": "Sufijo o morfema que indica el momento, el instante y el tiempo de la acción. . pacha",
+                "dominio": "Gram.",
+                "sinonimos": null
+              },
+              {
+                "indice": 7,
+                "definicion": "V. SITUWA MIT'A. Situwa",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 8,
+                "definicion": "V. TARPUY MIT'A. tarpuy",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 9,
+                "definicion": "V. TIPIY UKHU. tipiy",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-qa",
+                "slot": 8,
+                "categoria": "",
+                "subcategoria": "SUFIJO INDEPENDIENTE",
+                "funcion": "Denota información novedosa.",
+                "glosa_corta": "TOP",
+                "ejemplos": "Allqoqa aychatam suwakun = el perro roba carne"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "qallarikun",
+            "posicion": 5,
+            "es_puntuacion": false,
+            "raiz": "qallari",
+            "lema": "qallariy",
+            "categoria_gramatical": "s.",
+            "glosa": "qallariy-REFL-3SG",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "NEOL. Partida de nacimiento",
+                "dominio": "Juris.",
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "N EOL. Partida de matrimonio. sawasqa qhari",
+                "dominio": "Juris.",
+                "sinonimos": null
+              },
+              {
+                "indice": 3,
+                "definicion": "NEOL. Partida de defunción. wañusqaq kawsay",
+                "dominio": "Juris.",
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-ku",
+                "slot": 2,
+                "categoria": "VERBAL DERIVACIONAL",
+                "subcategoria": "FLEXIVOS DERIVACIONALES",
+                "funcion": "Indica un verbo reflexivo. Funciona como los pronombres enclíticos: me, te, se, nos. Se convierte en ‘KA’, cuando precede al sufijo -MU. Con verbos transitivos. indica una acción refleja, o sea la acción recae  sobre el propio sujeto. En otros casos  indica beneficio o provecho personal. tambien tiene valor impersonal.",
+                "glosa_corta": "REFL",
+                "ejemplos": "P’achakuni = me visto\nrantikunqa = se comprará\nP'achakamuy = visteté\nWisk'akun = se cierra"
+              },
+              {
+                "morfema": "-n",
+                "slot": 3,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE PERSONA",
+                "funcion": "Sufijo posesivo  de tercera persona singular.",
+                "glosa_corta": "3SG",
+                "ejemplos": "wasin = su casa"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "akustu",
+            "posicion": 6,
+            "es_puntuacion": false,
+            "raiz": "akustu",
+            "lema": "akustu",
+            "categoria_gramatical": "desconocido",
+            "glosa": "akustu",
+            "acepciones": [],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 0.5
+          },
+          {
+            "token": "killamanta",
+            "posicion": 7,
+            "es_puntuacion": false,
+            "raiz": "killa",
+            "lema": "killa",
+            "categoria_gramatical": "s.",
+            "glosa": "killa-ABL",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "V. PURAKILLA",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "calend. Un décimo mes del año solar, entre octubre y noviembre",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 3,
+                "definicion": "NEOL. Alquiler mensual de vivienda. wasi",
+                "dominio": "Juris.",
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-manta",
+                "slot": 5,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE CASO",
+                "funcion": "Indica procedencia (‘de’, ‘desde’) o el material de algo.",
+                "glosa_corta": "ABL",
+                "ejemplos": "Arequipamanta = de Arequipa\nThantamanta wawata ruwashan = Está haciendo wawa de pan"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "ñawpaqman",
+            "posicion": 8,
+            "es_puntuacion": false,
+            "raiz": "ñawpaq",
+            "lema": "ñawpaq",
+            "categoria_gramatical": "adj.",
+            "glosa": "ñawpaq-ILA",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "y s. . ",
+                "dominio": null,
+                "sinonimos": "qayllaq"
+              },
+              {
+                "indice": 2,
+                "definicion": "adj. Antiguo, remoto, antes de esta época. . ñawpaq",
+                "dominio": null,
+                "sinonimos": "ñawpa"
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-man",
+                "slot": 5,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE CASO",
+                "funcion": "Es el sufijo que marca movimiento, direccionalidad, objeto indirecto, locación temporal y locación espacial. Indica movimiento con la preposición ‘a’, ‘hacia’.",
+                "glosa_corta": "ILA",
+                "ejemplos": "Orqoman = hacia el cerro \nAtuq sallqaman rishan = El zorro está yendo a la puna\nKillaman llaqtayta kutimusaq = al mes regresaré a mi pueblo\nqanman = a"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": ",",
+            "posicion": null,
+            "es_puntuacion": true,
+            "raiz": ",",
+            "lema": ",",
+            "categoria_gramatical": "punct",
+            "sufijos": [],
+            "glosa": ",",
+            "acepciones": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 1.0
+          },
+          {
+            "token": "para",
+            "posicion": 9,
+            "es_puntuacion": false,
+            "raiz": "para",
+            "lema": "para",
+            "categoria_gramatical": "s.",
+            "glosa": "para",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Lluvia, precipitación plu vial, aguacero. VARIEDADES. iphu para, llovizna; siphsi para, llovizna menuda; ch'allchaq para, chaparrón, lluvia torrencial; chikchipara, lluvia con granizo. . . ",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "chayachaqtin",
+            "posicion": 10,
+            "es_puntuacion": false,
+            "raiz": "chayachaqti",
+            "lema": "chayachaqti",
+            "categoria_gramatical": "desconocido",
+            "glosa": "chayachaqti-3SG",
+            "acepciones": [],
+            "sufijos": [
+              {
+                "morfema": "-n",
+                "slot": 3,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE PERSONA",
+                "funcion": "Sufijo posesivo  de tercera persona singular.",
+                "glosa_corta": "3SG",
+                "ejemplos": "wasin = su casa"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 0.5
+          },
+          {
+            "token": ",",
+            "posicion": null,
+            "es_puntuacion": true,
+            "raiz": ",",
+            "lema": ",",
+            "categoria_gramatical": "punct",
+            "sufijos": [],
+            "glosa": ",",
+            "acepciones": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 1.0
+          },
+          {
+            "token": "uqtubri",
+            "posicion": 11,
+            "es_puntuacion": false,
+            "raiz": "uqtub",
+            "lema": "uqtub",
+            "categoria_gramatical": "desconocido",
+            "glosa": "uqtub-INCO",
+            "acepciones": [],
+            "sufijos": [
+              {
+                "morfema": "-ri",
+                "slot": 2,
+                "categoria": "VERBAL DERIVACIONAL",
+                "subcategoria": "FLEXIVOS DERIVACIONALES",
+                "funcion": "Expresa el inicio del proceso verbal o la realización parcial de aquél. Indica también matiz de cortesía sobre pedidos o mandatos. Indica el inicio de una acción.",
+                "glosa_corta": "INCO",
+                "ejemplos": "Qhawariy = empezar a mirar"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 0.5
+          },
+          {
+            "token": "killapitaq",
+            "posicion": 12,
+            "es_puntuacion": false,
+            "raiz": "killa",
+            "lema": "killa",
+            "categoria_gramatical": "s.",
+            "glosa": "killa-LOC-CONTR",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "V. PURAKILLA",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "calend. Un décimo mes del año solar, entre octubre y noviembre",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 3,
+                "definicion": "NEOL. Alquiler mensual de vivienda. wasi",
+                "dominio": "Juris.",
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-pi",
+                "slot": 5,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE CASO",
+                "funcion": "Indica locación en  el  tiempo  y  en  el espacio. Corresponde a la preposición ‘en’.",
+                "glosa_corta": "LOC",
+                "ejemplos": "Llaqtapi kashani = estoy en el pueblo"
+              },
+              {
+                "morfema": "-taq",
+                "slot": 8,
+                "categoria": "",
+                "subcategoria": "SUFIJO INDEPENDIENTE",
+                "funcion": "También marca la pregunta abierta que requiere alguna información adicional como respuesta.",
+                "glosa_corta": "CONTR",
+                "ejemplos": "¿Piwantaq? = ¿Con quién?"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "mast'akun",
+            "posicion": 13,
+            "es_puntuacion": false,
+            "raiz": "mast'aku",
+            "lema": "mast'akuy",
+            "categoria_gramatical": "v.",
+            "glosa": "mast'akuy-3SG",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Tenderse, extenderse. ",
+                "dominio": null,
+                "sinonimos": "mast'arikuy"
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-n",
+                "slot": 3,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE PERSONA",
+                "funcion": "Sufijo posesivo  de tercera persona singular.",
+                "glosa_corta": "3SG",
+                "ejemplos": "wasin = su casa"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": ".",
+            "posicion": null,
+            "es_puntuacion": true,
+            "raiz": ".",
+            "lema": ".",
+            "categoria_gramatical": "punct",
+            "sufijos": [],
+            "glosa": ".",
+            "acepciones": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 1.0
+          }
+        ]
+      }
+    ]
+  }
+}

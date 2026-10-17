@@ -1,0 +1,404 @@
+{
+  "client_id": "ea4094d7bef5790d32b6eca5e7f2f321",
+  "audio_id": "73596",
+  "audio_file": "spontaneous-speech-qxp-73596.mp3",
+  "duration_ms": "6048",
+  "prompt_id": "7380",
+  "prompt": "Imaynatataq para chayamunanta yachawaq?",
+  "transcription": "Nishuta phuyunn cielupi ancharayku y entonces nin paramunqan chay.",
+  "variant": "",
+  "language": "Puno Quechua",
+  "split": "",
+  "analisis_morfosintactico": {
+    "texto_original": "Nishuta phuyunn cielupi ancharayku y entonces nin paramunqan chay.",
+    "num_oraciones": 1,
+    "num_tokens": 9,
+    "marcadores_globales": {
+      "evidenciales": [
+        "CONJETURAL (-chá)",
+        "REPORTATIVO (-si)"
+      ],
+      "clusividad": null
+    },
+    "oraciones": [
+      {
+        "indice": 0,
+        "texto": "Nishuta phuyunn cielupi ancharayku y entonces nin paramunqan chay.",
+        "marcadores": {
+          "evidenciales": [
+            "REPORTATIVO (-si)",
+            "CONJETURAL (-chá)"
+          ],
+          "clusividad": null
+        },
+        "tokens": [
+          {
+            "token": "Nishuta",
+            "posicion": 0,
+            "es_puntuacion": false,
+            "raiz": "nishu",
+            "lema": "nishu",
+            "categoria_gramatical": "desconocido",
+            "glosa": "nishu-AC",
+            "acepciones": [],
+            "sufijos": [
+              {
+                "morfema": "-ta",
+                "slot": 5,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE CASO",
+                "funcion": "Designa el objeto directo con los verbos que no son de movimiento.",
+                "glosa_corta": "AC",
+                "ejemplos": "T'antata mikhuni: = yo como pan"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 0.5
+          },
+          {
+            "token": "phuyunn",
+            "posicion": 1,
+            "es_puntuacion": false,
+            "raiz": "phuyu",
+            "lema": "phuyu",
+            "categoria_gramatical": "s.",
+            "glosa": "phuyu-3SG-3SG",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "V. ALLPA Q'OSÑI. allpa",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "Nube. . . . phuyu",
+                "dominio": "Meteor.",
+                "sinonimos": null
+              },
+              {
+                "indice": 3,
+                "definicion": "Nubes dispersas, cúmulos o fracto cú mulos dispersos. . . phuyu",
+                "dominio": "Meteor.",
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-n",
+                "slot": 3,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE PERSONA",
+                "funcion": "Sufijo posesivo  de tercera persona singular.",
+                "glosa_corta": "3SG",
+                "ejemplos": "wasin = su casa"
+              },
+              {
+                "morfema": "-n",
+                "slot": 3,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE PERSONA",
+                "funcion": "Sufijo posesivo  de tercera persona singular.",
+                "glosa_corta": "3SG",
+                "ejemplos": "wasin = su casa"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "cielupi",
+            "posicion": 2,
+            "es_puntuacion": false,
+            "raiz": "cielu",
+            "lema": "cielu",
+            "categoria_gramatical": "desconocido",
+            "glosa": "cielu-LOC",
+            "acepciones": [],
+            "sufijos": [
+              {
+                "morfema": "-pi",
+                "slot": 5,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE CASO",
+                "funcion": "Indica locación en  el  tiempo  y  en  el espacio. Corresponde a la preposición ‘en’.",
+                "glosa_corta": "LOC",
+                "ejemplos": "Llaqtapi kashani = estoy en el pueblo"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 0.5
+          },
+          {
+            "token": "ancharayku",
+            "posicion": 3,
+            "es_puntuacion": false,
+            "raiz": "an",
+            "lema": "an",
+            "categoria_gramatical": "desconocido",
+            "glosa": "an-EVID.CONJ-CAUS",
+            "acepciones": [],
+            "sufijos": [
+              {
+                "morfema": "-cha",
+                "slot": 9,
+                "categoria": "NOMINAL DERIVACIONAL",
+                "subcategoria": "DERIVACIONAL DENOMINATIVO",
+                "funcion": "Indica diminutivo. En español corresponde a las terminaciones: …ito, …ita, …ecito, …ecita. Su connotación puede ser diminutiva, apreciativa o\ndespreciativa, de acuerdo al contexto en el que se use.",
+                "glosa_corta": "EVID.CONJ",
+                "ejemplos": "alqocha = perrito\nrumicha = piedrita\nYana ñawi sipascha = jovencita de ojos negros"
+              },
+              {
+                "morfema": "-rayku",
+                "slot": 5,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE CASO",
+                "funcion": "Indica el motivo de la realización de una acción. La causa por el que se encuentra en esa situación  o el efecto que ha causado. Indica la preposición 'por' (motivo).",
+                "glosa_corta": "CAUS",
+                "ejemplos": "Payrayku = por él.\nQolqerayku = por dinero"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": "CONJETURAL (-chá)",
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 0.5
+          },
+          {
+            "token": "y",
+            "posicion": 4,
+            "es_puntuacion": false,
+            "raiz": "y",
+            "lema": "y",
+            "categoria_gramatical": "v.",
+            "glosa": "y",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Teñir, colorear. . tullpuy",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "Barrenar, hurgar, limpiar algo con palitos o instrumentos alargados",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "entonces",
+            "posicion": 5,
+            "es_puntuacion": false,
+            "raiz": "entonce",
+            "lema": "entonce",
+            "categoria_gramatical": "desconocido",
+            "glosa": "entonce-EVID.REP",
+            "acepciones": [],
+            "sufijos": [
+              {
+                "morfema": "-s",
+                "slot": 9,
+                "categoria": "",
+                "subcategoria": "SUFIJO INDEPENDIENTE",
+                "funcion": "Corresponde a 'dicen que'. Indica que el hablante no ha sido testigo de la acción o no está muy seguro de lo que dice. Se usa cuando hay duda.  Cuando la palabra termina en vocal se usa la \"s\" y cuando termina en consonante se usa la \"si\" . El hablante declara o comenta sobre algo que escapa  de su conocimiento personal y directo (inconsciente).",
+                "glosa_corta": "EVID.REP",
+                "ejemplos": "Pukllaqsi riranku = dicen que fueron a jugar\nSasas kasqa mana mamayoq kay = dicen que había sido difícil no tener madre\nPaysi wayk'unqa = Dicen que él"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": "REPORTATIVO (-si)",
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 0.5
+          },
+          {
+            "token": "nin",
+            "posicion": 6,
+            "es_puntuacion": false,
+            "raiz": "ni",
+            "lema": "niy",
+            "categoria_gramatical": "v.",
+            "glosa": "niy-3SG",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "onomat. Exhalar el aliento por la boca. . ",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "onomat. Producir el ruido vibrante por las puertas u otros objetos o aparatos",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 3,
+                "definicion": "Decir, mencionar, expresar, manifestar. ",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 4,
+                "definicion": "Orden imperativa para decir algo. ",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 5,
+                "definicion": "Quedarse una persona tranquila, sana de alguna dolencia aguda, de una fiebre, de un susto",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 6,
+                "definicion": "Tranquilizarse, sosegarse, apaciguarse, calmarse después de una actividad esforzada o de una agitación, alboroto, riña o competencia",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-n",
+                "slot": 3,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE PERSONA",
+                "funcion": "Sufijo posesivo  de tercera persona singular.",
+                "glosa_corta": "3SG",
+                "ejemplos": "wasin = su casa"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "paramunqan",
+            "posicion": 7,
+            "es_puntuacion": false,
+            "raiz": "para",
+            "lema": "para",
+            "categoria_gramatical": "s.",
+            "glosa": "para-CISL-3SG.FUT-3SG",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Lluvia, precipitación plu vial, aguacero. VARIEDADES. iphu para, llovizna; siphsi para, llovizna menuda; ch'allchaq para, chaparrón, lluvia torrencial; chikchipara, lluvia con granizo. . . ",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-mu",
+                "slot": 2,
+                "categoria": "VERBAL DERIVACIONAL",
+                "subcategoria": "FLEXIVOS DERIVACIONALES",
+                "funcion": "Con verbos  de movimiento señala  una orientación  hacia El hablante. Indica la ocurrencia de un fenómeno atmosférico. El sufijo -KU se convierte en -KA cuando es seguido por el sufijo -mu. También se usa con verbos de movimiento.",
+                "glosa_corta": "CISL",
+                "ejemplos": "Paramunqa = lloverá\nchirimushan = está haciendo frío\nP'achakamunki = te vestirás\nChayamunqa = va ha llegar hacia donde estoy"
+              },
+              {
+                "morfema": "-nqa",
+                "slot": 5,
+                "categoria": "VERBAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE NUMERO",
+                "funcion": "Sufijo de tercera persona singular.",
+                "glosa_corta": "3SG.FUT",
+                "ejemplos": "Pay pukllanqa = él jugará"
+              },
+              {
+                "morfema": "-n",
+                "slot": 3,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE PERSONA",
+                "funcion": "Sufijo posesivo  de tercera persona singular.",
+                "glosa_corta": "3SG",
+                "ejemplos": "wasin = su casa"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "chay",
+            "posicion": 8,
+            "es_puntuacion": false,
+            "raiz": "chay",
+            "lema": "chay",
+            "categoria_gramatical": "s.",
+            "glosa": "chay",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Descanso breve de medio día",
+                "dominio": "Siesta.",
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "v. Sestear. Descansar o dormir algún momento del día",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": ".",
+            "posicion": null,
+            "es_puntuacion": true,
+            "raiz": ".",
+            "lema": ".",
+            "categoria_gramatical": "punct",
+            "sufijos": [],
+            "glosa": ".",
+            "acepciones": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 1.0
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,311 @@
+{
+  "client_id": "385d8eea0a8ebb1e8e82c7464c4641af",
+  "audio_id": "70124",
+  "audio_file": "spontaneous-speech-qxp-70124.mp3",
+  "duration_ms": "6840",
+  "prompt_id": "7737",
+  "prompt": "Huñullachu icha sapallaykichu llank'ayta munawaq? Imarayku?",
+  "transcription": "Huñulla llank'ayta munayman. Allinta yanapakuyku llapamanta.",
+  "variant": "",
+  "language": "Puno Quechua",
+  "split": "train",
+  "analisis_morfosintactico": {
+    "texto_original": "Huñulla llank'ayta munayman. Allinta yanapakuyku llapamanta.",
+    "num_oraciones": 2,
+    "num_tokens": 6,
+    "marcadores_globales": {
+      "evidenciales": [],
+      "clusividad": "EXCLUSIVO (hablante + otros, sin oyente)"
+    },
+    "oraciones": [
+      {
+        "indice": 0,
+        "texto": "Huñulla llank'ayta munayman.",
+        "marcadores": {
+          "evidenciales": [],
+          "clusividad": null
+        },
+        "tokens": [
+          {
+            "token": "Huñulla",
+            "posicion": 0,
+            "es_puntuacion": false,
+            "raiz": "huñu",
+            "lema": "huñu",
+            "categoria_gramatical": "s.",
+            "glosa": "huñu-LIM",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Grupo, reunión, agru pación, concentración, conjun to. huñu huñu. adv. Por grupos, por compañías, por hatos, por gavi llas o haces. Recogidamente, de un modo unido o agrupado. (J.L.P.) ",
+                "dominio": null,
+                "sinonimos": "qoto qoto"
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-lla",
+                "slot": 8,
+                "categoria": "",
+                "subcategoria": "SUFIJO INDEPENDIENTE",
+                "funcion": "Corresponde a 'solamente’ o ‘únicamente’.Transmite afecto o es atenuador en las órdenes.",
+                "glosa_corta": "LIM",
+                "ejemplos": "Wasilla = solamente la casa\nqanlla = únicamente tú\nPayllam rinqa = Solamente él/ella irá\nunullatam munani = solamente quiero agua"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "llank'ayta",
+            "posicion": 1,
+            "es_puntuacion": false,
+            "raiz": "llank'ay",
+            "lema": "llank'ay",
+            "categoria_gramatical": "s.",
+            "glosa": "llank'ay-AC",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Trabajo, labor, tarea, ocupación. . ",
+                "dominio": null,
+                "sinonimos": "ruway"
+              },
+              {
+                "indice": 2,
+                "definicion": "v. Trabajar, laborar, ocuparse. . . ",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-ta",
+                "slot": 5,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE CASO",
+                "funcion": "Designa el objeto directo con los verbos que no son de movimiento.",
+                "glosa_corta": "AC",
+                "ejemplos": "T'antata mikhuni: = yo como pan"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "munayman",
+            "posicion": 2,
+            "es_puntuacion": false,
+            "raiz": "munay",
+            "lema": "munay",
+            "categoria_gramatical": "s.",
+            "glosa": "munay-ILA",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Voluntad, ánimo, gusto",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "Mandato",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 3,
+                "definicion": "adj. Lindo, bello, hermoso, precioso, maravilloso, v. Querer, amar, desear",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 4,
+                "definicion": ". ANTÓ. . munay",
+                "dominio": null,
+                "sinonimos": "munaycha"
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-man",
+                "slot": 5,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE CASO",
+                "funcion": "Es el sufijo que marca movimiento, direccionalidad, objeto indirecto, locación temporal y locación espacial. Indica movimiento con la preposición ‘a’, ‘hacia’.",
+                "glosa_corta": "ILA",
+                "ejemplos": "Orqoman = hacia el cerro \nAtuq sallqaman rishan = El zorro está yendo a la puna\nKillaman llaqtayta kutimusaq = al mes regresaré a mi pueblo\nqanman = a"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": ".",
+            "posicion": null,
+            "es_puntuacion": true,
+            "raiz": ".",
+            "lema": ".",
+            "categoria_gramatical": "punct",
+            "sufijos": [],
+            "glosa": ".",
+            "acepciones": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 1.0
+          }
+        ]
+      },
+      {
+        "indice": 1,
+        "texto": "Allinta yanapakuyku llapamanta.",
+        "marcadores": {
+          "evidenciales": [],
+          "clusividad": "EXCLUSIVO (hablante + otros, sin oyente)"
+        },
+        "tokens": [
+          {
+            "token": "Allinta",
+            "posicion": 0,
+            "es_puntuacion": false,
+            "raiz": "allin",
+            "lema": "allin",
+            "categoria_gramatical": "adj.",
+            "glosa": "allin-AC",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Bueno (término de apro bación). . ",
+                "dominio": null,
+                "sinonimos": "kusa"
+              },
+              {
+                "indice": 2,
+                "definicion": "Mal, mal ejemplo, incorrecto. . mana",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-ta",
+                "slot": 5,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE CASO",
+                "funcion": "Designa el objeto directo con los verbos que no son de movimiento.",
+                "glosa_corta": "AC",
+                "ejemplos": "T'antata mikhuni: = yo como pan"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "yanapakuyku",
+            "posicion": 1,
+            "es_puntuacion": false,
+            "raiz": "yanapaku",
+            "lema": "yanapakuy",
+            "categoria_gramatical": "v.",
+            "glosa": "yanapakuy-1PL.EXCL",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Ayudar comedidamente y por voluntad propia",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-yku",
+                "slot": 4,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE NUMERO",
+                "funcion": "Sufijo de primera persona plural excluyente.",
+                "glosa_corta": "1PL.EXCL",
+                "ejemplos": "Noqayku pukllayku = nosotros jugamos (excluyente es decir sin incluirte o incluirlos)"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": "EXCLUSIVO (hablante + otros, sin oyente)"
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "llapamanta",
+            "posicion": 2,
+            "es_puntuacion": false,
+            "raiz": "llapa",
+            "lema": "llapa",
+            "categoria_gramatical": "adj.",
+            "glosa": "llapa-ABL",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Todo o toda, con significado de totalidad. . ",
+                "dominio": null,
+                "sinonimos": "llipi"
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-manta",
+                "slot": 5,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE CASO",
+                "funcion": "Indica procedencia (‘de’, ‘desde’) o el material de algo.",
+                "glosa_corta": "ABL",
+                "ejemplos": "Arequipamanta = de Arequipa\nThantamanta wawata ruwashan = Está haciendo wawa de pan"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": ".",
+            "posicion": null,
+            "es_puntuacion": true,
+            "raiz": ".",
+            "lema": ".",
+            "categoria_gramatical": "punct",
+            "sufijos": [],
+            "glosa": ".",
+            "acepciones": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 1.0
+          }
+        ]
+      }
+    ]
+  }
+}

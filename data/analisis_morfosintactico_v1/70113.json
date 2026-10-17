@@ -1,0 +1,402 @@
+{
+  "client_id": "385d8eea0a8ebb1e8e82c7464c4641af",
+  "audio_id": "70113",
+  "audio_file": "spontaneous-speech-qxp-70113.mp3",
+  "duration_ms": "7380",
+  "prompt_id": "7734",
+  "prompt": "Pipas wañupuqtin hinaqa, imatataq ruwankichis llaqtaykipi?",
+  "transcription": "Nuqayqu llaqtaypi ruwayku misata, hinataq pampa pachaman p'anpayqu.",
+  "variant": "",
+  "language": "Puno Quechua",
+  "split": "train",
+  "analisis_morfosintactico": {
+    "texto_original": "Nuqayqu llaqtaypi ruwayku misata, hinataq pampa pachaman p'anpayqu.",
+    "num_oraciones": 1,
+    "num_tokens": 8,
+    "marcadores_globales": {
+      "evidenciales": [],
+      "clusividad": null
+    },
+    "oraciones": [
+      {
+        "indice": 0,
+        "texto": "Nuqayqu llaqtaypi ruwayku misata, hinataq pampa pachaman p'anpayqu.",
+        "marcadores": {
+          "evidenciales": [],
+          "clusividad": null
+        },
+        "tokens": [
+          {
+            "token": "Nuqayqu",
+            "posicion": 0,
+            "es_puntuacion": false,
+            "raiz": "nuqayqu",
+            "lema": "nuqayqu",
+            "categoria_gramatical": "desconocido",
+            "glosa": "nuqayqu",
+            "acepciones": [],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 0.5
+          },
+          {
+            "token": "llaqtaypi",
+            "posicion": 1,
+            "es_puntuacion": false,
+            "raiz": "llaqta",
+            "lema": "llaqta",
+            "categoria_gramatical": "s.",
+            "glosa": "llaqta-1SG.POS-LOC",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Ciudad metro- poli, gran ciudad",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "NEOL. Capi tal. hatun",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 3,
+                "definicion": "Ciudad, pueblo, comunidad, villorrio, comarca",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 4,
+                "definicion": "Población. ",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 5,
+                "definicion": ". llaqta",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 6,
+                "definicion": "V. CH'IKURU. llaqta",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-y",
+                "slot": 3,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE PERSONA",
+                "funcion": "Sufijo posesivo de primera persona singular.",
+                "glosa_corta": "1SG.POS",
+                "ejemplos": "wasiy = mi casa"
+              },
+              {
+                "morfema": "-pi",
+                "slot": 5,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE CASO",
+                "funcion": "Indica locación en  el  tiempo  y  en  el espacio. Corresponde a la preposición ‘en’.",
+                "glosa_corta": "LOC",
+                "ejemplos": "Llaqtapi kashani = estoy en el pueblo"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "ruwayku",
+            "posicion": 2,
+            "es_puntuacion": false,
+            "raiz": "ruwayku",
+            "lema": "ruwaykuy",
+            "categoria_gramatical": "v.",
+            "glosa": "ruwaykuy",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "V. RURAYKUY",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "misata",
+            "posicion": 3,
+            "es_puntuacion": false,
+            "raiz": "misa",
+            "lema": "misa",
+            "categoria_gramatical": "adj.",
+            "glosa": "misa-AC",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Bicolor",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "s. Mazorca de maíz de dos colores alternados",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-ta",
+                "slot": 5,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE CASO",
+                "funcion": "Designa el objeto directo con los verbos que no son de movimiento.",
+                "glosa_corta": "AC",
+                "ejemplos": "T'antata mikhuni: = yo como pan"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": ",",
+            "posicion": null,
+            "es_puntuacion": true,
+            "raiz": ",",
+            "lema": ",",
+            "categoria_gramatical": "punct",
+            "sufijos": [],
+            "glosa": ",",
+            "acepciones": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 1.0
+          },
+          {
+            "token": "hinataq",
+            "posicion": 4,
+            "es_puntuacion": false,
+            "raiz": "hina",
+            "lema": "hinay",
+            "categoria_gramatical": "v.",
+            "glosa": "hinay-CONTR",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Hacer u obrar de esta manera, de este modo; hacer así (ilustrando con mímica). ",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-taq",
+                "slot": 8,
+                "categoria": "",
+                "subcategoria": "SUFIJO INDEPENDIENTE",
+                "funcion": "También marca la pregunta abierta que requiere alguna información adicional como respuesta.",
+                "glosa_corta": "CONTR",
+                "ejemplos": "¿Piwantaq? = ¿Con quién?"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "pampa",
+            "posicion": 5,
+            "es_puntuacion": false,
+            "raiz": "pampa",
+            "lema": "panpa",
+            "categoria_gramatical": "s.",
+            "glosa": "panpa",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Arqueol. (Expla nada de batanes.) Sitio arqueo lógico ubicado en el Santuario Histórico de Machupikchu, parte superior inmediata de la línea férrea del Qosqo a Quillabamba. Km. 115 (Mandorpanpa). Es el complejo agrícola más grande próximo a la ciudad de Ma chupijchu, y está constituido por andenes, muralla de protección, morteros y otras estructuras de factura inka. Fue descubierto por el arqueólogo brasileño Raynaldo Chofhi y Octavio Fernández el 13 de setiembre de 1986",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "(Explanada de morteros.) Pequeño grupo de andenes de factura inka, ubicado en el distrito de Oropesa, en la provincia de Quispicanchis, departamento del Qosqo, Perú",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 3,
+                "definicion": "Llanura, llano, planicie",
+                "dominio": "Geog.",
+                "sinonimos": null
+              },
+              {
+                "indice": 4,
+                "definicion": "Piso, suelo. . . . panpa",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 5,
+                "definicion": "Llanuras, llanos, praderas o estepas conti nuadas con ciertos montículos intermitentes. panpa t'ika",
+                "dominio": "Geog.",
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "pachaman",
+            "posicion": 6,
+            "es_puntuacion": false,
+            "raiz": "pacha",
+            "lema": "pacha",
+            "categoria_gramatical": "s.",
+            "glosa": "pacha-ILA",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Tiempo o época de la siega. . ichhuy",
+                "dominio": null,
+                "sinonimos": "ichhuy ukhu, ichhuy kinray"
+              },
+              {
+                "indice": 2,
+                "definicion": "V. KAY PACHA. kawsay",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 3,
+                "definicion": "Invierno",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 4,
+                "definicion": "Mundo, tierra",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 5,
+                "definicion": "Universo. . ",
+                "dominio": null,
+                "sinonimos": "pachan"
+              },
+              {
+                "indice": 6,
+                "definicion": "Sufijo o morfema que indica el momento, el instante y el tiempo de la acción. . pacha",
+                "dominio": "Gram.",
+                "sinonimos": null
+              },
+              {
+                "indice": 7,
+                "definicion": "V. SITUWA MIT'A. Situwa",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 8,
+                "definicion": "V. TARPUY MIT'A. tarpuy",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 9,
+                "definicion": "V. TIPIY UKHU. tipiy",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-man",
+                "slot": 5,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE CASO",
+                "funcion": "Es el sufijo que marca movimiento, direccionalidad, objeto indirecto, locación temporal y locación espacial. Indica movimiento con la preposición ‘a’, ‘hacia’.",
+                "glosa_corta": "ILA",
+                "ejemplos": "Orqoman = hacia el cerro \nAtuq sallqaman rishan = El zorro está yendo a la puna\nKillaman llaqtayta kutimusaq = al mes regresaré a mi pueblo\nqanman = a"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "p'anpayqu",
+            "posicion": 7,
+            "es_puntuacion": false,
+            "raiz": "p'anpayqu",
+            "lema": "p'anpayqu",
+            "categoria_gramatical": "desconocido",
+            "glosa": "p'anpayqu",
+            "acepciones": [],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 0.5
+          },
+          {
+            "token": ".",
+            "posicion": null,
+            "es_puntuacion": true,
+            "raiz": ".",
+            "lema": ".",
+            "categoria_gramatical": "punct",
+            "sufijos": [],
+            "glosa": ".",
+            "acepciones": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 1.0
+          }
+        ]
+      }
+    ]
+  }
+}

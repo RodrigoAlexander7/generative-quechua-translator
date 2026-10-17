@@ -1,0 +1,728 @@
+{
+  "client_id": "a6f98d228e0d2525548137197409dab9",
+  "audio_id": "68644",
+  "audio_file": "spontaneous-speech-qxp-68644.mp3",
+  "duration_ms": "14040",
+  "prompt_id": "7257",
+  "prompt": "Imaynatan kunan p'unchay taytamamaykita yanapanki?",
+  "transcription": "Kunanqa sasa llank'aykunapin yanapani, chaqra hallmaypi, wasi allichaypi ima. Hinallataq qhatuman rini rantisqaykuta qhatuq.",
+  "variant": "",
+  "language": "Puno Quechua",
+  "split": "test",
+  "analisis_morfosintactico": {
+    "texto_original": "Kunanqa sasa llank'aykunapin yanapani, chaqra hallmaypi, wasi allichaypi ima. Hinallataq qhatuman rini rantisqaykuta qhatuq.",
+    "num_oraciones": 2,
+    "num_tokens": 14,
+    "marcadores_globales": {
+      "evidenciales": [],
+      "clusividad": "EXCLUSIVO (hablante + otros, sin oyente)"
+    },
+    "oraciones": [
+      {
+        "indice": 0,
+        "texto": "Kunanqa sasa llank'aykunapin yanapani, chaqra hallmaypi, wasi allichaypi ima.",
+        "marcadores": {
+          "evidenciales": [],
+          "clusividad": null
+        },
+        "tokens": [
+          {
+            "token": "Kunanqa",
+            "posicion": 0,
+            "es_puntuacion": false,
+            "raiz": "kuna",
+            "lema": "kunay",
+            "categoria_gramatical": "v.",
+            "glosa": "kunay-3SG.FUT",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Aconsejar, advertir, recomendar. kunay",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-nqa",
+                "slot": 5,
+                "categoria": "VERBAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE NUMERO",
+                "funcion": "Sufijo de tercera persona singular.",
+                "glosa_corta": "3SG.FUT",
+                "ejemplos": "Pay pukllanqa = él jugará"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "sasa",
+            "posicion": 1,
+            "es_puntuacion": false,
+            "raiz": "sasa",
+            "lema": "sasa",
+            "categoria_gramatical": "adj.",
+            "glosa": "sasa",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Difícil, dificultoso. . sasa",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "llank'aykunapin",
+            "posicion": 2,
+            "es_puntuacion": false,
+            "raiz": "llank'ay",
+            "lema": "llank'ay",
+            "categoria_gramatical": "s.",
+            "glosa": "llank'ay-PL-LOC-3SG",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Trabajo, labor, tarea, ocupación. . ",
+                "dominio": null,
+                "sinonimos": "ruway"
+              },
+              {
+                "indice": 2,
+                "definicion": "v. Trabajar, laborar, ocuparse. . . ",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-kuna",
+                "slot": 4,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE NUMERO",
+                "funcion": "Pluraliza los sustantivos.",
+                "glosa_corta": "PL",
+                "ejemplos": "Wasikuna = las casas\nrunakuna = las personas"
+              },
+              {
+                "morfema": "-pi",
+                "slot": 5,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE CASO",
+                "funcion": "Indica locación en  el  tiempo  y  en  el espacio. Corresponde a la preposición ‘en’.",
+                "glosa_corta": "LOC",
+                "ejemplos": "Llaqtapi kashani = estoy en el pueblo"
+              },
+              {
+                "morfema": "-n",
+                "slot": 3,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE PERSONA",
+                "funcion": "Sufijo posesivo  de tercera persona singular.",
+                "glosa_corta": "3SG",
+                "ejemplos": "wasin = su casa"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "yanapani",
+            "posicion": 3,
+            "es_puntuacion": false,
+            "raiz": "yanapa",
+            "lema": "yanapay",
+            "categoria_gramatical": "s.",
+            "glosa": "yanapay-1SG",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Ayuda, apoyo, asistencia, auxilio, colaboración",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "v. Ayudar, auxiliar, colaborar, socorrer, asistir",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-ni",
+                "slot": 2,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE PERSONA",
+                "funcion": "Sufijo que se agrega cuando la palabra termina en vocal, se sgrega antes del sufijo posesivo.",
+                "glosa_corta": "1SG",
+                "ejemplos": "yachachiqniy = mi profesor\nyawarniy = mi sangre\nyachachiqnin = su profesor"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": ",",
+            "posicion": null,
+            "es_puntuacion": true,
+            "raiz": ",",
+            "lema": ",",
+            "categoria_gramatical": "punct",
+            "sufijos": [],
+            "glosa": ",",
+            "acepciones": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 1.0
+          },
+          {
+            "token": "chaqra",
+            "posicion": 4,
+            "es_puntuacion": false,
+            "raiz": "chaqra",
+            "lema": "ch'aqra",
+            "categoria_gramatical": "adj.",
+            "glosa": "ch'aqra",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "V. Q'AQRA",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "hallmaypi",
+            "posicion": 5,
+            "es_puntuacion": false,
+            "raiz": "hallmay",
+            "lema": "hallmay",
+            "categoria_gramatical": "v.",
+            "glosa": "hallmay-LOC",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Aporcar",
+                "dominio": "Agri.",
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "For mar camellones en hilera para proteger las plantas en un cul tivo. . . . ",
+                "dominio": null,
+                "sinonimos": "hapht'uy"
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-pi",
+                "slot": 5,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE CASO",
+                "funcion": "Indica locación en  el  tiempo  y  en  el espacio. Corresponde a la preposición ‘en’.",
+                "glosa_corta": "LOC",
+                "ejemplos": "Llaqtapi kashani = estoy en el pueblo"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": ",",
+            "posicion": null,
+            "es_puntuacion": true,
+            "raiz": ",",
+            "lema": ",",
+            "categoria_gramatical": "punct",
+            "sufijos": [],
+            "glosa": ",",
+            "acepciones": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 1.0
+          },
+          {
+            "token": "wasi",
+            "posicion": 6,
+            "es_puntuacion": false,
+            "raiz": "wasi",
+            "lema": "wasi",
+            "categoria_gramatical": "s.",
+            "glosa": "wasi",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "(Casa de las escogidas). En el Inkario, casa donde habitaban las escogidas o Vírgenes del Sol, hoy mo nasterio de Santa Catalina. Se ubicaba en la parte oriental, in mediata a Inti k'ikllu, actual calle Loreto, en el Qosqo",
+                "dominio": "Hist.",
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "(Casa donde se mastica coca). Tercera waka o adoratorio inka del sexto seq'e del sector Qollasuyu. En esta casa se guardaba el cuerpo momificado del inka Sinchi Roq'a, ubicado en el actual sector de Winpilláy en el Qosqo. akwa",
+                "dominio": "Hist.",
+                "sinonimos": null
+              },
+              {
+                "indice": 3,
+                "definicion": "(Casa de la serpiente con altos). Séptima waka o adoratorio inka del primer seq'e del Antisuyu. Era casa de Amaru Tupaq Inka Yupanki y estaba ubicada en la parte NO de la ciudad del Qosqo, en el camino al Antisu yu. Estuvo a cargo de Suksu panaka ayllu. Amaru",
+                "dominio": "Hist.",
+                "sinonimos": null
+              },
+              {
+                "indice": 4,
+                "definicion": "Cárcel, presidio. NEOL. Centro de readaptación social ",
+                "dominio": null,
+                "sinonimos": "muchuy wasi, watay wasi"
+              },
+              {
+                "indice": 5,
+                "definicion": "Pocilga, chiquero, porquerizo, cuchitril",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 6,
+                "definicion": "fam. Casa deshonrada",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 7,
+                "definicion": "NEOL. Casa de Préstamo. ",
+                "dominio": null,
+                "sinonimos": "manuna wasi"
+              },
+              {
+                "indice": 8,
+                "definicion": "V. MANU WASI",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 9,
+                "definicion": "V. ATISANKA WAsi",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 10,
+                "definicion": "Clinica, hospital, sanatorio, enfermería. ",
+                "dominio": "Med.",
+                "sinonimos": null
+              },
+              {
+                "indice": 11,
+                "definicion": "Alojamiento, casa de hospedaje. NEOL. Hotel, hostal, alojamiento",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 12,
+                "definicion": "En el inkario, cárcel subterránea en donde al preso se atormentaba con fieras y alimañas. ",
+                "dominio": null,
+                "sinonimos": "watay wasi"
+              },
+              {
+                "indice": 13,
+                "definicion": "(Casa del diablo) Infierno, averno, morada de los diablos",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 14,
+                "definicion": "Lugar de tormentos de los réprobos. ",
+                "dominio": null,
+                "sinonimos": "Ukhu Pacha, atimillp'u"
+              },
+              {
+                "indice": 15,
+                "definicion": "Casa donde se realizan las reuniones, asambleas, cabildos",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 16,
+                "definicion": "NEOL. Tintorería, lugar o casa donde se tiñen telas o hilos",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 17,
+                "definicion": "NEOL. Panadería, local donde se elabora el pan. t'anta",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 18,
+                "definicion": "NEOL. Lavandería o casa destinada para el lavado de ropas",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 19,
+                "definicion": "Casa, aposento, edificio, hogar, morada",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 20,
+                "definicion": "Poblado, villorrio, pequeña comunidad campesina",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 21,
+                "definicion": "Cárcel. ",
+                "dominio": null,
+                "sinonimos": "ati sanka wasi, sank'ay wasi, piñas"
+              },
+              {
+                "indice": 22,
+                "definicion": "V. YACHAY WASI",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 23,
+                "definicion": "(Casa del saber) Escuela, colegio, jardín escolar, ateneo. . ",
+                "dominio": "Educ.",
+                "sinonimos": "yachana wasi"
+              }
+            ],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "allichaypi",
+            "posicion": 7,
+            "es_puntuacion": false,
+            "raiz": "allichay",
+            "lema": "allichay",
+            "categoria_gramatical": "v.",
+            "glosa": "allichay-LOC",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Arreglar, componer, ordenar. . ",
+                "dominio": null,
+                "sinonimos": "allinchay"
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-pi",
+                "slot": 5,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE CASO",
+                "funcion": "Indica locación en  el  tiempo  y  en  el espacio. Corresponde a la preposición ‘en’.",
+                "glosa_corta": "LOC",
+                "ejemplos": "Llaqtapi kashani = estoy en el pueblo"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "ima",
+            "posicion": 8,
+            "es_puntuacion": false,
+            "raiz": "ima",
+            "lema": "ima",
+            "categoria_gramatical": "desconocido",
+            "glosa": "ima",
+            "acepciones": [],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 0.5
+          },
+          {
+            "token": ".",
+            "posicion": null,
+            "es_puntuacion": true,
+            "raiz": ".",
+            "lema": ".",
+            "categoria_gramatical": "punct",
+            "sufijos": [],
+            "glosa": ".",
+            "acepciones": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 1.0
+          }
+        ]
+      },
+      {
+        "indice": 1,
+        "texto": "Hinallataq qhatuman rini rantisqaykuta qhatuq.",
+        "marcadores": {
+          "evidenciales": [],
+          "clusividad": "EXCLUSIVO (hablante + otros, sin oyente)"
+        },
+        "tokens": [
+          {
+            "token": "Hinallataq",
+            "posicion": 0,
+            "es_puntuacion": false,
+            "raiz": "hina",
+            "lema": "hinay",
+            "categoria_gramatical": "v.",
+            "glosa": "hinay-LIM-CONTR",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Hacer u obrar de esta manera, de este modo; hacer así (ilustrando con mímica). ",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-lla",
+                "slot": 8,
+                "categoria": "",
+                "subcategoria": "SUFIJO INDEPENDIENTE",
+                "funcion": "Corresponde a 'solamente’ o ‘únicamente’.Transmite afecto o es atenuador en las órdenes.",
+                "glosa_corta": "LIM",
+                "ejemplos": "Wasilla = solamente la casa\nqanlla = únicamente tú\nPayllam rinqa = Solamente él/ella irá\nunullatam munani = solamente quiero agua"
+              },
+              {
+                "morfema": "-taq",
+                "slot": 8,
+                "categoria": "",
+                "subcategoria": "SUFIJO INDEPENDIENTE",
+                "funcion": "También marca la pregunta abierta que requiere alguna información adicional como respuesta.",
+                "glosa_corta": "CONTR",
+                "ejemplos": "¿Piwantaq? = ¿Con quién?"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "qhatuman",
+            "posicion": 1,
+            "es_puntuacion": false,
+            "raiz": "qhatu",
+            "lema": "qhatu",
+            "categoria_gramatical": "s.",
+            "glosa": "qhatu-ILA",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Mercado, tienda, almacén, venta, puesto de ventas, negocio. . . . ",
+                "dominio": null,
+                "sinonimos": "churakuy"
+              },
+              {
+                "indice": 2,
+                "definicion": "NEOL. Tienda o puesto de expendio de flores. Florería. t'ika",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-man",
+                "slot": 5,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE CASO",
+                "funcion": "Es el sufijo que marca movimiento, direccionalidad, objeto indirecto, locación temporal y locación espacial. Indica movimiento con la preposición ‘a’, ‘hacia’.",
+                "glosa_corta": "ILA",
+                "ejemplos": "Orqoman = hacia el cerro \nAtuq sallqaman rishan = El zorro está yendo a la puna\nKillaman llaqtayta kutimusaq = al mes regresaré a mi pueblo\nqanman = a"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "rini",
+            "posicion": 2,
+            "es_puntuacion": false,
+            "raiz": "ri",
+            "lema": "riy",
+            "categoria_gramatical": "v.",
+            "glosa": "riy-1SG",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Ir a algún lugar",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "Moverse del sitio de partida. Partir, marcharse",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-ni",
+                "slot": 2,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE PERSONA",
+                "funcion": "Sufijo que se agrega cuando la palabra termina en vocal, se sgrega antes del sufijo posesivo.",
+                "glosa_corta": "1SG",
+                "ejemplos": "yachachiqniy = mi profesor\nyawarniy = mi sangre\nyachachiqnin = su profesor"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "rantisqaykuta",
+            "posicion": 3,
+            "es_puntuacion": false,
+            "raiz": "rantisqa",
+            "lema": "rantisqa",
+            "categoria_gramatical": "adj.",
+            "glosa": "rantisqa-1PL.EXCL-AC",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "V. HAT'ALLISQA",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-yku",
+                "slot": 4,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE NUMERO",
+                "funcion": "Sufijo de primera persona plural excluyente.",
+                "glosa_corta": "1PL.EXCL",
+                "ejemplos": "Noqayku pukllayku = nosotros jugamos (excluyente es decir sin incluirte o incluirlos)"
+              },
+              {
+                "morfema": "-ta",
+                "slot": 5,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE CASO",
+                "funcion": "Designa el objeto directo con los verbos que no son de movimiento.",
+                "glosa_corta": "AC",
+                "ejemplos": "T'antata mikhuni: = yo como pan"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": "EXCLUSIVO (hablante + otros, sin oyente)"
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "qhatuq",
+            "posicion": 4,
+            "es_puntuacion": false,
+            "raiz": "qhatuq",
+            "lema": "qhatuq",
+            "categoria_gramatical": "adj.",
+            "glosa": "qhatuq",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "y s. Vendedor, co merciante, mercader, negociante de ventas. . ",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": ".",
+            "posicion": null,
+            "es_puntuacion": true,
+            "raiz": ".",
+            "lema": ".",
+            "categoria_gramatical": "punct",
+            "sufijos": [],
+            "glosa": ".",
+            "acepciones": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 1.0
+          }
+        ]
+      }
+    ]
+  }
+}

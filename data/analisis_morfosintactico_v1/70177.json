@@ -1,0 +1,582 @@
+{
+  "client_id": "9b65f1e9eb5c4295de5a534c2114c193",
+  "audio_id": "70177",
+  "audio_file": "spontaneous-speech-qxp-70177.mp3",
+  "duration_ms": "17100",
+  "prompt_id": "7380",
+  "prompt": "Imaynatataq para chayamunanta yachawaq?",
+  "transcription": "Sichus tutamanta hatariqtiyki panpapi phuyuta rikunki, p'unchay paranqa, chayta yachaspa punchuyuq ima michiq rinayki.",
+  "variant": "",
+  "language": "Puno Quechua",
+  "split": "train",
+  "analisis_morfosintactico": {
+    "texto_original": "Sichus tutamanta hatariqtiyki panpapi phuyuta rikunki, p'unchay paranqa, chayta yachaspa punchuyuq ima michiq rinayki.",
+    "num_oraciones": 1,
+    "num_tokens": 14,
+    "marcadores_globales": {
+      "evidenciales": [
+        "REPORTATIVO (-si)"
+      ],
+      "clusividad": null
+    },
+    "oraciones": [
+      {
+        "indice": 0,
+        "texto": "Sichus tutamanta hatariqtiyki panpapi phuyuta rikunki, p'unchay paranqa, chayta yachaspa punchuyuq ima michiq rinayki.",
+        "marcadores": {
+          "evidenciales": [
+            "REPORTATIVO (-si)"
+          ],
+          "clusividad": null
+        },
+        "tokens": [
+          {
+            "token": "Sichus",
+            "posicion": 0,
+            "es_puntuacion": false,
+            "raiz": "si",
+            "lema": "si",
+            "categoria_gramatical": "desconocido",
+            "glosa": "si-INTERR/NEG-EVID.REP",
+            "acepciones": [],
+            "sufijos": [
+              {
+                "morfema": "-chu",
+                "slot": 9,
+                "categoria": "",
+                "subcategoria": "SUFIJO INDEPENDIENTE",
+                "funcion": "Interrogativo que exige respuesta afirmativa o negativa. Solo para preguntas cerradas.",
+                "glosa_corta": "INTERR/NEG",
+                "ejemplos": "¿Papata mikhunkichu? = ¿Comes papa?"
+              },
+              {
+                "morfema": "-s",
+                "slot": 9,
+                "categoria": "",
+                "subcategoria": "SUFIJO INDEPENDIENTE",
+                "funcion": "Corresponde a 'dicen que'. Indica que el hablante no ha sido testigo de la acción o no está muy seguro de lo que dice. Se usa cuando hay duda.  Cuando la palabra termina en vocal se usa la \"s\" y cuando termina en consonante se usa la \"si\" . El hablante declara o comenta sobre algo que escapa  de su conocimiento personal y directo (inconsciente).",
+                "glosa_corta": "EVID.REP",
+                "ejemplos": "Pukllaqsi riranku = dicen que fueron a jugar\nSasas kasqa mana mamayoq kay = dicen que había sido difícil no tener madre\nPaysi wayk'unqa = Dicen que él"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": "REPORTATIVO (-si)",
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 0.5
+          },
+          {
+            "token": "tutamanta",
+            "posicion": 1,
+            "es_puntuacion": false,
+            "raiz": "tuta",
+            "lema": "tuta",
+            "categoria_gramatical": "s.",
+            "glosa": "tuta-ABL",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Tiempo en que está ausente el Sol",
+                "dominio": "Noche.",
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "adj. Obscuro, lóbrego. . NEOL. Qhapaq tuta, noche de navidad. . tuta",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-manta",
+                "slot": 5,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE CASO",
+                "funcion": "Indica procedencia (‘de’, ‘desde’) o el material de algo.",
+                "glosa_corta": "ABL",
+                "ejemplos": "Arequipamanta = de Arequipa\nThantamanta wawata ruwashan = Está haciendo wawa de pan"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "hatariqtiyki",
+            "posicion": 2,
+            "es_puntuacion": false,
+            "raiz": "hatariqti",
+            "lema": "hatariqti",
+            "categoria_gramatical": "desconocido",
+            "glosa": "hatariqti-2SG.POS",
+            "acepciones": [],
+            "sufijos": [
+              {
+                "morfema": "-yki",
+                "slot": 3,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE PERSONA",
+                "funcion": "Sufijo posesivo de segunda persona singular.",
+                "glosa_corta": "2SG.POS",
+                "ejemplos": "wasiyki = tu casa"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 0.5
+          },
+          {
+            "token": "panpapi",
+            "posicion": 3,
+            "es_puntuacion": false,
+            "raiz": "panpa",
+            "lema": "panpa",
+            "categoria_gramatical": "s.",
+            "glosa": "panpa-LOC",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Arqueol. (Expla nada de batanes.) Sitio arqueo lógico ubicado en el Santuario Histórico de Machupikchu, parte superior inmediata de la línea férrea del Qosqo a Quillabamba. Km. 115 (Mandorpanpa). Es el complejo agrícola más grande próximo a la ciudad de Ma chupijchu, y está constituido por andenes, muralla de protección, morteros y otras estructuras de factura inka. Fue descubierto por el arqueólogo brasileño Raynaldo Chofhi y Octavio Fernández el 13 de setiembre de 1986",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "(Explanada de morteros.) Pequeño grupo de andenes de factura inka, ubicado en el distrito de Oropesa, en la provincia de Quispicanchis, departamento del Qosqo, Perú",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 3,
+                "definicion": "Llanura, llano, planicie",
+                "dominio": "Geog.",
+                "sinonimos": null
+              },
+              {
+                "indice": 4,
+                "definicion": "Piso, suelo. . . . panpa",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 5,
+                "definicion": "Llanuras, llanos, praderas o estepas conti nuadas con ciertos montículos intermitentes. panpa t'ika",
+                "dominio": "Geog.",
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-pi",
+                "slot": 5,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE CASO",
+                "funcion": "Indica locación en  el  tiempo  y  en  el espacio. Corresponde a la preposición ‘en’.",
+                "glosa_corta": "LOC",
+                "ejemplos": "Llaqtapi kashani = estoy en el pueblo"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "phuyuta",
+            "posicion": 4,
+            "es_puntuacion": false,
+            "raiz": "phuyu",
+            "lema": "phuyu",
+            "categoria_gramatical": "s.",
+            "glosa": "phuyu-AC",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "V. ALLPA Q'OSÑI. allpa",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "Nube. . . . phuyu",
+                "dominio": "Meteor.",
+                "sinonimos": null
+              },
+              {
+                "indice": 3,
+                "definicion": "Nubes dispersas, cúmulos o fracto cú mulos dispersos. . . phuyu",
+                "dominio": "Meteor.",
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-ta",
+                "slot": 5,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE CASO",
+                "funcion": "Designa el objeto directo con los verbos que no son de movimiento.",
+                "glosa_corta": "AC",
+                "ejemplos": "T'antata mikhuni: = yo como pan"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "rikunki",
+            "posicion": 5,
+            "es_puntuacion": false,
+            "raiz": "rikunki",
+            "lema": "rikunki",
+            "categoria_gramatical": "desconocido",
+            "glosa": "rikunki",
+            "acepciones": [],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 0.5
+          },
+          {
+            "token": ",",
+            "posicion": null,
+            "es_puntuacion": true,
+            "raiz": ",",
+            "lema": ",",
+            "categoria_gramatical": "punct",
+            "sufijos": [],
+            "glosa": ",",
+            "acepciones": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 1.0
+          },
+          {
+            "token": "p'unchay",
+            "posicion": 6,
+            "es_puntuacion": false,
+            "raiz": "p'unchay",
+            "lema": "p'unchay",
+            "categoria_gramatical": "s.",
+            "glosa": "p'unchay",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "V. INTIU CHAY",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "Día grande, día festivo. NEOL. Feriado. hatun",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 3,
+                "definicion": "Día, tiempo que dura desde el amanecer hasta el anochecer. . E- . . . ",
+                "dominio": null,
+                "sinonimos": "p'unchaw"
+              }
+            ],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "paranqa",
+            "posicion": 7,
+            "es_puntuacion": false,
+            "raiz": "para",
+            "lema": "para",
+            "categoria_gramatical": "s.",
+            "glosa": "para-3SG.FUT",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Lluvia, precipitación plu vial, aguacero. VARIEDADES. iphu para, llovizna; siphsi para, llovizna menuda; ch'allchaq para, chaparrón, lluvia torrencial; chikchipara, lluvia con granizo. . . ",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-nqa",
+                "slot": 5,
+                "categoria": "VERBAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE NUMERO",
+                "funcion": "Sufijo de tercera persona singular.",
+                "glosa_corta": "3SG.FUT",
+                "ejemplos": "Pay pukllanqa = él jugará"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": ",",
+            "posicion": null,
+            "es_puntuacion": true,
+            "raiz": ",",
+            "lema": ",",
+            "categoria_gramatical": "punct",
+            "sufijos": [],
+            "glosa": ",",
+            "acepciones": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 1.0
+          },
+          {
+            "token": "chayta",
+            "posicion": 8,
+            "es_puntuacion": false,
+            "raiz": "chay",
+            "lema": "chay",
+            "categoria_gramatical": "s.",
+            "glosa": "chay-AC",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Descanso breve de medio día",
+                "dominio": "Siesta.",
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "v. Sestear. Descansar o dormir algún momento del día",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-ta",
+                "slot": 5,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE CASO",
+                "funcion": "Designa el objeto directo con los verbos que no son de movimiento.",
+                "glosa_corta": "AC",
+                "ejemplos": "T'antata mikhuni: = yo como pan"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "yachaspa",
+            "posicion": 9,
+            "es_puntuacion": false,
+            "raiz": "yacha",
+            "lema": "yachay",
+            "categoria_gramatical": "s.",
+            "glosa": "yachay-SUBORD",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Sabiduría. Co nocimiento superior. Hatun",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "Saber, conocimiento, sabiduría",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 3,
+                "definicion": "Habituamiento",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 4,
+                "definicion": "v. Saber, aprender, conocer lo que no se sabía o se ignoraba. . Yachay",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-spa",
+                "slot": 5,
+                "categoria": "VERBAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE NUMERO",
+                "funcion": "Indica que la acción dependiente es anterior a la del verbo principal. Puede ser un gerundio.",
+                "glosa_corta": "SUBORD",
+                "ejemplos": "Takispa hamun, waqaspa ripun = viene cantando y se va llorando\nTakispa tususpa ripunku = Cantando y bailando se fueron"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "punchuyuq",
+            "posicion": 10,
+            "es_puntuacion": false,
+            "raiz": "punchuyu",
+            "lema": "punchuyu",
+            "categoria_gramatical": "desconocido",
+            "glosa": "punchuyu-AG/HAB",
+            "acepciones": [],
+            "sufijos": [
+              {
+                "morfema": "-q",
+                "slot": 5,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE CASO",
+                "funcion": "Su marca es “-q” cuando termina en vocal y \"-paq\" cuando termina en consonante, que es igual a la preposición “de”.",
+                "glosa_corta": "AG/HAB",
+                "ejemplos": "Runaq = de la gente\nYachachiqpaq = del profesor"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 0.5
+          },
+          {
+            "token": "ima",
+            "posicion": 11,
+            "es_puntuacion": false,
+            "raiz": "ima",
+            "lema": "ima",
+            "categoria_gramatical": "desconocido",
+            "glosa": "ima",
+            "acepciones": [],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 0.5
+          },
+          {
+            "token": "michiq",
+            "posicion": 12,
+            "es_puntuacion": false,
+            "raiz": "michiq",
+            "lema": "michiq",
+            "categoria_gramatical": "s.",
+            "glosa": "michiq",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "El que pasta animales. ",
+                "dominio": "Pastor.",
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "rinayki",
+            "posicion": 13,
+            "es_puntuacion": false,
+            "raiz": "rina",
+            "lema": "rina",
+            "categoria_gramatical": "s.",
+            "glosa": "rina-2SG.POS",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Ida a un lugar determinado. Movimiento o traslado de acá para allá",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "Viaje",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-yki",
+                "slot": 3,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE PERSONA",
+                "funcion": "Sufijo posesivo de segunda persona singular.",
+                "glosa_corta": "2SG.POS",
+                "ejemplos": "wasiyki = tu casa"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": ".",
+            "posicion": null,
+            "es_puntuacion": true,
+            "raiz": ".",
+            "lema": ".",
+            "categoria_gramatical": "punct",
+            "sufijos": [],
+            "glosa": ".",
+            "acepciones": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 1.0
+          }
+        ]
+      }
+    ]
+  }
+}

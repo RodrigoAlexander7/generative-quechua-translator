@@ -1,0 +1,899 @@
+{
+  "client_id": "1dd0d3ea4ec879dadf7db18e23b9509a",
+  "audio_id": "69337",
+  "audio_file": "spontaneous-speech-qxp-69337.mp3",
+  "duration_ms": "7848",
+  "prompt_id": "7408",
+  "prompt": "Wasiq rakinkunata sut'inchay.",
+  "transcription": "Chaymi kashan: wasi, punku, qhawana, pirqa, hanaq wasi, uray wasi, q'uncha.",
+  "variant": "",
+  "language": "Puno Quechua",
+  "split": "train",
+  "analisis_morfosintactico": {
+    "texto_original": "Chaymi kashan: wasi, punku, qhawana, pirqa, hanaq wasi, uray wasi, q'uncha.",
+    "num_oraciones": 1,
+    "num_tokens": 11,
+    "marcadores_globales": {
+      "evidenciales": [
+        "DIRECTO / ATESTIGUADO (-mi)"
+      ],
+      "clusividad": null
+    },
+    "oraciones": [
+      {
+        "indice": 0,
+        "texto": "Chaymi kashan: wasi, punku, qhawana, pirqa, hanaq wasi, uray wasi, q'uncha.",
+        "marcadores": {
+          "evidenciales": [
+            "DIRECTO / ATESTIGUADO (-mi)"
+          ],
+          "clusividad": null
+        },
+        "tokens": [
+          {
+            "token": "Chaymi",
+            "posicion": 0,
+            "es_puntuacion": false,
+            "raiz": "chay",
+            "lema": "chay",
+            "categoria_gramatical": "s.",
+            "glosa": "chay-EVID.DIR",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Descanso breve de medio día",
+                "dominio": "Siesta.",
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "v. Sestear. Descansar o dormir algún momento del día",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-mi",
+                "slot": 9,
+                "categoria": "",
+                "subcategoria": "SUFIJO INDEPENDIENTE",
+                "funcion": "Validador. Indica que el hablante ha sido testigo de la acción o está muy seguro de lo que dice. No se debe de usar cuando hay duda.  Cuando la palabra termina en vocal se usa la \"m\" y cuando termina en consonante se usa la \"mi\". Hace referencia a una información directa en relación con lo enunciado por el hablante. Es para afirmar, declarar, sostener.",
+                "glosa_corta": "EVID.DIR",
+                "ejemplos": "Pukllaqmi rirani = fui a jugar\nWarmim kani = soy mujer"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": "DIRECTO / ATESTIGUADO (-mi)",
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "kashan",
+            "posicion": 1,
+            "es_puntuacion": false,
+            "raiz": "kasha",
+            "lema": "kashay",
+            "categoria_gramatical": "v.",
+            "glosa": "kashay-3SG",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Estar. EJEM: Perú suyupin Qosqoqa kashan, el Qosqo está en el Perú.",
+                "dominio": "Estar.",
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-n",
+                "slot": 3,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE PERSONA",
+                "funcion": "Sufijo posesivo  de tercera persona singular.",
+                "glosa_corta": "3SG",
+                "ejemplos": "wasin = su casa"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": ":",
+            "posicion": null,
+            "es_puntuacion": true,
+            "raiz": ":",
+            "lema": ":",
+            "categoria_gramatical": "punct",
+            "sufijos": [],
+            "glosa": ":",
+            "acepciones": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 1.0
+          },
+          {
+            "token": "wasi",
+            "posicion": 2,
+            "es_puntuacion": false,
+            "raiz": "wasi",
+            "lema": "wasi",
+            "categoria_gramatical": "s.",
+            "glosa": "wasi",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "(Casa de las escogidas). En el Inkario, casa donde habitaban las escogidas o Vírgenes del Sol, hoy mo nasterio de Santa Catalina. Se ubicaba en la parte oriental, in mediata a Inti k'ikllu, actual calle Loreto, en el Qosqo",
+                "dominio": "Hist.",
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "(Casa donde se mastica coca). Tercera waka o adoratorio inka del sexto seq'e del sector Qollasuyu. En esta casa se guardaba el cuerpo momificado del inka Sinchi Roq'a, ubicado en el actual sector de Winpilláy en el Qosqo. akwa",
+                "dominio": "Hist.",
+                "sinonimos": null
+              },
+              {
+                "indice": 3,
+                "definicion": "(Casa de la serpiente con altos). Séptima waka o adoratorio inka del primer seq'e del Antisuyu. Era casa de Amaru Tupaq Inka Yupanki y estaba ubicada en la parte NO de la ciudad del Qosqo, en el camino al Antisu yu. Estuvo a cargo de Suksu panaka ayllu. Amaru",
+                "dominio": "Hist.",
+                "sinonimos": null
+              },
+              {
+                "indice": 4,
+                "definicion": "Cárcel, presidio. NEOL. Centro de readaptación social ",
+                "dominio": null,
+                "sinonimos": "muchuy wasi, watay wasi"
+              },
+              {
+                "indice": 5,
+                "definicion": "Pocilga, chiquero, porquerizo, cuchitril",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 6,
+                "definicion": "fam. Casa deshonrada",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 7,
+                "definicion": "NEOL. Casa de Préstamo. ",
+                "dominio": null,
+                "sinonimos": "manuna wasi"
+              },
+              {
+                "indice": 8,
+                "definicion": "V. MANU WASI",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 9,
+                "definicion": "V. ATISANKA WAsi",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 10,
+                "definicion": "Clinica, hospital, sanatorio, enfermería. ",
+                "dominio": "Med.",
+                "sinonimos": null
+              },
+              {
+                "indice": 11,
+                "definicion": "Alojamiento, casa de hospedaje. NEOL. Hotel, hostal, alojamiento",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 12,
+                "definicion": "En el inkario, cárcel subterránea en donde al preso se atormentaba con fieras y alimañas. ",
+                "dominio": null,
+                "sinonimos": "watay wasi"
+              },
+              {
+                "indice": 13,
+                "definicion": "(Casa del diablo) Infierno, averno, morada de los diablos",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 14,
+                "definicion": "Lugar de tormentos de los réprobos. ",
+                "dominio": null,
+                "sinonimos": "Ukhu Pacha, atimillp'u"
+              },
+              {
+                "indice": 15,
+                "definicion": "Casa donde se realizan las reuniones, asambleas, cabildos",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 16,
+                "definicion": "NEOL. Tintorería, lugar o casa donde se tiñen telas o hilos",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 17,
+                "definicion": "NEOL. Panadería, local donde se elabora el pan. t'anta",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 18,
+                "definicion": "NEOL. Lavandería o casa destinada para el lavado de ropas",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 19,
+                "definicion": "Casa, aposento, edificio, hogar, morada",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 20,
+                "definicion": "Poblado, villorrio, pequeña comunidad campesina",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 21,
+                "definicion": "Cárcel. ",
+                "dominio": null,
+                "sinonimos": "ati sanka wasi, sank'ay wasi, piñas"
+              },
+              {
+                "indice": 22,
+                "definicion": "V. YACHAY WASI",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 23,
+                "definicion": "(Casa del saber) Escuela, colegio, jardín escolar, ateneo. . ",
+                "dominio": "Educ.",
+                "sinonimos": "yachana wasi"
+              }
+            ],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": ",",
+            "posicion": null,
+            "es_puntuacion": true,
+            "raiz": ",",
+            "lema": ",",
+            "categoria_gramatical": "punct",
+            "sufijos": [],
+            "glosa": ",",
+            "acepciones": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 1.0
+          },
+          {
+            "token": "punku",
+            "posicion": 3,
+            "es_puntuacion": false,
+            "raiz": "punku",
+            "lema": "punku",
+            "categoria_gramatical": "s.",
+            "glosa": "punku",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Puerta, entrada, acceso, abertura para el ingreso o salida de un lugar. punku",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": ",",
+            "posicion": null,
+            "es_puntuacion": true,
+            "raiz": ",",
+            "lema": ",",
+            "categoria_gramatical": "punct",
+            "sufijos": [],
+            "glosa": ",",
+            "acepciones": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 1.0
+          },
+          {
+            "token": "qhawana",
+            "posicion": 4,
+            "es_puntuacion": false,
+            "raiz": "qhawana",
+            "lema": "qhawana",
+            "categoria_gramatical": "s.",
+            "glosa": "qhawana",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Mirador, observatorio, atalaya. ",
+                "dominio": null,
+                "sinonimos": "qhawarina, rikuna"
+              },
+              {
+                "indice": 2,
+                "definicion": "adj. Observable, cuidable",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 3,
+                "definicion": "Leíble",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 4,
+                "definicion": "Protegible. . ",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": ",",
+            "posicion": null,
+            "es_puntuacion": true,
+            "raiz": ",",
+            "lema": ",",
+            "categoria_gramatical": "punct",
+            "sufijos": [],
+            "glosa": ",",
+            "acepciones": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 1.0
+          },
+          {
+            "token": "pirqa",
+            "posicion": 5,
+            "es_puntuacion": false,
+            "raiz": "pirqa",
+            "lema": "perqa",
+            "categoria_gramatical": "s.",
+            "glosa": "perqa",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Pared, muro, valla cercada de piedras u otro material de construcción. . ",
+                "dominio": null,
+                "sinonimos": "hark'a"
+              }
+            ],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": ",",
+            "posicion": null,
+            "es_puntuacion": true,
+            "raiz": ",",
+            "lema": ",",
+            "categoria_gramatical": "punct",
+            "sufijos": [],
+            "glosa": ",",
+            "acepciones": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 1.0
+          },
+          {
+            "token": "hanaq",
+            "posicion": 6,
+            "es_puntuacion": false,
+            "raiz": "hana",
+            "lema": "hanay",
+            "categoria_gramatical": "v.",
+            "glosa": "hanay-AG/HAB",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Comprometer a otra per- sona con indiscreción y ligereza",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "Formar pacotillas callejeras. ",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-q",
+                "slot": 5,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE CASO",
+                "funcion": "Su marca es “-q” cuando termina en vocal y \"-paq\" cuando termina en consonante, que es igual a la preposición “de”.",
+                "glosa_corta": "AG/HAB",
+                "ejemplos": "Runaq = de la gente\nYachachiqpaq = del profesor"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "wasi",
+            "posicion": 7,
+            "es_puntuacion": false,
+            "raiz": "wasi",
+            "lema": "wasi",
+            "categoria_gramatical": "s.",
+            "glosa": "wasi",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "(Casa de las escogidas). En el Inkario, casa donde habitaban las escogidas o Vírgenes del Sol, hoy mo nasterio de Santa Catalina. Se ubicaba en la parte oriental, in mediata a Inti k'ikllu, actual calle Loreto, en el Qosqo",
+                "dominio": "Hist.",
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "(Casa donde se mastica coca). Tercera waka o adoratorio inka del sexto seq'e del sector Qollasuyu. En esta casa se guardaba el cuerpo momificado del inka Sinchi Roq'a, ubicado en el actual sector de Winpilláy en el Qosqo. akwa",
+                "dominio": "Hist.",
+                "sinonimos": null
+              },
+              {
+                "indice": 3,
+                "definicion": "(Casa de la serpiente con altos). Séptima waka o adoratorio inka del primer seq'e del Antisuyu. Era casa de Amaru Tupaq Inka Yupanki y estaba ubicada en la parte NO de la ciudad del Qosqo, en el camino al Antisu yu. Estuvo a cargo de Suksu panaka ayllu. Amaru",
+                "dominio": "Hist.",
+                "sinonimos": null
+              },
+              {
+                "indice": 4,
+                "definicion": "Cárcel, presidio. NEOL. Centro de readaptación social ",
+                "dominio": null,
+                "sinonimos": "muchuy wasi, watay wasi"
+              },
+              {
+                "indice": 5,
+                "definicion": "Pocilga, chiquero, porquerizo, cuchitril",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 6,
+                "definicion": "fam. Casa deshonrada",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 7,
+                "definicion": "NEOL. Casa de Préstamo. ",
+                "dominio": null,
+                "sinonimos": "manuna wasi"
+              },
+              {
+                "indice": 8,
+                "definicion": "V. MANU WASI",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 9,
+                "definicion": "V. ATISANKA WAsi",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 10,
+                "definicion": "Clinica, hospital, sanatorio, enfermería. ",
+                "dominio": "Med.",
+                "sinonimos": null
+              },
+              {
+                "indice": 11,
+                "definicion": "Alojamiento, casa de hospedaje. NEOL. Hotel, hostal, alojamiento",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 12,
+                "definicion": "En el inkario, cárcel subterránea en donde al preso se atormentaba con fieras y alimañas. ",
+                "dominio": null,
+                "sinonimos": "watay wasi"
+              },
+              {
+                "indice": 13,
+                "definicion": "(Casa del diablo) Infierno, averno, morada de los diablos",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 14,
+                "definicion": "Lugar de tormentos de los réprobos. ",
+                "dominio": null,
+                "sinonimos": "Ukhu Pacha, atimillp'u"
+              },
+              {
+                "indice": 15,
+                "definicion": "Casa donde se realizan las reuniones, asambleas, cabildos",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 16,
+                "definicion": "NEOL. Tintorería, lugar o casa donde se tiñen telas o hilos",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 17,
+                "definicion": "NEOL. Panadería, local donde se elabora el pan. t'anta",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 18,
+                "definicion": "NEOL. Lavandería o casa destinada para el lavado de ropas",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 19,
+                "definicion": "Casa, aposento, edificio, hogar, morada",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 20,
+                "definicion": "Poblado, villorrio, pequeña comunidad campesina",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 21,
+                "definicion": "Cárcel. ",
+                "dominio": null,
+                "sinonimos": "ati sanka wasi, sank'ay wasi, piñas"
+              },
+              {
+                "indice": 22,
+                "definicion": "V. YACHAY WASI",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 23,
+                "definicion": "(Casa del saber) Escuela, colegio, jardín escolar, ateneo. . ",
+                "dominio": "Educ.",
+                "sinonimos": "yachana wasi"
+              }
+            ],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": ",",
+            "posicion": null,
+            "es_puntuacion": true,
+            "raiz": ",",
+            "lema": ",",
+            "categoria_gramatical": "punct",
+            "sufijos": [],
+            "glosa": ",",
+            "acepciones": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 1.0
+          },
+          {
+            "token": "uray",
+            "posicion": 8,
+            "es_puntuacion": false,
+            "raiz": "uray",
+            "lema": "uray",
+            "categoria_gramatical": "s.",
+            "glosa": "uray",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Declive",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "adv. Abajo; cuesta abajo, hacia abajo. uray uray. adv. Muy hacia abajo",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "wasi",
+            "posicion": 9,
+            "es_puntuacion": false,
+            "raiz": "wasi",
+            "lema": "wasi",
+            "categoria_gramatical": "s.",
+            "glosa": "wasi",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "(Casa de las escogidas). En el Inkario, casa donde habitaban las escogidas o Vírgenes del Sol, hoy mo nasterio de Santa Catalina. Se ubicaba en la parte oriental, in mediata a Inti k'ikllu, actual calle Loreto, en el Qosqo",
+                "dominio": "Hist.",
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "(Casa donde se mastica coca). Tercera waka o adoratorio inka del sexto seq'e del sector Qollasuyu. En esta casa se guardaba el cuerpo momificado del inka Sinchi Roq'a, ubicado en el actual sector de Winpilláy en el Qosqo. akwa",
+                "dominio": "Hist.",
+                "sinonimos": null
+              },
+              {
+                "indice": 3,
+                "definicion": "(Casa de la serpiente con altos). Séptima waka o adoratorio inka del primer seq'e del Antisuyu. Era casa de Amaru Tupaq Inka Yupanki y estaba ubicada en la parte NO de la ciudad del Qosqo, en el camino al Antisu yu. Estuvo a cargo de Suksu panaka ayllu. Amaru",
+                "dominio": "Hist.",
+                "sinonimos": null
+              },
+              {
+                "indice": 4,
+                "definicion": "Cárcel, presidio. NEOL. Centro de readaptación social ",
+                "dominio": null,
+                "sinonimos": "muchuy wasi, watay wasi"
+              },
+              {
+                "indice": 5,
+                "definicion": "Pocilga, chiquero, porquerizo, cuchitril",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 6,
+                "definicion": "fam. Casa deshonrada",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 7,
+                "definicion": "NEOL. Casa de Préstamo. ",
+                "dominio": null,
+                "sinonimos": "manuna wasi"
+              },
+              {
+                "indice": 8,
+                "definicion": "V. MANU WASI",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 9,
+                "definicion": "V. ATISANKA WAsi",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 10,
+                "definicion": "Clinica, hospital, sanatorio, enfermería. ",
+                "dominio": "Med.",
+                "sinonimos": null
+              },
+              {
+                "indice": 11,
+                "definicion": "Alojamiento, casa de hospedaje. NEOL. Hotel, hostal, alojamiento",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 12,
+                "definicion": "En el inkario, cárcel subterránea en donde al preso se atormentaba con fieras y alimañas. ",
+                "dominio": null,
+                "sinonimos": "watay wasi"
+              },
+              {
+                "indice": 13,
+                "definicion": "(Casa del diablo) Infierno, averno, morada de los diablos",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 14,
+                "definicion": "Lugar de tormentos de los réprobos. ",
+                "dominio": null,
+                "sinonimos": "Ukhu Pacha, atimillp'u"
+              },
+              {
+                "indice": 15,
+                "definicion": "Casa donde se realizan las reuniones, asambleas, cabildos",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 16,
+                "definicion": "NEOL. Tintorería, lugar o casa donde se tiñen telas o hilos",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 17,
+                "definicion": "NEOL. Panadería, local donde se elabora el pan. t'anta",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 18,
+                "definicion": "NEOL. Lavandería o casa destinada para el lavado de ropas",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 19,
+                "definicion": "Casa, aposento, edificio, hogar, morada",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 20,
+                "definicion": "Poblado, villorrio, pequeña comunidad campesina",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 21,
+                "definicion": "Cárcel. ",
+                "dominio": null,
+                "sinonimos": "ati sanka wasi, sank'ay wasi, piñas"
+              },
+              {
+                "indice": 22,
+                "definicion": "V. YACHAY WASI",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 23,
+                "definicion": "(Casa del saber) Escuela, colegio, jardín escolar, ateneo. . ",
+                "dominio": "Educ.",
+                "sinonimos": "yachana wasi"
+              }
+            ],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": ",",
+            "posicion": null,
+            "es_puntuacion": true,
+            "raiz": ",",
+            "lema": ",",
+            "categoria_gramatical": "punct",
+            "sufijos": [],
+            "glosa": ",",
+            "acepciones": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 1.0
+          },
+          {
+            "token": "q'uncha",
+            "posicion": 10,
+            "es_puntuacion": false,
+            "raiz": "q'uncha",
+            "lema": "q'oncha",
+            "categoria_gramatical": "s.",
+            "glosa": "q'oncha",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Fogón, dispositivo de barro para cocinar. . . . . . ",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": ".",
+            "posicion": null,
+            "es_puntuacion": true,
+            "raiz": ".",
+            "lema": ".",
+            "categoria_gramatical": "punct",
+            "sufijos": [],
+            "glosa": ".",
+            "acepciones": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 1.0
+          }
+        ]
+      }
+    ]
+  }
+}

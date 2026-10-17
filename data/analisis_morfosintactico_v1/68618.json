@@ -1,0 +1,1797 @@
+{
+  "client_id": "a6f98d228e0d2525548137197409dab9",
+  "audio_id": "68618",
+  "audio_file": "spontaneous-speech-qxp-68618.mp3",
+  "duration_ms": "19008",
+  "prompt_id": "7250",
+  "prompt": "Papamanta rimay.",
+  "transcription": "Papaqa kawsayniykun! Kay Punu pampapiqa ashkha riqch'aq papakunatan tarpuyku: q'illu papa, puka papa, yana papa. Ch'uñutapas ruwaykupunin astawan unay papa kawsananpaq.",
+  "variant": "",
+  "language": "Puno Quechua",
+  "split": "test",
+  "analisis_morfosintactico": {
+    "texto_original": "Papaqa kawsayniykun! Kay Punu pampapiqa ashkha riqch'aq papakunatan tarpuyku: q'illu papa, puka papa, yana papa. Ch'uñutapas ruwaykupunin astawan unay papa kawsananpaq.",
+    "num_oraciones": 3,
+    "num_tokens": 21,
+    "marcadores_globales": {
+      "evidenciales": [],
+      "clusividad": "EXCLUSIVO (hablante + otros, sin oyente)"
+    },
+    "oraciones": [
+      {
+        "indice": 0,
+        "texto": "Papaqa kawsayniykun!",
+        "marcadores": {
+          "evidenciales": [],
+          "clusividad": "EXCLUSIVO (hablante + otros, sin oyente)"
+        },
+        "tokens": [
+          {
+            "token": "Papaqa",
+            "posicion": 0,
+            "es_puntuacion": false,
+            "raiz": "papa",
+            "lema": "papa",
+            "categoria_gramatical": "s.",
+            "glosa": "papa-TOP",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "(Solanum lig nicauleVargas). Solanácea sil vestre. Una variedad de papa silvestre y comestible. . . ",
+                "dominio": "Bot.",
+                "sinonimos": "a pharo"
+              },
+              {
+                "indice": 2,
+                "definicion": "Papa silvestre, no comestible. Atoq",
+                "dominio": "Agri.",
+                "sinonimos": null
+              },
+              {
+                "indice": 3,
+                "definicion": "V. PAKUS",
+                "dominio": "Bot.",
+                "sinonimos": null
+              },
+              {
+                "indice": 4,
+                "definicion": "Papa con caracteres retorcidos",
+                "dominio": "Agri.",
+                "sinonimos": null
+              },
+              {
+                "indice": 5,
+                "definicion": "V. ULLUKU",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 6,
+                "definicion": "(Solanum andigenum tuberosum Linneo. Solo- num andigenum Jus. et Buk.) Planta alimenticia de primer or den, oriunda del Perú, domes ticada y utilizada por los inkas. De la familia de las solanáceas, con tallos subterráneos en tubér culo que almacenan abundante almidón, hojas compuestas, flo res blancas, moradas y rosadas. Existen numerosas variedades con colores, formas y portes di ferentes. Constituye en la actua lidad la base de la alimentación mundial por su alto valor nutri tivo. . Papas . papa",
+                "dominio": "Bot.",
+                "sinonimos": null
+              },
+              {
+                "indice": 7,
+                "definicion": "Papa verdeada por acción del Sol",
+                "dominio": "Ari.",
+                "sinonimos": null
+              },
+              {
+                "indice": 8,
+                "definicion": "Papa aguanosa, con poca sustancia harinosa. ANTÓ. unu",
+                "dominio": "Agri.",
+                "sinonimos": null
+              },
+              {
+                "indice": 9,
+                "definicion": "V. UNKUCHA. yunka",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-qa",
+                "slot": 8,
+                "categoria": "",
+                "subcategoria": "SUFIJO INDEPENDIENTE",
+                "funcion": "Denota información novedosa.",
+                "glosa_corta": "TOP",
+                "ejemplos": "Allqoqa aychatam suwakun = el perro roba carne"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "kawsayniykun",
+            "posicion": 1,
+            "es_puntuacion": false,
+            "raiz": "kawsay",
+            "lema": "kawsay",
+            "categoria_gramatical": "s.",
+            "glosa": "kawsay-1SG-1PL.EXCL-3SG",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Vida",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "Víveres para la alimentación",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 3,
+                "definicion": "v. Vivir. . kawsay",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 4,
+                "definicion": "Felicidad. Vida feliz. . kusi",
+                "dominio": null,
+                "sinonimos": "kusi sami"
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-ni",
+                "slot": 2,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE PERSONA",
+                "funcion": "Sufijo que se agrega cuando la palabra termina en vocal, se sgrega antes del sufijo posesivo.",
+                "glosa_corta": "1SG",
+                "ejemplos": "yachachiqniy = mi profesor\nyawarniy = mi sangre\nyachachiqnin = su profesor"
+              },
+              {
+                "morfema": "-yku",
+                "slot": 4,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE NUMERO",
+                "funcion": "Sufijo de primera persona plural excluyente.",
+                "glosa_corta": "1PL.EXCL",
+                "ejemplos": "Noqayku pukllayku = nosotros jugamos (excluyente es decir sin incluirte o incluirlos)"
+              },
+              {
+                "morfema": "-n",
+                "slot": 3,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE PERSONA",
+                "funcion": "Sufijo posesivo  de tercera persona singular.",
+                "glosa_corta": "3SG",
+                "ejemplos": "wasin = su casa"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": "EXCLUSIVO (hablante + otros, sin oyente)"
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "!",
+            "posicion": null,
+            "es_puntuacion": true,
+            "raiz": "!",
+            "lema": "!",
+            "categoria_gramatical": "punct",
+            "sufijos": [],
+            "glosa": "!",
+            "acepciones": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 1.0
+          }
+        ]
+      },
+      {
+        "indice": 1,
+        "texto": "Kay Punu pampapiqa ashkha riqch'aq papakunatan tarpuyku: q'illu papa, puka papa, yana papa.",
+        "marcadores": {
+          "evidenciales": [],
+          "clusividad": "EXCLUSIVO (hablante + otros, sin oyente)"
+        },
+        "tokens": [
+          {
+            "token": "Kay",
+            "posicion": 0,
+            "es_puntuacion": false,
+            "raiz": "kay",
+            "lema": "kay",
+            "categoria_gramatical": "s.",
+            "glosa": "kay",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "allin",
+                "dominio": "Bondad.",
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "La verdad. Veraci dad",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 3,
+                "definicion": "La evidencia",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 4,
+                "definicion": "Preñez, gravidez. ",
+                "dominio": null,
+                "sinonimos": "wiksayoq kay"
+              },
+              {
+                "indice": 5,
+                "definicion": "Frigidez, gelidez",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 6,
+                "definicion": "figdo. Languidez, abatimiento, postración",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 7,
+                "definicion": "Flacura, delgadez, escualidez",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 8,
+                "definicion": "Condición de far sante, tramposo, engañoso, fu llero",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 9,
+                "definicion": "Afonía",
+                "dominio": "Pat.",
+                "sinonimos": null
+              },
+              {
+                "indice": 10,
+                "definicion": "v. Estar ronco, afónico",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 11,
+                "definicion": "Sequedad",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 12,
+                "definicion": "Humedad. Estado húmedo, mojado de algo. ch'aran",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 13,
+                "definicion": "jigdo. Beldad ex traordinaria. ch'askachay",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 14,
+                "definicion": "Diligencia, habilidad, prontitud, agilidad. ",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 15,
+                "definicion": "Estar vacío algo",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 16,
+                "definicion": "Calidad de estar desocupado algún ambiente",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 17,
+                "definicion": "Pureza, limpidez",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 18,
+                "definicion": "Claridad",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 19,
+                "definicion": "Limpidez en el comportamiento",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 20,
+                "definicion": "Niñez",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 21,
+                "definicion": "Etapa de la niñez. ",
+                "dominio": null,
+                "sinonimos": "herq'ekay"
+              },
+              {
+                "indice": 22,
+                "definicion": "Renguera. ",
+                "dominio": null,
+                "sinonimos": "wist'uyay, weqruyay"
+              },
+              {
+                "indice": 23,
+                "definicion": "Grandeza",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 24,
+                "definicion": "Majestad",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 25,
+                "definicion": "Extensión",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 26,
+                "definicion": "Elevación",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 27,
+                "definicion": "Prestigio. . Hatun",
+                "dominio": null,
+                "sinonimos": "qhapaq"
+              },
+              {
+                "indice": 28,
+                "definicion": "Crueldad, fero cidad, inhumanidad",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 29,
+                "definicion": "V. ERQE KAY",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 30,
+                "definicion": "Pequeñez. Tamaño reducido",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 31,
+                "definicion": "Infantil. . huch'uy",
+                "dominio": null,
+                "sinonimos": "t'ustu kay, tanka kay"
+              },
+              {
+                "indice": 32,
+                "definicion": "Estado de la mujer que perdió a su marido",
+                "dominio": "Viudez.",
+                "sinonimos": null
+              },
+              {
+                "indice": 33,
+                "definicion": "Justeza, exactitud",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 34,
+                "definicion": "Vanidad, pretensión, jactancia, presunción",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 35,
+                "definicion": "Raquitismo",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 36,
+                "definicion": "Ancianidad, vejez, decrepitud, senectud, estado de ancianidad. . Machu",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 37,
+                "definicion": "Maternidad. Calidad de madre o progenitora. Mama",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 38,
+                "definicion": "NEOL. Ser deudor o tener deuda de dinero, de alguna especie a favor recibido. manu",
+                "dominio": "Juris.",
+                "sinonimos": null
+              },
+              {
+                "indice": 39,
+                "definicion": "Tacañería, avaricia, mezquindad",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 40,
+                "definicion": "Incorrección, impudicia, deshonestidad. millay",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 41,
+                "definicion": "Antigüedad, condición de antiguo o remoto. (J.L.P.)",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 42,
+                "definicion": "Estado de ceguera o invidencia. Ceguera",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 43,
+                "definicion": "Estado de encontrarse triturado, desmenuzado las cosas",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 44,
+                "definicion": ". ñut'u",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 45,
+                "definicion": "Equivocación, error",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 46,
+                "definicion": "v. Vivir en lo errado, en lo falso, incierto o confuso. panta",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 47,
+                "definicion": "Ancianidad o vejez de la mujer. paya",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 48,
+                "definicion": "Insuficiencia, falto de fuerza, debilidad. pisi pisimanta. adv. V. AS ASMANTA",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 49,
+                "definicion": "Pereza, desgano para el trabajo, modorra. . . . ",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 50,
+                "definicion": "Riqueza, estado de opulencia y poder económico",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 51,
+                "definicion": "Tener virtudes o dones especiales que lo hacen a uno muy distinguido del común de las gentes. qhapaq",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 52,
+                "definicion": "V. Q'ARA KAY",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 53,
+                "definicion": "Calor, calentura. q'oñi",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 54,
+                "definicion": "Magnanimidad, ge nerosidad, liberalidad",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 55,
+                "definicion": "V. RUK'U KAY",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 56,
+                "definicion": "Senectud, decrepitud, chochez. ",
+                "dominio": null,
+                "sinonimos": "ruku kay"
+              },
+              {
+                "indice": 57,
+                "definicion": "figdo. Insensibilidad, indolencia, dureza del corazón. rumi",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 58,
+                "definicion": "Humanidad. Naturaleza humana, condición de ser humano. runa",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 59,
+                "definicion": "Condición de ser salvaje, arisco, esquivo, indómito. salqa",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 60,
+                "definicion": "Suavidad de carácter, propenso a la sumisión. sanp'a",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 61,
+                "definicion": "Apartamiento, sepa ración, aislamiento",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 62,
+                "definicion": "v. Quedar sólo, apartado, separado, aislado. Sapa",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 63,
+                "definicion": "Soledad, aislamiento de toda compañía",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 64,
+                "definicion": "Diablura, imitación al diablo",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 65,
+                "definicion": "Resistencia a la cocción",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 66,
+                "definicion": "Resistencia, dureza, reciedumbre. seq'ay",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 67,
+                "definicion": "Cualidad del rostro de ser picado de viruela",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 68,
+                "definicion": "E sbeltez, gallardía, hermosura",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 69,
+                "definicion": "Valentía, audacia, intrepidez, arrojo",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 70,
+                "definicion": "Fortaleza. Sinchi Roq'a",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 71,
+                "definicion": "Juventud, mocedad, pubertad de la mujer. Estado de doncella o de muchacha. (J.L.P.)",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 72,
+                "definicion": "Cercanía, proximidad. sispa",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 73,
+                "definicion": "Paraplegia o parálisis de las extremidades in feriores del hombre. such'u",
+                "dominio": "Med.",
+                "sinonimos": null
+              },
+              {
+                "indice": 74,
+                "definicion": "Menor de edad, condición de ser menor. sullk'a",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 75,
+                "definicion": "Agrado, armonía, estética, belleza. sumaq",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 76,
+                "definicion": "Claridad, evidencia, certeza, ser claro. Sut'i",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 77,
+                "definicion": "Latrocinio",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 78,
+                "definicion": "v. Ser ladrón, pillo o ratero",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 79,
+                "definicion": "Medianía, de mediana estatura",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 80,
+                "definicion": "V. HUCH'UY KAY. tanka",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 81,
+                "definicion": "Realeza, dignidad, real, magestad. . tupa",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 82,
+                "definicion": "Ancianidad, senectud, decrepitud. thuku",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 83,
+                "definicion": "Embriaguez aguda o extremada",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 84,
+                "definicion": "V. HUCH'UY KAY",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 85,
+                "definicion": "Hondura, profundidad. Ukhu Pacha. Filos.Ink. El mundo de abajo, de las cavernas y negros abismos; de los muertos, de los profundos reinos",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 86,
+                "definicion": "V. ATIMILLP'U, SUPAY WASI",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 87,
+                "definicion": "Calidad de ser cabeza, jefe de grupo",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 88,
+                "definicion": "Capitanía, caudillaje. uma",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 89,
+                "definicion": "Liquidez, acuosidad. unu killa s. V. PINCHIKILLA. unu",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 90,
+                "definicion": "Esterilidad, impotencia",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 91,
+                "definicion": "Frigidez",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 92,
+                "definicion": "Decaimiento, de bilitamiento, escualidez. usphu usphu. adv. Desganadamente, de un modo decaído, deprimido. ",
+                "dominio": null,
+                "sinonimos": "unphu unphu"
+              },
+              {
+                "indice": 93,
+                "definicion": "Inutilidad, inhabilidad",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 94,
+                "definicion": "Tutela, tutoría",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 95,
+                "definicion": "Femineidad",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 96,
+                "definicion": "Sexo femenino. warmi",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 97,
+                "definicion": "Niñez, puerilidad, infancia",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 98,
+                "definicion": "Soltura, liviandad de carácter. waya",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 99,
+                "definicion": "Juventud, mocedad. . Wayna",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 100,
+                "definicion": "V. CHICHU KAY",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 101,
+                "definicion": "Perpetuidad, eternidad, infinitud. . wiñay",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "Punu",
+            "posicion": 1,
+            "es_puntuacion": false,
+            "raiz": "punu",
+            "lema": "punu",
+            "categoria_gramatical": "desconocido",
+            "glosa": "punu",
+            "acepciones": [],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 0.5
+          },
+          {
+            "token": "pampapiqa",
+            "posicion": 2,
+            "es_puntuacion": false,
+            "raiz": "pampa",
+            "lema": "panpa",
+            "categoria_gramatical": "s.",
+            "glosa": "panpa-LOC-TOP",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Arqueol. (Expla nada de batanes.) Sitio arqueo lógico ubicado en el Santuario Histórico de Machupikchu, parte superior inmediata de la línea férrea del Qosqo a Quillabamba. Km. 115 (Mandorpanpa). Es el complejo agrícola más grande próximo a la ciudad de Ma chupijchu, y está constituido por andenes, muralla de protección, morteros y otras estructuras de factura inka. Fue descubierto por el arqueólogo brasileño Raynaldo Chofhi y Octavio Fernández el 13 de setiembre de 1986",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "(Explanada de morteros.) Pequeño grupo de andenes de factura inka, ubicado en el distrito de Oropesa, en la provincia de Quispicanchis, departamento del Qosqo, Perú",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 3,
+                "definicion": "Llanura, llano, planicie",
+                "dominio": "Geog.",
+                "sinonimos": null
+              },
+              {
+                "indice": 4,
+                "definicion": "Piso, suelo. . . . panpa",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 5,
+                "definicion": "Llanuras, llanos, praderas o estepas conti nuadas con ciertos montículos intermitentes. panpa t'ika",
+                "dominio": "Geog.",
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-pi",
+                "slot": 5,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE CASO",
+                "funcion": "Indica locación en  el  tiempo  y  en  el espacio. Corresponde a la preposición ‘en’.",
+                "glosa_corta": "LOC",
+                "ejemplos": "Llaqtapi kashani = estoy en el pueblo"
+              },
+              {
+                "morfema": "-qa",
+                "slot": 8,
+                "categoria": "",
+                "subcategoria": "SUFIJO INDEPENDIENTE",
+                "funcion": "Denota información novedosa.",
+                "glosa_corta": "TOP",
+                "ejemplos": "Allqoqa aychatam suwakun = el perro roba carne"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "ashkha",
+            "posicion": 3,
+            "es_puntuacion": false,
+            "raiz": "ashkha",
+            "lema": "ashkha",
+            "categoria_gramatical": "desconocido",
+            "glosa": "ashkha",
+            "acepciones": [],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 0.5
+          },
+          {
+            "token": "riqch'aq",
+            "posicion": 4,
+            "es_puntuacion": false,
+            "raiz": "riqch'a",
+            "lema": "riqch'a",
+            "categoria_gramatical": "desconocido",
+            "glosa": "riqch'a-AG/HAB",
+            "acepciones": [],
+            "sufijos": [
+              {
+                "morfema": "-q",
+                "slot": 5,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE CASO",
+                "funcion": "Su marca es “-q” cuando termina en vocal y \"-paq\" cuando termina en consonante, que es igual a la preposición “de”.",
+                "glosa_corta": "AG/HAB",
+                "ejemplos": "Runaq = de la gente\nYachachiqpaq = del profesor"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 0.5
+          },
+          {
+            "token": "papakunatan",
+            "posicion": 5,
+            "es_puntuacion": false,
+            "raiz": "papa",
+            "lema": "papa",
+            "categoria_gramatical": "s.",
+            "glosa": "papa-PL-AC-3SG",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "(Solanum lig nicauleVargas). Solanácea sil vestre. Una variedad de papa silvestre y comestible. . . ",
+                "dominio": "Bot.",
+                "sinonimos": "a pharo"
+              },
+              {
+                "indice": 2,
+                "definicion": "Papa silvestre, no comestible. Atoq",
+                "dominio": "Agri.",
+                "sinonimos": null
+              },
+              {
+                "indice": 3,
+                "definicion": "V. PAKUS",
+                "dominio": "Bot.",
+                "sinonimos": null
+              },
+              {
+                "indice": 4,
+                "definicion": "Papa con caracteres retorcidos",
+                "dominio": "Agri.",
+                "sinonimos": null
+              },
+              {
+                "indice": 5,
+                "definicion": "V. ULLUKU",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 6,
+                "definicion": "(Solanum andigenum tuberosum Linneo. Solo- num andigenum Jus. et Buk.) Planta alimenticia de primer or den, oriunda del Perú, domes ticada y utilizada por los inkas. De la familia de las solanáceas, con tallos subterráneos en tubér culo que almacenan abundante almidón, hojas compuestas, flo res blancas, moradas y rosadas. Existen numerosas variedades con colores, formas y portes di ferentes. Constituye en la actua lidad la base de la alimentación mundial por su alto valor nutri tivo. . Papas . papa",
+                "dominio": "Bot.",
+                "sinonimos": null
+              },
+              {
+                "indice": 7,
+                "definicion": "Papa verdeada por acción del Sol",
+                "dominio": "Ari.",
+                "sinonimos": null
+              },
+              {
+                "indice": 8,
+                "definicion": "Papa aguanosa, con poca sustancia harinosa. ANTÓ. unu",
+                "dominio": "Agri.",
+                "sinonimos": null
+              },
+              {
+                "indice": 9,
+                "definicion": "V. UNKUCHA. yunka",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-kuna",
+                "slot": 4,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE NUMERO",
+                "funcion": "Pluraliza los sustantivos.",
+                "glosa_corta": "PL",
+                "ejemplos": "Wasikuna = las casas\nrunakuna = las personas"
+              },
+              {
+                "morfema": "-ta",
+                "slot": 5,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE CASO",
+                "funcion": "Designa el objeto directo con los verbos que no son de movimiento.",
+                "glosa_corta": "AC",
+                "ejemplos": "T'antata mikhuni: = yo como pan"
+              },
+              {
+                "morfema": "-n",
+                "slot": 3,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE PERSONA",
+                "funcion": "Sufijo posesivo  de tercera persona singular.",
+                "glosa_corta": "3SG",
+                "ejemplos": "wasin = su casa"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "tarpuyku",
+            "posicion": 6,
+            "es_puntuacion": false,
+            "raiz": "tarpu",
+            "lema": "tarpu",
+            "categoria_gramatical": "adj.",
+            "glosa": "tarpu-1PL.EXCL",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Apócope de tarpuq",
+                "dominio": "Agri.",
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "fam. Tonto. . (Se utiliza como insulto significando tonto, zonzo)",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-yku",
+                "slot": 4,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE NUMERO",
+                "funcion": "Sufijo de primera persona plural excluyente.",
+                "glosa_corta": "1PL.EXCL",
+                "ejemplos": "Noqayku pukllayku = nosotros jugamos (excluyente es decir sin incluirte o incluirlos)"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": "EXCLUSIVO (hablante + otros, sin oyente)"
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": ":",
+            "posicion": null,
+            "es_puntuacion": true,
+            "raiz": ":",
+            "lema": ":",
+            "categoria_gramatical": "punct",
+            "sufijos": [],
+            "glosa": ":",
+            "acepciones": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 1.0
+          },
+          {
+            "token": "q'illu",
+            "posicion": 7,
+            "es_puntuacion": false,
+            "raiz": "q'illu",
+            "lema": "q'ellu",
+            "categoria_gramatical": "s.",
+            "glosa": "q'ellu",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "(Begonia parviflora Poepp et Endl). Planta herbácea de las begoniáceas; se cultiva como ornamental y es también utilizada en la medici- putaqllanku 416 na popular. ",
+                "dominio": "Bot.",
+                "sinonimos": "achanqaray, achanqayra"
+              }
+            ],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "papa",
+            "posicion": 8,
+            "es_puntuacion": false,
+            "raiz": "papa",
+            "lema": "papa",
+            "categoria_gramatical": "s.",
+            "glosa": "papa",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "(Solanum lig nicauleVargas). Solanácea sil vestre. Una variedad de papa silvestre y comestible. . . ",
+                "dominio": "Bot.",
+                "sinonimos": "a pharo"
+              },
+              {
+                "indice": 2,
+                "definicion": "Papa silvestre, no comestible. Atoq",
+                "dominio": "Agri.",
+                "sinonimos": null
+              },
+              {
+                "indice": 3,
+                "definicion": "V. PAKUS",
+                "dominio": "Bot.",
+                "sinonimos": null
+              },
+              {
+                "indice": 4,
+                "definicion": "Papa con caracteres retorcidos",
+                "dominio": "Agri.",
+                "sinonimos": null
+              },
+              {
+                "indice": 5,
+                "definicion": "V. ULLUKU",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 6,
+                "definicion": "(Solanum andigenum tuberosum Linneo. Solo- num andigenum Jus. et Buk.) Planta alimenticia de primer or den, oriunda del Perú, domes ticada y utilizada por los inkas. De la familia de las solanáceas, con tallos subterráneos en tubér culo que almacenan abundante almidón, hojas compuestas, flo res blancas, moradas y rosadas. Existen numerosas variedades con colores, formas y portes di ferentes. Constituye en la actua lidad la base de la alimentación mundial por su alto valor nutri tivo. . Papas . papa",
+                "dominio": "Bot.",
+                "sinonimos": null
+              },
+              {
+                "indice": 7,
+                "definicion": "Papa verdeada por acción del Sol",
+                "dominio": "Ari.",
+                "sinonimos": null
+              },
+              {
+                "indice": 8,
+                "definicion": "Papa aguanosa, con poca sustancia harinosa. ANTÓ. unu",
+                "dominio": "Agri.",
+                "sinonimos": null
+              },
+              {
+                "indice": 9,
+                "definicion": "V. UNKUCHA. yunka",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": ",",
+            "posicion": null,
+            "es_puntuacion": true,
+            "raiz": ",",
+            "lema": ",",
+            "categoria_gramatical": "punct",
+            "sufijos": [],
+            "glosa": ",",
+            "acepciones": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 1.0
+          },
+          {
+            "token": "puka",
+            "posicion": 9,
+            "es_puntuacion": false,
+            "raiz": "puka",
+            "lema": "puka",
+            "categoria_gramatical": "adj.",
+            "glosa": "puka",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Color rojo, rojo encarnado o colorado. . puka",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "V. PUKAYANA. sani",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "papa",
+            "posicion": 10,
+            "es_puntuacion": false,
+            "raiz": "papa",
+            "lema": "papa",
+            "categoria_gramatical": "s.",
+            "glosa": "papa",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "(Solanum lig nicauleVargas). Solanácea sil vestre. Una variedad de papa silvestre y comestible. . . ",
+                "dominio": "Bot.",
+                "sinonimos": "a pharo"
+              },
+              {
+                "indice": 2,
+                "definicion": "Papa silvestre, no comestible. Atoq",
+                "dominio": "Agri.",
+                "sinonimos": null
+              },
+              {
+                "indice": 3,
+                "definicion": "V. PAKUS",
+                "dominio": "Bot.",
+                "sinonimos": null
+              },
+              {
+                "indice": 4,
+                "definicion": "Papa con caracteres retorcidos",
+                "dominio": "Agri.",
+                "sinonimos": null
+              },
+              {
+                "indice": 5,
+                "definicion": "V. ULLUKU",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 6,
+                "definicion": "(Solanum andigenum tuberosum Linneo. Solo- num andigenum Jus. et Buk.) Planta alimenticia de primer or den, oriunda del Perú, domes ticada y utilizada por los inkas. De la familia de las solanáceas, con tallos subterráneos en tubér culo que almacenan abundante almidón, hojas compuestas, flo res blancas, moradas y rosadas. Existen numerosas variedades con colores, formas y portes di ferentes. Constituye en la actua lidad la base de la alimentación mundial por su alto valor nutri tivo. . Papas . papa",
+                "dominio": "Bot.",
+                "sinonimos": null
+              },
+              {
+                "indice": 7,
+                "definicion": "Papa verdeada por acción del Sol",
+                "dominio": "Ari.",
+                "sinonimos": null
+              },
+              {
+                "indice": 8,
+                "definicion": "Papa aguanosa, con poca sustancia harinosa. ANTÓ. unu",
+                "dominio": "Agri.",
+                "sinonimos": null
+              },
+              {
+                "indice": 9,
+                "definicion": "V. UNKUCHA. yunka",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": ",",
+            "posicion": null,
+            "es_puntuacion": true,
+            "raiz": ",",
+            "lema": ",",
+            "categoria_gramatical": "punct",
+            "sufijos": [],
+            "glosa": ",",
+            "acepciones": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 1.0
+          },
+          {
+            "token": "yana",
+            "posicion": 11,
+            "es_puntuacion": false,
+            "raiz": "yana",
+            "lema": "yana",
+            "categoria_gramatical": "s.",
+            "glosa": "yana",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Novio, novia, pareja, amante, enamorado(a), querido(a)",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "Mozo o moza de servicio o criado",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 3,
+                "definicion": "adj. Negro, color negro. ANTÓ. . Hist. En el inkanato el pantalón usado era siempre de color negro. yana",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "papa",
+            "posicion": 12,
+            "es_puntuacion": false,
+            "raiz": "papa",
+            "lema": "papa",
+            "categoria_gramatical": "s.",
+            "glosa": "papa",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "(Solanum lig nicauleVargas). Solanácea sil vestre. Una variedad de papa silvestre y comestible. . . ",
+                "dominio": "Bot.",
+                "sinonimos": "a pharo"
+              },
+              {
+                "indice": 2,
+                "definicion": "Papa silvestre, no comestible. Atoq",
+                "dominio": "Agri.",
+                "sinonimos": null
+              },
+              {
+                "indice": 3,
+                "definicion": "V. PAKUS",
+                "dominio": "Bot.",
+                "sinonimos": null
+              },
+              {
+                "indice": 4,
+                "definicion": "Papa con caracteres retorcidos",
+                "dominio": "Agri.",
+                "sinonimos": null
+              },
+              {
+                "indice": 5,
+                "definicion": "V. ULLUKU",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 6,
+                "definicion": "(Solanum andigenum tuberosum Linneo. Solo- num andigenum Jus. et Buk.) Planta alimenticia de primer or den, oriunda del Perú, domes ticada y utilizada por los inkas. De la familia de las solanáceas, con tallos subterráneos en tubér culo que almacenan abundante almidón, hojas compuestas, flo res blancas, moradas y rosadas. Existen numerosas variedades con colores, formas y portes di ferentes. Constituye en la actua lidad la base de la alimentación mundial por su alto valor nutri tivo. . Papas . papa",
+                "dominio": "Bot.",
+                "sinonimos": null
+              },
+              {
+                "indice": 7,
+                "definicion": "Papa verdeada por acción del Sol",
+                "dominio": "Ari.",
+                "sinonimos": null
+              },
+              {
+                "indice": 8,
+                "definicion": "Papa aguanosa, con poca sustancia harinosa. ANTÓ. unu",
+                "dominio": "Agri.",
+                "sinonimos": null
+              },
+              {
+                "indice": 9,
+                "definicion": "V. UNKUCHA. yunka",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": ".",
+            "posicion": null,
+            "es_puntuacion": true,
+            "raiz": ".",
+            "lema": ".",
+            "categoria_gramatical": "punct",
+            "sufijos": [],
+            "glosa": ".",
+            "acepciones": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 1.0
+          }
+        ]
+      },
+      {
+        "indice": 2,
+        "texto": "Ch'uñutapas ruwaykupunin astawan unay papa kawsananpaq.",
+        "marcadores": {
+          "evidenciales": [],
+          "clusividad": null
+        },
+        "tokens": [
+          {
+            "token": "Ch'uñutapas",
+            "posicion": 0,
+            "es_puntuacion": false,
+            "raiz": "ch'uñu",
+            "lema": "ch'uñu",
+            "categoria_gramatical": "s.",
+            "glosa": "ch'uñu-AC-ADIT",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "alim. Papa helada, recién congelada; sancochada tiene un gusto especial, siendo muy utilizada en la alimentación andina en época del invierno. ",
+                "dominio": null,
+                "sinonimos": "chuñuqeta"
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-ta",
+                "slot": 5,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE CASO",
+                "funcion": "Designa el objeto directo con los verbos que no son de movimiento.",
+                "glosa_corta": "AC",
+                "ejemplos": "T'antata mikhuni: = yo como pan"
+              },
+              {
+                "morfema": "-pas",
+                "slot": 8,
+                "categoria": "",
+                "subcategoria": "SUFIJO INDEPENDIENTE",
+                "funcion": "Aditivo. Se traduce como ‘también’ o ‘incluso’. Coordina oraciones.",
+                "glosa_corta": "ADIT",
+                "ejemplos": "Noqapas tususaqmi = Yo también bailaré\nNoqapis risaq = yo también iré"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "ruwaykupunin",
+            "posicion": 1,
+            "es_puntuacion": false,
+            "raiz": "ruwayku",
+            "lema": "ruwaykuy",
+            "categoria_gramatical": "v.",
+            "glosa": "ruwaykuy-ENF-3SG",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "V. RURAYKUY",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-puni",
+                "slot": 8,
+                "categoria": "",
+                "subcategoria": "SUFIJO INDEPENDIENTE",
+                "funcion": "Indica afirmación o negación rotunda; certidumbre plena ('definitivamente'). Expresa seguridad.",
+                "glosa_corta": "ENF",
+                "ejemplos": "Allinpuni = excelente\nmanapuni = de ninguna manera \nParanqapuni = lloverá de todas maneras"
+              },
+              {
+                "morfema": "-n",
+                "slot": 3,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE PERSONA",
+                "funcion": "Sufijo posesivo  de tercera persona singular.",
+                "glosa_corta": "3SG",
+                "ejemplos": "wasin = su casa"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "astawan",
+            "posicion": 2,
+            "es_puntuacion": false,
+            "raiz": "asta",
+            "lema": "astay",
+            "categoria_gramatical": "v.",
+            "glosa": "astay-INSTR/COM",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Trasladar, transportar, a carrear",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-wan",
+                "slot": 5,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE CASO",
+                "funcion": "Conjunción que enlaza palabras o frases ('y', 'con'). Es un caso cogitativo, porque indica compromiso, compañía o instrumento.",
+                "glosa_corta": "INSTR/COM",
+                "ejemplos": "Michiwan alqowan = el gato y el perro\nChakitaqllawan = con la chakitaqlla\nTaytaywan = Con mi padre\nPaywan noqawan = él y yo\nTaki harawiwan = El canto "
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "unay",
+            "posicion": 3,
+            "es_puntuacion": false,
+            "raiz": "unay",
+            "lema": "unay",
+            "categoria_gramatical": "v.",
+            "glosa": "unay",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Tardar, demorar, dilatar el tiempo. ANTÓ",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "adv. Tiempo largo, dilatado y pro longado. unay unay. adv. Muy prolonga damente, una tardanza. ANTÓ",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "papa",
+            "posicion": 4,
+            "es_puntuacion": false,
+            "raiz": "papa",
+            "lema": "papa",
+            "categoria_gramatical": "s.",
+            "glosa": "papa",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "(Solanum lig nicauleVargas). Solanácea sil vestre. Una variedad de papa silvestre y comestible. . . ",
+                "dominio": "Bot.",
+                "sinonimos": "a pharo"
+              },
+              {
+                "indice": 2,
+                "definicion": "Papa silvestre, no comestible. Atoq",
+                "dominio": "Agri.",
+                "sinonimos": null
+              },
+              {
+                "indice": 3,
+                "definicion": "V. PAKUS",
+                "dominio": "Bot.",
+                "sinonimos": null
+              },
+              {
+                "indice": 4,
+                "definicion": "Papa con caracteres retorcidos",
+                "dominio": "Agri.",
+                "sinonimos": null
+              },
+              {
+                "indice": 5,
+                "definicion": "V. ULLUKU",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 6,
+                "definicion": "(Solanum andigenum tuberosum Linneo. Solo- num andigenum Jus. et Buk.) Planta alimenticia de primer or den, oriunda del Perú, domes ticada y utilizada por los inkas. De la familia de las solanáceas, con tallos subterráneos en tubér culo que almacenan abundante almidón, hojas compuestas, flo res blancas, moradas y rosadas. Existen numerosas variedades con colores, formas y portes di ferentes. Constituye en la actua lidad la base de la alimentación mundial por su alto valor nutri tivo. . Papas . papa",
+                "dominio": "Bot.",
+                "sinonimos": null
+              },
+              {
+                "indice": 7,
+                "definicion": "Papa verdeada por acción del Sol",
+                "dominio": "Ari.",
+                "sinonimos": null
+              },
+              {
+                "indice": 8,
+                "definicion": "Papa aguanosa, con poca sustancia harinosa. ANTÓ. unu",
+                "dominio": "Agri.",
+                "sinonimos": null
+              },
+              {
+                "indice": 9,
+                "definicion": "V. UNKUCHA. yunka",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "kawsananpaq",
+            "posicion": 5,
+            "es_puntuacion": false,
+            "raiz": "kawsa",
+            "lema": "kawsay",
+            "categoria_gramatical": "s.",
+            "glosa": "kawsay-NMLZ-3SG-BEN",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Vida",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "Víveres para la alimentación",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 3,
+                "definicion": "v. Vivir. . kawsay",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 4,
+                "definicion": "Felicidad. Vida feliz. . kusi",
+                "dominio": null,
+                "sinonimos": "kusi sami"
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-na",
+                "slot": 2,
+                "categoria": "NOMINAL DERIVACIONAL",
+                "subcategoria": "DERIVACIONAL DEVERBATIVO",
+                "funcion": "Convierte una raíz verbal en sustantivo. concretiza o sustantiviza a un verbo.",
+                "glosa_corta": "NMLZ",
+                "ejemplos": "Pichana = escoba\ntiyana = asiento"
+              },
+              {
+                "morfema": "-n",
+                "slot": 3,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE PERSONA",
+                "funcion": "Sufijo posesivo  de tercera persona singular.",
+                "glosa_corta": "3SG",
+                "ejemplos": "wasin = su casa"
+              },
+              {
+                "morfema": "-paq",
+                "slot": 5,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE CASO",
+                "funcion": "Es el sufijo que indica al destinatario o beneficiario de una acción o de algo. Estos pueden ser destinatarios directos o indirectos. Indica la preposición ‘para’. Cuando le antecede una acción verbal se convierte en NAPAQ,",
+                "glosa_corta": "BEN",
+                "ejemplos": "Yachaqpaq = para el estudiante; \npichanapaq = para barrer."
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": ".",
+            "posicion": null,
+            "es_puntuacion": true,
+            "raiz": ".",
+            "lema": ".",
+            "categoria_gramatical": "punct",
+            "sufijos": [],
+            "glosa": ".",
+            "acepciones": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 1.0
+          }
+        ]
+      }
+    ]
+  }
+}

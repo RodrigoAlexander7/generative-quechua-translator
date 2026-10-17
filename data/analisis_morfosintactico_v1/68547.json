@@ -1,0 +1,912 @@
+{
+  "client_id": "385d8eea0a8ebb1e8e82c7464c4641af",
+  "audio_id": "68547",
+  "audio_file": "spontaneous-speech-qxp-68547.mp3",
+  "duration_ms": "12060",
+  "prompt_id": "7250",
+  "prompt": "Papamanta rimay.",
+  "transcription": "Papaqa runakunaq mikhunan, tarpuy pachapi munay qallarisqan. Chay papakunaqa umasuyu patapipas, chiri pachapipas kawsanku.",
+  "variant": "",
+  "language": "Puno Quechua",
+  "split": "train",
+  "analisis_morfosintactico": {
+    "texto_original": "Papaqa runakunaq mikhunan, tarpuy pachapi munay qallarisqan. Chay papakunaqa umasuyu patapipas, chiri pachapipas kawsanku.",
+    "num_oraciones": 2,
+    "num_tokens": 14,
+    "marcadores_globales": {
+      "evidenciales": [],
+      "clusividad": null
+    },
+    "oraciones": [
+      {
+        "indice": 0,
+        "texto": "Papaqa runakunaq mikhunan, tarpuy pachapi munay qallarisqan.",
+        "marcadores": {
+          "evidenciales": [],
+          "clusividad": null
+        },
+        "tokens": [
+          {
+            "token": "Papaqa",
+            "posicion": 0,
+            "es_puntuacion": false,
+            "raiz": "papa",
+            "lema": "papa",
+            "categoria_gramatical": "s.",
+            "glosa": "papa-TOP",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "(Solanum lig nicauleVargas). Solanácea sil vestre. Una variedad de papa silvestre y comestible. . . ",
+                "dominio": "Bot.",
+                "sinonimos": "a pharo"
+              },
+              {
+                "indice": 2,
+                "definicion": "Papa silvestre, no comestible. Atoq",
+                "dominio": "Agri.",
+                "sinonimos": null
+              },
+              {
+                "indice": 3,
+                "definicion": "V. PAKUS",
+                "dominio": "Bot.",
+                "sinonimos": null
+              },
+              {
+                "indice": 4,
+                "definicion": "Papa con caracteres retorcidos",
+                "dominio": "Agri.",
+                "sinonimos": null
+              },
+              {
+                "indice": 5,
+                "definicion": "V. ULLUKU",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 6,
+                "definicion": "(Solanum andigenum tuberosum Linneo. Solo- num andigenum Jus. et Buk.) Planta alimenticia de primer or den, oriunda del Perú, domes ticada y utilizada por los inkas. De la familia de las solanáceas, con tallos subterráneos en tubér culo que almacenan abundante almidón, hojas compuestas, flo res blancas, moradas y rosadas. Existen numerosas variedades con colores, formas y portes di ferentes. Constituye en la actua lidad la base de la alimentación mundial por su alto valor nutri tivo. . Papas . papa",
+                "dominio": "Bot.",
+                "sinonimos": null
+              },
+              {
+                "indice": 7,
+                "definicion": "Papa verdeada por acción del Sol",
+                "dominio": "Ari.",
+                "sinonimos": null
+              },
+              {
+                "indice": 8,
+                "definicion": "Papa aguanosa, con poca sustancia harinosa. ANTÓ. unu",
+                "dominio": "Agri.",
+                "sinonimos": null
+              },
+              {
+                "indice": 9,
+                "definicion": "V. UNKUCHA. yunka",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-qa",
+                "slot": 8,
+                "categoria": "",
+                "subcategoria": "SUFIJO INDEPENDIENTE",
+                "funcion": "Denota información novedosa.",
+                "glosa_corta": "TOP",
+                "ejemplos": "Allqoqa aychatam suwakun = el perro roba carne"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "runakunaq",
+            "posicion": 1,
+            "es_puntuacion": false,
+            "raiz": "runa",
+            "lema": "runa",
+            "categoria_gramatical": "adj.",
+            "glosa": "runa-REFL-NMLZ-AG/HAB",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "V. RUNALLAÑA",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "figdo. Desganado, pusilánime, sin chispa",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 3,
+                "definicion": "figdo. Hombre muy duro, fuerte como la piedra",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 4,
+                "definicion": "Insensible, indolente. rumi",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 5,
+                "definicion": "y s. Hombre veraz, sincero, fidedigno, fiel",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-ku",
+                "slot": 2,
+                "categoria": "VERBAL DERIVACIONAL",
+                "subcategoria": "FLEXIVOS DERIVACIONALES",
+                "funcion": "Indica un verbo reflexivo. Funciona como los pronombres enclíticos: me, te, se, nos. Se convierte en ‘KA’, cuando precede al sufijo -MU. Con verbos transitivos. indica una acción refleja, o sea la acción recae  sobre el propio sujeto. En otros casos  indica beneficio o provecho personal. tambien tiene valor impersonal.",
+                "glosa_corta": "REFL",
+                "ejemplos": "P’achakuni = me visto\nrantikunqa = se comprará\nP'achakamuy = visteté\nWisk'akun = se cierra"
+              },
+              {
+                "morfema": "-na",
+                "slot": 2,
+                "categoria": "NOMINAL DERIVACIONAL",
+                "subcategoria": "DERIVACIONAL DEVERBATIVO",
+                "funcion": "Convierte una raíz verbal en sustantivo. concretiza o sustantiviza a un verbo.",
+                "glosa_corta": "NMLZ",
+                "ejemplos": "Pichana = escoba\ntiyana = asiento"
+              },
+              {
+                "morfema": "-q",
+                "slot": 5,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE CASO",
+                "funcion": "Su marca es “-q” cuando termina en vocal y \"-paq\" cuando termina en consonante, que es igual a la preposición “de”.",
+                "glosa_corta": "AG/HAB",
+                "ejemplos": "Runaq = de la gente\nYachachiqpaq = del profesor"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "mikhunan",
+            "posicion": 2,
+            "es_puntuacion": false,
+            "raiz": "mikhuna",
+            "lema": "mikhuna",
+            "categoria_gramatical": "s.",
+            "glosa": "mikhuna-3SG",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Alimento, comida, comestible",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "Almuerzo. Cena. . . ",
+                "dominio": null,
+                "sinonimos": "mihuna, mikuy"
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-n",
+                "slot": 3,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE PERSONA",
+                "funcion": "Sufijo posesivo  de tercera persona singular.",
+                "glosa_corta": "3SG",
+                "ejemplos": "wasin = su casa"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": ",",
+            "posicion": null,
+            "es_puntuacion": true,
+            "raiz": ",",
+            "lema": ",",
+            "categoria_gramatical": "punct",
+            "sufijos": [],
+            "glosa": ",",
+            "acepciones": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 1.0
+          },
+          {
+            "token": "tarpuy",
+            "posicion": 3,
+            "es_puntuacion": false,
+            "raiz": "tarpuy",
+            "lema": "tarpuy",
+            "categoria_gramatical": "s.",
+            "glosa": "tarpuy",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Primera siembra, con o sin riego. . ñawpaq",
+                "dominio": "Agri.",
+                "sinonimos": "miska, maway"
+              },
+              {
+                "indice": 2,
+                "definicion": "Siembra atrasada o última siembra en noviembre o diciembre, en la sierra. qhepa",
+                "dominio": "Agri.",
+                "sinonimos": null
+              },
+              {
+                "indice": 3,
+                "definicion": "Siembra, acto de sembrar el maíz, tubérculos y leguminosas, menos los granos que siembran al voleo llamado t'akay. Las épocas de las siembra .– Maway tarpuy, siembra temprana que comienza en junio. 2.– Ñawpaq tarpuy, siembra adelantada con riego. 3.– Chawpi tarpuy, siembra a media temporada en agosto y setiembre. 4.– Hatun tarpuy, siembra grande o principal en octubre y noviembre. 5.– Qhepa tarpuy, la última siembra atrasada en noviembre y diciembre. (O.B. y M.B.) tarpuy",
+                "dominio": "Agri.",
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "pachapi",
+            "posicion": 4,
+            "es_puntuacion": false,
+            "raiz": "pacha",
+            "lema": "pacha",
+            "categoria_gramatical": "s.",
+            "glosa": "pacha-LOC",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Tiempo o época de la siega. . ichhuy",
+                "dominio": null,
+                "sinonimos": "ichhuy ukhu, ichhuy kinray"
+              },
+              {
+                "indice": 2,
+                "definicion": "V. KAY PACHA. kawsay",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 3,
+                "definicion": "Invierno",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 4,
+                "definicion": "Mundo, tierra",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 5,
+                "definicion": "Universo. . ",
+                "dominio": null,
+                "sinonimos": "pachan"
+              },
+              {
+                "indice": 6,
+                "definicion": "Sufijo o morfema que indica el momento, el instante y el tiempo de la acción. . pacha",
+                "dominio": "Gram.",
+                "sinonimos": null
+              },
+              {
+                "indice": 7,
+                "definicion": "V. SITUWA MIT'A. Situwa",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 8,
+                "definicion": "V. TARPUY MIT'A. tarpuy",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 9,
+                "definicion": "V. TIPIY UKHU. tipiy",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-pi",
+                "slot": 5,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE CASO",
+                "funcion": "Indica locación en  el  tiempo  y  en  el espacio. Corresponde a la preposición ‘en’.",
+                "glosa_corta": "LOC",
+                "ejemplos": "Llaqtapi kashani = estoy en el pueblo"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "munay",
+            "posicion": 5,
+            "es_puntuacion": false,
+            "raiz": "munay",
+            "lema": "munay",
+            "categoria_gramatical": "s.",
+            "glosa": "munay",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Voluntad, ánimo, gusto",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "Mandato",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 3,
+                "definicion": "adj. Lindo, bello, hermoso, precioso, maravilloso, v. Querer, amar, desear",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 4,
+                "definicion": ". ANTÓ. . munay",
+                "dominio": null,
+                "sinonimos": "munaycha"
+              }
+            ],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "qallarisqan",
+            "posicion": 6,
+            "es_puntuacion": false,
+            "raiz": "qallarisqa",
+            "lema": "qallarisqa",
+            "categoria_gramatical": "adj.",
+            "glosa": "qallarisqa-3SG",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Empezado, iniciado, comenzado, principiado. ",
+                "dominio": null,
+                "sinonimos": "ñawpasqa"
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-n",
+                "slot": 3,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE PERSONA",
+                "funcion": "Sufijo posesivo  de tercera persona singular.",
+                "glosa_corta": "3SG",
+                "ejemplos": "wasin = su casa"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": ".",
+            "posicion": null,
+            "es_puntuacion": true,
+            "raiz": ".",
+            "lema": ".",
+            "categoria_gramatical": "punct",
+            "sufijos": [],
+            "glosa": ".",
+            "acepciones": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 1.0
+          }
+        ]
+      },
+      {
+        "indice": 1,
+        "texto": "Chay papakunaqa umasuyu patapipas, chiri pachapipas kawsanku.",
+        "marcadores": {
+          "evidenciales": [],
+          "clusividad": null
+        },
+        "tokens": [
+          {
+            "token": "Chay",
+            "posicion": 0,
+            "es_puntuacion": false,
+            "raiz": "chay",
+            "lema": "chay",
+            "categoria_gramatical": "s.",
+            "glosa": "chay",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Descanso breve de medio día",
+                "dominio": "Siesta.",
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "v. Sestear. Descansar o dormir algún momento del día",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "papakunaqa",
+            "posicion": 1,
+            "es_puntuacion": false,
+            "raiz": "papa",
+            "lema": "papa",
+            "categoria_gramatical": "s.",
+            "glosa": "papa-PL-TOP",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "(Solanum lig nicauleVargas). Solanácea sil vestre. Una variedad de papa silvestre y comestible. . . ",
+                "dominio": "Bot.",
+                "sinonimos": "a pharo"
+              },
+              {
+                "indice": 2,
+                "definicion": "Papa silvestre, no comestible. Atoq",
+                "dominio": "Agri.",
+                "sinonimos": null
+              },
+              {
+                "indice": 3,
+                "definicion": "V. PAKUS",
+                "dominio": "Bot.",
+                "sinonimos": null
+              },
+              {
+                "indice": 4,
+                "definicion": "Papa con caracteres retorcidos",
+                "dominio": "Agri.",
+                "sinonimos": null
+              },
+              {
+                "indice": 5,
+                "definicion": "V. ULLUKU",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 6,
+                "definicion": "(Solanum andigenum tuberosum Linneo. Solo- num andigenum Jus. et Buk.) Planta alimenticia de primer or den, oriunda del Perú, domes ticada y utilizada por los inkas. De la familia de las solanáceas, con tallos subterráneos en tubér culo que almacenan abundante almidón, hojas compuestas, flo res blancas, moradas y rosadas. Existen numerosas variedades con colores, formas y portes di ferentes. Constituye en la actua lidad la base de la alimentación mundial por su alto valor nutri tivo. . Papas . papa",
+                "dominio": "Bot.",
+                "sinonimos": null
+              },
+              {
+                "indice": 7,
+                "definicion": "Papa verdeada por acción del Sol",
+                "dominio": "Ari.",
+                "sinonimos": null
+              },
+              {
+                "indice": 8,
+                "definicion": "Papa aguanosa, con poca sustancia harinosa. ANTÓ. unu",
+                "dominio": "Agri.",
+                "sinonimos": null
+              },
+              {
+                "indice": 9,
+                "definicion": "V. UNKUCHA. yunka",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-kuna",
+                "slot": 4,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE NUMERO",
+                "funcion": "Pluraliza los sustantivos.",
+                "glosa_corta": "PL",
+                "ejemplos": "Wasikuna = las casas\nrunakuna = las personas"
+              },
+              {
+                "morfema": "-qa",
+                "slot": 8,
+                "categoria": "",
+                "subcategoria": "SUFIJO INDEPENDIENTE",
+                "funcion": "Denota información novedosa.",
+                "glosa_corta": "TOP",
+                "ejemplos": "Allqoqa aychatam suwakun = el perro roba carne"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "umasuyu",
+            "posicion": 2,
+            "es_puntuacion": false,
+            "raiz": "uma+suyu",
+            "lema": "uma+suyu",
+            "categoria_gramatical": "s. (compuesto)",
+            "glosa": "uma+suyu",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "patapipas",
+            "posicion": 3,
+            "es_puntuacion": false,
+            "raiz": "pata",
+            "lema": "pata",
+            "categoria_gramatical": "s.",
+            "glosa": "pata-LOC-ADIT",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "tej. Vestido aderezado del pecho a los hombros. (M.J. de la E.)",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "Parte alta de alguna cosa. Eminencia de un cerro, casa, etc",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 3,
+                "definicion": "adv. Encima, en lugar superior en oposición al inferior. (J.L.P.) . ",
+                "dominio": null,
+                "sinonimos": "hawan"
+              },
+              {
+                "indice": 4,
+                "definicion": "tej. Escalera o gradería tejida en el vestido. (M. J. de la E.) Pata",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 5,
+                "definicion": "Gradería, andenería, escalinata, escalones en superpo sición",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 6,
+                "definicion": "adj. Repliegue o plisado en telas. Pata",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 7,
+                "definicion": "Selva baja o selva alta. yunka",
+                "dominio": "Geog.",
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-pi",
+                "slot": 5,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE CASO",
+                "funcion": "Indica locación en  el  tiempo  y  en  el espacio. Corresponde a la preposición ‘en’.",
+                "glosa_corta": "LOC",
+                "ejemplos": "Llaqtapi kashani = estoy en el pueblo"
+              },
+              {
+                "morfema": "-pas",
+                "slot": 8,
+                "categoria": "",
+                "subcategoria": "SUFIJO INDEPENDIENTE",
+                "funcion": "Aditivo. Se traduce como ‘también’ o ‘incluso’. Coordina oraciones.",
+                "glosa_corta": "ADIT",
+                "ejemplos": "Noqapas tususaqmi = Yo también bailaré\nNoqapis risaq = yo también iré"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": ",",
+            "posicion": null,
+            "es_puntuacion": true,
+            "raiz": ",",
+            "lema": ",",
+            "categoria_gramatical": "punct",
+            "sufijos": [],
+            "glosa": ",",
+            "acepciones": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 1.0
+          },
+          {
+            "token": "chiri",
+            "posicion": 4,
+            "es_puntuacion": false,
+            "raiz": "chiri",
+            "lema": "chiri",
+            "categoria_gramatical": "s.",
+            "glosa": "chiri",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Frío. Estado de baja tem peratura",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "adj. Frígido, frío. . ANTÓ",
+                "dominio": null,
+                "sinonimos": "qasa, khutu"
+              },
+              {
+                "indice": 3,
+                "definicion": "figdo. Indiferente, apático. . chiri",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "pachapipas",
+            "posicion": 5,
+            "es_puntuacion": false,
+            "raiz": "pacha",
+            "lema": "pacha",
+            "categoria_gramatical": "s.",
+            "glosa": "pacha-LOC-ADIT",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Tiempo o época de la siega. . ichhuy",
+                "dominio": null,
+                "sinonimos": "ichhuy ukhu, ichhuy kinray"
+              },
+              {
+                "indice": 2,
+                "definicion": "V. KAY PACHA. kawsay",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 3,
+                "definicion": "Invierno",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 4,
+                "definicion": "Mundo, tierra",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 5,
+                "definicion": "Universo. . ",
+                "dominio": null,
+                "sinonimos": "pachan"
+              },
+              {
+                "indice": 6,
+                "definicion": "Sufijo o morfema que indica el momento, el instante y el tiempo de la acción. . pacha",
+                "dominio": "Gram.",
+                "sinonimos": null
+              },
+              {
+                "indice": 7,
+                "definicion": "V. SITUWA MIT'A. Situwa",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 8,
+                "definicion": "V. TARPUY MIT'A. tarpuy",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 9,
+                "definicion": "V. TIPIY UKHU. tipiy",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-pi",
+                "slot": 5,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE CASO",
+                "funcion": "Indica locación en  el  tiempo  y  en  el espacio. Corresponde a la preposición ‘en’.",
+                "glosa_corta": "LOC",
+                "ejemplos": "Llaqtapi kashani = estoy en el pueblo"
+              },
+              {
+                "morfema": "-pas",
+                "slot": 8,
+                "categoria": "",
+                "subcategoria": "SUFIJO INDEPENDIENTE",
+                "funcion": "Aditivo. Se traduce como ‘también’ o ‘incluso’. Coordina oraciones.",
+                "glosa_corta": "ADIT",
+                "ejemplos": "Noqapas tususaqmi = Yo también bailaré\nNoqapis risaq = yo también iré"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "kawsanku",
+            "posicion": 6,
+            "es_puntuacion": false,
+            "raiz": "kawsa",
+            "lema": "kawsay",
+            "categoria_gramatical": "s.",
+            "glosa": "kawsay-3PL",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Vida",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "Víveres para la alimentación",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 3,
+                "definicion": "v. Vivir. . kawsay",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 4,
+                "definicion": "Felicidad. Vida feliz. . kusi",
+                "dominio": null,
+                "sinonimos": "kusi sami"
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-nku",
+                "slot": 4,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE NUMERO",
+                "funcion": "Sufijo de tercera persona plural.",
+                "glosa_corta": "3PL",
+                "ejemplos": "Paykuna pukllanku = ellos/ellas juegan"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": ".",
+            "posicion": null,
+            "es_puntuacion": true,
+            "raiz": ".",
+            "lema": ".",
+            "categoria_gramatical": "punct",
+            "sufijos": [],
+            "glosa": ".",
+            "acepciones": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 1.0
+          }
+        ]
+      }
+    ]
+  }
+}

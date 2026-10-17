@@ -1,0 +1,555 @@
+{
+  "client_id": "dcc7d3175f9d372120dae97450071f83",
+  "audio_id": "88876",
+  "audio_file": "spontaneous-speech-qxp-88876.mp3",
+  "duration_ms": "20628",
+  "prompt_id": "7387",
+  "prompt": "Kurpuq wakin rakinkunata sutichay.",
+  "transcription": "Kurpuq wakin rakikunaqa: Umanchis, rikranchis, ninrinchis, ñawinchis, chakinchis,  pulmunninchis.",
+  "variant": "",
+  "language": "Puno Quechua",
+  "split": "",
+  "analisis_morfosintactico": {
+    "texto_original": "Kurpuq wakin rakikunaqa: Umanchis, rikranchis, ninrinchis, ñawinchis, chakinchis,  pulmunninchis.",
+    "num_oraciones": 1,
+    "num_tokens": 9,
+    "marcadores_globales": {
+      "evidenciales": [],
+      "clusividad": "INCLUSIVO (hablante + oyente)"
+    },
+    "oraciones": [
+      {
+        "indice": 0,
+        "texto": "Kurpuq wakin rakikunaqa: Umanchis, rikranchis, ninrinchis, ñawinchis, chakinchis,  pulmunninchis.",
+        "marcadores": {
+          "evidenciales": [],
+          "clusividad": "INCLUSIVO (hablante + oyente)"
+        },
+        "tokens": [
+          {
+            "token": "Kurpuq",
+            "posicion": 0,
+            "es_puntuacion": false,
+            "raiz": "kur",
+            "lema": "kur",
+            "categoria_gramatical": "desconocido",
+            "glosa": "kur-BEN.DIR-AG/HAB",
+            "acepciones": [],
+            "sufijos": [
+              {
+                "morfema": "-pu",
+                "slot": 2,
+                "categoria": "VERBAL DERIVACIONAL",
+                "subcategoria": "FLEXIVOS DERIVACIONALES",
+                "funcion": "Indica irse de un lugar o realizar una acción en beneficio o reemplazo de otra persona. La acción se realiza en beneficio o detrimento de una tercera persona.",
+                "glosa_corta": "BEN.DIR",
+                "ejemplos": "Pasapuy = irse \ntusupuy = danzar en reemplazo de otra persona"
+              },
+              {
+                "morfema": "-q",
+                "slot": 5,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE CASO",
+                "funcion": "Su marca es “-q” cuando termina en vocal y \"-paq\" cuando termina en consonante, que es igual a la preposición “de”.",
+                "glosa_corta": "AG/HAB",
+                "ejemplos": "Runaq = de la gente\nYachachiqpaq = del profesor"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 0.5
+          },
+          {
+            "token": "wakin",
+            "posicion": 1,
+            "es_puntuacion": false,
+            "raiz": "waki",
+            "lema": "waki",
+            "categoria_gramatical": "s.",
+            "glosa": "waki-3SG",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Pareja que se asocia para formar una compañía o sociedad para trabajo agrícola",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-n",
+                "slot": 3,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE PERSONA",
+                "funcion": "Sufijo posesivo  de tercera persona singular.",
+                "glosa_corta": "3SG",
+                "ejemplos": "wasin = su casa"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "rakikunaqa",
+            "posicion": 2,
+            "es_puntuacion": false,
+            "raiz": "raki",
+            "lema": "raki",
+            "categoria_gramatical": "s.",
+            "glosa": "raki-PL-TOP",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Distribución, reparto o división. ",
+                "dominio": null,
+                "sinonimos": "t'aqa"
+              },
+              {
+                "indice": 2,
+                "definicion": "Vasija grande de arcilla cocida de base ensanchada y de boca ancha, para depositar la chicha preparada. ",
+                "dominio": null,
+                "sinonimos": "chunpa"
+              },
+              {
+                "indice": 3,
+                "definicion": "medid. Medida equivalente a dos armus o armut, o media phoqcha, que corresponde a un cuarto de fa nega ó 30 kilos de peso. raki",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 4,
+                "definicion": "(Dryopteris glandulosolanoso C. Christ.) Helecho de la familia de las po lypodiáceas, de abundante dis tribución a lo largo de los bordes de las acequias y de los ríos. Raki",
+                "dominio": "Bot.",
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-kuna",
+                "slot": 4,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE NUMERO",
+                "funcion": "Pluraliza los sustantivos.",
+                "glosa_corta": "PL",
+                "ejemplos": "Wasikuna = las casas\nrunakuna = las personas"
+              },
+              {
+                "morfema": "-qa",
+                "slot": 8,
+                "categoria": "",
+                "subcategoria": "SUFIJO INDEPENDIENTE",
+                "funcion": "Denota información novedosa.",
+                "glosa_corta": "TOP",
+                "ejemplos": "Allqoqa aychatam suwakun = el perro roba carne"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": ":",
+            "posicion": null,
+            "es_puntuacion": true,
+            "raiz": ":",
+            "lema": ":",
+            "categoria_gramatical": "punct",
+            "sufijos": [],
+            "glosa": ":",
+            "acepciones": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 1.0
+          },
+          {
+            "token": "Umanchis",
+            "posicion": 3,
+            "es_puntuacion": false,
+            "raiz": "uma",
+            "lema": "uma",
+            "categoria_gramatical": "adj.",
+            "glosa": "uma-1PL.INCL",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "V. QEQARA",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "De cabellera enca necida",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-nchis",
+                "slot": 4,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE NUMERO",
+                "funcion": "Sufijo de primera persona plural incluyente.",
+                "glosa_corta": "1PL.INCL",
+                "ejemplos": "Noqanchis pukllanchis = nosotros jugamos (incluyente es decir incluyéndote o incluyéndolos)."
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": "INCLUSIVO (hablante + oyente)"
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": ",",
+            "posicion": null,
+            "es_puntuacion": true,
+            "raiz": ",",
+            "lema": ",",
+            "categoria_gramatical": "punct",
+            "sufijos": [],
+            "glosa": ",",
+            "acepciones": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 1.0
+          },
+          {
+            "token": "rikranchis",
+            "posicion": 4,
+            "es_puntuacion": false,
+            "raiz": "rikra",
+            "lema": "rikra",
+            "categoria_gramatical": "s.",
+            "glosa": "rikra-1PL.INCL",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Hombro",
+                "dominio": "Anat.",
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "Brazo",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 3,
+                "definicion": "medid. Media brazada. Medida arbitraria de longitud. ",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-nchis",
+                "slot": 4,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE NUMERO",
+                "funcion": "Sufijo de primera persona plural incluyente.",
+                "glosa_corta": "1PL.INCL",
+                "ejemplos": "Noqanchis pukllanchis = nosotros jugamos (incluyente es decir incluyéndote o incluyéndolos)."
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": "INCLUSIVO (hablante + oyente)"
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": ",",
+            "posicion": null,
+            "es_puntuacion": true,
+            "raiz": ",",
+            "lema": ",",
+            "categoria_gramatical": "punct",
+            "sufijos": [],
+            "glosa": ",",
+            "acepciones": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 1.0
+          },
+          {
+            "token": "ninrinchis",
+            "posicion": 5,
+            "es_puntuacion": false,
+            "raiz": "ninri",
+            "lema": "ninri",
+            "categoria_gramatical": "adj.",
+            "glosa": "ninri-1PL.INCL",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "y s. fam. Orejón",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-nchis",
+                "slot": 4,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE NUMERO",
+                "funcion": "Sufijo de primera persona plural incluyente.",
+                "glosa_corta": "1PL.INCL",
+                "ejemplos": "Noqanchis pukllanchis = nosotros jugamos (incluyente es decir incluyéndote o incluyéndolos)."
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": "INCLUSIVO (hablante + oyente)"
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": ",",
+            "posicion": null,
+            "es_puntuacion": true,
+            "raiz": ",",
+            "lema": ",",
+            "categoria_gramatical": "punct",
+            "sufijos": [],
+            "glosa": ",",
+            "acepciones": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 1.0
+          },
+          {
+            "token": "ñawinchis",
+            "posicion": 6,
+            "es_puntuacion": false,
+            "raiz": "ñawi",
+            "lema": "ñawi",
+            "categoria_gramatical": "s.",
+            "glosa": "ñawi-1PL.INCL",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Ojo. El sentido de la vista. ",
+                "dominio": "Anat.",
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "La yema de todas las plantas o de los tu bérculos",
+                "dominio": "Bot.",
+                "sinonimos": null
+              },
+              {
+                "indice": 3,
+                "definicion": "Ojo de la papa ñawi",
+                "dominio": "Agri.",
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-nchis",
+                "slot": 4,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE NUMERO",
+                "funcion": "Sufijo de primera persona plural incluyente.",
+                "glosa_corta": "1PL.INCL",
+                "ejemplos": "Noqanchis pukllanchis = nosotros jugamos (incluyente es decir incluyéndote o incluyéndolos)."
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": "INCLUSIVO (hablante + oyente)"
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": ",",
+            "posicion": null,
+            "es_puntuacion": true,
+            "raiz": ",",
+            "lema": ",",
+            "categoria_gramatical": "punct",
+            "sufijos": [],
+            "glosa": ",",
+            "acepciones": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 1.0
+          },
+          {
+            "token": "chakinchis",
+            "posicion": 7,
+            "es_puntuacion": false,
+            "raiz": "chaki",
+            "lema": "chaki",
+            "categoria_gramatical": "s.",
+            "glosa": "chaki-1PL.INCL",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Pie. Pata en ani males, y en objetos las partes que sirven de sustentáculo o base. ",
+                "dominio": "Anat.",
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "(Scolopen drella sp. Oxidus gracilis). Mi riápodos de cien pies. Cuerpo a largado, casi vermiforme y deprimido. Numerosos pares de patas ambulatorias de idéntica longitud, habitantes de lugares húmedos. . . ",
+                "dominio": "Zool.",
+                "sinonimos": "atoq atoq"
+              },
+              {
+                "indice": 3,
+                "definicion": "(Sarcopaylla penetrans). Nigua. Pulga que generalmente penetra entre los dedos del pie para formar pequeñas bolsas. piki",
+                "dominio": "Zool.",
+                "sinonimos": null
+              },
+              {
+                "indice": 4,
+                "definicion": "(Anemone helleborifori DC.) (Pata de gallina) Planta voluble de la familia de las ranunculáceas. De flores amarillas, sus hojas se asemejan a las del mastuerzo y son de sabor picante. Med.Folk. Se utiliza como purgante. . wallpa",
+                "dominio": "Bot.",
+                "sinonimos": "soliman"
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-nchis",
+                "slot": 4,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE NUMERO",
+                "funcion": "Sufijo de primera persona plural incluyente.",
+                "glosa_corta": "1PL.INCL",
+                "ejemplos": "Noqanchis pukllanchis = nosotros jugamos (incluyente es decir incluyéndote o incluyéndolos)."
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": "INCLUSIVO (hablante + oyente)"
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": ",",
+            "posicion": null,
+            "es_puntuacion": true,
+            "raiz": ",",
+            "lema": ",",
+            "categoria_gramatical": "punct",
+            "sufijos": [],
+            "glosa": ",",
+            "acepciones": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 1.0
+          },
+          {
+            "token": "pulmunninchis",
+            "posicion": 8,
+            "es_puntuacion": false,
+            "raiz": "pul",
+            "lema": "pul",
+            "categoria_gramatical": "desconocido",
+            "glosa": "pul-CISL-3SG-1SG-1PL.INCL",
+            "acepciones": [],
+            "sufijos": [
+              {
+                "morfema": "-mu",
+                "slot": 2,
+                "categoria": "VERBAL DERIVACIONAL",
+                "subcategoria": "FLEXIVOS DERIVACIONALES",
+                "funcion": "Con verbos  de movimiento señala  una orientación  hacia El hablante. Indica la ocurrencia de un fenómeno atmosférico. El sufijo -KU se convierte en -KA cuando es seguido por el sufijo -mu. También se usa con verbos de movimiento.",
+                "glosa_corta": "CISL",
+                "ejemplos": "Paramunqa = lloverá\nchirimushan = está haciendo frío\nP'achakamunki = te vestirás\nChayamunqa = va ha llegar hacia donde estoy"
+              },
+              {
+                "morfema": "-n",
+                "slot": 3,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE PERSONA",
+                "funcion": "Sufijo posesivo  de tercera persona singular.",
+                "glosa_corta": "3SG",
+                "ejemplos": "wasin = su casa"
+              },
+              {
+                "morfema": "-ni",
+                "slot": 2,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE PERSONA",
+                "funcion": "Sufijo que se agrega cuando la palabra termina en vocal, se sgrega antes del sufijo posesivo.",
+                "glosa_corta": "1SG",
+                "ejemplos": "yachachiqniy = mi profesor\nyawarniy = mi sangre\nyachachiqnin = su profesor"
+              },
+              {
+                "morfema": "-nchis",
+                "slot": 4,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE NUMERO",
+                "funcion": "Sufijo de primera persona plural incluyente.",
+                "glosa_corta": "1PL.INCL",
+                "ejemplos": "Noqanchis pukllanchis = nosotros jugamos (incluyente es decir incluyéndote o incluyéndolos)."
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": "INCLUSIVO (hablante + oyente)"
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 0.5
+          },
+          {
+            "token": ".",
+            "posicion": null,
+            "es_puntuacion": true,
+            "raiz": ".",
+            "lema": ".",
+            "categoria_gramatical": "punct",
+            "sufijos": [],
+            "glosa": ".",
+            "acepciones": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 1.0
+          }
+        ]
+      }
+    ]
+  }
+}

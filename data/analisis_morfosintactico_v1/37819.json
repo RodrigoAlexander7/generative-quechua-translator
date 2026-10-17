@@ -1,0 +1,1117 @@
+{
+  "client_id": "ae1ffa62321ae9eddbb74a6e1c09cc39",
+  "audio_id": "37819",
+  "audio_file": "spontaneous-speech-qxp-37819.mp3",
+  "duration_ms": "18000",
+  "prompt_id": "4357",
+  "prompt": "Ima t'ikakunatataq riqsinki?",
+  "transcription": "Nuqa askha t'ikakunata riqsini, ichaqa sutinkuta mana allintachu yuyani, chaykuna kanman: Muña, q'illu t'ika, panti panti, llama llama, ch'iri ch'iri. Chay t'ikaq sutikunata allinta yuyani.",
+  "variant": "",
+  "language": "Puno Quechua",
+  "split": "test",
+  "analisis_morfosintactico": {
+    "texto_original": "Nuqa askha t'ikakunata riqsini, ichaqa sutinkuta mana allintachu yuyani, chaykuna kanman: Muña, q'illu t'ika, panti panti, llama llama, ch'iri ch'iri. Chay t'ikaq sutikunata allinta yuyani.",
+    "num_oraciones": 2,
+    "num_tokens": 25,
+    "marcadores_globales": {
+      "evidenciales": [],
+      "clusividad": null
+    },
+    "oraciones": [
+      {
+        "indice": 0,
+        "texto": "Nuqa askha t'ikakunata riqsini, ichaqa sutinkuta mana allintachu yuyani, chaykuna kanman: Muña, q'illu t'ika, panti panti, llama llama, ch'iri ch'iri.",
+        "marcadores": {
+          "evidenciales": [],
+          "clusividad": null
+        },
+        "tokens": [
+          {
+            "token": "Nuqa",
+            "posicion": 0,
+            "es_puntuacion": false,
+            "raiz": "nu",
+            "lema": "nu",
+            "categoria_gramatical": "desconocido",
+            "glosa": "nu-TOP",
+            "acepciones": [],
+            "sufijos": [
+              {
+                "morfema": "-qa",
+                "slot": 8,
+                "categoria": "",
+                "subcategoria": "SUFIJO INDEPENDIENTE",
+                "funcion": "Denota información novedosa.",
+                "glosa_corta": "TOP",
+                "ejemplos": "Allqoqa aychatam suwakun = el perro roba carne"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 0.5
+          },
+          {
+            "token": "askha",
+            "posicion": 1,
+            "es_puntuacion": false,
+            "raiz": "askha",
+            "lema": "askha",
+            "categoria_gramatical": "desconocido",
+            "glosa": "askha",
+            "acepciones": [],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 0.5
+          },
+          {
+            "token": "t'ikakunata",
+            "posicion": 2,
+            "es_puntuacion": false,
+            "raiz": "t'ika",
+            "lema": "t'ika",
+            "categoria_gramatical": "s.",
+            "glosa": "t'ika-PL-AC",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Primera floración de la papa",
+                "dominio": "Agri.",
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "V. MICHI MICHI. supay",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 3,
+                "definicion": "Plumas de avestruz, compuestas en ramillete para a dorno. Suri",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 4,
+                "definicion": "Flor, órgano de las plantas fanerógamas. . . . . . . t'ika",
+                "dominio": "Bot.",
+                "sinonimos": "ayna, puyllu"
+              },
+              {
+                "indice": 5,
+                "definicion": "tej. Flor tejida en el borlón. (W.P. de A.)",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-kuna",
+                "slot": 4,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE NUMERO",
+                "funcion": "Pluraliza los sustantivos.",
+                "glosa_corta": "PL",
+                "ejemplos": "Wasikuna = las casas\nrunakuna = las personas"
+              },
+              {
+                "morfema": "-ta",
+                "slot": 5,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE CASO",
+                "funcion": "Designa el objeto directo con los verbos que no son de movimiento.",
+                "glosa_corta": "AC",
+                "ejemplos": "T'antata mikhuni: = yo como pan"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "riqsini",
+            "posicion": 3,
+            "es_puntuacion": false,
+            "raiz": "riqsi",
+            "lema": "reqsiy",
+            "categoria_gramatical": "v.",
+            "glosa": "reqsiy-1SG",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Conocer algo. . reqsiy",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-ni",
+                "slot": 2,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE PERSONA",
+                "funcion": "Sufijo que se agrega cuando la palabra termina en vocal, se sgrega antes del sufijo posesivo.",
+                "glosa_corta": "1SG",
+                "ejemplos": "yachachiqniy = mi profesor\nyawarniy = mi sangre\nyachachiqnin = su profesor"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": ",",
+            "posicion": null,
+            "es_puntuacion": true,
+            "raiz": ",",
+            "lema": ",",
+            "categoria_gramatical": "punct",
+            "sufijos": [],
+            "glosa": ",",
+            "acepciones": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 1.0
+          },
+          {
+            "token": "ichaqa",
+            "posicion": 4,
+            "es_puntuacion": false,
+            "raiz": "icha",
+            "lema": "icha",
+            "categoria_gramatical": "desconocido",
+            "glosa": "icha-TOP",
+            "acepciones": [],
+            "sufijos": [
+              {
+                "morfema": "-qa",
+                "slot": 8,
+                "categoria": "",
+                "subcategoria": "SUFIJO INDEPENDIENTE",
+                "funcion": "Denota información novedosa.",
+                "glosa_corta": "TOP",
+                "ejemplos": "Allqoqa aychatam suwakun = el perro roba carne"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 0.5
+          },
+          {
+            "token": "sutinkuta",
+            "posicion": 5,
+            "es_puntuacion": false,
+            "raiz": "suti",
+            "lema": "suti",
+            "categoria_gramatical": "s.",
+            "glosa": "suti-3PL-AC",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Nombre de persona, animal o cosa",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": ". suti",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-nku",
+                "slot": 4,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE NUMERO",
+                "funcion": "Sufijo de tercera persona plural.",
+                "glosa_corta": "3PL",
+                "ejemplos": "Paykuna pukllanku = ellos/ellas juegan"
+              },
+              {
+                "morfema": "-ta",
+                "slot": 5,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE CASO",
+                "funcion": "Designa el objeto directo con los verbos que no son de movimiento.",
+                "glosa_corta": "AC",
+                "ejemplos": "T'antata mikhuni: = yo como pan"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "mana",
+            "posicion": 6,
+            "es_puntuacion": false,
+            "raiz": "ma",
+            "lema": "ma",
+            "categoria_gramatical": "desconocido",
+            "glosa": "ma-NMLZ",
+            "acepciones": [],
+            "sufijos": [
+              {
+                "morfema": "-na",
+                "slot": 2,
+                "categoria": "NOMINAL DERIVACIONAL",
+                "subcategoria": "DERIVACIONAL DEVERBATIVO",
+                "funcion": "Convierte una raíz verbal en sustantivo. concretiza o sustantiviza a un verbo.",
+                "glosa_corta": "NMLZ",
+                "ejemplos": "Pichana = escoba\ntiyana = asiento"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 0.5
+          },
+          {
+            "token": "allintachu",
+            "posicion": 7,
+            "es_puntuacion": false,
+            "raiz": "allin",
+            "lema": "allin",
+            "categoria_gramatical": "adj.",
+            "glosa": "allin-AC-INTERR/NEG",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Bueno (término de apro bación). . ",
+                "dominio": null,
+                "sinonimos": "kusa"
+              },
+              {
+                "indice": 2,
+                "definicion": "Mal, mal ejemplo, incorrecto. . mana",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-ta",
+                "slot": 5,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE CASO",
+                "funcion": "Designa el objeto directo con los verbos que no son de movimiento.",
+                "glosa_corta": "AC",
+                "ejemplos": "T'antata mikhuni: = yo como pan"
+              },
+              {
+                "morfema": "-chu",
+                "slot": 9,
+                "categoria": "",
+                "subcategoria": "SUFIJO INDEPENDIENTE",
+                "funcion": "Interrogativo que exige respuesta afirmativa o negativa. Solo para preguntas cerradas.",
+                "glosa_corta": "INTERR/NEG",
+                "ejemplos": "¿Papata mikhunkichu? = ¿Comes papa?"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "yuyani",
+            "posicion": 8,
+            "es_puntuacion": false,
+            "raiz": "yuya",
+            "lema": "yuya",
+            "categoria_gramatical": "s.",
+            "glosa": "yuya-1SG",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Memoria, jucio, razón",
+                "dominio": "Psic.",
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-ni",
+                "slot": 2,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE PERSONA",
+                "funcion": "Sufijo que se agrega cuando la palabra termina en vocal, se sgrega antes del sufijo posesivo.",
+                "glosa_corta": "1SG",
+                "ejemplos": "yachachiqniy = mi profesor\nyawarniy = mi sangre\nyachachiqnin = su profesor"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": ",",
+            "posicion": null,
+            "es_puntuacion": true,
+            "raiz": ",",
+            "lema": ",",
+            "categoria_gramatical": "punct",
+            "sufijos": [],
+            "glosa": ",",
+            "acepciones": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 1.0
+          },
+          {
+            "token": "chaykuna",
+            "posicion": 9,
+            "es_puntuacion": false,
+            "raiz": "chay",
+            "lema": "chay",
+            "categoria_gramatical": "s.",
+            "glosa": "chay-PL",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Descanso breve de medio día",
+                "dominio": "Siesta.",
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "v. Sestear. Descansar o dormir algún momento del día",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-kuna",
+                "slot": 4,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE NUMERO",
+                "funcion": "Pluraliza los sustantivos.",
+                "glosa_corta": "PL",
+                "ejemplos": "Wasikuna = las casas\nrunakuna = las personas"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "kanman",
+            "posicion": 10,
+            "es_puntuacion": false,
+            "raiz": "ka",
+            "lema": "ka",
+            "categoria_gramatical": "s.",
+            "glosa": "ka-3SG-ILA",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Acto de dar o entregar algo a otra persona. . ",
+                "dominio": null,
+                "sinonimos": "kayqa"
+              },
+              {
+                "indice": 2,
+                "definicion": "imper. Toma, he aquí lo tienes",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 3,
+                "definicion": "conj. Pero",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 4,
+                "definicion": "Ec: el, la, lo.",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-n",
+                "slot": 3,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE PERSONA",
+                "funcion": "Sufijo posesivo  de tercera persona singular.",
+                "glosa_corta": "3SG",
+                "ejemplos": "wasin = su casa"
+              },
+              {
+                "morfema": "-man",
+                "slot": 5,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE CASO",
+                "funcion": "Es el sufijo que marca movimiento, direccionalidad, objeto indirecto, locación temporal y locación espacial. Indica movimiento con la preposición ‘a’, ‘hacia’.",
+                "glosa_corta": "ILA",
+                "ejemplos": "Orqoman = hacia el cerro \nAtuq sallqaman rishan = El zorro está yendo a la puna\nKillaman llaqtayta kutimusaq = al mes regresaré a mi pueblo\nqanman = a"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": ":",
+            "posicion": null,
+            "es_puntuacion": true,
+            "raiz": ":",
+            "lema": ":",
+            "categoria_gramatical": "punct",
+            "sufijos": [],
+            "glosa": ":",
+            "acepciones": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 1.0
+          },
+          {
+            "token": "Muña",
+            "posicion": 11,
+            "es_puntuacion": false,
+            "raiz": "muña",
+            "lema": "muña",
+            "categoria_gramatical": "s.",
+            "glosa": "muña",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "(Minthostachys setosa Gill., Saturcia boliviana Briq. E. et P.) Arbusto de la familia de las labiadas. Se utiliza en los depósitos de la papa para su protección, contra la gusanera",
+                "dominio": "Bot.",
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "(Minthostachys setosa Epl. et Rep. Spec.) Hierba anual de la familia de las labiadas, de flores blancas y pequeñas, hojas bastante olorosas. Es utilizada como insecticida, a sí como para preservar de la gusanera a la papa en los trabajos y trojes. Muño muño",
+                "dominio": "Bot.",
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": ",",
+            "posicion": null,
+            "es_puntuacion": true,
+            "raiz": ",",
+            "lema": ",",
+            "categoria_gramatical": "punct",
+            "sufijos": [],
+            "glosa": ",",
+            "acepciones": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 1.0
+          },
+          {
+            "token": "q'illu",
+            "posicion": 12,
+            "es_puntuacion": false,
+            "raiz": "q'illu",
+            "lema": "q'ellu",
+            "categoria_gramatical": "s.",
+            "glosa": "q'ellu",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "(Begonia parviflora Poepp et Endl). Planta herbácea de las begoniáceas; se cultiva como ornamental y es también utilizada en la medici- putaqllanku 416 na popular. ",
+                "dominio": "Bot.",
+                "sinonimos": "achanqaray, achanqayra"
+              }
+            ],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "t'ika",
+            "posicion": 13,
+            "es_puntuacion": false,
+            "raiz": "t'ika",
+            "lema": "t'ika",
+            "categoria_gramatical": "s.",
+            "glosa": "t'ika",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Primera floración de la papa",
+                "dominio": "Agri.",
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "V. MICHI MICHI. supay",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 3,
+                "definicion": "Plumas de avestruz, compuestas en ramillete para a dorno. Suri",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 4,
+                "definicion": "Flor, órgano de las plantas fanerógamas. . . . . . . t'ika",
+                "dominio": "Bot.",
+                "sinonimos": "ayna, puyllu"
+              },
+              {
+                "indice": 5,
+                "definicion": "tej. Flor tejida en el borlón. (W.P. de A.)",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": ",",
+            "posicion": null,
+            "es_puntuacion": true,
+            "raiz": ",",
+            "lema": ",",
+            "categoria_gramatical": "punct",
+            "sufijos": [],
+            "glosa": ",",
+            "acepciones": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 1.0
+          },
+          {
+            "token": "panti",
+            "posicion": 14,
+            "es_puntuacion": false,
+            "raiz": "panti",
+            "lema": "panti",
+            "categoria_gramatical": "s.",
+            "glosa": "panti",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "(Cosmos pulcherrimus y Cosmos pseucedamifolios tiraquensis – Kuntze– S.) Arbusto de la familia de las compuestas, con flores en cabezuela de amplia distribución. Planta herbácea medicinal que crece en las zonas frígidas, de flores rosadas o lilas. Los campesinos suelen adornar sus sombreros con las flores en los carnavales. Med.Folk. Muy utilizada en infusión para la tos, pleuresía y como sudorífico para el resfriado. ",
+                "dominio": "Bot.",
+                "sinonimos": "panti panti"
+              },
+              {
+                "indice": 2,
+                "definicion": "V. LLANKHA. panti",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 3,
+                "definicion": "V. PANTI. panti",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "panti",
+            "posicion": 15,
+            "es_puntuacion": false,
+            "raiz": "panti",
+            "lema": "panti",
+            "categoria_gramatical": "s.",
+            "glosa": "panti",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "(Cosmos pulcherrimus y Cosmos pseucedamifolios tiraquensis – Kuntze– S.) Arbusto de la familia de las compuestas, con flores en cabezuela de amplia distribución. Planta herbácea medicinal que crece en las zonas frígidas, de flores rosadas o lilas. Los campesinos suelen adornar sus sombreros con las flores en los carnavales. Med.Folk. Muy utilizada en infusión para la tos, pleuresía y como sudorífico para el resfriado. ",
+                "dominio": "Bot.",
+                "sinonimos": "panti panti"
+              },
+              {
+                "indice": 2,
+                "definicion": "V. LLANKHA. panti",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 3,
+                "definicion": "V. PANTI. panti",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": ",",
+            "posicion": null,
+            "es_puntuacion": true,
+            "raiz": ",",
+            "lema": ",",
+            "categoria_gramatical": "punct",
+            "sufijos": [],
+            "glosa": ",",
+            "acepciones": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 1.0
+          },
+          {
+            "token": "llama",
+            "posicion": 16,
+            "es_puntuacion": false,
+            "raiz": "llama",
+            "lema": "llama",
+            "categoria_gramatical": "s.",
+            "glosa": "llama",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Llama de estatura pequeña, constitución débil, patas cortas, lana larga y lacia, sin presencia",
+                "dominio": "Zoot.",
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "(Lama glama Litineo). Llama. De la familia de los camélidos sudamericanos. Orejas largas, cabeza cubierta de pelaje corto, de colores variados. Su talla llega a 1.15 mts. Se utiliza, desde tiempos inkaicos, como animal de carga así como también su carne en la alimentación. llama",
+                "dominio": "Zool.",
+                "sinonimos": null
+              },
+              {
+                "indice": 3,
+                "definicion": "Género literario dramático de origen inkaico. ",
+                "dominio": "Lit.",
+                "sinonimos": "aranwa"
+              },
+              {
+                "indice": 4,
+                "definicion": "Llama de estatura alta, constitución fuerte, lana corta y palas largas, ge neralmente de color blanco",
+                "dominio": "Zool.",
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "llama",
+            "posicion": 17,
+            "es_puntuacion": false,
+            "raiz": "llama",
+            "lema": "llama",
+            "categoria_gramatical": "s.",
+            "glosa": "llama",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Llama de estatura pequeña, constitución débil, patas cortas, lana larga y lacia, sin presencia",
+                "dominio": "Zoot.",
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "(Lama glama Litineo). Llama. De la familia de los camélidos sudamericanos. Orejas largas, cabeza cubierta de pelaje corto, de colores variados. Su talla llega a 1.15 mts. Se utiliza, desde tiempos inkaicos, como animal de carga así como también su carne en la alimentación. llama",
+                "dominio": "Zool.",
+                "sinonimos": null
+              },
+              {
+                "indice": 3,
+                "definicion": "Género literario dramático de origen inkaico. ",
+                "dominio": "Lit.",
+                "sinonimos": "aranwa"
+              },
+              {
+                "indice": 4,
+                "definicion": "Llama de estatura alta, constitución fuerte, lana corta y palas largas, ge neralmente de color blanco",
+                "dominio": "Zool.",
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": ",",
+            "posicion": null,
+            "es_puntuacion": true,
+            "raiz": ",",
+            "lema": ",",
+            "categoria_gramatical": "punct",
+            "sufijos": [],
+            "glosa": ",",
+            "acepciones": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 1.0
+          },
+          {
+            "token": "ch'iri",
+            "posicion": 18,
+            "es_puntuacion": false,
+            "raiz": "ch'iri",
+            "lema": "ch'iri",
+            "categoria_gramatical": "s.",
+            "glosa": "ch'iri",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Greña. Cabello chascoso, hirsuto, revuelto. ch'iri",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "ch'iri",
+            "posicion": 19,
+            "es_puntuacion": false,
+            "raiz": "ch'iri",
+            "lema": "ch'iri",
+            "categoria_gramatical": "s.",
+            "glosa": "ch'iri",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Greña. Cabello chascoso, hirsuto, revuelto. ch'iri",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": ".",
+            "posicion": null,
+            "es_puntuacion": true,
+            "raiz": ".",
+            "lema": ".",
+            "categoria_gramatical": "punct",
+            "sufijos": [],
+            "glosa": ".",
+            "acepciones": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 1.0
+          }
+        ]
+      },
+      {
+        "indice": 1,
+        "texto": "Chay t'ikaq sutikunata allinta yuyani.",
+        "marcadores": {
+          "evidenciales": [],
+          "clusividad": null
+        },
+        "tokens": [
+          {
+            "token": "Chay",
+            "posicion": 0,
+            "es_puntuacion": false,
+            "raiz": "chay",
+            "lema": "chay",
+            "categoria_gramatical": "s.",
+            "glosa": "chay",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Descanso breve de medio día",
+                "dominio": "Siesta.",
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "v. Sestear. Descansar o dormir algún momento del día",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "t'ikaq",
+            "posicion": 1,
+            "es_puntuacion": false,
+            "raiz": "t'ikaq",
+            "lema": "t'ikaq",
+            "categoria_gramatical": "s.",
+            "glosa": "t'ikaq",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Planta fanerógama",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "adj. Floreciente, que florece",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "sutikunata",
+            "posicion": 2,
+            "es_puntuacion": false,
+            "raiz": "suti",
+            "lema": "suti",
+            "categoria_gramatical": "s.",
+            "glosa": "suti-PL-AC",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Nombre de persona, animal o cosa",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": ". suti",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-kuna",
+                "slot": 4,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE NUMERO",
+                "funcion": "Pluraliza los sustantivos.",
+                "glosa_corta": "PL",
+                "ejemplos": "Wasikuna = las casas\nrunakuna = las personas"
+              },
+              {
+                "morfema": "-ta",
+                "slot": 5,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE CASO",
+                "funcion": "Designa el objeto directo con los verbos que no son de movimiento.",
+                "glosa_corta": "AC",
+                "ejemplos": "T'antata mikhuni: = yo como pan"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "allinta",
+            "posicion": 3,
+            "es_puntuacion": false,
+            "raiz": "allin",
+            "lema": "allin",
+            "categoria_gramatical": "adj.",
+            "glosa": "allin-AC",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Bueno (término de apro bación). . ",
+                "dominio": null,
+                "sinonimos": "kusa"
+              },
+              {
+                "indice": 2,
+                "definicion": "Mal, mal ejemplo, incorrecto. . mana",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-ta",
+                "slot": 5,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE CASO",
+                "funcion": "Designa el objeto directo con los verbos que no son de movimiento.",
+                "glosa_corta": "AC",
+                "ejemplos": "T'antata mikhuni: = yo como pan"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "yuyani",
+            "posicion": 4,
+            "es_puntuacion": false,
+            "raiz": "yuya",
+            "lema": "yuya",
+            "categoria_gramatical": "s.",
+            "glosa": "yuya-1SG",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Memoria, jucio, razón",
+                "dominio": "Psic.",
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-ni",
+                "slot": 2,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE PERSONA",
+                "funcion": "Sufijo que se agrega cuando la palabra termina en vocal, se sgrega antes del sufijo posesivo.",
+                "glosa_corta": "1SG",
+                "ejemplos": "yachachiqniy = mi profesor\nyawarniy = mi sangre\nyachachiqnin = su profesor"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": ".",
+            "posicion": null,
+            "es_puntuacion": true,
+            "raiz": ".",
+            "lema": ".",
+            "categoria_gramatical": "punct",
+            "sufijos": [],
+            "glosa": ".",
+            "acepciones": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 1.0
+          }
+        ]
+      }
+    ]
+  }
+}

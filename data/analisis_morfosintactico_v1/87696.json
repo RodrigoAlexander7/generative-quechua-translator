@@ -1,0 +1,278 @@
+{
+  "client_id": "66ae0e567079eab54681ef880c1dde28",
+  "audio_id": "87696",
+  "audio_file": "spontaneous-speech-qxp-87696.mp3",
+  "duration_ms": "6120",
+  "prompt_id": "4363",
+  "prompt": "Imaynataq chiri tiyasqaykipi?",
+  "transcription": "qasay mit'apiqa tiyasqaypi, aswan chirin",
+  "variant": "",
+  "language": "Puno Quechua",
+  "split": "",
+  "analisis_morfosintactico": {
+    "texto_original": "qasay mit'apiqa tiyasqaypi, aswan chirin",
+    "num_oraciones": 1,
+    "num_tokens": 5,
+    "marcadores_globales": {
+      "evidenciales": [],
+      "clusividad": null
+    },
+    "oraciones": [
+      {
+        "indice": 0,
+        "texto": "qasay mit'apiqa tiyasqaypi, aswan chirin",
+        "marcadores": {
+          "evidenciales": [],
+          "clusividad": null
+        },
+        "tokens": [
+          {
+            "token": "qasay",
+            "posicion": 0,
+            "es_puntuacion": false,
+            "raiz": "qasay",
+            "lema": "qasay",
+            "categoria_gramatical": "v.",
+            "glosa": "qasay",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Helar; hacer celajes, frío invernal con temperaturas de muchos grados bajo cero. . ",
+                "dominio": "Clim.",
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "mit'apiqa",
+            "posicion": 1,
+            "es_puntuacion": false,
+            "raiz": "mit'a",
+            "lema": "mit'a",
+            "categoria_gramatical": "s.",
+            "glosa": "mit'a-LOC-TOP",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Estación climática, tiempo, época. ",
+                "dominio": "Clim.",
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "Vez, turno, tiempo. Unida a numerales indica reiteración. ",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 3,
+                "definicion": "Semana, hebdomada, tiempo de seis días de trabajo",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 4,
+                "definicion": "Sistema de trabajo forzado a que sometieron los españoles a los de sus colonias en América. (J.L.P.)",
+                "dominio": "Hist.",
+                "sinonimos": null
+              },
+              {
+                "indice": 5,
+                "definicion": "(Estación de calor.) Estación del verano",
+                "dominio": "Clim.",
+                "sinonimos": null
+              },
+              {
+                "indice": 6,
+                "definicion": "Primavera, estación florida del año. . situwa",
+                "dominio": "Clim.",
+                "sinonimos": "situwa pacha"
+              },
+              {
+                "indice": 7,
+                "definicion": "Época de la siembra. . tarpuy",
+                "dominio": "Agri.",
+                "sinonimos": "tarpuy pacha, tarpuy ukhu, tarpuy kinray"
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-pi",
+                "slot": 5,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE CASO",
+                "funcion": "Indica locación en  el  tiempo  y  en  el espacio. Corresponde a la preposición ‘en’.",
+                "glosa_corta": "LOC",
+                "ejemplos": "Llaqtapi kashani = estoy en el pueblo"
+              },
+              {
+                "morfema": "-qa",
+                "slot": 8,
+                "categoria": "",
+                "subcategoria": "SUFIJO INDEPENDIENTE",
+                "funcion": "Denota información novedosa.",
+                "glosa_corta": "TOP",
+                "ejemplos": "Allqoqa aychatam suwakun = el perro roba carne"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "tiyasqaypi",
+            "posicion": 2,
+            "es_puntuacion": false,
+            "raiz": "tiya",
+            "lema": "tiya",
+            "categoria_gramatical": "s.",
+            "glosa": "tiya-PART.PAS-1SG.POS-LOC",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Brasero, braserillo, quemador usual, pebetero. (J.L.P.) tiya tiya. adv. Permanecer sentadas varias personas",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-sqa",
+                "slot": 3,
+                "categoria": "NOMINAL DERIVACIONAL",
+                "subcategoria": "DERIVACIONAL DEVERBATIVO",
+                "funcion": "Participio pasivo ('escrito') o pasado narrativo. indica hecho consumado, se utiliza en narraciones.",
+                "glosa_corta": "PART.PAS",
+                "ejemplos": "Qhelqasqa = escrito\nwañusqa = muerto"
+              },
+              {
+                "morfema": "-y",
+                "slot": 3,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE PERSONA",
+                "funcion": "Sufijo posesivo de primera persona singular.",
+                "glosa_corta": "1SG.POS",
+                "ejemplos": "wasiy = mi casa"
+              },
+              {
+                "morfema": "-pi",
+                "slot": 5,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE CASO",
+                "funcion": "Indica locación en  el  tiempo  y  en  el espacio. Corresponde a la preposición ‘en’.",
+                "glosa_corta": "LOC",
+                "ejemplos": "Llaqtapi kashani = estoy en el pueblo"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": ",",
+            "posicion": null,
+            "es_puntuacion": true,
+            "raiz": ",",
+            "lema": ",",
+            "categoria_gramatical": "punct",
+            "sufijos": [],
+            "glosa": ",",
+            "acepciones": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 1.0
+          },
+          {
+            "token": "aswan",
+            "posicion": 3,
+            "es_puntuacion": false,
+            "raiz": "as",
+            "lema": "as",
+            "categoria_gramatical": "desconocido",
+            "glosa": "as-INSTR/COM",
+            "acepciones": [],
+            "sufijos": [
+              {
+                "morfema": "-wan",
+                "slot": 5,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE CASO",
+                "funcion": "Conjunción que enlaza palabras o frases ('y', 'con'). Es un caso cogitativo, porque indica compromiso, compañía o instrumento.",
+                "glosa_corta": "INSTR/COM",
+                "ejemplos": "Michiwan alqowan = el gato y el perro\nChakitaqllawan = con la chakitaqlla\nTaytaywan = Con mi padre\nPaywan noqawan = él y yo\nTaki harawiwan = El canto "
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 0.5
+          },
+          {
+            "token": "chirin",
+            "posicion": 4,
+            "es_puntuacion": false,
+            "raiz": "chiri",
+            "lema": "chiri",
+            "categoria_gramatical": "s.",
+            "glosa": "chiri-3SG",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Frío. Estado de baja tem peratura",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "adj. Frígido, frío. . ANTÓ",
+                "dominio": null,
+                "sinonimos": "qasa, khutu"
+              },
+              {
+                "indice": 3,
+                "definicion": "figdo. Indiferente, apático. . chiri",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-n",
+                "slot": 3,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE PERSONA",
+                "funcion": "Sufijo posesivo  de tercera persona singular.",
+                "glosa_corta": "3SG",
+                "ejemplos": "wasin = su casa"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          }
+        ]
+      }
+    ]
+  }
+}

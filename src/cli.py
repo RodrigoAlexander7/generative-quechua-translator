@@ -366,6 +366,61 @@ def handle_segment(args):
 
 
 # ---------------------------------------------------------------------------
+# Comando: analyze
+# ---------------------------------------------------------------------------
+
+def handle_analyze(args):
+    """Analiza morfosintácticamente una frase o párrafo y produce salida estructurada."""
+    text = args.text.strip()
+    if not text:
+        print(f"{RED}[!] Debes ingresar una frase, párrafo o palabra para analizar.{RESET}")
+        return 1
+
+    from src.segmentation.analyzer import MorphosyntacticAnalyzer
+    analyzer = MorphosyntacticAnalyzer()
+    result = analyzer.analyze(text)
+
+    if args.json:
+        print(json.dumps(result, indent=2, ensure_ascii=False))
+        return 0
+
+    # Salida legible en terminal, agrupada por oración
+    print(f"\n{BOLD}{BRIGHT_CYAN}Análisis Morfosintáctico{RESET}")
+    print(f"{DIM}Oraciones: {result['num_oraciones']} | Tokens: {result['num_tokens']}{RESET}\n")
+
+    for oracion in result["oraciones"]:
+        print(f"{BOLD}{BRIGHT_YELLOW}[Oración {oracion['indice'] + 1}]{RESET} {ITALIC}{oracion['texto']}{RESET}")
+        for tok in oracion["tokens"]:
+            if tok["es_puntuacion"]:
+                continue
+            raiz = tok["raiz"]
+            pos = tok["categoria_gramatical"]
+            glosa = tok["glosa"]
+            dict_mark = f"{BRIGHT_GREEN}✓{RESET}" if tok["encontrado_en_diccionario"] else f"{YELLOW}?{RESET}"
+
+            print(f"  {BOLD}{WHITE}{tok['token']}{RESET} {DIM}[{dict_mark}{DIM} conf={tok['confianza']}]{RESET}")
+            print(f"     {DIM}raíz:{RESET} {BRIGHT_CYAN}{raiz}{RESET}  {DIM}pos:{RESET} {MAGENTA}{pos}{RESET}  {DIM}glosa:{RESET} {GREEN}{glosa}{RESET}")
+
+            if tok["acepciones"]:
+                primera = tok["acepciones"][0].get("definicion", "")
+                primera_corta = primera.split(".")[0][:70] if primera else ""
+                if primera_corta:
+                    print(f"     {DIM}def:{RESET} {primera_corta}")
+
+            for s in tok["sufijos"]:
+                print(f"       {BRIGHT_YELLOW}{s['morfema']:<8}{RESET} {DIM}slot {s['slot']}{RESET}  {CYAN}{s['glosa_corta']:<12}{RESET} {DIM}{s['funcion'][:50]}{RESET}")
+
+            marc = tok["marcadores"]
+            if marc["evidencialidad"]:
+                print(f"     {DIM}evidencialidad:{RESET} {MAGENTA}{marc['evidencialidad']}{RESET}")
+            if marc["clusividad"]:
+                print(f"     {DIM}clusividad:{RESET} {YELLOW}{marc['clusividad']}{RESET}")
+        print()
+
+    return 0
+
+
+# ---------------------------------------------------------------------------
 # Comando: translate
 # ---------------------------------------------------------------------------
 
@@ -457,6 +512,12 @@ def main():
     parser_segment = subparsers.add_parser("segment", help="Segmenta morfológicamente una oración")
     parser_segment.add_argument("text", type=str, help="Oración o token en quechua")
     parser_segment.set_defaults(func=handle_segment)
+
+    # analyze
+    parser_analyze = subparsers.add_parser("analyze", help="Analiza morfosintácticamente una frase o párrafo (salida estructurada)")
+    parser_analyze.add_argument("text", type=str, help="Frase, párrafo o palabra en quechua")
+    parser_analyze.add_argument("--json", action="store_true", help="Imprime el análisis completo en JSON estructurado")
+    parser_analyze.set_defaults(func=handle_analyze)
 
     # translate
     parser_translate = subparsers.add_parser("translate", help="Traduce una oración quechua al español")

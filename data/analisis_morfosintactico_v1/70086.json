@@ -1,0 +1,718 @@
+{
+  "client_id": "1dd0d3ea4ec879dadf7db18e23b9509a",
+  "audio_id": "70086",
+  "audio_file": "spontaneous-speech-qxp-70086.mp3",
+  "duration_ms": "16020",
+  "prompt_id": "7744",
+  "prompt": "Willarikamuy ima kuintullatapis llaqtaykimanta.",
+  "transcription": "Llaqtaypi willakuymin: atuqqa kunturtaqa llullaykun siqanankupaq hanaqpachaman, kunturqa riqsispa atuqtaqa urmachin, hinan atuqqa halaykamun hanaqpachamanta.",
+  "variant": "",
+  "language": "Puno Quechua",
+  "split": "train",
+  "analisis_morfosintactico": {
+    "texto_original": "Llaqtaypi willakuymin: atuqqa kunturtaqa llullaykun siqanankupaq hanaqpachaman, kunturqa riqsispa atuqtaqa urmachin, hinan atuqqa halaykamun hanaqpachamanta.",
+    "num_oraciones": 1,
+    "num_tokens": 15,
+    "marcadores_globales": {
+      "evidenciales": [],
+      "clusividad": null
+    },
+    "oraciones": [
+      {
+        "indice": 0,
+        "texto": "Llaqtaypi willakuymin: atuqqa kunturtaqa llullaykun siqanankupaq hanaqpachaman, kunturqa riqsispa atuqtaqa urmachin, hinan atuqqa halaykamun hanaqpachamanta.",
+        "marcadores": {
+          "evidenciales": [],
+          "clusividad": null
+        },
+        "tokens": [
+          {
+            "token": "Llaqtaypi",
+            "posicion": 0,
+            "es_puntuacion": false,
+            "raiz": "llaqta",
+            "lema": "llaqta",
+            "categoria_gramatical": "s.",
+            "glosa": "llaqta-1SG.POS-LOC",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Ciudad metro- poli, gran ciudad",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "NEOL. Capi tal. hatun",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 3,
+                "definicion": "Ciudad, pueblo, comunidad, villorrio, comarca",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 4,
+                "definicion": "Población. ",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 5,
+                "definicion": ". llaqta",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 6,
+                "definicion": "V. CH'IKURU. llaqta",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-y",
+                "slot": 3,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE PERSONA",
+                "funcion": "Sufijo posesivo de primera persona singular.",
+                "glosa_corta": "1SG.POS",
+                "ejemplos": "wasiy = mi casa"
+              },
+              {
+                "morfema": "-pi",
+                "slot": 5,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE CASO",
+                "funcion": "Indica locación en  el  tiempo  y  en  el espacio. Corresponde a la preposición ‘en’.",
+                "glosa_corta": "LOC",
+                "ejemplos": "Llaqtapi kashani = estoy en el pueblo"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "willakuymin",
+            "posicion": 1,
+            "es_puntuacion": false,
+            "raiz": "willakuymin",
+            "lema": "willakuymin",
+            "categoria_gramatical": "desconocido",
+            "glosa": "willakuymin",
+            "acepciones": [],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 0.5
+          },
+          {
+            "token": ":",
+            "posicion": null,
+            "es_puntuacion": true,
+            "raiz": ":",
+            "lema": ":",
+            "categoria_gramatical": "punct",
+            "sufijos": [],
+            "glosa": ":",
+            "acepciones": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 1.0
+          },
+          {
+            "token": "atuqqa",
+            "posicion": 2,
+            "es_puntuacion": false,
+            "raiz": "atuq",
+            "lema": "atoq",
+            "categoria_gramatical": "s.",
+            "glosa": "atoq-TOP",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "(Pseudalopex). Zorro. Mamífero cánido, cabeza prolongada, digitígrado, uñas no retráctiles, cinco dedos en patas anteriores y cuatro en posteriores. Color crema anaranjado. Propio de las punas andinas. Se alimenta de roedores y aves",
+                "dominio": "Zool.",
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "adj. Astuto, ducho, sabido. . . . . . atoq",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 3,
+                "definicion": "(Brachitosternus andinus Ch., Hadruroides lunatus). Alacrán. Ordenes, familias y especies numerosas. ",
+                "dominio": "Zool.",
+                "sinonimos": "sirasira, sirara, aputinti"
+              },
+              {
+                "indice": 4,
+                "definicion": "V. PACHAK CHAKI",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 5,
+                "definicion": "V. RAQ'A KURU. atoq",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-qa",
+                "slot": 8,
+                "categoria": "",
+                "subcategoria": "SUFIJO INDEPENDIENTE",
+                "funcion": "Denota información novedosa.",
+                "glosa_corta": "TOP",
+                "ejemplos": "Allqoqa aychatam suwakun = el perro roba carne"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "kunturtaqa",
+            "posicion": 3,
+            "es_puntuacion": false,
+            "raiz": "kuntur",
+            "lema": "kuntur",
+            "categoria_gramatical": "s.",
+            "glosa": "kuntur-AC-TOP",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "V. AQCHI. huch'uy nina",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "(Vultur gryphus Linneo. Sarcorhampus gryphus Linneo). Cóndor. Familia fal coniformes. El mayor de las aves voladoras, de plumaje negruzco, cuello blanco. Generalmente se alimenta de animales muertos, más cuando está hambriento ataca a los animales vivos",
+                "dominio": "Zool.",
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-ta",
+                "slot": 5,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE CASO",
+                "funcion": "Designa el objeto directo con los verbos que no son de movimiento.",
+                "glosa_corta": "AC",
+                "ejemplos": "T'antata mikhuni: = yo como pan"
+              },
+              {
+                "morfema": "-qa",
+                "slot": 8,
+                "categoria": "",
+                "subcategoria": "SUFIJO INDEPENDIENTE",
+                "funcion": "Denota información novedosa.",
+                "glosa_corta": "TOP",
+                "ejemplos": "Allqoqa aychatam suwakun = el perro roba carne"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "llullaykun",
+            "posicion": 4,
+            "es_puntuacion": false,
+            "raiz": "llullayku",
+            "lema": "llullaykuy",
+            "categoria_gramatical": "v.",
+            "glosa": "llullaykuy-3SG",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Consolar, embrollar a alguien en sus pesares",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-n",
+                "slot": 3,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE PERSONA",
+                "funcion": "Sufijo posesivo  de tercera persona singular.",
+                "glosa_corta": "3SG",
+                "ejemplos": "wasin = su casa"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "siqanankupaq",
+            "posicion": 5,
+            "es_puntuacion": false,
+            "raiz": "siqana",
+            "lema": "seqana",
+            "categoria_gramatical": "s.",
+            "glosa": "seqana-3PL-BEN",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Escalinata, gradería, subidero",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "NEOL. Ascensor. SI NÓ",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-nku",
+                "slot": 4,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE NUMERO",
+                "funcion": "Sufijo de tercera persona plural.",
+                "glosa_corta": "3PL",
+                "ejemplos": "Paykuna pukllanku = ellos/ellas juegan"
+              },
+              {
+                "morfema": "-paq",
+                "slot": 5,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE CASO",
+                "funcion": "Es el sufijo que indica al destinatario o beneficiario de una acción o de algo. Estos pueden ser destinatarios directos o indirectos. Indica la preposición ‘para’. Cuando le antecede una acción verbal se convierte en NAPAQ,",
+                "glosa_corta": "BEN",
+                "ejemplos": "Yachaqpaq = para el estudiante; \npichanapaq = para barrer."
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "hanaqpachaman",
+            "posicion": 6,
+            "es_puntuacion": false,
+            "raiz": "hanaqpachaman",
+            "lema": "hanaqpachaman",
+            "categoria_gramatical": "desconocido",
+            "glosa": "hanaqpachaman",
+            "acepciones": [],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 0.5
+          },
+          {
+            "token": ",",
+            "posicion": null,
+            "es_puntuacion": true,
+            "raiz": ",",
+            "lema": ",",
+            "categoria_gramatical": "punct",
+            "sufijos": [],
+            "glosa": ",",
+            "acepciones": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 1.0
+          },
+          {
+            "token": "kunturqa",
+            "posicion": 7,
+            "es_puntuacion": false,
+            "raiz": "kuntur",
+            "lema": "kuntur",
+            "categoria_gramatical": "s.",
+            "glosa": "kuntur-TOP",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "V. AQCHI. huch'uy nina",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "(Vultur gryphus Linneo. Sarcorhampus gryphus Linneo). Cóndor. Familia fal coniformes. El mayor de las aves voladoras, de plumaje negruzco, cuello blanco. Generalmente se alimenta de animales muertos, más cuando está hambriento ataca a los animales vivos",
+                "dominio": "Zool.",
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-qa",
+                "slot": 8,
+                "categoria": "",
+                "subcategoria": "SUFIJO INDEPENDIENTE",
+                "funcion": "Denota información novedosa.",
+                "glosa_corta": "TOP",
+                "ejemplos": "Allqoqa aychatam suwakun = el perro roba carne"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "riqsispa",
+            "posicion": 8,
+            "es_puntuacion": false,
+            "raiz": "riqsi",
+            "lema": "reqsiy",
+            "categoria_gramatical": "v.",
+            "glosa": "reqsiy-SUBORD",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Conocer algo. . reqsiy",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-spa",
+                "slot": 5,
+                "categoria": "VERBAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE NUMERO",
+                "funcion": "Indica que la acción dependiente es anterior a la del verbo principal. Puede ser un gerundio.",
+                "glosa_corta": "SUBORD",
+                "ejemplos": "Takispa hamun, waqaspa ripun = viene cantando y se va llorando\nTakispa tususpa ripunku = Cantando y bailando se fueron"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "atuqtaqa",
+            "posicion": 9,
+            "es_puntuacion": false,
+            "raiz": "atuq",
+            "lema": "atoq",
+            "categoria_gramatical": "s.",
+            "glosa": "atoq-AC-TOP",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "(Pseudalopex). Zorro. Mamífero cánido, cabeza prolongada, digitígrado, uñas no retráctiles, cinco dedos en patas anteriores y cuatro en posteriores. Color crema anaranjado. Propio de las punas andinas. Se alimenta de roedores y aves",
+                "dominio": "Zool.",
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "adj. Astuto, ducho, sabido. . . . . . atoq",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 3,
+                "definicion": "(Brachitosternus andinus Ch., Hadruroides lunatus). Alacrán. Ordenes, familias y especies numerosas. ",
+                "dominio": "Zool.",
+                "sinonimos": "sirasira, sirara, aputinti"
+              },
+              {
+                "indice": 4,
+                "definicion": "V. PACHAK CHAKI",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 5,
+                "definicion": "V. RAQ'A KURU. atoq",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-ta",
+                "slot": 5,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE CASO",
+                "funcion": "Designa el objeto directo con los verbos que no son de movimiento.",
+                "glosa_corta": "AC",
+                "ejemplos": "T'antata mikhuni: = yo como pan"
+              },
+              {
+                "morfema": "-qa",
+                "slot": 8,
+                "categoria": "",
+                "subcategoria": "SUFIJO INDEPENDIENTE",
+                "funcion": "Denota información novedosa.",
+                "glosa_corta": "TOP",
+                "ejemplos": "Allqoqa aychatam suwakun = el perro roba carne"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "urmachin",
+            "posicion": 10,
+            "es_puntuacion": false,
+            "raiz": "urmachi",
+            "lema": "urmachiy",
+            "categoria_gramatical": "v.",
+            "glosa": "urmachiy-3SG",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Hacer caer, ocasionar la caída. ",
+                "dominio": null,
+                "sinonimos": "laq'achiy"
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-n",
+                "slot": 3,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE PERSONA",
+                "funcion": "Sufijo posesivo  de tercera persona singular.",
+                "glosa_corta": "3SG",
+                "ejemplos": "wasin = su casa"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": ",",
+            "posicion": null,
+            "es_puntuacion": true,
+            "raiz": ",",
+            "lema": ",",
+            "categoria_gramatical": "punct",
+            "sufijos": [],
+            "glosa": ",",
+            "acepciones": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 1.0
+          },
+          {
+            "token": "hinan",
+            "posicion": 11,
+            "es_puntuacion": false,
+            "raiz": "hina",
+            "lema": "hinay",
+            "categoria_gramatical": "v.",
+            "glosa": "hinay-3SG",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "Hacer u obrar de esta manera, de este modo; hacer así (ilustrando con mímica). ",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-n",
+                "slot": 3,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE PERSONA",
+                "funcion": "Sufijo posesivo  de tercera persona singular.",
+                "glosa_corta": "3SG",
+                "ejemplos": "wasin = su casa"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "atuqqa",
+            "posicion": 12,
+            "es_puntuacion": false,
+            "raiz": "atuq",
+            "lema": "atoq",
+            "categoria_gramatical": "s.",
+            "glosa": "atoq-TOP",
+            "acepciones": [
+              {
+                "indice": 1,
+                "definicion": "(Pseudalopex). Zorro. Mamífero cánido, cabeza prolongada, digitígrado, uñas no retráctiles, cinco dedos en patas anteriores y cuatro en posteriores. Color crema anaranjado. Propio de las punas andinas. Se alimenta de roedores y aves",
+                "dominio": "Zool.",
+                "sinonimos": null
+              },
+              {
+                "indice": 2,
+                "definicion": "adj. Astuto, ducho, sabido. . . . . . atoq",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 3,
+                "definicion": "(Brachitosternus andinus Ch., Hadruroides lunatus). Alacrán. Ordenes, familias y especies numerosas. ",
+                "dominio": "Zool.",
+                "sinonimos": "sirasira, sirara, aputinti"
+              },
+              {
+                "indice": 4,
+                "definicion": "V. PACHAK CHAKI",
+                "dominio": null,
+                "sinonimos": null
+              },
+              {
+                "indice": 5,
+                "definicion": "V. RAQ'A KURU. atoq",
+                "dominio": null,
+                "sinonimos": null
+              }
+            ],
+            "sufijos": [
+              {
+                "morfema": "-qa",
+                "slot": 8,
+                "categoria": "",
+                "subcategoria": "SUFIJO INDEPENDIENTE",
+                "funcion": "Denota información novedosa.",
+                "glosa_corta": "TOP",
+                "ejemplos": "Allqoqa aychatam suwakun = el perro roba carne"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": true,
+            "confianza": 0.9
+          },
+          {
+            "token": "halaykamun",
+            "posicion": 13,
+            "es_puntuacion": false,
+            "raiz": "halayka",
+            "lema": "halayka",
+            "categoria_gramatical": "desconocido",
+            "glosa": "halayka-CISL-3SG",
+            "acepciones": [],
+            "sufijos": [
+              {
+                "morfema": "-mu",
+                "slot": 2,
+                "categoria": "VERBAL DERIVACIONAL",
+                "subcategoria": "FLEXIVOS DERIVACIONALES",
+                "funcion": "Con verbos  de movimiento señala  una orientación  hacia El hablante. Indica la ocurrencia de un fenómeno atmosférico. El sufijo -KU se convierte en -KA cuando es seguido por el sufijo -mu. También se usa con verbos de movimiento.",
+                "glosa_corta": "CISL",
+                "ejemplos": "Paramunqa = lloverá\nchirimushan = está haciendo frío\nP'achakamunki = te vestirás\nChayamunqa = va ha llegar hacia donde estoy"
+              },
+              {
+                "morfema": "-n",
+                "slot": 3,
+                "categoria": "NOMINAL FLEXIVO",
+                "subcategoria": "FLEXIVO DE PERSONA",
+                "funcion": "Sufijo posesivo  de tercera persona singular.",
+                "glosa_corta": "3SG",
+                "ejemplos": "wasin = su casa"
+              }
+            ],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 0.5
+          },
+          {
+            "token": "hanaqpachamanta",
+            "posicion": 14,
+            "es_puntuacion": false,
+            "raiz": "hanaqpachamanta",
+            "lema": "hanaqpachamanta",
+            "categoria_gramatical": "desconocido",
+            "glosa": "hanaqpachamanta",
+            "acepciones": [],
+            "sufijos": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 0.5
+          },
+          {
+            "token": ".",
+            "posicion": null,
+            "es_puntuacion": true,
+            "raiz": ".",
+            "lema": ".",
+            "categoria_gramatical": "punct",
+            "sufijos": [],
+            "glosa": ".",
+            "acepciones": [],
+            "marcadores": {
+              "evidencialidad": null,
+              "clusividad": null
+            },
+            "encontrado_en_diccionario": false,
+            "confianza": 1.0
+          }
+        ]
+      }
+    ]
+  }
+}
