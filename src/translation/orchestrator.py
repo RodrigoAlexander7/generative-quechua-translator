@@ -195,15 +195,17 @@ class QuechuaTranslator:
             scaffold = self._get_scaffold(text_clean)
             prompt = build_translation_prompt(text_clean, scaffold, compact=False)
 
-        result = None
+        gen_kwargs = dict(kwargs)
+        if "effort" not in gen_kwargs:
+            gen_kwargs["effort"] = "low"
+
         # Intentar traducción con el adaptador configurado
         try:
             result = self.adapter.generate(
                 prompt=prompt,
                 system_instruction=SYSTEM_INSTRUCTION,
                 scaffold=scaffold,
-                effort=kwargs.get("effort", "low"),
-                **kwargs
+                **gen_kwargs
             )
         except Exception as e:
             # Si el adaptador generativo falla, degradar limpiamente al Fallback determinista
